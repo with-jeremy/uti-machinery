@@ -31,10 +31,10 @@
                             />
                         </div>
                         <p class="text-sm p-2">Condition: {{ machine.condition }}</p>
-                        <p class="text-sm text-gray-300 px-4 py-2 h-20 overflow-y-auto whitespace-normal overflow-x-hidden">{{ machine.advSpec }}</p>
+                        <p class="text-sm text-gray-300 px-4 py-2 h-28 overflow-y-auto whitespace-normal overflow-x-hidden">{{ machine.advSpec }}</p>
                         <p class="mb-2">
                           <span 
-                            class="text-blue-500 p-2 hover:underline focus:outline-none focus:ring-2 focus:ring-blue-500 sr-only"
+                  class="inline-block bg-blue-600 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-lg transition-colors duration-200 ease-in-out mx-4 mb-4"
                             role="button"
                             tabindex="0"
                           >

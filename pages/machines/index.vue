@@ -19,19 +19,18 @@
         >
           <div class="bg-gray-800 shadow-lg rounded-lg overflow-hidden transition-transform duration-200 ease-in-out hover:scale-[1.02]">
             <h2 class="text-xl font-semibold text-gray-100 p-4">{{ machine.manufacturer }} {{ machine.model }} ({{ machine.year }})</h2>
-            <div class="bg-gradient-to-br from-gray-700 to-black">
-              <img
+            <div class="bg-gradient-to-br from-gray-700 to-black flex items-center justify-center">              <img
                 :src="`https://utimachinery.com/wp-content/uploads/2024/09/${machine.invID}_1.jpg`"
                 alt="{{ machine.title }}"
-                class="w-full h-64 object-cover lazyload"
+                class="w-full h-full object-cover lazyload"
                 loading="lazy"
               />
             </div>
             <p class="text-sm text-gray-300 p-2">Condition: {{ machine.condition }}</p>
-            <p class="text-sm text-gray-300 p-4 h-20 overflow-y-auto whitespace-normal overflow-x-hidden">{{ machine.advSpec }}</p>
+            <p class="text-sm text-gray-300 p-4 h-28 overflow-y-auto whitespace-normal overflow-x-hidden">{{ machine.advSpec }}</p>
             <p class="mb-2">
-              <span 
-                class="text-blue-500 p-2 hover:underline focus:outline-none focus:ring-2 focus:ring-blue-500 sr-only"
+                <span
+                  class="inline-block bg-blue-600 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-lg transition-colors duration-200 ease-in-out mx-4 mb-4"
                 role="button"
                 tabindex="0"
               >
