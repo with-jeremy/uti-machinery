@@ -1,0 +1,8 @@
+ <header class="p-4 mb-4 bg-gray-100">
+      <h1 class="text-2xl font-semibold">Machinery Catalog</h1>
+      <!-- Basic nav placeholder -->
+      <nav class="mt-2">
+        <nuxt-link to="/" class="mr-4">Home</nuxt-link>
+        <nuxt-link to="/machines">Machines</nuxt-link>
+      </nav>
+    </header>

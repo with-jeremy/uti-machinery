@@ -1,0 +1,45 @@
+<!-- ~/pages/machines/index.vue -->
+<template>
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8"> <!-- Added container -->
+      <div class="relative text-center py-8">
+                    <h1 class="text-4xl font-extrabold text-gray-100 sm:text-5xl">
+                        All Machines
+                    </h1>
+                    <p class="mt-4 text-lg text-gray-100">
+                        Explore our top-of-the-line machining solutions.
+                    </p>
+                </div>
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-6">
+        <div
+          v-for="machine in allMachines"
+          :key="machine.invID"
+          class="bg-gray-800 shadow-lg rounded-lg overflow-hidden hover:scale-105 transition-transform duration-300"
+        >
+          <h2 class="text-xl font-semibold text-gray-100 p-4">{{ machine.manufacturer }} {{ machine.model }} ({{ machine.year }})</h2>
+          <div class="bg-gradient-to-br from-gray-700 to-black">
+            <img
+              :src="`https://utimachinery.com/wp-content/uploads/2024/09/${machine.invID}_1.jpg`"
+              alt="{{ machine.title }}"
+              class="w-full h-64 object-cover lazyload"
+              loading="lazy"
+            />
+          </div>
+          <p class="text-sm text-gray-300 p-2">Condition: {{ machine.condition }}</p>
+          <p class="text-sm text-gray-300 p-4 h-20 overflow-y-auto whitespace-normal overflow-x-hidden">{{ machine.advSpec }}</p>
+          <p class="mb-2">
+            <NuxtLink :to="'/machines/' + machine.invID" class="text-blue-500 p-2 hover:underline">
+              View Details
+            </NuxtLink>
+          </p>
+        </div>
+      </div>
+    </div>
+</template>
+
+<script setup>
+import { useInventory } from '~/composables/useInventory'
+
+// Access data at build time, so it's statically rendered
+const { getAllMachines } = useInventory()
+const allMachines = getAllMachines()
+</script>
