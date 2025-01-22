@@ -44,7 +44,7 @@
                 <td class="py-2 pr-4">
                   {{ spec.description }}
                 </td>
-                <td class="py-2 text-blue-300">
+                <td class="py-2 text-blue-100">
                   {{ spec.specvalues }}
                 </td>
               </tr>
@@ -63,11 +63,11 @@
 
       <!-- Contact Info -->
       <div class="bg-gray-900 rounded-md p-6 mt-8">
-        <h2 class="text-xl font-bold mb-3 text-blue-300">Request for Proposal</h2>
-        <p class="text-gray-300 leading-relaxed">
+        <h2 class="text-xl font-bold mb-3 text-blue-100">Request for Proposal</h2>
+        <p class="text-gray-100 leading-relaxed">
           For additional information,<br>
-          please call <span class="text-blue-300 font-semibold">877 597-8300</span>,<br>
-          or email <span class="text-blue-300">utimachinery@gmail.com</span>.<br>
+          please call <span class="text-blue-100 font-semibold">877 597-8300</span>,<br>
+          or email <span class="text-blue-100">utimachinery@gmail.com</span>.<br>
           Reference machine #{{ machine.invID }}
         </p>
       </div>

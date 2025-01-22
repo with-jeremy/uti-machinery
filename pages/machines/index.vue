@@ -10,28 +10,36 @@
                     </p>
                 </div>
       <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-6">
-        <div
+        <NuxtLink
           v-for="machine in allMachines"
           :key="machine.invID"
-          class="bg-gray-800 shadow-lg rounded-lg overflow-hidden hover:scale-105 transition-transform duration-300"
+          :to="'/machines/' + machine.invID"
+          class="group relative"
+          :aria-label="`View details for ${machine.manufacturer} ${machine.model}`"
         >
-          <h2 class="text-xl font-semibold text-gray-100 p-4">{{ machine.manufacturer }} {{ machine.model }} ({{ machine.year }})</h2>
-          <div class="bg-gradient-to-br from-gray-700 to-black">
-            <img
-              :src="`https://utimachinery.com/wp-content/uploads/2024/09/${machine.invID}_1.jpg`"
-              alt="{{ machine.title }}"
-              class="w-full h-64 object-cover lazyload"
-              loading="lazy"
-            />
+          <div class="bg-gray-800 shadow-lg rounded-lg overflow-hidden transition-transform duration-200 ease-in-out hover:scale-[1.02]">
+            <h2 class="text-xl font-semibold text-gray-100 p-4">{{ machine.manufacturer }} {{ machine.model }} ({{ machine.year }})</h2>
+            <div class="bg-gradient-to-br from-gray-700 to-black">
+              <img
+                :src="`https://utimachinery.com/wp-content/uploads/2024/09/${machine.invID}_1.jpg`"
+                alt="{{ machine.title }}"
+                class="w-full h-64 object-cover lazyload"
+                loading="lazy"
+              />
+            </div>
+            <p class="text-sm text-gray-300 p-2">Condition: {{ machine.condition }}</p>
+            <p class="text-sm text-gray-300 p-4 h-20 overflow-y-auto whitespace-normal overflow-x-hidden">{{ machine.advSpec }}</p>
+            <p class="mb-2">
+              <span 
+                class="text-blue-500 p-2 hover:underline focus:outline-none focus:ring-2 focus:ring-blue-500 sr-only"
+                role="button"
+                tabindex="0"
+              >
+                View Details
+              </span>
+            </p>
           </div>
-          <p class="text-sm text-gray-300 p-2">Condition: {{ machine.condition }}</p>
-          <p class="text-sm text-gray-300 p-4 h-20 overflow-y-auto whitespace-normal overflow-x-hidden">{{ machine.advSpec }}</p>
-          <p class="mb-2">
-            <NuxtLink :to="'/machines/' + machine.invID" class="text-blue-500 p-2 hover:underline">
-              View Details
-            </NuxtLink>
-          </p>
-        </div>
+        </NuxtLink>
       </div>
     </div>
 </template>
