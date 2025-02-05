@@ -22,7 +22,7 @@
             <div class="bg-gradient-to-br from-gray-700 to-black flex items-center justify-center">              <img
                 :src="`https://utimachinery.com/wp-content/uploads/2024/09/${machine.invID}_1.jpg`"
                 alt="{{ machine.title }}"
-                class="w-full h-full object-cover lazyload"
+                class="w-full h-64 object-cover lazyload"
                 loading="lazy"
               />
             </div>
