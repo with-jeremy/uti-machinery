@@ -63,7 +63,7 @@
 
       <!-- Contact Info -->
       <div class="bg-gray-900 rounded-md p-6 mt-8">
-        <h2 class="text-xl font-bold mb-3 text-blue-100">Request for Proposal</h2>
+        <h2 class="text-xl font-bold mb-3 text-blue-100">Request for Information</h2>
         <div class="rfi-form">
           <form name="rfi" method="POST" data-netlify="true">
             <input type="hidden" name="form-name" value="rfi" />

@@ -37,9 +37,9 @@
               class="group relative inline-block"
               :aria-label="`View details for ${machine.manufacturer} ${machine.model}`"
               >
-              <div class="bg-gray-800 shadow-lg rounded-lg overflow-hidden w-full flex-shrink-0 transition-transform duration-200 ease-in-out hover:scale-[1.02]">
-                <h2 class="text-xl font-semibold text-gray-100 p-4">{{ machine.manufacturer }} {{ machine.model }} ({{ machine.year }})</h2>
-                <div class="bg-gradient-to-br from-gray-700 to-black flex items-center justify-center">
+              <div class="bg-gray-800 shadow-lg rounded-lg overflow-hidden w-full flex-shrink-0 transition-transform duration-200 ease-in-out hover:scale-[1.02] p-6">
+                <h2 class="text-2xl font-bold mb-4 text-gray-100">{{ machine.manufacturer }} {{ machine.model }} <span class="text-gray-300">({{ machine.year }})</span></h2>
+                <div class="mb-6">
                   <img
                   :src="`https://utimachinery.com/wp-content/uploads/2024/09/${machine.invID}_1.jpg`"
                   alt="{{ machine.title }}"
@@ -47,17 +47,28 @@
                   loading="lazy"
                   />
                 </div>
-                <p class="text-sm p-4">Condition: {{ machine.condition }}</p>
-                <p class="text-sm text-gray-300 px-4 py-2 h-28 overflow-y-auto whitespace-normal overflow-x-hidden bg-gray-700 rounded-md mx-4">{{ machine.advSpec }}</p>
-                <p class="my-2">
-                  <span 
+                
+                <h3 class="text-lg font-semibold mb-3 text-gray-100">
+                  {{ machine.description }}
+                </h3>
+                <div class="bg-gray-700 rounded-md p-4 mb-6">
+                  <p class="mb-2">
+                    <span class="text-gray-400">Condition:</span> {{ machine.condition }}<br>
+                    <span class="text-gray-400">Control:</span> {{ machine.control }}
+                  </p>
+                  <p class="text-gray-300">
+                    {{ machine.advSpec }}
+                   
+                  </p>
+                 
+                </div>
+                <span 
                     class="inline-block bg-blue-600 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-lg transition-colors duration-200 ease-in-out mx-4 mb-4"
                     role="button"
                     tabindex="0"
                     >
-                    View Details
-                  </span>
-                </p>
+                      View Details
+                    </span>
               </div>
             </NuxtLink>
           </swiper-slide>
@@ -67,7 +78,7 @@
         <h3 class="text-2xl font-semibold mb-4 text-center border-b-2 pb-6">Browse by Brand</h3>
         <ul class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
           <li v-for="brand in brands" :key="brand" class="hover:shadow-lg transition-shadow text-center">
-            <NuxtLink :to="`#`" class="inline-block bg-white px-6 py-2 rounded-md shadow-sm text-blue-500 hover:underline">
+            <NuxtLink :to="`#`" class="inline-block bg-white px-6 py-2 rounded-md shadow-sm text-gray-950 hover:underline">
               {{ brand }}
             </NuxtLink>
           </li>
@@ -77,7 +88,7 @@
         <h3 class="text-2xl font-semibold mb-4 text-center border-b-2 pb-6">Browse by Machine Type</h3>
           <ul class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4"> 
             <li v-for="type in types" :key="type" class=" hover:shadow-lg transition-shadow text-center">
-              <NuxtLink :to="`#`" class="inline-block bg-white px-6 py-2 rounded-md shadow-sm text-blue-500 hover:underline">
+              <NuxtLink :to="`#`" class="inline-block bg-white px-6 py-2 rounded-md shadow-sm text-gray-950 hover:underline">
                 {{ type }}
               </NuxtLink>
             </li>
