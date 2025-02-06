@@ -67,7 +67,7 @@
         <h3 class="text-2xl font-semibold mb-4 text-center border-b-2 pb-6">Browse by Brand</h3>
         <ul class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
           <li v-for="brand in brands" :key="brand" class="hover:shadow-lg transition-shadow text-center">
-            <NuxtLink :to="#" class="inline-block bg-white px-6 py-2 rounded-md shadow-sm text-blue-500 hover:underline">
+            <NuxtLink :to="`#`" class="inline-block bg-white px-6 py-2 rounded-md shadow-sm text-blue-500 hover:underline">
               {{ brand }}
             </NuxtLink>
           </li>
@@ -77,7 +77,7 @@
         <h3 class="text-2xl font-semibold mb-4 text-center border-b-2 pb-6">Browse by Machine Type</h3>
           <ul class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4"> 
             <li v-for="type in types" :key="type" class=" hover:shadow-lg transition-shadow text-center">
-              <NuxtLink :to="#" class="inline-block bg-white px-6 py-2 rounded-md shadow-sm text-blue-500 hover:underline">
+              <NuxtLink :to="`#`" class="inline-block bg-white px-6 py-2 rounded-md shadow-sm text-blue-500 hover:underline">
                 {{ type }}
               </NuxtLink>
             </li>
