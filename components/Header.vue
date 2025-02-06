@@ -20,18 +20,8 @@
       <!-- Navigation Menu -->
       <nav class="hidden md:flex space-x-6">
         <NuxtLink to="/" class="hover:text-primary-light">Home</NuxtLink>
-        <div class="relative group">
-          <NuxtLink to="/machines" class="hover:text-primary-light">
-            Inventory
-          </NuxtLink>
-          <ul class="absolute left-0 hidden group-hover:block bg-gray-800 rounded shadow-lg">
-            <li>
-              <NuxtLink to="/machines" class="block px-4 py-2 hover:bg-gray-700">See All Machines</NuxtLink>
-            </li>
-          </ul>
-        </div>
-        <NuxtLink to="/about" class="hover:text-primary-light">About</NuxtLink>
-        <a href="tel:8775978300" class="hover:text-primary-light">(877) 597-8300</a>
+        <NuxtLink to="/machines" class="hover:text-primary-light">All Machines</NuxtLink>
+        <NuxtLink to="tel:8775978300" class="hover:text-primary-light">(877) 597-8300</NuxtLink>
       </nav>
 
       <!-- Mobile Navigation -->
@@ -50,8 +40,7 @@
         </button>
         <NuxtLink to="/" @click="toggleMobileMenu">Home</NuxtLink>
         <NuxtLink to="/machines" @click="toggleMobileMenu">Inventory</NuxtLink>
-        <NuxtLink to="/about" @click="toggleMobileMenu">About</NuxtLink>
-        <a href="tel:8775978300" @click="toggleMobileMenu">(877) 597-8300</a>
+        <NuxtLink to="tel:8775978300" @click="toggleMobileMenu">(877) 597-8300</NuxtLink>
       </div>
     </div>
   </header>
