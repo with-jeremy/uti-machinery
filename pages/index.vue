@@ -47,9 +47,9 @@
                   loading="lazy"
                   />
                 </div>
-                <p class="text-sm p-2">Condition: {{ machine.condition }}</p>
-                <p class="text-sm text-gray-300 px-4 py-2 h-28 overflow-y-auto whitespace-normal overflow-x-hidden">{{ machine.advSpec }}</p>
-                <p class="mb-2">
+                <p class="text-sm p-4">Condition: {{ machine.condition }}</p>
+                <p class="text-sm text-gray-300 px-4 py-2 h-28 overflow-y-auto whitespace-normal overflow-x-hidden bg-gray-700 rounded-md mx-4">{{ machine.advSpec }}</p>
+                <p class="my-2">
                   <span 
                     class="inline-block bg-blue-600 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-lg transition-colors duration-200 ease-in-out mx-4 mb-4"
                     role="button"

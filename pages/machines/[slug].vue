@@ -64,12 +64,27 @@
       <!-- Contact Info -->
       <div class="bg-gray-900 rounded-md p-6 mt-8">
         <h2 class="text-xl font-bold mb-3 text-blue-100">Request for Proposal</h2>
-        <p class="text-gray-100 leading-relaxed">
-          For additional information,<br>
-          please call <span class="text-blue-100 font-semibold">877 597-8300</span>,<br>
-          or email <span class="text-blue-100">utimachinery@gmail.com</span>.<br>
-          Reference machine #{{ machine.invID }}
-        </p>
+        <div class="rfi-form">
+          <form name="rfi" method="POST" data-netlify="true">
+            <input type="hidden" name="form-name" value="rfi" />
+            <input type="hidden" name="invID" :value="route.params.slug" />
+            <div class="mb-4">
+              <label for="name" class="block text-gray-300 mb-2">Name</label>
+              <input type="text" id="name" name="name" class="w-full p-2 rounded-md bg-gray-800 text-gray-100" required />
+            </div>
+            <div class="mb-4">
+              <label for="company" class="block text-gray-300 mb-2">Company Name (optional)</label>
+              <input type="text" id="company" name="company" class="w-full p-2 rounded-md bg-gray-800 text-gray-100" />
+            </div>
+            <div class="mb-4">
+              <label for="comments" class="block text-gray-300 mb-2">Comments</label>
+              <textarea id="comments" name="comments" rows="4" class="w-full p-2 rounded-md bg-gray-800 text-gray-100"></textarea>
+            </div>
+            <div>
+              <button type="submit" class="px-4 py-2 bg-blue-600 text-white rounded-md">Submit</button>
+            </div>
+          </form>
+        </div>
       </div>
     </div>
   </div>
