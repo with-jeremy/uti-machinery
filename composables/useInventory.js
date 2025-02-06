@@ -23,9 +23,19 @@ export function useInventory() {
     return specsData.filter(s => s.invid === invID)
   }
 
+  function getBrandNames() {
+    return [...new Set(machinesData.map(m => m.manufacturer))].sort();
+  }
+
+  function getMachineTypes() {
+    return [...new Set(machinesData.map(m => m.webDesc))].sort();
+  }
+
   return {
     getAllMachines,
     getMachineById,
-    getSpecsForMachine
+    getSpecsForMachine,
+    getBrandNames,
+    getMachineTypes
   }
 }
