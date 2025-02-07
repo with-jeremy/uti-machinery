@@ -17,21 +17,21 @@
         />
       </div>
 
-      <h2 class="text-xl font-semibold mb-3 text-gray-100">
+      <h2 v-if="machine && machine.description" class="text-xl font-semibold mb-3 text-gray-100">
         {{ machine.description }}
       </h2>
-      <div class="bg-gray-700 rounded-md p-4 mb-6">
+      <div v-if="machine" class="bg-gray-700 rounded-md p-4 mb-6">
         <p class="mb-2">
           <span class="text-gray-400">Condition:</span> {{ machine.condition }}<br>
-            <span v-if="machine.control" class="text-gray-400">Control:</span> {{ machine.control }}
+          <span v-if="machine.control" class="text-gray-400">Control:</span> {{ machine.control }}
         </p>
-        <p class="text-gray-300">
+        <p v-if="machine.advSpec" class="text-gray-300">
           {{ machine.advSpec }}
         </p>
       </div>
 
       <!-- Specs Table -->
-      <div class="specs-list mb-8">
+      <div v-if="filteredSpecsGroup.length || filteredSpecsEw.length" class="specs-list mb-8">
         <h3 class="text-xl font-bold mb-4 text-gray-300">Specifications</h3>
         <div class="bg-gray-700 rounded-md p-4">
           <table class="w-full">
