@@ -2,7 +2,11 @@
 <template>
   <div class="min-h-screen px-4">
     <div class="max-w-[800px] mx-auto bg-gray-800 rounded-lg shadow-xl p-6 text-gray-100">
-      <h1 class="text-3xl font-bold mb-4 text-gray-100">{{ machine.manufacturer }} {{ machine.model }} <span class="text-gray-300">({{ machine.year }})</span></h1>
+      <h1 class="text-3xl font-bold mb-4 text-gray-100">
+        <span v-if="machine.manufacturer">{{ machine.manufacturer }}</span>
+        <span v-if="machine.model"> {{ machine.model }}</span>
+        <span v-if="machine.year" class="text-gray-300"> ({{ machine.year }})</span>
+      </h1>
 
       <div class="mb-6">
         <img
