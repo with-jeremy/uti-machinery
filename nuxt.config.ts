@@ -5,11 +5,12 @@ export default defineNuxtConfig({
     preset: 'static',
     prerender: {
       crawlLinks: false,
-      routes: ['/', '/machines/*'],
-    },
+      routes: ['/', '/machines/*']
+    }
+  },
  
   // You can add tailwind or other modules here
   modules: ['@nuxt/icon', '@nuxt/ui', '@nuxtjs/tailwindcss', 'nuxt-swiper'],
 
   compatibilityDate: '2025-01-21',
-})
+});
