@@ -5,7 +5,7 @@ export default defineNuxtConfig({
     preset: 'static',
     prerender: {
       crawlLinks: false,
-      routes: ['/', '/machines/*']
+      routes: ['/', '/machines/*'],
     },
  
   // You can add tailwind or other modules here
