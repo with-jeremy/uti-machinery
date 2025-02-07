@@ -74,20 +74,21 @@
           </swiper-slide>
         </swiper-container>
       </div>
-      <div class="brands bg-gray-800 py-6 rounded-lg shadow-md">
-        <h3 class="text-2xl font-semibold mb-4 text-center border-b-2 pb-6">Browse by Brand</h3>
-        <ul class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
-          <li v-for="brand in brands" :key="brand" class="hover:shadow-lg transition-shadow text-center">
+      <client-only>
+        <div class="brands bg-gray-800 py-6 rounded-lg shadow-md">
+          <h3 class="text-2xl font-semibold mb-4 text-center border-b-2 pb-6">Browse by Brand</h3>
+          <ul class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
+            <li v-for="brand in brands" :key="brand" class="hover:shadow-lg transition-shadow text-center">
 
-            <NuxtLink :to="{ path: '/machines', query: { search: sanitize(brand) } }" class="inline-block bg-blue-600 hover:bg-blue-700 text-white font-bold  px-6 py-2 rounded-md shadow-sm hover:underline">
-              {{ brand }}
-            </NuxtLink>
+              <NuxtLink :to="{ path: '/machines', query: { search: sanitize(brand) } }" class="inline-block bg-blue-600 hover:bg-blue-700 text-white font-bold  px-6 py-2 rounded-md shadow-sm hover:underline">
+                {{ brand }}
+              </NuxtLink>
 
-          </li>
-        </ul>
-      </div>
-      <div class="types bg-gray-800 py-6 rounded-lg shadow-md my-4">
-        <h3 class="text-2xl font-semibold mb-4 text-center border-b-2 pb-6">Browse by Machine Type</h3>
+            </li>
+          </ul>
+        </div>
+        <div class="types bg-gray-800 py-6 rounded-lg shadow-md my-4">
+          <h3 class="text-2xl font-semibold mb-4 text-center border-b-2 pb-6">Browse by Machine Type</h3>
           <ul class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4"> 
             <li v-for="type in types" :key="type" class=" hover:shadow-lg transition-shadow text-center">
               <NuxtLink :to="{ path: '/machines', query: { search: sanitize(type) } }" class="inline-block bg-blue-600 hover:bg-blue-700 text-white font-bold  px-6 py-2 rounded-md shadow-sm hover:underline">
@@ -96,7 +97,9 @@
             </li>
           </ul>
         </div>
-      </div>
+
+      </client-only>
+  </div>
     </section>
   </div>
 </template>

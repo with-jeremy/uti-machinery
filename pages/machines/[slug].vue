@@ -72,6 +72,9 @@
           <form name="rfi" method="POST" data-netlify="true">
             <input type="hidden" name="form-name" value="rfi" />
             <input type="hidden" name="invID" :value="route.params.slug" />
+            <input type="hidden" name="manufacturer" :value="machine.manufacturer" />
+            <input type="hidden" name="model" :value="machine.model" />
+
             <div class="mb-4">
               <label for="email" class="block text-gray-300 mb-2">Email*</label>
               <input type="email" id="email" name="email" class="w-full p-2 rounded-md bg-gray-800 text-gray-100" required />
@@ -145,7 +148,7 @@ const filteredSpecsEw = computed(() =>
 
 // Redirect if machine not found
 if (!machine) {
-  router.push('/machines')
+  router.push('/machines/index.vue')
 }
 
 const featuredImage = `https://utimachinery.com/wp-content/uploads/2024/09/${invID}_1.jpg`
