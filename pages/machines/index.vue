@@ -65,7 +65,8 @@
 </template>
 
 <script setup>
-import { ref, computed } from 'vue'
+import { ref, computed, onMounted } from 'vue'
+import { useRoute } from 'vue-router'
 import { useInventory } from '~/composables/useInventory'
 
 // Access data at build time, so it's statically rendered
@@ -73,6 +74,13 @@ const { getAllMachines } = useInventory()
 const allMachines = getAllMachines()
 
 const searchQuery = ref('')
+const route = useRoute()
+
+onMounted(() => {
+  if (route.query.search) {
+    searchQuery.value = route.query.search
+  }
+})
 
 const filteredMachines = computed(() => {
   return allMachines.filter(machine => {
@@ -80,7 +88,13 @@ const filteredMachines = computed(() => {
     return (
       machine.manufacturer.toLowerCase().includes(searchLower) ||
       machine.model.toLowerCase().includes(searchLower) ||
-      machine.description.toLowerCase().includes(searchLower)
+      machine.description.toLowerCase().includes(searchLower) ||
+      machine.webDesc.toLowerCase().includes(searchLower) ||
+      machine.advSpec.toLowerCase().includes(searchLower) ||
+      machine.condition.toLowerCase().includes(searchLower) ||
+      machine.control.toLowerCase().includes(searchLower) ||
+      machine.year.toString().includes(searchLower) ||
+      machine.invID.toString().includes(searchLower)
     )
   })
 })
