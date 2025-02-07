@@ -3,7 +3,7 @@
     <main>
         <Header />
         <!-- Add pt-24 to account for fixed header height plus some breathing room -->
-        <div class="pt-20 bg-gray-600">
+        <div class="pt-20 bg-white">
             <slot />
         </div>
         <Footer />

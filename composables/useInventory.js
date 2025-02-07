@@ -15,6 +15,10 @@ export function useInventory() {
     return machinesData
   }
 
+  function getFeatured() {
+    return machinesData.filter(m => m.special === '1')
+  }
+
   function getMachineById(invID) {
     return machinesData.find(m => m.invID === invID)
   }
@@ -33,6 +37,7 @@ export function useInventory() {
 
   return {
     getAllMachines,
+    getFeatured,
     getMachineById,
     getSpecsForMachine,
     getBrandNames,

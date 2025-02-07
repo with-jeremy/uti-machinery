@@ -19,7 +19,7 @@
       <div class="bg-gray-700 rounded-md p-4 mb-6">
         <p class="mb-2">
           <span class="text-gray-400">Condition:</span> {{ machine.condition }}<br>
-          <span class="text-gray-400">Control:</span> {{ machine.control }}
+            <span v-if="machine.control" class="text-gray-400">Control:</span> {{ machine.control }}
         </p>
         <p class="text-gray-300">
           {{ machine.advSpec }}
@@ -68,17 +68,47 @@
           <form name="rfi" method="POST" data-netlify="true">
             <input type="hidden" name="form-name" value="rfi" />
             <input type="hidden" name="invID" :value="route.params.slug" />
+            <input type="hidden" name="manufacturer" :value="machine.manufacturer" />
+            <input type="hidden" name="model" :value="machine.model" />
             <div class="mb-4">
-              <label for="name" class="block text-gray-300 mb-2">Name</label>
-              <input type="text" id="name" name="name" class="w-full p-2 rounded-md bg-gray-800 text-gray-100" required />
+              <label for="email" class="block text-gray-300 mb-2">Email*</label>
+              <input type="email" id="email" name="email" class="w-full p-2 rounded-md bg-gray-800 text-gray-100" required />
+            </div>
+            <div class="mb-4">
+              <label for="contactName" class="block text-gray-300 mb-2">Contact Name*</label>
+              <input type="text" id="contactName" name="contactName" class="w-full p-2 rounded-md bg-gray-800 text-gray-100" required />
+            </div>
+            <div class="mb-4">
+              <label for="phone" class="block text-gray-300 mb-2">Phone*</label>
+              <input type="tel" id="phone" name="phone" class="w-full p-2 rounded-md bg-gray-800 text-gray-100" required />
             </div>
             <div class="mb-4">
               <label for="company" class="block text-gray-300 mb-2">Company Name (optional)</label>
               <input type="text" id="company" name="company" class="w-full p-2 rounded-md bg-gray-800 text-gray-100" />
             </div>
             <div class="mb-4">
-              <label for="comments" class="block text-gray-300 mb-2">Comments</label>
-              <textarea id="comments" name="comments" rows="4" class="w-full p-2 rounded-md bg-gray-800 text-gray-100"></textarea>
+              <label for="address" class="block text-gray-300 mb-2">Address</label>
+              <input type="text" id="address" name="address" class="w-full p-2 rounded-md bg-gray-800 text-gray-100" />
+            </div>
+            <div class="mb-4">
+              <label for="city" class="block text-gray-300 mb-2">City</label>
+              <input type="text" id="city" name="city" class="w-full p-2 rounded-md bg-gray-800 text-gray-100" />
+            </div>
+            <div class="mb-4">
+              <label for="state" class="block text-gray-300 mb-2">State</label>
+              <input type="text" id="state" name="state" class="w-full p-2 rounded-md bg-gray-800 text-gray-100" />
+            </div>
+            <div class="mb-4">
+              <label for="postalCode" class="block text-gray-300 mb-2">Postal Code</label>
+              <input type="text" id="postalCode" name="postalCode" class="w-full p-2 rounded-md bg-gray-800 text-gray-100" />
+            </div>
+            <div class="mb-4">
+              <label for="country" class="block text-gray-300 mb-2">Country</label>
+              <input type="text" id="country" name="country" class="w-full p-2 rounded-md bg-gray-800 text-gray-100" />
+            </div>
+            <div class="mb-4">
+              <label for="message" class="block text-gray-300 mb-2">Message</label>
+              <textarea id="message" name="message" rows="4" class="w-full p-2 rounded-md bg-gray-800 text-gray-100"></textarea>
             </div>
             <div>
               <button type="submit" class="px-4 py-2 bg-blue-600 text-white rounded-md">Submit</button>

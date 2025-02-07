@@ -1,15 +1,15 @@
 <!-- ~/pages/machines/index.vue -->
 <template>
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8"> <!-- Added container -->
-      <div class="relative text-center py-8">
-                    <h1 class="text-4xl font-extrabold text-gray-100 sm:text-5xl">
+      <div class="relative text-center py-8 text-gray-900">
+                    <h1 class="text-4xl font-extrabold sm:text-5xl">
                         All Machines
                     </h1>
-                    <p class="mt-4 text-lg text-gray-100">
+                    <p class="mt-4 text-lg">
                         Explore our top-of-the-line machining solutions.
                     </p>
                 </div>
-      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-6">
+      <div class="text-white grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-6">
         <NuxtLink
           v-for="machine in allMachines"
           :key="machine.invID"
@@ -17,20 +17,33 @@
           class="group relative"
           :aria-label="`View details for ${machine.manufacturer} ${machine.model}`"
         >
-          <div class="bg-gray-800 shadow-lg rounded-lg overflow-hidden transition-transform duration-200 ease-in-out hover:scale-[1.02]">
-            <h2 class="text-xl font-semibold text-gray-100 p-4">{{ machine.manufacturer }} {{ machine.model }} ({{ machine.year }})</h2>
-            <div class="bg-gradient-to-br from-gray-700 to-black flex items-center justify-center">              <img
+          <div class="bg-gray-800 shadow-lg rounded-lg overflow-hidden transition-transform duration-200 ease-in-out hover:scale-[1.02] p-6">
+            <h2 class="text-2xl font-semibold text-gray-100 mb-4">{{ machine.manufacturer }} {{ machine.model }} ({{ machine.year }})</h2>
+            <div class="mb-6">              
+              <img
                 :src="`https://utimachinery.com/wp-content/uploads/2024/09/${machine.invID}_1.jpg`"
                 alt="{{ machine.title }}"
                 class="w-full h-64 object-cover lazyload"
                 loading="lazy"
               />
             </div>
-            <p class="text-sm text-gray-300 p-2">Condition: {{ machine.condition }}</p>
-            <p class="text-sm text-gray-300 p-4 h-28 overflow-y-auto whitespace-normal overflow-x-hidden">{{ machine.advSpec }}</p>
+
+            <h3 class="text-lg font-semibold mb-3 text-gray-100">
+              {{ machine.description }}
+            </h3>
+              
+            <div class="bg-gray-700 rounded-md p-4 mb-6">
+              <p class="mb-2">
+                <span v-if="machine.condition" class="text-gray-400">Condition:</span> {{ machine.condition }}<br>
+                <span v-if="machine.control" class="text-gray-400">Control:</span> {{ machine.control }}
+              </p>
+              <p class="text-gray-300">
+                {{ machine.advSpec }}
+              </p>
+            </div>
             <p class="mb-2">
                 <span
-                  class="inline-block bg-blue-600 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-lg transition-colors duration-200 ease-in-out mx-4 mb-4"
+                  class="inline-block bg-blue-600 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-lg transition-colors duration-200 ease-in-out mb-4"
                 role="button"
                 tabindex="0"
               >
