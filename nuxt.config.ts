@@ -6,10 +6,7 @@ export default defineNuxtConfig({
     prerender: {
       crawlLinks: false,
       routes: ['/', '/machines/*']
-    }
-  },
-
-  // If you want SSR + SSG:
+    },
  
   // You can add tailwind or other modules here
   modules: ['@nuxt/icon', '@nuxt/ui', '@nuxtjs/tailwindcss', 'nuxt-swiper'],

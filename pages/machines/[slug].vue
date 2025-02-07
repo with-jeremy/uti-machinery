@@ -3,9 +3,9 @@
   <div class="min-h-screen px-4">
     <div class="max-w-[800px] mx-auto bg-gray-800 rounded-lg shadow-xl p-6 text-gray-100">
       <h1 class="text-3xl font-bold mb-4 text-gray-100">
-        <span v-if="machine && machine.manufacturer">{{ machine.manufacturer }}</span>
-        <span v-if="machine && machine.model"> {{ machine.model }}</span>
-        <span v-if="machine && machine.year" class="text-gray-300"> ({{ machine.year }})</span>
+        <span v-if="machine.manufacturer">{{ machine.manufacturer }}</span>
+        <span v-if="machine.model"> {{ machine.model }}</span>
+        <span v-if="machine.year" class="text-gray-300"> ({{ machine.year }})</span>
       </h1>
 
       <div class="mb-6">
@@ -17,12 +17,12 @@
         />
       </div>
 
-      <h2 v-if="machine && machine.description" class="text-xl font-semibold mb-3 text-gray-100">
+      <h2 v-if="machine.description" class="text-xl font-semibold mb-3 text-gray-100">
         {{ machine.description }}
       </h2>
-      <div v-if="machine" class="bg-gray-700 rounded-md p-4 mb-6">
+      <div class="bg-gray-700 rounded-md p-4 mb-6">
         <p class="mb-2">
-          <span class="text-gray-400">Condition:</span> {{ machine.condition }}<br>
+          <span v-if="machine.condition" class="text-gray-400">Condition:</span> {{ machine.condition }}<br>
           <span v-if="machine.control" class="text-gray-400">Control:</span> {{ machine.control }}
         </p>
         <p v-if="machine.advSpec" class="text-gray-300">
@@ -72,8 +72,6 @@
           <form name="rfi" method="POST" data-netlify="true">
             <input type="hidden" name="form-name" value="rfi" />
             <input type="hidden" name="invID" :value="route.params.slug" />
-            <input v-if="machine && machine.model" type="hidden" name="model" :value="machine.model" />
-            <input v-if="machine && machine.manufacturer" type="hidden" name="manufacturer" :value="machine.manufacturer" />
             <div class="mb-4">
               <label for="email" class="block text-gray-300 mb-2">Email*</label>
               <input type="email" id="email" name="email" class="w-full p-2 rounded-md bg-gray-800 text-gray-100" required />
