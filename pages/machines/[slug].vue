@@ -22,8 +22,8 @@
       </h2>
       <div class="bg-gray-700 rounded-md p-4 mb-6">
         <p class="mb-2">
-          <span v-if="machine.condition" class="text-gray-400">Condition:</span> {{ machine.condition }}<br>
-          <span v-if="machine.control" class="text-gray-400">Control:</span> {{ machine.control }}
+          <span v-if="machine.invID" class="text-gray-200">ID#:</span> {{ machine.invID }}<br>
+          <span v-if="machine.control" class="text-gray-200">Control:</span> {{ machine.control }}
         </p>
         <p v-if="machine.advSpec" class="text-gray-300">
           {{ machine.advSpec }}
@@ -110,6 +110,14 @@
             <div class="mb-4">
               <label for="country" class="block text-gray-300 mb-2">Country</label>
               <input type="text" id="country" name="country" class="w-full p-2 rounded-md bg-gray-800 text-gray-100" />
+            </div>
+            <div class="mb-4">
+              <input type="checkbox" id="hasMachines" name="hasMachines" class="mr-2" />
+              <label for="hasMachines" class="text-gray-300">I have machines to sell or trade.</label>
+            </div>
+            <div class="mb-4">
+              <input type="checkbox" id="emailList" name="emailList" class="mr-2" checked />
+              <label for="emailList" class="text-gray-300">Sign up for email list?</label>
             </div>
             <div class="mb-4">
               <label for="message" class="block text-gray-300 mb-2">Message</label>

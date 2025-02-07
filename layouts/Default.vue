@@ -1,9 +1,9 @@
 <!-- ~/layouts/default.vue -->
 <template>
-    <main>
+    <main class="bg-gray-200">
         <Header />
-        <!-- Add pt-24 to account for fixed header height plus some breathing room -->
-        <div class="pt-20 bg-gray-200">
+        <!-- Use clearfix to ensure content is not overlapped by the header -->
+        <div class="pt-32 md:pt-24">
             <slot />
         </div>
         <Footer />
@@ -17,4 +17,9 @@ import Footer from '~/components/Footer.vue'
 
 <style scoped>
 /* Minimal styling. Tailwind would override if you add that. */
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+}
 </style>

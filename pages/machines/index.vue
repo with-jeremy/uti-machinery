@@ -42,8 +42,8 @@
               
             <div class="bg-gray-700 rounded-md p-4 mb-6">
               <p class="mb-2">
-                <span v-if="machine.condition" class="text-gray-400">Condition:</span> {{ machine.condition }}<br>
-                <span v-if="machine.control" class="text-gray-400">Control:</span> {{ machine.control }}
+                <span v-if="machine.invID" class="text-gray-200">ID#:</span> {{ machine.invID }}<br>
+                <span v-if="machine.control" class="text-gray-200">Control:</span> {{ machine.control }}
               </p>
               <p class="text-gray-300">
                 {{ machine.advSpec }}
