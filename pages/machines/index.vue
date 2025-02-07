@@ -78,7 +78,7 @@ const route = useRoute()
 
 onMounted(() => {
   if (route.query.search) {
-    searchQuery.value = route.query.search
+    searchQuery.value = decodeURIComponent(route.query.search)
   }
 })
 

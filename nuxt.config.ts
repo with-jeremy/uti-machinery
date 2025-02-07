@@ -5,7 +5,7 @@ export default defineNuxtConfig({
     preset: 'static',
     prerender: {
       crawlLinks: true,
-      routes: ['/', '/machines']
+      routes: ['/', '/machines/*']
     }
   },
 
