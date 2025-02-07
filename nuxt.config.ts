@@ -4,7 +4,7 @@ export default defineNuxtConfig({
   nitro: {
     preset: 'static',
     prerender: {
-      crawlLinks: true,
+      crawlLinks: false,
       routes: ['/', '/machines/*']
     }
   },
