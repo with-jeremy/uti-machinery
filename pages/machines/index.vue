@@ -9,9 +9,17 @@
                         Explore our top-of-the-line machining solutions.
                     </p>
                 </div>
+      <div class="mb-6">
+        <input
+          v-model="searchQuery"
+          type="text"
+          placeholder="Search machines..."
+          class="w-full p-4 border border-gray-300 rounded-lg"
+        />
+      </div>
       <div class="text-white grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-6">
         <NuxtLink
-          v-for="machine in allMachines"
+          v-for="machine in filteredMachines"
           :key="machine.invID"
           :to="'/machines/' + machine.invID"
           class="group relative"
@@ -57,9 +65,23 @@
 </template>
 
 <script setup>
+import { ref, computed } from 'vue'
 import { useInventory } from '~/composables/useInventory'
 
 // Access data at build time, so it's statically rendered
 const { getAllMachines } = useInventory()
 const allMachines = getAllMachines()
+
+const searchQuery = ref('')
+
+const filteredMachines = computed(() => {
+  return allMachines.filter(machine => {
+    const searchLower = searchQuery.value.toLowerCase()
+    return (
+      machine.manufacturer.toLowerCase().includes(searchLower) ||
+      machine.model.toLowerCase().includes(searchLower) ||
+      machine.description.toLowerCase().includes(searchLower)
+    )
+  })
+})
 </script>
