@@ -11,6 +11,18 @@
           </p>
         </div>
         
+        <!-- Search Functionality -- links to /machines page -->
+        <div class="mb-6">
+          <form @submit.prevent="submitSearch">
+            <input
+              v-model="searchQuery"
+              type="text"
+              placeholder="Search machines..."
+              class="w-full p-4 border border-gray-300 text-gray-900 rounded-lg"
+            />
+          </form>
+        </div>
+
         <!-- Swiper Container for Featured Machines -->
         <div class="text-white" style="min-height: 600px;">
           <swiper-container v-if="slides.length && !loading" 
@@ -106,6 +118,7 @@
 
 <script setup>
 import { ref, nextTick } from 'vue';
+import { useRouter } from 'vue-router';
 import { Swiper, SwiperSlide } from 'swiper/vue';
 import { Autoplay, Keyboard, Pagination, Navigation } from 'swiper/modules';
 import { useInventory } from '~/composables/useInventory';
@@ -137,6 +150,13 @@ const types = getMachineTypes();
 
 const sanitize = (str) => {
   return encodeURIComponent(str);
+};
+
+const searchQuery = ref('');
+const router = useRouter();
+
+const submitSearch = () => {
+  router.push({ path: '/machines', query: { search: sanitize(searchQuery.value) } });
 };
 
 </script>
