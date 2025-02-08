@@ -3,9 +3,10 @@
   "private": true,
   "type": "module",
   "scripts": {
+    "prebuild": "node convertXMLToJSON.js",
     "build": "nuxt build",
     "dev": "nuxt dev",
-    "generate": "nuxt generate",
+    "generate": "npm run prebuild && nuxt generate",
     "preview": "nuxt preview",
     "postinstall": "nuxt prepare"
   },
@@ -16,6 +17,7 @@
     "nuxt": "^3.15.2",
     "nuxt-swiper": "^2.0.0",
     "vue": "latest",
-    "vue-router": "latest"
+    "vue-router": "latest",
+    "xml2js": "^0.6.2"
   }
 }
