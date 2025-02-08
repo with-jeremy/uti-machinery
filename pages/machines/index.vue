@@ -9,13 +9,20 @@
                         Explore our top-of-the-line machining solutions.
                     </p>
                 </div>
-      <div class="mb-6">
+      <div class="mb-6 relative">
         <input
           v-model="searchQuery"
           type="text"
           placeholder="Search machines..."
           class="w-full p-4 border border-gray-300 rounded-lg"
         />
+        <span
+          v-if="searchQuery"
+          @click="clearSearch"
+          class="absolute right-4 top-1/2 transform -translate-y-1/2 cursor-pointer text-gray-500"
+        >
+          &times;
+        </span>
       </div>
       <div class="text-white grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-6">
         <NuxtLink
@@ -65,7 +72,7 @@
 </template>
 
 <script setup>
-import { ref, computed, onMounted } from 'vue'
+import { ref, computed, onMounted, watch } from 'vue'
 import { useRoute } from 'vue-router'
 import { useInventory } from '~/composables/useInventory'
 
@@ -81,6 +88,17 @@ onMounted(() => {
     searchQuery.value = decodeURIComponent(route.query.search)
   }
 })
+
+// Watch for changes in the route.query.search parameter
+watch(() => route.query.search, (newSearch) => {
+  if (!newSearch) {
+    searchQuery.value = ''
+  }
+})
+
+const clearSearch = () => {
+  searchQuery.value = ''
+}
 
 const filteredMachines = computed(() => {
   return allMachines.filter(machine => {
