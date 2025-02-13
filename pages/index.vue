@@ -82,15 +82,15 @@
         </swiper-container>
       </div>
     
-<h2 id="allMachines" class="text-3xl font-extrabold tracking-tight text-center text-gray-900 my-8">All Machines</h2>
+<h2 id="allMachines" class="all-machines text-2xl font-extrabold tracking-tight text-center text-gray-900 my-4">All Machines</h2>
        <!-- brands and types lists -->
       <client-only>
-        <div class="brands bg-gray-800 py-6 rounded-lg shadow-md">
-          <h3 class="text-2xl font-semibold mb-4 text-center border-b-2 pb-6">Browse by Brand</h3>
-          <ul class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
+        <div class="brands bg-gray-800 py-3 rounded-lg shadow-md">
+          <h3 class="text-xl font-semibold mb-2 text-center border-b-2 pb-3">Browse by Brand</h3>
+          <ul class="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-2">
             <li v-for="brand in brands" :key="brand" class="hover:shadow-lg transition-shadow text-center">
               <label
-                :class="['inline-block font-bold px-6 py-2 rounded-md shadow-sm cursor-pointer', { 'bg-blue-700 text-white': isActiveFilter(brand), 'bg-blue-600 text-white': !isActiveFilter(brand) }]"
+                :class="['inline-block font-bold px-4 py-1 rounded-md shadow-sm cursor-pointer text-sm', { 'bg-blue-700 text-white': isActiveFilter(brand), 'bg-blue-600 text-white': !isActiveFilter(brand) }]"
               >
                 <input type="checkbox" :value="brand" v-model="selectedBrands" class="hidden" />
                 <span class="mr-2">{{ brand }}</span>
@@ -99,12 +99,12 @@
             </li>
           </ul>
         </div>
-        <div class="types bg-gray-800 py-6 rounded-lg shadow-md my-4">
-          <h3 class="text-2xl font-semibold mb-4 text-center border-b-2 pb-6">Browse by Machine Type</h3>
-          <ul class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4"> 
+        <div class="types bg-gray-800 py-3 rounded-lg shadow-md my-2">
+          <h3 class="text-xl font-semibold mb-2 text-center border-b-2 pb-3">Browse by Machine Type</h3>
+          <ul class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-2"> 
             <li v-for="type in types" :key="type" class=" hover:shadow-lg transition-shadow text-center">
               <label
-                :class="['inline-block font-bold px-6 py-2 rounded-md shadow-sm cursor-pointer', { 'bg-blue-700 text-white': isActiveFilter(type), 'bg-blue-600 text-white': !isActiveFilter(type) }]"
+                :class="['inline-block font-bold px-4 py-1 rounded-md shadow-sm cursor-pointer text-sm', { 'bg-blue-700 text-white': isActiveFilter(type), 'bg-blue-600 text-white': !isActiveFilter(type) }]"
               >
                 <input type="checkbox" :value="type" v-model="selectedTypes" class="hidden" />
                 <span class="mr-2">{{ type }}</span>
@@ -114,28 +114,34 @@
           </ul>
         </div>
 
-        <div class="mb-6 relative">
-          <div v-if="activeFilters.length" class="flex flex-wrap gap-2 mb-4">
+        <div class="mb-3 relative filter-pills">
+          <div v-if="activeFilters.length" class="flex flex-wrap gap-1 mb-2">
             <span
               v-for="filter in activeFilters"
               :key="filter"
               @click="removeFilter(filter)"
-              class="bg-blue-600 text-white font-bold py-1 px-3 rounded-full flex items-center cursor-pointer"
+              class="bg-blue-600 text-white font-bold py-0.5 px-2 rounded-full flex items-center cursor-pointer text-xs"
             >
               {{ filter }}
-              <span class="ml-2">&times;</span>
+              <span class="ml-1">&times;</span>
             </span>
+            <button
+              @click="clearAllFilters"
+              class="bg-red-600 text-white font-bold py-0.5 px-2 rounded-full cursor-pointer text-xs"
+            >
+              Clear All Filters
+            </button>
           </div>
             <input
               v-model="searchQuery"
               type="text"
               placeholder="Search machines..."
-              class="w-full p-4 border border-gray-300 text-gray-900 rounded-lg"
+              class="search-field w-full p-2 border border-gray-300 text-gray-900 rounded-lg text-sm"
             />
             <span
               v-if="searchQuery"
               @click="clearSearch"
-              class="absolute right-4 top-1/2 transform -translate-y-1/2 cursor-pointer text-gray-500"
+              class="absolute right-2 top-1/2 transform -translate-y-1/2 cursor-pointer text-gray-500"
             >
               &times;
             </span>
@@ -254,6 +260,11 @@ const isActiveFilter = (filter) => {
 const removeFilter = (filter) => {
   selectedBrands.value = selectedBrands.value.filter((brand) => brand !== filter);
   selectedTypes.value = selectedTypes.value.filter((type) => type !== filter);
+};
+
+const clearAllFilters = () => {
+  selectedBrands.value = [];
+  selectedTypes.value = [];
 };
 
 onMounted(() => {
