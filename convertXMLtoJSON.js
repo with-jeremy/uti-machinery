@@ -17,27 +17,27 @@ async function convertXmlToJson() {
     // Convert machines.xml to JSON
     const machinesXml = fs.readFileSync(machinesXmlPath, 'utf-8');
     const machinesResult = await parseStringPromise(machinesXml);
+    const machinesArray = machinesResult?.dataroot?.machines || [];
 
-    const machinesData = machinesResult.machines.machine.map((m) => ({
-      invID: m.invID?.[0] || '',
-      code: m.code?.[0] || '',
-      description: m.description?.[0] || '',
-      webCode: m.webCode?.[0] || '',
-      webDesc: m.webDesc?.[0] || '',
-      groups: m.groups?.[0] || '',
-      manufacturer: m.manufacturer?.[0] || '',
-      model: m.model?.[0] || '',
-      year: m.year?.[0] || '',
-      control: m.control?.[0] || '',
-      location: m.location?.[0] || '',
-      condition: m.condition?.[0] || '',
-      advSpec: m.advSpec?.[0] || '',
-      sold: m.sold?.[0] || '0',
-      offMarket: m.offMarket?.[0] || '0',
-      createRep: m.createRep?.[0] || '',
-      dontAdvertise: m.dontAdvertise?.[0] || '0',
-      special: m.special?.[0] || '0',
-      featOrder: m.featOrder?.[0] || ''
+    const machinesData = machinesArray.map((m) => ({
+      invID: m.InvID?.[0] || '',
+      code: m.Code?.[0] || '',
+      description: m.Description?.[0] || '',
+      webCode: m.Web_x0020_Code?.[0] || '',
+      webDesc: m.Web_x0020_Desc?.[0] || '',
+      groups: m.Groups?.[0] || '',
+      manufacturer: m.Manufacturer?.[0] || '',
+      model: m.Model?.[0] || '',
+      year: m.Year?.[0] || '',
+      control: m.Control?.[0] || '',
+      location: m.Location?.[0] || '',
+      condition: m.Condition?.[0] || '',
+      advSpec: m.Adv_x0020_Spec?.[0] || '',
+      sold: m.Sold?.[0] || '0',
+      offMarket: m.Off_x0020_Market?.[0] || '0',
+      createRep: m.Create_x0020_Rep?.[0] || '',
+      dontAdvertise: m.dont_advertise?.[0] || '0',
+      special: m.Special?.[0] || '0'
     }));
 
     // Write the machines data to a JSON file
@@ -48,8 +48,9 @@ async function convertXmlToJson() {
     console.log('🔄 Converting Specifications XML to JSON...');
     const specificationsXml = fs.readFileSync(specificationsXmlPath, 'utf-8');
     const specificationsResult = await parseStringPromise(specificationsXml);
+    const specsArray = specificationsResult?.dataroot?.specifications || [];
 
-    const specificationsData = specificationsResult.specifications.specification.map((s) => ({
+    const specificationsData = specsArray.map((s) => ({
       id: s.id?.[0] || '',
       invid: s.invid?.[0] || '',
       specid: s.specid?.[0] || '',

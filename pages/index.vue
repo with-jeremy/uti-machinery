@@ -44,7 +44,7 @@
                 <h2 class="text-2xl font-semibold mb-4 text-gray-100">{{ machine.manufacturer }} {{ machine.model }} <span class="text-gray-300">({{ machine.year }})</span></h2>
                 <div class="mb-6">
                   <img
-                    :src="`https://utimachinery.com/wp-content/uploads/2024/09/${machine.invID}_1.jpg`"
+                    :src="`/images/${machine.invID}_1.jpg`"
                     alt="{{ machine.title }}"
                     class="w-full h-full object-cover lazyload"
                     loading="lazy"
@@ -153,7 +153,7 @@
             <h2 class="text-2xl font-semibold text-gray-100 mb-4">{{ machine.manufacturer }} {{ machine.model }} ({{ machine.year }})</h2>
             <div class="mb-6">              
               <img
-                :src="`https://utimachinery.com/wp-content/uploads/2024/09/${machine.invID}_1.jpg`"
+                :src="`/images/${machine.invID}_1.jpg`"
                 alt="{{ machine.title }}"
                 class="w-full h-64 object-cover lazyload"
                 loading="lazy"

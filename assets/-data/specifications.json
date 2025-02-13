@@ -1,0 +1,35 @@
+[
+  {
+    "id": "227",
+    "invid": "31044",
+    "specid": "92901",
+    "groupnames": "",
+    "description": "Body Travel",
+    "specvalues": "82.7 \"",
+    "ewid": "",
+    "equippedwith": "",
+    "groupnameew": ""
+  },
+  {
+    "id": "228",
+    "invid": "31044",
+    "specid": "92902",
+    "groupnames": "Chuck:",
+    "description": "Diameter",
+    "specvalues": "32 \"",
+    "ewid": "",
+    "equippedwith": "",
+    "groupnameew": ""
+  },
+  {
+    "id": "229",
+    "invid": "31044",
+    "specid": "92903",
+    "groupnames": "",
+    "description": "Hole Thru",
+    "specvalues": "10.8 \"",
+    "ewid": "",
+    "equippedwith": "",
+    "groupnameew": ""
+  }
+]

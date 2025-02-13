@@ -1,0 +1,35 @@
+<specifications>
+  <specification>
+    <id>227</id>
+    <invid>31044</invid>
+    <specid>92901</specid>
+    <groupnames></groupnames>
+    <description>Body Travel</description>
+    <specvalues>82.7 "</specvalues>
+    <ewid></ewid>
+    <equippedwith></equippedwith>
+    <groupnameew></groupnameew>
+  </specification>
+  <specification>
+    <id>228</id>
+    <invid>31044</invid>
+    <specid>92902</specid>
+    <groupnames>Chuck:</groupnames>
+    <description>Diameter</description>
+    <specvalues>32 "</specvalues>
+    <ewid></ewid>
+    <equippedwith></equippedwith>
+    <groupnameew></groupnameew>
+  </specification>
+  <specification>
+    <id>229</id>
+    <invid>31044</invid>
+    <specid>92903</specid>
+    <groupnames></groupnames>
+    <description>Hole Thru</description>
+    <specvalues>10.8 "</specvalues>
+    <ewid></ewid>
+    <equippedwith></equippedwith>
+    <groupnameew></groupnameew>
+  </specification>
+</specifications>

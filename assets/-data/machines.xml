@@ -1,0 +1,107 @@
+<machines>
+  <machine>
+    <invID>30877</invID>
+    <code>B6200A</code>
+    <description>BORING MILLS, VERTICAL &amp; VTL, CNC W/ATC</description>
+    <webCode>141</webCode>
+    <webDesc>Vertical Boring Mills, VTL, VBM, CNC</webDesc>
+    <groups>Boring Mills &amp; VTL</groups>
+    <manufacturer>Bullard</manufacturer>
+    <model>Dyna-Tape 56" HC</model>
+    <year>Remfg</year>
+    <control>Fanuc 21i-TB/crt</control>
+    <location></location>
+    <condition>Good</condition>
+    <advSpec>Fanuc 21i-TB, 56" Chuck, 68" swing, 85" under rail, 320 rpm, 75 hp, Ram head, 16 atc, 71" Ram Stroke</advSpec>
+    <sold>0</sold>
+    <offMarket>0</offMarket>
+    <createRep>JSL</createRep>
+    <dontAdvertise>0</dontAdvertise>
+    <special>0</special>
+    <featOrder></featOrder>
+  </machine>
+  <machine>
+    <invID>31047</invID>
+    <code>M0185</code>
+    <description>MACHINING CENTERS, VERTICAL, CNC</description>
+    <webCode>956</webCode>
+    <webDesc>CNC Machining Centers, Vertical</webDesc>
+    <groups>CNC Lathes, Turning Centers, Machining Centers</groups>
+    <manufacturer>DMG Mori-Seiki</manufacturer>
+    <model>Dura Vertical 1035 Eco</model>
+    <year>2012</year>
+    <control>M730BM CNC Control</control>
+    <location></location>
+    <condition>Good</condition>
+    <advSpec>X-40.7" Y-22" Z-20.1", 12000 rpm, 40 Taper, 30 atc, Probing, Chip Conv</advSpec>
+    <sold>0</sold>
+    <offMarket>0</offMarket>
+    <createRep>JSL</createRep>
+    <dontAdvertise>0</dontAdvertise>
+    <special>0</special>
+    <featOrder></featOrder>
+  </machine>
+  <machine>
+    <invID>31052</invID>
+    <code>L2150</code>
+    <description>LATHES, CNC, UNIVERSAL</description>
+    <webCode>884</webCode>
+    <webDesc>CNC Lathes</webDesc>
+    <groups>CNC Lathes, Turning Centers, Machining Centers</groups>
+    <manufacturer>Doosan</manufacturer>
+    <model>Puma 300C</model>
+    <year>2006</year>
+    <control>Fanuc 21i-TB/crt</control>
+    <location></location>
+    <condition>Good</condition>
+    <advSpec>23.2" Swing, 15.7" cut dia., 4.53" spdl bore, 2800 rpm, 35 hp, A2-11 spdl nose, 12 pos turret, prog tailstock, 12" 3-J hyd chuck, gearbox, Tool presetter, chip conv</advSpec>
+    <sold>0</sold>
+    <offMarket>0</offMarket>
+    <createRep>JSL</createRep>
+    <dontAdvertise>0</dontAdvertise>
+    <special>1</special>
+    <featOrder></featOrder>
+  </machine>
+  <machine>
+    <invID>31039</invID>
+    <code>M0185</code>
+    <description>MACHINING CENTERS, VERTICAL, CNC</description>
+    <webCode>956</webCode>
+    <webDesc>CNC Machining Centers, Vertical</webDesc>
+    <groups>CNC Lathes, Turning Centers, Machining Centers</groups>
+    <manufacturer>Haas</manufacturer>
+    <model>DM-2</model>
+    <year>2019</year>
+    <control>Haas CNC/CRT</control>
+    <location></location>
+    <condition>Like New</condition>
+    <advSpec>X-28" Y-16" Z-15.5", 15 hp, BT40 Taper, 10000 rpm, 18+1 sidemount ATC, 4" Ext Z-Axis clearance, 4th-Axis drive, HRTA5 CNC Rotary Table</advSpec>
+    <sold>0</sold>
+    <offMarket>0</offMarket>
+    <createRep>JSL</createRep>
+    <dontAdvertise>0</dontAdvertise>
+    <special>0</special>
+    <featOrder></featOrder>
+  </machine>
+  <machine>
+    <invID>31019</invID>
+    <code>M0185</code>
+    <description>MACHINING CENTERS, VERTICAL, CNC</description>
+    <webCode>956</webCode>
+    <webDesc>CNC Machining Centers, Vertical</webDesc>
+    <groups>CNC Lathes, Turning Centers, Machining Centers</groups>
+    <manufacturer>Haas</manufacturer>
+    <model>MiniMill 2</model>
+    <year>2019</year>
+    <control>Haas CNC/CRT</control>
+    <location></location>
+    <condition>Good</condition>
+    <advSpec>X-20" Y-16" Z-14", Cat 40 Taper, 6000 rpm, 7.5 HP, 20 ATC, Probing, Auto Air Gun, Programmable Coolant Nozzle, Wifi Camera, Only 1514 power on hours</advSpec>
+    <sold>0</sold>
+    <offMarket>0</offMarket>
+    <createRep>JSL</createRep>
+    <dontAdvertise>0</dontAdvertise>
+    <special>0</special>
+    <featOrder></featOrder>
+  </machine>
+</machines>

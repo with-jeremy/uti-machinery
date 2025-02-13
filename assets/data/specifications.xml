@@ -1,35 +1,5658 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataroot xmlns:od="urn:schemas-microsoft-com:officedata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"  xsi:noNamespaceSchemaLocation="specifications.xsd" generated="2025-02-11T17:52:09">
 <specifications>
-  <specification>
-    <id>227</id>
-    <invid>31044</invid>
-    <specid>92901</specid>
-    <groupnames></groupnames>
-    <description>Body Travel</description>
-    <specvalues>82.7 "</specvalues>
-    <ewid></ewid>
-    <equippedwith></equippedwith>
-    <groupnameew></groupnameew>
-  </specification>
-  <specification>
-    <id>228</id>
-    <invid>31044</invid>
-    <specid>92902</specid>
-    <groupnames>Chuck:</groupnames>
-    <description>Diameter</description>
-    <specvalues>32 "</specvalues>
-    <ewid></ewid>
-    <equippedwith></equippedwith>
-    <groupnameew></groupnameew>
-  </specification>
-  <specification>
-    <id>229</id>
-    <invid>31044</invid>
-    <specid>92903</specid>
-    <groupnames></groupnames>
-    <description>Hole Thru</description>
-    <specvalues>10.8 "</specvalues>
-    <ewid></ewid>
-    <equippedwith></equippedwith>
-    <groupnameew></groupnameew>
-  </specification>
+<id>1</id>
+<invid>30621</invid>
+<specid>86470</specid>
+<groupnames>Table:</groupnames>
+<description>Width</description>
+<specvalues>48 &quot;</specvalues>
 </specifications>
+<specifications>
+<id>2</id>
+<invid>30621</invid>
+<specid>86471</specid>
+<description>Length</description>
+<specvalues>96 &quot;</specvalues>
+</specifications>
+<specifications>
+<id>3</id>
+<invid>30621</invid>
+<specid>86472</specid>
+<groupnames>Travels:</groupnames>
+<description>X-Axis</description>
+<specvalues>100 &quot;</specvalues>
+</specifications>
+<specifications>
+<id>4</id>
+<invid>30621</invid>
+<specid>86473</specid>
+<description>Y-Axis</description>
+<specvalues>52 &quot;</specvalues>
+</specifications>
+<specifications>
+<id>5</id>
+<invid>30621</invid>
+<specid>86474</specid>
+<description>Z-Axis</description>
+<specvalues>8 &quot;</specvalues>
+</specifications>
+<specifications>
+<id>6</id>
+<invid>30621</invid>
+<specid>86475</specid>
+<groupnames>Spindle:</groupnames>
+<description>Speeds Minimum:</description>
+<specvalues>0 rpm</specvalues>
+</specifications>
+<specifications>
+<id>7</id>
+<invid>30621</invid>
+<specid>86476</specid>
+<description>            Maximum:</description>
+<specvalues>24000 rpm</specvalues>
+</specifications>
+<specifications>
+<id>8</id>
+<invid>30621</invid>
+<specid>86477</specid>
+<description>Taper</description>
+<specvalues>ISO 30 </specvalues>
+</specifications>
+<specifications>
+<id>9</id>
+<invid>30621</invid>
+<specid>86478</specid>
+<description>Main Motor</description>
+<specvalues>8.9 hp</specvalues>
+</specifications>
+<specifications>
+<id>10</id>
+<invid>30621</invid>
+<specid>86479</specid>
+<groupnames>Tool Changer:</groupnames>
+<description>Number of Positions</description>
+<specvalues>10 atc</specvalues>
+</specifications>
+<specifications>
+<id>11</id>
+<invid>30877</invid>
+<specid>90283</specid>
+<groupnames>Capacity:</groupnames>
+<description>Table Diameter</description>
+<specvalues>56 &quot;</specvalues>
+</specifications>
+<specifications>
+<id>12</id>
+<invid>30877</invid>
+<specid>90284</specid>
+<description>Maximum Swing</description>
+<specvalues>68 &quot;</specvalues>
+</specifications>
+<specifications>
+<id>13</id>
+<invid>30877</invid>
+<specid>90285</specid>
+<description>Maximum Height Under Rail</description>
+<specvalues>85 &quot;</specvalues>
+</specifications>
+<specifications>
+<id>14</id>
+<invid>30877</invid>
+<specid>90286</specid>
+<groupnames>Spindle:</groupnames>
+<description>Spindle Speed: Minimum</description>
+<specvalues>2 rpm</specvalues>
+</specifications>
+<specifications>
+<id>15</id>
+<invid>30877</invid>
+<specid>90287</specid>
+<description>                       Maximum</description>
+<specvalues>320 rpm</specvalues>
+</specifications>
+<specifications>
+<id>16</id>
+<invid>30877</invid>
+<specid>90288</specid>
+<description>Motor</description>
+<specvalues>75 hp</specvalues>
+</specifications>
+<specifications>
+<id>17</id>
+<invid>30877</invid>
+<specid>90289</specid>
+<groupnames>Ram Head</groupnames>
+<description>X-Axis (Longitudinal) Travel</description>
+<specvalues>- &quot;</specvalues>
+</specifications>
+<specifications>
+<id>18</id>
+<invid>30877</invid>
+<specid>90290</specid>
+<description>Z-Axis (Veritcal) Travel</description>
+<specvalues>71 &quot;</specvalues>
+</specifications>
+<specifications>
+<id>19</id>
+<invid>30877</invid>
+<specid>90291</specid>
+<groupnames>Tool Changer:</groupnames>
+<description>Number of Positions</description>
+<specvalues>16 atc</specvalues>
+</specifications>
+<specifications>
+<id>20</id>
+<invid>30964</invid>
+<specid>91656</specid>
+<groupnames>Capacity:</groupnames>
+<description>Table Diameter</description>
+<specvalues>63 &quot;</specvalues>
+</specifications>
+<specifications>
+<id>21</id>
+<invid>30964</invid>
+<specid>91657</specid>
+<description>Maximum Swing</description>
+<specvalues>70 &quot;</specvalues>
+</specifications>
+<specifications>
+<id>22</id>
+<invid>30964</invid>
+<specid>91658</specid>
+<description>Maximum Height Under Rail</description>
+<specvalues>63 &quot;</specvalues>
+</specifications>
+<specifications>
+<id>23</id>
+<invid>30964</invid>
+<specid>91659</specid>
+<groupnames>Spindle:</groupnames>
+<description>Spindle Speed: Minimum</description>
+<specvalues>1.6 rpm</specvalues>
+</specifications>
+<specifications>
+<id>24</id>
+<invid>30964</invid>
+<specid>91660</specid>
+<description>                       Maximum</description>
+<specvalues>250 rpm</specvalues>
+</specifications>
+<specifications>
+<id>25</id>
+<invid>30964</invid>
+<specid>91661</specid>
+<description>Motor</description>
+<specvalues>75 hp</specvalues>
+</specifications>
+<specifications>
+<id>26</id>
+<invid>30964</invid>
+<specid>91664</specid>
+<groupnames>Tool Changer:</groupnames>
+<description>Number of Positions</description>
+<specvalues>16 atc</specvalues>
+</specifications>
+<specifications>
+<id>27</id>
+<invid>30965</invid>
+<specid>91674</specid>
+<groupnames>Table:</groupnames>
+<description>Width</description>
+<specvalues>40 &quot;</specvalues>
+</specifications>
+<specifications>
+<id>28</id>
+<invid>30965</invid>
+<specid>91675</specid>
+<description>Length</description>
+<specvalues>94.5 &quot;</specvalues>
+</specifications>
+<specifications>
+<id>29</id>
+<invid>30965</invid>
+<specid>91676</specid>
+<description>Maximum Table Load</description>
+<specvalues>6600 lbs</specvalues>
+</specifications>
+<specifications>
+<id>30</id>
+<invid>30965</invid>
+<specid>91677</specid>
+<groupnames>Travels:</groupnames>
+<description>X-Axis Travel</description>
+<specvalues>84.6 &quot;</specvalues>
+</specifications>
+<specifications>
+<id>31</id>
+<invid>30965</invid>
+<specid>91678</specid>
+<description>Y-Axis Travel</description>
+<specvalues>39.3 &quot;</specvalues>
+</specifications>
+<specifications>
+<id>32</id>
+<invid>30965</invid>
+<specid>91679</specid>
+<description>Z-Axis Travel</description>
+<specvalues>31.5 &quot;</specvalues>
+</specifications>
+<specifications>
+<id>33</id>
+<invid>30965</invid>
+<specid>91682</specid>
+<groupnames>Spindle:</groupnames>
+<description>Spindle Speed: Minimum (RPM)</description>
+<specvalues>0 rpm</specvalues>
+</specifications>
+<specifications>
+<id>34</id>
+<invid>30965</invid>
+<specid>91683</specid>
+<description>                       Maximum</description>
+<specvalues>6000 rpm</specvalues>
+</specifications>
+<specifications>
+<id>35</id>
+<invid>30965</invid>
+<specid>91684</specid>
+<description>Spindle Taper</description>
+<specvalues>50 </specvalues>
+</specifications>
+<specifications>
+<id>36</id>
+<invid>30965</invid>
+<specid>91685</specid>
+<description>Main Motor (HP)</description>
+<specvalues>25 hp</specvalues>
+</specifications>
+<specifications>
+<id>37</id>
+<invid>30965</invid>
+<specid>91686</specid>
+<groupnames>Tool Changer:</groupnames>
+<description>Tool Changer Positions</description>
+<specvalues>30 atc</specvalues>
+</specifications>
+<specifications>
+<id>38</id>
+<invid>30968</invid>
+<specid>91709</specid>
+<groupnames>Capacity:</groupnames>
+<description>Swing</description>
+<specvalues>31.75 &quot;</specvalues>
+</specifications>
+<specifications>
+<id>39</id>
+<invid>30968</invid>
+<specid>91711</specid>
+<description>Maximum Machining Diameter</description>
+<specvalues>13.75 &quot;</specvalues>
+</specifications>
+<specifications>
+<id>40</id>
+<invid>30968</invid>
+<specid>91712</specid>
+<description>Distance Between Centers</description>
+<specvalues>26 &quot;</specvalues>
+</specifications>
+<specifications>
+<id>41</id>
+<invid>30968</invid>
+<specid>91713</specid>
+<groupnames>Spindle:</groupnames>
+<description>Spindle Speed: Minimum (RPM)</description>
+<specvalues>0 rpm</specvalues>
+</specifications>
+<specifications>
+<id>42</id>
+<invid>30968</invid>
+<specid>91714</specid>
+<description>                       Maximum</description>
+<specvalues>2400 rpm</specvalues>
+</specifications>
+<specifications>
+<id>43</id>
+<invid>30968</invid>
+<specid>91715</specid>
+<description>Spindle Bore</description>
+<specvalues>4.62 &quot;</specvalues>
+</specifications>
+<specifications>
+<id>44</id>
+<invid>30968</invid>
+<specid>91716</specid>
+<description>Main Motor</description>
+<specvalues>40 hp</specvalues>
+</specifications>
+<specifications>
+<id>45</id>
+<invid>30968</invid>
+<specid>91717</specid>
+<description>Spindle Nose</description>
+<specvalues>A2-8 </specvalues>
+</specifications>
+<specifications>
+<id>46</id>
+<invid>30968</invid>
+<specid>91718</specid>
+<groupnames>Turret:</groupnames>
+<description>Number Of Positions</description>
+<specvalues>12 </specvalues>
+</specifications>
+<specifications>
+<id>47</id>
+<invid>30968</invid>
+<specid>91719</specid>
+<description>X-Axis Travel</description>
+<specvalues>12.5 &quot;</specvalues>
+</specifications>
+<specifications>
+<id>48</id>
+<invid>30968</invid>
+<specid>91720</specid>
+<description>Z-Axis Travel</description>
+<specvalues>23 &quot;</specvalues>
+</specifications>
+<specifications>
+<id>49</id>
+<invid>30968</invid>
+<specid>91721</specid>
+<groupnames>Live Tooling:</groupnames>
+<description>Number of Live Positions</description>
+<specvalues>Y-Axis +/-2&quot; </specvalues>
+</specifications>
+<specifications>
+<id>50</id>
+<invid>30968</invid>
+<specid>91722</specid>
+<description>Maximum Speed</description>
+<specvalues>4000 rpm</specvalues>
+</specifications>
+<specifications>
+<id>51</id>
+<invid>30968</invid>
+<specid>91728</specid>
+<groupnames>Chuck:</groupnames>
+<description>Diameter</description>
+<specvalues>12 &quot;</specvalues>
+</specifications>
+<specifications>
+<id>52</id>
+<invid>30968</invid>
+<specid>91729</specid>
+<description>Hole Thru</description>
+<specvalues>4 &quot;</specvalues>
+</specifications>
+<specifications>
+<id>53</id>
+<invid>30968</invid>
+<specid>91730</specid>
+<description>Number of Jaws</description>
+<specvalues>3 </specvalues>
+</specifications>
+<specifications>
+<id>54</id>
+<invid>31000</invid>
+<specid>92233</specid>
+<groupnames>Table:</groupnames>
+<description>Width</description>
+<specvalues>52 &quot;</specvalues>
+</specifications>
+<specifications>
+<id>55</id>
+<invid>31000</invid>
+<specid>92234</specid>
+<description>Length</description>
+<specvalues>23 &quot;</specvalues>
+</specifications>
+<specifications>
+<id>56</id>
+<invid>31000</invid>
+<specid>92235</specid>
+<description>Maximum Table Load</description>
+<specvalues>4000 lbs</specvalues>
+</specifications>
+<specifications>
+<id>57</id>
+<invid>31000</invid>
+<specid>92236</specid>
+<groupnames>Travels:</groupnames>
+<description>X-Axis Travel</description>
+<specvalues>50 &quot;</specvalues>
+</specifications>
+<specifications>
+<id>58</id>
+<invid>31000</invid>
+<specid>92237</specid>
+<description>Y-Axis Travel</description>
+<specvalues>26 &quot;</specvalues>
+</specifications>
+<specifications>
+<id>59</id>
+<invid>31000</invid>
+<specid>92238</specid>
+<description>Z-Axis Travel</description>
+<specvalues>25 &quot;</specvalues>
+</specifications>
+<specifications>
+<id>60</id>
+<invid>31000</invid>
+<specid>92241</specid>
+<groupnames>Spindle:</groupnames>
+<description>Spindle Speed: Minimum (RPM)</description>
+<specvalues>0 rpm</specvalues>
+</specifications>
+<specifications>
+<id>61</id>
+<invid>31000</invid>
+<specid>92242</specid>
+<description>                       Maximum</description>
+<specvalues>7500 rpm</specvalues>
+</specifications>
+<specifications>
+<id>62</id>
+<invid>31000</invid>
+<specid>92243</specid>
+<description>Spindle Taper</description>
+<specvalues>40 </specvalues>
+</specifications>
+<specifications>
+<id>63</id>
+<invid>31000</invid>
+<specid>92244</specid>
+<description>Main Motor (HP)</description>
+<specvalues>20 hp</specvalues>
+</specifications>
+<specifications>
+<id>64</id>
+<invid>31000</invid>
+<specid>92245</specid>
+<groupnames>Tool Changer:</groupnames>
+<description>Tool Changer Positions</description>
+<specvalues>40 atc</specvalues>
+</specifications>
+<specifications>
+<id>65</id>
+<invid>31015</invid>
+<specid>92456</specid>
+<groupnames>Capacity:</groupnames>
+<description>Swing</description>
+<specvalues>23 &quot;</specvalues>
+</specifications>
+<specifications>
+<id>66</id>
+<invid>31015</invid>
+<specid>92457</specid>
+<description>Swing Over Cross Slide</description>
+<specvalues>9.5 &quot;</specvalues>
+</specifications>
+<specifications>
+<id>67</id>
+<invid>31015</invid>
+<specid>92458</specid>
+<description>Maximum Machining Diameter</description>
+<specvalues>10.3 &quot;</specvalues>
+</specifications>
+<specifications>
+<id>68</id>
+<invid>31015</invid>
+<specid>92459</specid>
+<description>Distance Between Centers</description>
+<specvalues>24 &quot;</specvalues>
+</specifications>
+<specifications>
+<id>69</id>
+<invid>31015</invid>
+<specid>92460</specid>
+<groupnames>Spindle:</groupnames>
+<description>Spindle Speed: Minimum (RPM)</description>
+<specvalues>0 rpm</specvalues>
+</specifications>
+<specifications>
+<id>70</id>
+<invid>31015</invid>
+<specid>92461</specid>
+<description>                       Maximum</description>
+<specvalues>5000 rpm</specvalues>
+</specifications>
+<specifications>
+<id>71</id>
+<invid>31015</invid>
+<specid>92462</specid>
+<description>Spindle Bore</description>
+<specvalues>3 &quot;</specvalues>
+</specifications>
+<specifications>
+<id>72</id>
+<invid>31015</invid>
+<specid>92463</specid>
+<description>Main Motor</description>
+<specvalues>30 hp</specvalues>
+</specifications>
+<specifications>
+<id>73</id>
+<invid>31015</invid>
+<specid>92464</specid>
+<description>Spindle Nose</description>
+<specvalues>A2-6 </specvalues>
+</specifications>
+<specifications>
+<id>74</id>
+<invid>31015</invid>
+<specid>92465</specid>
+<groupnames>Turret:</groupnames>
+<description>Number Of Positions</description>
+<specvalues>12 </specvalues>
+</specifications>
+<specifications>
+<id>75</id>
+<invid>31015</invid>
+<specid>92466</specid>
+<description>X-Axis Travel</description>
+<specvalues>8.45 &quot;</specvalues>
+</specifications>
+<specifications>
+<id>76</id>
+<invid>31015</invid>
+<specid>92467</specid>
+<description>Z-Axis Travel</description>
+<specvalues>20 &quot;</specvalues>
+</specifications>
+<specifications>
+<id>77</id>
+<invid>31015</invid>
+<specid>92468</specid>
+<groupnames>Tailstock:</groupnames>
+<description>Quill Diameter</description>
+<specvalues>- &quot;</specvalues>
+</specifications>
+<specifications>
+<id>78</id>
+<invid>31015</invid>
+<specid>92470</specid>
+<description>Taper</description>
+<specvalues>4 MT</specvalues>
+</specifications>
+<specifications>
+<id>79</id>
+<invid>31015</invid>
+<specid>92471</specid>
+<description>Body Travel</description>
+<specvalues>20 &quot;</specvalues>
+</specifications>
+<specifications>
+<id>80</id>
+<invid>31015</invid>
+<specid>92472</specid>
+<groupnames>Chuck:</groupnames>
+<description>Diameter</description>
+<specvalues>8 &quot;</specvalues>
+</specifications>
+<specifications>
+<id>81</id>
+<invid>31015</invid>
+<specid>92473</specid>
+<description>Hole Thru</description>
+<specvalues>2.5 &quot;</specvalues>
+</specifications>
+<specifications>
+<id>82</id>
+<invid>31015</invid>
+<specid>92474</specid>
+<description>Number of Jaws</description>
+<specvalues>3 </specvalues>
+</specifications>
+<specifications>
+<id>83</id>
+<invid>31027</invid>
+<specid>92646</specid>
+<groupnames>Table:</groupnames>
+<description>Width</description>
+<specvalues>21.65&quot; &quot;</specvalues>
+</specifications>
+<specifications>
+<id>84</id>
+<invid>31027</invid>
+<specid>92647</specid>
+<description>Length</description>
+<specvalues>51.18&quot; &quot;</specvalues>
+</specifications>
+<specifications>
+<id>85</id>
+<invid>31027</invid>
+<specid>92648</specid>
+<description>Maximum Table Load</description>
+<specvalues>2646 lbs</specvalues>
+</specifications>
+<specifications>
+<id>86</id>
+<invid>31027</invid>
+<specid>92649</specid>
+<groupnames>Travels:</groupnames>
+<description>X-Axis Travel</description>
+<specvalues>41.3 &quot;</specvalues>
+</specifications>
+<specifications>
+<id>87</id>
+<invid>31027</invid>
+<specid>92650</specid>
+<description>Y-Axis Travel</description>
+<specvalues>20 &quot;</specvalues>
+</specifications>
+<specifications>
+<id>88</id>
+<invid>31027</invid>
+<specid>92651</specid>
+<description>Z-Axis Travel</description>
+<specvalues>20 &quot;</specvalues>
+</specifications>
+<specifications>
+<id>89</id>
+<invid>31027</invid>
+<specid>92652</specid>
+<description>Spindle Nose to Table Top Minimum</description>
+<specvalues>5.9 &quot;</specvalues>
+</specifications>
+<specifications>
+<id>90</id>
+<invid>31027</invid>
+<specid>92653</specid>
+<description>                                           Maximum</description>
+<specvalues>25.98 &quot;</specvalues>
+</specifications>
+<specifications>
+<id>91</id>
+<invid>31027</invid>
+<specid>92654</specid>
+<groupnames>Spindle:</groupnames>
+<description>Spindle Speed: Minimum (RPM)</description>
+<specvalues>0 rpm</specvalues>
+</specifications>
+<specifications>
+<id>92</id>
+<invid>31027</invid>
+<specid>92655</specid>
+<description>                       Maximum</description>
+<specvalues>12000 rpm</specvalues>
+</specifications>
+<specifications>
+<id>93</id>
+<invid>31027</invid>
+<specid>92656</specid>
+<description>Spindle Taper</description>
+<specvalues>Cat 40 </specvalues>
+</specifications>
+<specifications>
+<id>94</id>
+<invid>31027</invid>
+<specid>92657</specid>
+<description>Main Motor (HP)</description>
+<specvalues>25 hp</specvalues>
+</specifications>
+<specifications>
+<id>95</id>
+<invid>31027</invid>
+<specid>92658</specid>
+<groupnames>Tool Changer:</groupnames>
+<description>Tool Changer Positions</description>
+<specvalues>30 atc</specvalues>
+</specifications>
+<specifications>
+<id>96</id>
+<invid>31028</invid>
+<specid>92659</specid>
+<groupnames>Table:</groupnames>
+<description>Width</description>
+<specvalues>16.14 &quot;</specvalues>
+</specifications>
+<specifications>
+<id>97</id>
+<invid>31028</invid>
+<specid>92660</specid>
+<description>Length</description>
+<specvalues>43.31 &quot;</specvalues>
+</specifications>
+<specifications>
+<id>98</id>
+<invid>31028</invid>
+<specid>92661</specid>
+<description>Maximum Table Load</description>
+<specvalues>1540 lbs</specvalues>
+</specifications>
+<specifications>
+<id>99</id>
+<invid>31028</invid>
+<specid>92662</specid>
+<groupnames>Travels:</groupnames>
+<description>X-Axis Travel</description>
+<specvalues>30 &quot;</specvalues>
+</specifications>
+<specifications>
+<id>100</id>
+<invid>31028</invid>
+<specid>92663</specid>
+<description>Y-Axis Travel</description>
+<specvalues>16.14 &quot;</specvalues>
+</specifications>
+<specifications>
+<id>101</id>
+<invid>31028</invid>
+<specid>92664</specid>
+<description>Z-Axis Travel</description>
+<specvalues>20.08 &quot;</specvalues>
+</specifications>
+<specifications>
+<id>102</id>
+<invid>31028</invid>
+<specid>92665</specid>
+<description>Spindle Nose to Table Top Minimum</description>
+<specvalues>5.91 &quot;</specvalues>
+</specifications>
+<specifications>
+<id>103</id>
+<invid>31028</invid>
+<specid>92666</specid>
+<description>                                           Maximum</description>
+<specvalues>25.98 &quot;</specvalues>
+</specifications>
+<specifications>
+<id>104</id>
+<invid>31028</invid>
+<specid>92667</specid>
+<groupnames>Spindle:</groupnames>
+<description>Spindle Speed: Minimum (RPM)</description>
+<specvalues>0 rpm</specvalues>
+</specifications>
+<specifications>
+<id>105</id>
+<invid>31028</invid>
+<specid>92668</specid>
+<description>                       Maximum</description>
+<specvalues>12000 rpm</specvalues>
+</specifications>
+<specifications>
+<id>106</id>
+<invid>31028</invid>
+<specid>92669</specid>
+<description>Spindle Taper</description>
+<specvalues>Cat 40 </specvalues>
+</specifications>
+<specifications>
+<id>107</id>
+<invid>31028</invid>
+<specid>92670</specid>
+<description>Main Motor (HP)</description>
+<specvalues>25 hp</specvalues>
+</specifications>
+<specifications>
+<id>108</id>
+<invid>31028</invid>
+<specid>92671</specid>
+<groupnames>Tool Changer:</groupnames>
+<description>Tool Changer Positions</description>
+<specvalues>30 atc</specvalues>
+</specifications>
+<specifications>
+<id>109</id>
+<invid>31030</invid>
+<specid>92685</specid>
+<groupnames>Capacity:</groupnames>
+<description>Swing</description>
+<specvalues>36.64 &quot;</specvalues>
+</specifications>
+<specifications>
+<id>110</id>
+<invid>31030</invid>
+<specid>92686</specid>
+<description>Swing in Gap</description>
+<specvalues>47 &quot;</specvalues>
+</specifications>
+<specifications>
+<id>111</id>
+<invid>31030</invid>
+<specid>92688</specid>
+<description>Swing Over Cross Slide/carriage</description>
+<specvalues>25 &quot;</specvalues>
+</specifications>
+<specifications>
+<id>112</id>
+<invid>31030</invid>
+<specid>92689</specid>
+<description>Distance Between Centers</description>
+<specvalues>157.6 &quot;</specvalues>
+</specifications>
+<specifications>
+<id>113</id>
+<invid>31030</invid>
+<specid>92690</specid>
+<groupnames>Spindle:</groupnames>
+<description>Spindle Speed: Minimum (RPM)</description>
+<specvalues>9 rpm</specvalues>
+</specifications>
+<specifications>
+<id>114</id>
+<invid>31030</invid>
+<specid>92691</specid>
+<description>                       Maximum</description>
+<specvalues>900 rpm</specvalues>
+</specifications>
+<specifications>
+<id>115</id>
+<invid>31030</invid>
+<specid>92692</specid>
+<description>Spindle Bore</description>
+<specvalues>3.75 &quot;</specvalues>
+</specifications>
+<specifications>
+<id>116</id>
+<invid>31030</invid>
+<specid>92694</specid>
+<description>Main Motor (HP)</description>
+<specvalues>35 hp</specvalues>
+</specifications>
+<specifications>
+<id>117</id>
+<invid>31030</invid>
+<specid>92695</specid>
+<groupnames>Chuck:</groupnames>
+<description>Diameter</description>
+<specvalues>20 &quot;</specvalues>
+</specifications>
+<specifications>
+<id>118</id>
+<invid>31030</invid>
+<specid>92697</specid>
+<description>Number of Jaws</description>
+<specvalues>3 </specvalues>
+</specifications>
+<specifications>
+<id>119</id>
+<invid>31030</invid>
+<specid>92698</specid>
+<groupnames>Attachments:</groupnames>
+<description>Threading</description>
+<specvalues>Inch/Metric </specvalues>
+</specifications>
+<specifications>
+<id>120</id>
+<invid>31030</invid>
+<specid>92700</specid>
+<groupnames>Tailstock:</groupnames>
+<description>Quill Diameter</description>
+<specvalues>5.12 &quot;</specvalues>
+</specifications>
+<specifications>
+<id>121</id>
+<invid>31030</invid>
+<specid>92701</specid>
+<description>Quill Travel</description>
+<specvalues>11.74 &quot;</specvalues>
+</specifications>
+<specifications>
+<id>122</id>
+<invid>31031</invid>
+<specid>92703</specid>
+<groupnames>Table:</groupnames>
+<description>Width</description>
+<specvalues>12 &quot;</specvalues>
+</specifications>
+<specifications>
+<id>123</id>
+<invid>31031</invid>
+<specid>92704</specid>
+<description>Length</description>
+<specvalues>50 &quot;</specvalues>
+</specifications>
+<specifications>
+<id>124</id>
+<invid>31031</invid>
+<specid>92705</specid>
+<description>Load</description>
+<specvalues>1500 Lbs.</specvalues>
+</specifications>
+<specifications>
+<id>125</id>
+<invid>31031</invid>
+<specid>92706</specid>
+<groupnames>Travels:</groupnames>
+<description>X-Axis (Longitudinal)</description>
+<specvalues>30 &quot;</specvalues>
+</specifications>
+<specifications>
+<id>126</id>
+<invid>31031</invid>
+<specid>92707</specid>
+<description>Y-Axis (Cross)</description>
+<specvalues>15 &quot;</specvalues>
+</specifications>
+<specifications>
+<id>127</id>
+<invid>31031</invid>
+<specid>92708</specid>
+<description>Z-Axis (Vertical)</description>
+<specvalues>Quill 5 &quot;</specvalues>
+</specifications>
+<specifications>
+<id>128</id>
+<invid>31031</invid>
+<specid>92709</specid>
+<description>Knee</description>
+<specvalues>16 &quot;</specvalues>
+</specifications>
+<specifications>
+<id>129</id>
+<invid>31031</invid>
+<specid>92710</specid>
+<groupnames>Spindle:</groupnames>
+<description>Speeds</description>
+<specvalues>60 - 4000 RPM</specvalues>
+</specifications>
+<specifications>
+<id>130</id>
+<invid>31031</invid>
+<specid>92711</specid>
+<description>Taper</description>
+<specvalues>R8 </specvalues>
+</specifications>
+<specifications>
+<id>131</id>
+<invid>31031</invid>
+<specid>92712</specid>
+<description>Motor</description>
+<specvalues>5 HP</specvalues>
+</specifications>
+<specifications>
+<id>132</id>
+<invid>31037</invid>
+<specid>92785</specid>
+<groupnames>Table:</groupnames>
+<description>Width</description>
+<specvalues>10.5 &quot;</specvalues>
+</specifications>
+<specifications>
+<id>133</id>
+<invid>31037</invid>
+<specid>92786</specid>
+<description>Length</description>
+<specvalues>57.8 &quot;</specvalues>
+</specifications>
+<specifications>
+<id>134</id>
+<invid>31037</invid>
+<specid>92787</specid>
+<description>Maximum Table Load</description>
+<specvalues>350 lbs</specvalues>
+</specifications>
+<specifications>
+<id>135</id>
+<invid>31037</invid>
+<specid>92788</specid>
+<groupnames>Travels:</groupnames>
+<description>X-Axis Travel</description>
+<specvalues>40 &quot;</specvalues>
+</specifications>
+<specifications>
+<id>136</id>
+<invid>31037</invid>
+<specid>92789</specid>
+<description>Y-Axis Travel</description>
+<specvalues>16 &quot;</specvalues>
+</specifications>
+<specifications>
+<id>137</id>
+<invid>31037</invid>
+<specid>92790</specid>
+<description>Z-Axis Travel</description>
+<specvalues>16 &quot;</specvalues>
+</specifications>
+<specifications>
+<id>138</id>
+<invid>31037</invid>
+<specid>92791</specid>
+<description>Spindle Nose to Table Top Minimum</description>
+<specvalues>4 &quot;</specvalues>
+</specifications>
+<specifications>
+<id>139</id>
+<invid>31037</invid>
+<specid>92792</specid>
+<description>                                           Maximum</description>
+<specvalues>20 &quot;</specvalues>
+</specifications>
+<specifications>
+<id>140</id>
+<invid>31037</invid>
+<specid>92793</specid>
+<groupnames>Spindle:</groupnames>
+<description>Spindle Speed: Minimum (RPM)</description>
+<specvalues>0 rpm</specvalues>
+</specifications>
+<specifications>
+<id>141</id>
+<invid>31037</invid>
+<specid>92794</specid>
+<description>                       Maximum</description>
+<specvalues>6000 rpm</specvalues>
+</specifications>
+<specifications>
+<id>142</id>
+<invid>31037</invid>
+<specid>92795</specid>
+<description>Spindle Taper</description>
+<specvalues>BT40 </specvalues>
+</specifications>
+<specifications>
+<id>143</id>
+<invid>31037</invid>
+<specid>92796</specid>
+<description>Main Motor (HP)</description>
+<specvalues>7.5 hp</specvalues>
+</specifications>
+<specifications>
+<id>144</id>
+<invid>31037</invid>
+<specid>92797</specid>
+<groupnames>Tool Changer:</groupnames>
+<description>Tool Changer Positions</description>
+<specvalues>10 atc</specvalues>
+</specifications>
+<specifications>
+<id>145</id>
+<invid>31038</invid>
+<specid>92798</specid>
+<groupnames>Capacity:</groupnames>
+<description>Swing</description>
+<specvalues>20 &quot;</specvalues>
+</specifications>
+<specifications>
+<id>146</id>
+<invid>31038</invid>
+<specid>92799</specid>
+<description>Swing Over Cross Slide</description>
+<specvalues>11 &quot;</specvalues>
+</specifications>
+<specifications>
+<id>147</id>
+<invid>31038</invid>
+<specid>92800</specid>
+<description>Maximum Machining Diameter</description>
+<specvalues>16 &quot;</specvalues>
+</specifications>
+<specifications>
+<id>148</id>
+<invid>31038</invid>
+<specid>92801</specid>
+<description>Distance Between Centers</description>
+<specvalues>30 &quot;</specvalues>
+</specifications>
+<specifications>
+<id>149</id>
+<invid>31038</invid>
+<specid>92802</specid>
+<groupnames>Spindle:</groupnames>
+<description>Spindle Speed: Minimum (RPM)</description>
+<specvalues>0 rpm</specvalues>
+</specifications>
+<specifications>
+<id>150</id>
+<invid>31038</invid>
+<specid>92803</specid>
+<description>                       Maximum</description>
+<specvalues>1800 rpm</specvalues>
+</specifications>
+<specifications>
+<id>151</id>
+<invid>31038</invid>
+<specid>92804</specid>
+<description>Spindle Bore</description>
+<specvalues>2.30 &quot;</specvalues>
+</specifications>
+<specifications>
+<id>152</id>
+<invid>31038</invid>
+<specid>92805</specid>
+<description>Main Motor</description>
+<specvalues>10 hp</specvalues>
+</specifications>
+<specifications>
+<id>153</id>
+<invid>31038</invid>
+<specid>92806</specid>
+<description>Spindle Nose</description>
+<specvalues>A2-5 </specvalues>
+</specifications>
+<specifications>
+<id>154</id>
+<invid>31038</invid>
+<specid>92807</specid>
+<groupnames>Turret:</groupnames>
+<description>Number Of Positions</description>
+<specvalues>8 </specvalues>
+</specifications>
+<specifications>
+<id>155</id>
+<invid>31038</invid>
+<specid>92808</specid>
+<description>X-Axis Travel</description>
+<specvalues>8 &quot;</specvalues>
+</specifications>
+<specifications>
+<id>156</id>
+<invid>31038</invid>
+<specid>92809</specid>
+<description>Z-Axis Travel</description>
+<specvalues>30 &quot;</specvalues>
+</specifications>
+<specifications>
+<id>157</id>
+<invid>31039</invid>
+<specid>92817</specid>
+<groupnames>Table:</groupnames>
+<description>Width</description>
+<specvalues>15 &quot;</specvalues>
+</specifications>
+<specifications>
+<id>158</id>
+<invid>31039</invid>
+<specid>92818</specid>
+<description>Length</description>
+<specvalues>34 &quot;</specvalues>
+</specifications>
+<specifications>
+<id>159</id>
+<invid>31039</invid>
+<specid>92819</specid>
+<description>Maximum Table Load</description>
+<specvalues>250 lbs</specvalues>
+</specifications>
+<specifications>
+<id>160</id>
+<invid>31039</invid>
+<specid>92820</specid>
+<groupnames>Travels:</groupnames>
+<description>X-Axis Travel</description>
+<specvalues>28 &quot;</specvalues>
+</specifications>
+<specifications>
+<id>161</id>
+<invid>31039</invid>
+<specid>92821</specid>
+<description>Y-Axis Travel</description>
+<specvalues>16 &quot;</specvalues>
+</specifications>
+<specifications>
+<id>162</id>
+<invid>31039</invid>
+<specid>92822</specid>
+<description>Z-Axis Travel</description>
+<specvalues>15.5 &quot;</specvalues>
+</specifications>
+<specifications>
+<id>163</id>
+<invid>31039</invid>
+<specid>92823</specid>
+<description>Spindle Nose to Table Top Minimum</description>
+<specvalues>10 &quot;</specvalues>
+</specifications>
+<specifications>
+<id>164</id>
+<invid>31039</invid>
+<specid>92824</specid>
+<description>                                           Maximum</description>
+<specvalues>25.5 &quot;</specvalues>
+</specifications>
+<specifications>
+<id>165</id>
+<invid>31039</invid>
+<specid>92825</specid>
+<groupnames>Spindle:</groupnames>
+<description>Spindle Speed: Minimum (RPM)</description>
+<specvalues>0 rpm</specvalues>
+</specifications>
+<specifications>
+<id>166</id>
+<invid>31039</invid>
+<specid>92826</specid>
+<description>                       Maximum</description>
+<specvalues>10000 rpm</specvalues>
+</specifications>
+<specifications>
+<id>167</id>
+<invid>31039</invid>
+<specid>92827</specid>
+<description>Spindle Taper</description>
+<specvalues>BT40 </specvalues>
+</specifications>
+<specifications>
+<id>168</id>
+<invid>31039</invid>
+<specid>92828</specid>
+<description>Main Motor (HP)</description>
+<specvalues>15 hp</specvalues>
+</specifications>
+<specifications>
+<id>169</id>
+<invid>31039</invid>
+<specid>92829</specid>
+<groupnames>Tool Changer:</groupnames>
+<description>Tool Changer Positions</description>
+<specvalues>18+1 atc</specvalues>
+</specifications>
+<specifications>
+<id>170</id>
+<invid>31040</invid>
+<specid>92830</specid>
+<groupnames>Capacity:</groupnames>
+<description>Swing</description>
+<specvalues>18.5 &quot;</specvalues>
+</specifications>
+<specifications>
+<id>171</id>
+<invid>31040</invid>
+<specid>92831</specid>
+<description>Swing Over Cross Slide</description>
+<specvalues>12.6 &quot;</specvalues>
+</specifications>
+<specifications>
+<id>172</id>
+<invid>31040</invid>
+<specid>92832</specid>
+<description>Maximum Machining Diameter</description>
+<specvalues>13.5 &quot;</specvalues>
+</specifications>
+<specifications>
+<id>173</id>
+<invid>31040</invid>
+<specid>92834</specid>
+<groupnames>Spindle:</groupnames>
+<description>Spindle Speed: Minimum (RPM)</description>
+<specvalues>40 rpm</specvalues>
+</specifications>
+<specifications>
+<id>174</id>
+<invid>31040</invid>
+<specid>92835</specid>
+<description>                       Maximum</description>
+<specvalues>4000 rpm</specvalues>
+</specifications>
+<specifications>
+<id>175</id>
+<invid>31040</invid>
+<specid>92836</specid>
+<description>Spindle Bore</description>
+<specvalues>2.44 &quot;</specvalues>
+</specifications>
+<specifications>
+<id>176</id>
+<invid>31040</invid>
+<specid>92837</specid>
+<description>Spindle Nose</description>
+<specvalues>A2-6 </specvalues>
+</specifications>
+<specifications>
+<id>177</id>
+<invid>31040</invid>
+<specid>92838</specid>
+<description>Main Motor (HP)</description>
+<specvalues>15 hp</specvalues>
+</specifications>
+<specifications>
+<id>178</id>
+<invid>31040</invid>
+<specid>92839</specid>
+<groupnames>Turret:</groupnames>
+<description>Number Of Positions</description>
+<specvalues>12 </specvalues>
+</specifications>
+<specifications>
+<id>179</id>
+<invid>31040</invid>
+<specid>92840</specid>
+<description>X-Axis Travel</description>
+<specvalues>6.75 &quot;</specvalues>
+</specifications>
+<specifications>
+<id>180</id>
+<invid>31040</invid>
+<specid>92841</specid>
+<description>Z-Axis Travel</description>
+<specvalues>12.6 &quot;</specvalues>
+</specifications>
+<specifications>
+<id>181</id>
+<invid>31044</invid>
+<specid>92886</specid>
+<groupnames>Capacity:</groupnames>
+<description>Swing</description>
+<specvalues>39.1 &quot;</specvalues>
+</specifications>
+<specifications>
+<id>182</id>
+<invid>31044</invid>
+<specid>92888</specid>
+<description>Maximum Machining Diameter</description>
+<specvalues>35.4 &quot;</specvalues>
+</specifications>
+<specifications>
+<id>183</id>
+<invid>31044</invid>
+<specid>92889</specid>
+<description>Distance Between Centers</description>
+<specvalues>78.7 &quot;</specvalues>
+</specifications>
+<specifications>
+<id>184</id>
+<invid>31044</invid>
+<specid>92890</specid>
+<groupnames>Spindle:</groupnames>
+<description>Spindle Speed: Minimum (RPM)</description>
+<specvalues>0 rpm</specvalues>
+</specifications>
+<specifications>
+<id>185</id>
+<invid>31044</invid>
+<specid>92891</specid>
+<description>                       Maximum</description>
+<specvalues>700 rpm</specvalues>
+</specifications>
+<specifications>
+<id>186</id>
+<invid>31044</invid>
+<specid>92892</specid>
+<description>Spindle Bore</description>
+<specvalues>10.8 &quot;</specvalues>
+</specifications>
+<specifications>
+<id>187</id>
+<invid>31044</invid>
+<specid>92893</specid>
+<description>Main Motor</description>
+<specvalues>60 hp</specvalues>
+</specifications>
+<specifications>
+<id>188</id>
+<invid>31044</invid>
+<specid>92894</specid>
+<description>Spindle Nose</description>
+<specvalues>A2-20 </specvalues>
+</specifications>
+<specifications>
+<id>189</id>
+<invid>31044</invid>
+<specid>92895</specid>
+<groupnames>Turret:</groupnames>
+<description>Number Of Positions</description>
+<specvalues>12 </specvalues>
+</specifications>
+<specifications>
+<id>190</id>
+<invid>31044</invid>
+<specid>92896</specid>
+<description>X-Axis Travel</description>
+<specvalues>19.1 &quot;</specvalues>
+</specifications>
+<specifications>
+<id>191</id>
+<invid>31044</invid>
+<specid>92897</specid>
+<description>Z-Axis Travel</description>
+<specvalues>84.6 &quot;</specvalues>
+</specifications>
+<specifications>
+<id>192</id>
+<invid>31044</invid>
+<specid>92898</specid>
+<groupnames>Tailstock:</groupnames>
+<description>Quill Diameter</description>
+<specvalues>5.9 &quot;</specvalues>
+</specifications>
+<specifications>
+<id>193</id>
+<invid>31044</invid>
+<specid>92901</specid>
+<description>Body Travel</description>
+<specvalues>82.7 &quot;</specvalues>
+</specifications>
+<specifications>
+<id>194</id>
+<invid>31044</invid>
+<specid>92902</specid>
+<groupnames>Chuck:</groupnames>
+<description>Diameter</description>
+<specvalues>32 &quot;</specvalues>
+</specifications>
+<specifications>
+<id>195</id>
+<invid>31044</invid>
+<specid>92903</specid>
+<description>Hole Thru</description>
+<specvalues>10.8 &quot;</specvalues>
+</specifications>
+<specifications>
+<id>196</id>
+<invid>31044</invid>
+<specid>92904</specid>
+<description>Number of Jaws</description>
+<specvalues>4 </specvalues>
+</specifications>
+<specifications>
+<id>197</id>
+<invid>31045</invid>
+<specid>92905</specid>
+<groupnames>Table:</groupnames>
+<description>Width</description>
+<specvalues>18 &quot;</specvalues>
+</specifications>
+<specifications>
+<id>198</id>
+<invid>31045</invid>
+<specid>92906</specid>
+<description>Length</description>
+<specvalues>43 &quot;</specvalues>
+</specifications>
+<specifications>
+<id>199</id>
+<invid>31045</invid>
+<specid>92907</specid>
+<description>Maximum Table Load</description>
+<specvalues>3500 lbs</specvalues>
+</specifications>
+<specifications>
+<id>200</id>
+<invid>31045</invid>
+<specid>92908</specid>
+<groupnames>Travels:</groupnames>
+<description>X-Axis Travel</description>
+<specvalues>40 &quot;</specvalues>
+</specifications>
+<specifications>
+<id>201</id>
+<invid>31045</invid>
+<specid>92909</specid>
+<description>Y-Axis Travel</description>
+<specvalues>20 &quot;</specvalues>
+</specifications>
+<specifications>
+<id>202</id>
+<invid>31045</invid>
+<specid>92910</specid>
+<description>Z-Axis Travel</description>
+<specvalues>25 &quot;</specvalues>
+</specifications>
+<specifications>
+<id>203</id>
+<invid>31045</invid>
+<specid>92911</specid>
+<description>Spindle Nose to Table Top Minimum</description>
+<specvalues>4 &quot;</specvalues>
+</specifications>
+<specifications>
+<id>204</id>
+<invid>31045</invid>
+<specid>92912</specid>
+<description>                                           Maximum</description>
+<specvalues>29 &quot;</specvalues>
+</specifications>
+<specifications>
+<id>205</id>
+<invid>31045</invid>
+<specid>92913</specid>
+<groupnames>Spindle:</groupnames>
+<description>Spindle Speed: Minimum (RPM)</description>
+<specvalues>0 rpm</specvalues>
+</specifications>
+<specifications>
+<id>206</id>
+<invid>31045</invid>
+<specid>92914</specid>
+<description>                       Maximum</description>
+<specvalues>7500 rpm</specvalues>
+</specifications>
+<specifications>
+<id>207</id>
+<invid>31045</invid>
+<specid>92915</specid>
+<description>Spindle Taper</description>
+<specvalues>40 </specvalues>
+</specifications>
+<specifications>
+<id>208</id>
+<invid>31045</invid>
+<specid>92916</specid>
+<description>Main Motor (HP)</description>
+<specvalues>20 hp</specvalues>
+</specifications>
+<specifications>
+<id>209</id>
+<invid>31045</invid>
+<specid>92917</specid>
+<groupnames>Tool Changer:</groupnames>
+<description>Tool Changer Positions</description>
+<specvalues>20 atc</specvalues>
+</specifications>
+<specifications>
+<id>210</id>
+<invid>31051</invid>
+<specid>93015</specid>
+<groupnames>Table:</groupnames>
+<description>Width</description>
+<specvalues>28 &quot;</specvalues>
+</specifications>
+<specifications>
+<id>211</id>
+<invid>31051</invid>
+<specid>93016</specid>
+<description>Length</description>
+<specvalues>120 &quot;</specvalues>
+</specifications>
+<specifications>
+<id>212</id>
+<invid>31051</invid>
+<specid>93017</specid>
+<description>Maximum Table Load</description>
+<specvalues>4000 lbs</specvalues>
+</specifications>
+<specifications>
+<id>213</id>
+<invid>31051</invid>
+<specid>93018</specid>
+<groupnames>Travels:</groupnames>
+<description>X-Axis Travel</description>
+<specvalues>120 &quot;</specvalues>
+</specifications>
+<specifications>
+<id>214</id>
+<invid>31051</invid>
+<specid>93019</specid>
+<description>Y-Axis Travel</description>
+<specvalues>40 &quot;</specvalues>
+</specifications>
+<specifications>
+<id>215</id>
+<invid>31051</invid>
+<specid>93020</specid>
+<description>Z-Axis Travel</description>
+<specvalues>42 &quot;</specvalues>
+</specifications>
+<specifications>
+<id>216</id>
+<invid>31051</invid>
+<specid>93023</specid>
+<groupnames>Spindle:</groupnames>
+<description>Spindle Speed: Minimum (RPM)</description>
+<specvalues>0 rpm</specvalues>
+</specifications>
+<specifications>
+<id>217</id>
+<invid>31051</invid>
+<specid>93024</specid>
+<description>                       Maximum</description>
+<specvalues>20000 rpm</specvalues>
+</specifications>
+<specifications>
+<id>218</id>
+<invid>31051</invid>
+<specid>93025</specid>
+<description>Spindle Taper</description>
+<specvalues>HSK-A63 </specvalues>
+</specifications>
+<specifications>
+<id>219</id>
+<invid>31051</invid>
+<specid>93026</specid>
+<description>Main Motor (HP)</description>
+<specvalues>24 hp</specvalues>
+</specifications>
+<specifications>
+<id>220</id>
+<invid>31051</invid>
+<specid>93027</specid>
+<groupnames>Tool Changer:</groupnames>
+<description>Tool Changer Positions</description>
+<specvalues>50+1 atc</specvalues>
+</specifications>
+<specifications>
+<id>221</id>
+<invid>31054</invid>
+<specid>93066</specid>
+<groupnames>Capacity:</groupnames>
+<description>Swing</description>
+<specvalues>35.5 &quot;</specvalues>
+</specifications>
+<specifications>
+<id>222</id>
+<invid>31054</invid>
+<specid>93067</specid>
+<description>Swing Over Cross Slide</description>
+<specvalues>25.5 &quot;</specvalues>
+</specifications>
+<specifications>
+<id>223</id>
+<invid>31054</invid>
+<specid>93068</specid>
+<description>Maximum Machining Diameter</description>
+<specvalues>25.5 &quot;</specvalues>
+</specifications>
+<specifications>
+<id>224</id>
+<invid>31054</invid>
+<specid>93069</specid>
+<description>Distance Between Centers</description>
+<specvalues>44 &quot;</specvalues>
+</specifications>
+<specifications>
+<id>225</id>
+<invid>31054</invid>
+<specid>93070</specid>
+<groupnames>Spindle:</groupnames>
+<description>Spindle Speed: Minimum (RPM)</description>
+<specvalues>0 rpm</specvalues>
+</specifications>
+<specifications>
+<id>226</id>
+<invid>31054</invid>
+<specid>93071</specid>
+<description>                       Maximum</description>
+<specvalues>2400 rpm</specvalues>
+</specifications>
+<specifications>
+<id>227</id>
+<invid>31054</invid>
+<specid>93072</specid>
+<description>Spindle Bore</description>
+<specvalues>4.62 &quot;</specvalues>
+</specifications>
+<specifications>
+<id>228</id>
+<invid>31054</invid>
+<specid>93073</specid>
+<description>Main Motor</description>
+<specvalues>40 hp</specvalues>
+</specifications>
+<specifications>
+<id>229</id>
+<invid>31054</invid>
+<specid>93074</specid>
+<description>Spindle Nose</description>
+<specvalues>A2-8 </specvalues>
+</specifications>
+<specifications>
+<id>230</id>
+<invid>31054</invid>
+<specid>93075</specid>
+<groupnames>Turret:</groupnames>
+<description>Number Of Positions</description>
+<specvalues>12 </specvalues>
+</specifications>
+<specifications>
+<id>231</id>
+<invid>31054</invid>
+<specid>93076</specid>
+<description>X-Axis Travel</description>
+<specvalues>20 &quot;</specvalues>
+</specifications>
+<specifications>
+<id>232</id>
+<invid>31054</invid>
+<specid>93077</specid>
+<description>Z-Axis Travel</description>
+<specvalues>44 &quot;</specvalues>
+</specifications>
+<specifications>
+<id>233</id>
+<invid>31054</invid>
+<specid>93078</specid>
+<groupnames>Tailstock:</groupnames>
+<description>Quill Diameter</description>
+<specvalues>- &quot;</specvalues>
+</specifications>
+<specifications>
+<id>234</id>
+<invid>31054</invid>
+<specid>93080</specid>
+<description>Taper</description>
+<specvalues>5 MT</specvalues>
+</specifications>
+<specifications>
+<id>235</id>
+<invid>31054</invid>
+<specid>93081</specid>
+<description>Body Travel</description>
+<specvalues>42 &quot;</specvalues>
+</specifications>
+<specifications>
+<id>236</id>
+<invid>31054</invid>
+<specid>93082</specid>
+<groupnames>Chuck:</groupnames>
+<description>Diameter</description>
+<specvalues>15 &quot;</specvalues>
+</specifications>
+<specifications>
+<id>237</id>
+<invid>31054</invid>
+<specid>93083</specid>
+<description>Hole Thru</description>
+<specvalues>4 &quot;</specvalues>
+</specifications>
+<specifications>
+<id>238</id>
+<invid>31054</invid>
+<specid>93084</specid>
+<description>Number of Jaws</description>
+<specvalues>3 </specvalues>
+</specifications>
+<specifications>
+<id>239</id>
+<invid>31055</invid>
+<specid>93085</specid>
+<groupnames>Capacity:</groupnames>
+<description>Swing</description>
+<specvalues>30 &quot;</specvalues>
+</specifications>
+<specifications>
+<id>240</id>
+<invid>31055</invid>
+<specid>93086</specid>
+<description>Swing Over Cross Slide</description>
+<specvalues>14.5 &quot;</specvalues>
+</specifications>
+<specifications>
+<id>241</id>
+<invid>31055</invid>
+<specid>93087</specid>
+<description>Maximum Machining Diameter</description>
+<specvalues>16 &quot;</specvalues>
+</specifications>
+<specifications>
+<id>242</id>
+<invid>31055</invid>
+<specid>93089</specid>
+<groupnames>Spindle:</groupnames>
+<description>Spindle Speed: Minimum (RPM)</description>
+<specvalues>0 rpm</specvalues>
+</specifications>
+<specifications>
+<id>243</id>
+<invid>31055</invid>
+<specid>93090</specid>
+<description>                       Maximum</description>
+<specvalues>2400 rpm</specvalues>
+</specifications>
+<specifications>
+<id>244</id>
+<invid>31055</invid>
+<specid>93091</specid>
+<description>Spindle Bore</description>
+<specvalues>4.62 &quot;</specvalues>
+</specifications>
+<specifications>
+<id>245</id>
+<invid>31055</invid>
+<specid>93092</specid>
+<description>Spindle Nose</description>
+<specvalues>A2-8 </specvalues>
+</specifications>
+<specifications>
+<id>246</id>
+<invid>31055</invid>
+<specid>93093</specid>
+<description>Main Motor (HP)</description>
+<specvalues>40 hp</specvalues>
+</specifications>
+<specifications>
+<id>247</id>
+<invid>31055</invid>
+<specid>93094</specid>
+<groupnames>Turret:</groupnames>
+<description>Number Of Positions</description>
+<specvalues>12 </specvalues>
+</specifications>
+<specifications>
+<id>248</id>
+<invid>31055</invid>
+<specid>93095</specid>
+<description>X-Axis Travel</description>
+<specvalues>11.3 &quot;</specvalues>
+</specifications>
+<specifications>
+<id>249</id>
+<invid>31055</invid>
+<specid>93096</specid>
+<description>Z-Axis Travel</description>
+<specvalues>34 &quot;</specvalues>
+</specifications>
+<specifications>
+<id>250</id>
+<invid>31055</invid>
+<specid>93097</specid>
+<groupnames>Chuck:</groupnames>
+<description>Diameter</description>
+<specvalues>12 &quot;</specvalues>
+</specifications>
+<specifications>
+<id>251</id>
+<invid>31055</invid>
+<specid>93098</specid>
+<description>Hole Thru</description>
+<specvalues>4 &quot;</specvalues>
+</specifications>
+<specifications>
+<id>252</id>
+<invid>31055</invid>
+<specid>93099</specid>
+<description>Number of Jaws</description>
+<specvalues>3 </specvalues>
+</specifications>
+<specifications>
+<id>253</id>
+<invid>31056</invid>
+<specid>93100</specid>
+<groupnames>Capacity:</groupnames>
+<description>Swing</description>
+<specvalues>40 &quot;</specvalues>
+</specifications>
+<specifications>
+<id>254</id>
+<invid>31056</invid>
+<specid>93101</specid>
+<description>Swing Over Cross Slide</description>
+<specvalues>25 &quot;</specvalues>
+</specifications>
+<specifications>
+<id>255</id>
+<invid>31056</invid>
+<specid>93102</specid>
+<description>Maximum Machining Diameter</description>
+<specvalues>25.5 &quot;</specvalues>
+</specifications>
+<specifications>
+<id>256</id>
+<invid>31056</invid>
+<specid>93103</specid>
+<description>Distance Between Centers</description>
+<specvalues>89 &quot;</specvalues>
+</specifications>
+<specifications>
+<id>257</id>
+<invid>31056</invid>
+<specid>93104</specid>
+<groupnames>Spindle:</groupnames>
+<description>Spindle Speed: Minimum (RPM)</description>
+<specvalues>0 rpm</specvalues>
+</specifications>
+<specifications>
+<id>258</id>
+<invid>31056</invid>
+<specid>93105</specid>
+<description>                       Maximum</description>
+<specvalues>1400 rpm</specvalues>
+</specifications>
+<specifications>
+<id>259</id>
+<invid>31056</invid>
+<specid>93106</specid>
+<description>Spindle Bore</description>
+<specvalues>7.08 &quot;</specvalues>
+</specifications>
+<specifications>
+<id>260</id>
+<invid>31056</invid>
+<specid>93107</specid>
+<description>Main Motor</description>
+<specvalues>55 hp</specvalues>
+</specifications>
+<specifications>
+<id>261</id>
+<invid>31056</invid>
+<specid>93108</specid>
+<description>Spindle Nose</description>
+<specvalues>A2-11 </specvalues>
+</specifications>
+<specifications>
+<id>262</id>
+<invid>31056</invid>
+<specid>93109</specid>
+<groupnames>Turret:</groupnames>
+<description>Number Of Positions</description>
+<specvalues>10 </specvalues>
+</specifications>
+<specifications>
+<id>263</id>
+<invid>31056</invid>
+<specid>93110</specid>
+<description>X-Axis Travel</description>
+<specvalues>17 &quot;</specvalues>
+</specifications>
+<specifications>
+<id>264</id>
+<invid>31056</invid>
+<specid>93111</specid>
+<description>Z-Axis Travel</description>
+<specvalues>80 &quot;</specvalues>
+</specifications>
+<specifications>
+<id>265</id>
+<invid>31057</invid>
+<specid>93119</specid>
+<groupnames>Capacity:</groupnames>
+<description>Swing</description>
+<specvalues>34.5 &quot;</specvalues>
+</specifications>
+<specifications>
+<id>266</id>
+<invid>31057</invid>
+<specid>93120</specid>
+<description>Swing Over Cross Slide</description>
+<specvalues>25 &quot;</specvalues>
+</specifications>
+<specifications>
+<id>267</id>
+<invid>31057</invid>
+<specid>93121</specid>
+<description>Maximum Machining Diameter</description>
+<specvalues>25.5 &quot;</specvalues>
+</specifications>
+<specifications>
+<id>268</id>
+<invid>31057</invid>
+<specid>93122</specid>
+<description>Distance Between Centers</description>
+<specvalues>44 &quot;</specvalues>
+</specifications>
+<specifications>
+<id>269</id>
+<invid>31057</invid>
+<specid>93123</specid>
+<groupnames>Spindle:</groupnames>
+<description>Spindle Speed: Minimum (RPM)</description>
+<specvalues>0 rpm</specvalues>
+</specifications>
+<specifications>
+<id>270</id>
+<invid>31057</invid>
+<specid>93124</specid>
+<description>                       Maximum</description>
+<specvalues>2400 rpm</specvalues>
+</specifications>
+<specifications>
+<id>271</id>
+<invid>31057</invid>
+<specid>93125</specid>
+<description>Spindle Bore</description>
+<specvalues>4.62 &quot;</specvalues>
+</specifications>
+<specifications>
+<id>272</id>
+<invid>31057</invid>
+<specid>93126</specid>
+<description>Main Motor</description>
+<specvalues>40 hp</specvalues>
+</specifications>
+<specifications>
+<id>273</id>
+<invid>31057</invid>
+<specid>93127</specid>
+<description>Spindle Nose</description>
+<specvalues>A2-8 </specvalues>
+</specifications>
+<specifications>
+<id>274</id>
+<invid>31057</invid>
+<specid>93128</specid>
+<groupnames>Turret:</groupnames>
+<description>Number Of Positions</description>
+<specvalues>10 </specvalues>
+</specifications>
+<specifications>
+<id>275</id>
+<invid>31057</invid>
+<specid>93129</specid>
+<description>X-Axis Travel</description>
+<specvalues>17 &quot;</specvalues>
+</specifications>
+<specifications>
+<id>276</id>
+<invid>31057</invid>
+<specid>93130</specid>
+<description>Z-Axis Travel</description>
+<specvalues>44 &quot;</specvalues>
+</specifications>
+<specifications>
+<id>277</id>
+<invid>31057</invid>
+<specid>93131</specid>
+<groupnames>Tailstock:</groupnames>
+<description>Quill Diameter</description>
+<specvalues>- &quot;</specvalues>
+</specifications>
+<specifications>
+<id>278</id>
+<invid>31057</invid>
+<specid>93133</specid>
+<description>Taper</description>
+<specvalues>5 MT</specvalues>
+</specifications>
+<specifications>
+<id>279</id>
+<invid>31058</invid>
+<specid>93138</specid>
+<groupnames>Capacity:</groupnames>
+<description>Swing</description>
+<specvalues>34.5 &quot;</specvalues>
+</specifications>
+<specifications>
+<id>280</id>
+<invid>31058</invid>
+<specid>93139</specid>
+<description>Swing Over Cross Slide</description>
+<specvalues>35.5 &quot;</specvalues>
+</specifications>
+<specifications>
+<id>281</id>
+<invid>31058</invid>
+<specid>93142</specid>
+<groupnames>Spindle:</groupnames>
+<description>Spindle Speed: Minimum (RPM)</description>
+<specvalues>0 rpm</specvalues>
+</specifications>
+<specifications>
+<id>282</id>
+<invid>31058</invid>
+<specid>93143</specid>
+<description>                       Maximum</description>
+<specvalues>1400 rpm</specvalues>
+</specifications>
+<specifications>
+<id>283</id>
+<invid>31058</invid>
+<specid>93144</specid>
+<description>Spindle Bore</description>
+<specvalues>7 &quot;</specvalues>
+</specifications>
+<specifications>
+<id>284</id>
+<invid>31058</invid>
+<specid>93145</specid>
+<description>Spindle Nose</description>
+<specvalues>A2-11 </specvalues>
+</specifications>
+<specifications>
+<id>285</id>
+<invid>31058</invid>
+<specid>93146</specid>
+<description>Main Motor (HP)</description>
+<specvalues>40 hp</specvalues>
+</specifications>
+<specifications>
+<id>286</id>
+<invid>31058</invid>
+<specid>93147</specid>
+<groupnames>Turret:</groupnames>
+<description>Number Of Positions</description>
+<specvalues>12 </specvalues>
+</specifications>
+<specifications>
+<id>287</id>
+<invid>31058</invid>
+<specid>93150</specid>
+<groupnames>Chuck:</groupnames>
+<description>Diameter</description>
+<specvalues>18 &quot;</specvalues>
+</specifications>
+<specifications>
+<id>288</id>
+<invid>31058</invid>
+<specid>93151</specid>
+<description>Hole Thru</description>
+<specvalues>6.5 &quot;</specvalues>
+</specifications>
+<specifications>
+<id>289</id>
+<invid>31058</invid>
+<specid>93152</specid>
+<description>Number of Jaws</description>
+<specvalues>3 </specvalues>
+</specifications>
+<specifications>
+<id>290</id>
+<invid>31059</invid>
+<specid>93153</specid>
+<groupnames>Capacity:</groupnames>
+<description>Swing</description>
+<specvalues>34.5 &quot;</specvalues>
+</specifications>
+<specifications>
+<id>291</id>
+<invid>31059</invid>
+<specid>93154</specid>
+<description>Swing Over Cross Slide</description>
+<specvalues>25.5 &quot;</specvalues>
+</specifications>
+<specifications>
+<id>292</id>
+<invid>31059</invid>
+<specid>93156</specid>
+<description>Distance Between Centers</description>
+<specvalues>44 &quot;</specvalues>
+</specifications>
+<specifications>
+<id>293</id>
+<invid>31059</invid>
+<specid>93157</specid>
+<groupnames>Spindle:</groupnames>
+<description>Spindle Speed: Minimum (RPM)</description>
+<specvalues>0 rpm</specvalues>
+</specifications>
+<specifications>
+<id>294</id>
+<invid>31059</invid>
+<specid>93158</specid>
+<description>                       Maximum</description>
+<specvalues>1400 rpm</specvalues>
+</specifications>
+<specifications>
+<id>295</id>
+<invid>31059</invid>
+<specid>93159</specid>
+<description>Spindle Bore</description>
+<specvalues>7 &quot;</specvalues>
+</specifications>
+<specifications>
+<id>296</id>
+<invid>31059</invid>
+<specid>93160</specid>
+<description>Main Motor</description>
+<specvalues>55 hp</specvalues>
+</specifications>
+<specifications>
+<id>297</id>
+<invid>31059</invid>
+<specid>93161</specid>
+<description>Spindle Nose</description>
+<specvalues>A2-11 </specvalues>
+</specifications>
+<specifications>
+<id>298</id>
+<invid>31059</invid>
+<specid>93162</specid>
+<groupnames>Turret:</groupnames>
+<description>Number Of Positions</description>
+<specvalues>12 </specvalues>
+</specifications>
+<specifications>
+<id>299</id>
+<invid>31059</invid>
+<specid>93169</specid>
+<groupnames>Chuck:</groupnames>
+<description>Diameter</description>
+<specvalues>18 &quot;</specvalues>
+</specifications>
+<specifications>
+<id>300</id>
+<invid>31059</invid>
+<specid>93170</specid>
+<description>Hole Thru</description>
+<specvalues>6.5 &quot;</specvalues>
+</specifications>
+<specifications>
+<id>301</id>
+<invid>31059</invid>
+<specid>93171</specid>
+<description>Number of Jaws</description>
+<specvalues>3 </specvalues>
+</specifications>
+<specifications>
+<id>302</id>
+<invid>31060</invid>
+<specid>93172</specid>
+<groupnames>Table/Pallet:</groupnames>
+<description>Width</description>
+<specvalues>15.7 &quot;</specvalues>
+</specifications>
+<specifications>
+<id>303</id>
+<invid>31060</invid>
+<specid>93173</specid>
+<description>Length</description>
+<specvalues>15.7 &quot;</specvalues>
+</specifications>
+<specifications>
+<id>304</id>
+<invid>31060</invid>
+<specid>93174</specid>
+<description>Number of Table/Pallet(s)</description>
+<specvalues>2 </specvalues>
+</specifications>
+<specifications>
+<id>305</id>
+<invid>31060</invid>
+<specid>93175</specid>
+<description>Indexing</description>
+<specvalues>360,000 °</specvalues>
+</specifications>
+<specifications>
+<id>306</id>
+<invid>31060</invid>
+<specid>93176</specid>
+<description>Maximum Load</description>
+<specvalues>880 lbs</specvalues>
+</specifications>
+<specifications>
+<id>307</id>
+<invid>31060</invid>
+<specid>93177</specid>
+<groupnames>Travels:</groupnames>
+<description>X-Axis Travel</description>
+<specvalues>22.05 &quot;</specvalues>
+</specifications>
+<specifications>
+<id>308</id>
+<invid>31060</invid>
+<specid>93178</specid>
+<description>Y-Axis Travel</description>
+<specvalues>25.2 &quot;</specvalues>
+</specifications>
+<specifications>
+<id>309</id>
+<invid>31060</invid>
+<specid>93179</specid>
+<description>Z-Axis Travel</description>
+<specvalues>25.2 &quot;</specvalues>
+</specifications>
+<specifications>
+<id>310</id>
+<invid>31060</invid>
+<specid>93180</specid>
+<groupnames>Spindle:</groupnames>
+<description>Spindle Speed: Minimum (RPM)</description>
+<specvalues>0 rpm</specvalues>
+</specifications>
+<specifications>
+<id>311</id>
+<invid>31060</invid>
+<specid>93181</specid>
+<description>                       Maximum</description>
+<specvalues>18000 rpm</specvalues>
+</specifications>
+<specifications>
+<id>312</id>
+<invid>31060</invid>
+<specid>93182</specid>
+<description>Spindle Taper</description>
+<specvalues>CAT 40 </specvalues>
+</specifications>
+<specifications>
+<id>313</id>
+<invid>31060</invid>
+<specid>93183</specid>
+<description>Main Motor (HP)</description>
+<specvalues>30 hp</specvalues>
+</specifications>
+<specifications>
+<id>314</id>
+<invid>31060</invid>
+<specid>93184</specid>
+<groupnames>Tool Changer:</groupnames>
+<description>Tool Changer Positions</description>
+<specvalues>60 atc</specvalues>
+</specifications>
+<specifications>
+<id>315</id>
+<invid>31061</invid>
+<specid>93185</specid>
+<groupnames>Capacity:</groupnames>
+<description>Swing</description>
+<specvalues>41.7 &quot;</specvalues>
+</specifications>
+<specifications>
+<id>316</id>
+<invid>31061</invid>
+<specid>93186</specid>
+<description>Swing in Gap</description>
+<specvalues>48.1 &quot;</specvalues>
+</specifications>
+<specifications>
+<id>317</id>
+<invid>31061</invid>
+<specid>93187</specid>
+<description>Length of Gap</description>
+<specvalues>22.4 &quot;</specvalues>
+</specifications>
+<specifications>
+<id>318</id>
+<invid>31061</invid>
+<specid>93188</specid>
+<description>Swing Over Cross Slide/carriage</description>
+<specvalues>29.5 &quot;</specvalues>
+</specifications>
+<specifications>
+<id>319</id>
+<invid>31061</invid>
+<specid>93189</specid>
+<description>Distance Between Centers</description>
+<specvalues>120 &quot;</specvalues>
+</specifications>
+<specifications>
+<id>320</id>
+<invid>31061</invid>
+<specid>93190</specid>
+<groupnames>Spindle:</groupnames>
+<description>Spindle Speed: Minimum (RPM)</description>
+<specvalues>4 rpm</specvalues>
+</specifications>
+<specifications>
+<id>321</id>
+<invid>31061</invid>
+<specid>93191</specid>
+<description>                       Maximum</description>
+<specvalues>300 rpm</specvalues>
+</specifications>
+<specifications>
+<id>322</id>
+<invid>31061</invid>
+<specid>93192</specid>
+<description>Spindle Bore</description>
+<specvalues>12.2 &quot;</specvalues>
+</specifications>
+<specifications>
+<id>323</id>
+<invid>31061</invid>
+<specid>93193</specid>
+<description>Spindle Nose</description>
+<specvalues>A2-20 </specvalues>
+</specifications>
+<specifications>
+<id>324</id>
+<invid>31061</invid>
+<specid>93194</specid>
+<description>Main Motor (HP)</description>
+<specvalues>30 hp</specvalues>
+</specifications>
+<specifications>
+<id>325</id>
+<invid>31061</invid>
+<specid>93198</specid>
+<groupnames>Attachments:</groupnames>
+<description>Threading</description>
+<specvalues>yes, auto </specvalues>
+</specifications>
+<specifications>
+<id>326</id>
+<invid>31061</invid>
+<specid>93199</specid>
+<description>Taper Attachment</description>
+<specvalues>yes </specvalues>
+</specifications>
+<specifications>
+<id>327</id>
+<invid>31062</invid>
+<specid>93203</specid>
+<groupnames>Table:</groupnames>
+<description>Width</description>
+<specvalues>53 &quot;</specvalues>
+</specifications>
+<specifications>
+<id>328</id>
+<invid>31062</invid>
+<specid>93204</specid>
+<description>Length</description>
+<specvalues>122 &quot;</specvalues>
+</specifications>
+<specifications>
+<id>329</id>
+<invid>31062</invid>
+<specid>93205</specid>
+<groupnames>Travels:</groupnames>
+<description>X-Axis</description>
+<specvalues>121 &quot;</specvalues>
+</specifications>
+<specifications>
+<id>330</id>
+<invid>31062</invid>
+<specid>93206</specid>
+<description>Y-Axis</description>
+<specvalues>61 &quot;</specvalues>
+</specifications>
+<specifications>
+<id>331</id>
+<invid>31062</invid>
+<specid>93207</specid>
+<description>Z-Axis</description>
+<specvalues>11 &quot;</specvalues>
+</specifications>
+<specifications>
+<id>332</id>
+<invid>31062</invid>
+<specid>93208</specid>
+<groupnames>Spindle:</groupnames>
+<description>Speeds Minimum:</description>
+<specvalues>0 rpm</specvalues>
+</specifications>
+<specifications>
+<id>333</id>
+<invid>31062</invid>
+<specid>93209</specid>
+<description>            Maximum:</description>
+<specvalues>8100 rpm</specvalues>
+</specifications>
+<specifications>
+<id>334</id>
+<invid>31062</invid>
+<specid>93210</specid>
+<description>Taper</description>
+<specvalues>40 </specvalues>
+</specifications>
+<specifications>
+<id>335</id>
+<invid>31062</invid>
+<specid>93211</specid>
+<description>Main Motor</description>
+<specvalues>15 hp</specvalues>
+</specifications>
+<specifications>
+<id>336</id>
+<invid>31062</invid>
+<specid>93212</specid>
+<groupnames>Tool Changer:</groupnames>
+<description>Number of Positions</description>
+<specvalues>10 atc</specvalues>
+</specifications>
+<specifications>
+<id>337</id>
+<invid>31063</invid>
+<specid>93213</specid>
+<groupnames>Table:</groupnames>
+<description>Width</description>
+<specvalues>10 &quot;</specvalues>
+</specifications>
+<specifications>
+<id>338</id>
+<invid>31063</invid>
+<specid>93214</specid>
+<description>Length</description>
+<specvalues>47.8 &quot;</specvalues>
+</specifications>
+<specifications>
+<id>339</id>
+<invid>31063</invid>
+<specid>93215</specid>
+<description>Maximum Table Load</description>
+<specvalues>350 lbs</specvalues>
+</specifications>
+<specifications>
+<id>340</id>
+<invid>31063</invid>
+<specid>93216</specid>
+<groupnames>Travels:</groupnames>
+<description>X-Axis Travel</description>
+<specvalues>30 &quot;</specvalues>
+</specifications>
+<specifications>
+<id>341</id>
+<invid>31063</invid>
+<specid>93217</specid>
+<description>Y-Axis Travel</description>
+<specvalues>16 &quot;</specvalues>
+</specifications>
+<specifications>
+<id>342</id>
+<invid>31063</invid>
+<specid>93218</specid>
+<description>Z-Axis Travel</description>
+<specvalues>16 &quot;</specvalues>
+</specifications>
+<specifications>
+<id>343</id>
+<invid>31063</invid>
+<specid>93219</specid>
+<description>Spindle Nose to Table Top Minimum</description>
+<specvalues>4 &quot;</specvalues>
+</specifications>
+<specifications>
+<id>344</id>
+<invid>31063</invid>
+<specid>93220</specid>
+<description>                                           Maximum</description>
+<specvalues>20 &quot;</specvalues>
+</specifications>
+<specifications>
+<id>345</id>
+<invid>31063</invid>
+<specid>93221</specid>
+<groupnames>Spindle:</groupnames>
+<description>Spindle Speed: Minimum (RPM)</description>
+<specvalues>0 rpm</specvalues>
+</specifications>
+<specifications>
+<id>346</id>
+<invid>31063</invid>
+<specid>93222</specid>
+<description>                       Maximum</description>
+<specvalues>6000 rpm</specvalues>
+</specifications>
+<specifications>
+<id>347</id>
+<invid>31063</invid>
+<specid>93223</specid>
+<description>Spindle Taper</description>
+<specvalues>40 </specvalues>
+</specifications>
+<specifications>
+<id>348</id>
+<invid>31063</invid>
+<specid>93224</specid>
+<description>Main Motor (HP)</description>
+<specvalues>7.5 hp</specvalues>
+</specifications>
+<specifications>
+<id>349</id>
+<invid>31063</invid>
+<specid>93225</specid>
+<groupnames>Tool Changer:</groupnames>
+<description>Tool Changer Positions</description>
+<specvalues>10 atc</specvalues>
+</specifications>
+<specifications>
+<id>350</id>
+<invid>31064</invid>
+<specid>93226</specid>
+<groupnames>Table:</groupnames>
+<description>Width</description>
+<specvalues>14 &quot;</specvalues>
+</specifications>
+<specifications>
+<id>351</id>
+<invid>31064</invid>
+<specid>93227</specid>
+<description>Length</description>
+<specvalues>36 &quot;</specvalues>
+</specifications>
+<specifications>
+<id>352</id>
+<invid>31064</invid>
+<specid>93228</specid>
+<description>Maximum Table Load</description>
+<specvalues>1500 lbs</specvalues>
+</specifications>
+<specifications>
+<id>353</id>
+<invid>31064</invid>
+<specid>93229</specid>
+<groupnames>Travels:</groupnames>
+<description>X-Axis Travel</description>
+<specvalues>30 &quot;</specvalues>
+</specifications>
+<specifications>
+<id>354</id>
+<invid>31064</invid>
+<specid>93230</specid>
+<description>Y-Axis Travel</description>
+<specvalues>16 &quot;</specvalues>
+</specifications>
+<specifications>
+<id>355</id>
+<invid>31064</invid>
+<specid>93231</specid>
+<description>Z-Axis Travel</description>
+<specvalues>20 &quot;</specvalues>
+</specifications>
+<specifications>
+<id>356</id>
+<invid>31064</invid>
+<specid>93232</specid>
+<description>Spindle Nose to Table Top Minimum</description>
+<specvalues>4 &quot;</specvalues>
+</specifications>
+<specifications>
+<id>357</id>
+<invid>31064</invid>
+<specid>93233</specid>
+<description>                                           Maximum</description>
+<specvalues>24 &quot;</specvalues>
+</specifications>
+<specifications>
+<id>358</id>
+<invid>31064</invid>
+<specid>93234</specid>
+<groupnames>Spindle:</groupnames>
+<description>Spindle Speed: Minimum (RPM)</description>
+<specvalues>0 rpm</specvalues>
+</specifications>
+<specifications>
+<id>359</id>
+<invid>31064</invid>
+<specid>93235</specid>
+<description>                       Maximum</description>
+<specvalues>12000 rpm</specvalues>
+</specifications>
+<specifications>
+<id>360</id>
+<invid>31064</invid>
+<specid>93236</specid>
+<description>Spindle Taper</description>
+<specvalues>40 </specvalues>
+</specifications>
+<specifications>
+<id>361</id>
+<invid>31064</invid>
+<specid>93237</specid>
+<description>Main Motor (HP)</description>
+<specvalues>30 hp</specvalues>
+</specifications>
+<specifications>
+<id>362</id>
+<invid>31064</invid>
+<specid>93238</specid>
+<groupnames>Tool Changer:</groupnames>
+<description>Tool Changer Positions</description>
+<specvalues>30+1 atc</specvalues>
+</specifications>
+<specifications>
+<id>363</id>
+<invid>31066</invid>
+<specid>93258</specid>
+<groupnames>Table:</groupnames>
+<description>Width</description>
+<specvalues>19.7 &quot;</specvalues>
+</specifications>
+<specifications>
+<id>364</id>
+<invid>31066</invid>
+<specid>93259</specid>
+<description>Length</description>
+<specvalues>47.2 &quot;</specvalues>
+</specifications>
+<specifications>
+<id>365</id>
+<invid>31066</invid>
+<specid>93260</specid>
+<description>Maximum Table Load</description>
+<specvalues>1763 lbs</specvalues>
+</specifications>
+<specifications>
+<id>366</id>
+<invid>31066</invid>
+<specid>93261</specid>
+<groupnames>Travels:</groupnames>
+<description>X-Axis Travel</description>
+<specvalues>41.7 &quot;</specvalues>
+</specifications>
+<specifications>
+<id>367</id>
+<invid>31066</invid>
+<specid>93262</specid>
+<description>Y-Axis Travel</description>
+<specvalues>20.1 &quot;</specvalues>
+</specifications>
+<specifications>
+<id>368</id>
+<invid>31066</invid>
+<specid>93263</specid>
+<description>Z-Axis Travel</description>
+<specvalues>25 &quot;</specvalues>
+</specifications>
+<specifications>
+<id>369</id>
+<invid>31066</invid>
+<specid>93266</specid>
+<groupnames>Spindle:</groupnames>
+<description>Spindle Speed: Minimum (RPM)</description>
+<specvalues>0 rpm</specvalues>
+</specifications>
+<specifications>
+<id>370</id>
+<invid>31066</invid>
+<specid>93267</specid>
+<description>                       Maximum</description>
+<specvalues>8000 rpm</specvalues>
+</specifications>
+<specifications>
+<id>371</id>
+<invid>31066</invid>
+<specid>93268</specid>
+<description>Spindle Taper</description>
+<specvalues>40 </specvalues>
+</specifications>
+<specifications>
+<id>372</id>
+<invid>31066</invid>
+<specid>93269</specid>
+<description>Main Motor (HP)</description>
+<specvalues>20/15 hp</specvalues>
+</specifications>
+<specifications>
+<id>373</id>
+<invid>31066</invid>
+<specid>93270</specid>
+<groupnames>Tool Changer:</groupnames>
+<description>Tool Changer Positions</description>
+<specvalues>24 atc</specvalues>
+</specifications>
+<specifications>
+<id>374</id>
+<invid>31067</invid>
+<specid>93271</specid>
+<groupnames>Table:</groupnames>
+<description>Width</description>
+<specvalues>10.5 &quot;</specvalues>
+</specifications>
+<specifications>
+<id>375</id>
+<invid>31067</invid>
+<specid>93272</specid>
+<description>Length</description>
+<specvalues>47.75 &quot;</specvalues>
+</specifications>
+<specifications>
+<id>376</id>
+<invid>31067</invid>
+<specid>93273</specid>
+<description>Maximum Table Load</description>
+<specvalues>1000 lbs</specvalues>
+</specifications>
+<specifications>
+<id>377</id>
+<invid>31067</invid>
+<specid>93274</specid>
+<groupnames>Travels:</groupnames>
+<description>X-Axis Travel</description>
+<specvalues>30 &quot;</specvalues>
+</specifications>
+<specifications>
+<id>378</id>
+<invid>31067</invid>
+<specid>93275</specid>
+<description>Y-Axis Travel</description>
+<specvalues>12 &quot;</specvalues>
+</specifications>
+<specifications>
+<id>379</id>
+<invid>31067</invid>
+<specid>93276</specid>
+<description>Z-Axis Travel</description>
+<specvalues>16 &quot;</specvalues>
+</specifications>
+<specifications>
+<id>380</id>
+<invid>31067</invid>
+<specid>93279</specid>
+<groupnames>Spindle:</groupnames>
+<description>Spindle Speed: Minimum (RPM)</description>
+<specvalues>0 rpm</specvalues>
+</specifications>
+<specifications>
+<id>381</id>
+<invid>31067</invid>
+<specid>93280</specid>
+<description>                       Maximum</description>
+<specvalues>6000 rpm</specvalues>
+</specifications>
+<specifications>
+<id>382</id>
+<invid>31067</invid>
+<specid>93281</specid>
+<description>Spindle Taper</description>
+<specvalues>40 </specvalues>
+</specifications>
+<specifications>
+<id>383</id>
+<invid>31067</invid>
+<specid>93282</specid>
+<description>Main Motor (HP)</description>
+<specvalues>7.5 hp</specvalues>
+</specifications>
+<specifications>
+<id>384</id>
+<invid>31067</invid>
+<specid>93283</specid>
+<groupnames>Tool Changer:</groupnames>
+<description>Tool Changer Positions</description>
+<specvalues>10 atc</specvalues>
+</specifications>
+<specifications>
+<id>385</id>
+<invid>31068</invid>
+<specid>93284</specid>
+<groupnames>Capacity:</groupnames>
+<description>Swing</description>
+<specvalues>29.5 &quot;</specvalues>
+</specifications>
+<specifications>
+<id>386</id>
+<invid>31068</invid>
+<specid>93286</specid>
+<description>Maximum Machining Diameter</description>
+<specvalues>9.84 &quot;</specvalues>
+</specifications>
+<specifications>
+<id>387</id>
+<invid>31068</invid>
+<specid>93287</specid>
+<description>Maximum Machining Length</description>
+<specvalues>40.2 &quot;</specvalues>
+</specifications>
+<specifications>
+<id>388</id>
+<invid>31068</invid>
+<specid>93288</specid>
+<groupnames>Main Spindle:</groupnames>
+<description>Spindle Speed: Minimum (RPM)</description>
+<specvalues>0 rpm</specvalues>
+</specifications>
+<specifications>
+<id>389</id>
+<invid>31068</invid>
+<specid>93289</specid>
+<description>                       Maximum</description>
+<specvalues>5000 rpm</specvalues>
+</specifications>
+<specifications>
+<id>390</id>
+<invid>31068</invid>
+<specid>93290</specid>
+<description>Spindle Bore</description>
+<specvalues>2.99 &quot;</specvalues>
+</specifications>
+<specifications>
+<id>391</id>
+<invid>31068</invid>
+<specid>93291</specid>
+<description>Spindle Nose</description>
+<specvalues>A2-8 </specvalues>
+</specifications>
+<specifications>
+<id>392</id>
+<invid>31068</invid>
+<specid>93292</specid>
+<description>Main Motor (HP)</description>
+<specvalues>35 hp</specvalues>
+</specifications>
+<specifications>
+<id>393</id>
+<invid>31068</invid>
+<specid>93293</specid>
+<groupnames>Sub-Spindle:</groupnames>
+<description>Maximum Spindle Speed</description>
+<specvalues>5000 rpm</specvalues>
+</specifications>
+<specifications>
+<id>394</id>
+<invid>31068</invid>
+<specid>93296</specid>
+<groupnames>Tool Changer:</groupnames>
+<description>Number Of Positions</description>
+<specvalues>40 ATC </specvalues>
+</specifications>
+<specifications>
+<id>395</id>
+<invid>31068</invid>
+<specid>93297</specid>
+<description>X-Axis Travel</description>
+<specvalues>21.9 &quot;</specvalues>
+</specifications>
+<specifications>
+<id>396</id>
+<invid>31068</invid>
+<specid>93298</specid>
+<description>Y-Axis Travel</description>
+<specvalues>6.3 &quot;</specvalues>
+</specifications>
+<specifications>
+<id>397</id>
+<invid>31068</invid>
+<specid>93299</specid>
+<description>Z-Axis Travel</description>
+<specvalues>43.1 &quot;</specvalues>
+</specifications>
+<specifications>
+<id>398</id>
+<invid>31068</invid>
+<specid>93300</specid>
+<groupnames>Live Tooling:</groupnames>
+<description>Maximum Speed</description>
+<specvalues>10000 rpm</specvalues>
+</specifications>
+<specifications>
+<id>399</id>
+<invid>31068</invid>
+<specid>93302</specid>
+<description>C-Axis Indexing: Main Spindle</description>
+<specvalues>0.001 °</specvalues>
+</specifications>
+<specifications>
+<id>400</id>
+<invid>31068</invid>
+<specid>93304</specid>
+<groupnames>Main Chuck:</groupnames>
+<description>Diameter</description>
+<specvalues>10 &quot;</specvalues>
+</specifications>
+<specifications>
+<id>401</id>
+<invid>31068</invid>
+<specid>93305</specid>
+<description>Hole Thru</description>
+<specvalues>2.6 &quot;</specvalues>
+</specifications>
+<specifications>
+<id>402</id>
+<invid>31068</invid>
+<specid>93306</specid>
+<description>Number of Jaws</description>
+<specvalues>3 </specvalues>
+</specifications>
+<specifications>
+<id>403</id>
+<invid>31068</invid>
+<specid>93307</specid>
+<groupnames>Sub Chuck:</groupnames>
+<description>Diameter</description>
+<specvalues>8 &quot;</specvalues>
+</specifications>
+<specifications>
+<id>404</id>
+<invid>31071</invid>
+<specid>93336</specid>
+<groupnames>Table:</groupnames>
+<description>Width</description>
+<specvalues>24 &quot;</specvalues>
+</specifications>
+<specifications>
+<id>405</id>
+<invid>31071</invid>
+<specid>93337</specid>
+<description>Length</description>
+<specvalues>50 &quot;</specvalues>
+</specifications>
+<specifications>
+<id>406</id>
+<invid>31071</invid>
+<specid>93338</specid>
+<description>Maximum Table Load</description>
+<specvalues>3000 lbs</specvalues>
+</specifications>
+<specifications>
+<id>407</id>
+<invid>31071</invid>
+<specid>93339</specid>
+<groupnames>Travels:</groupnames>
+<description>X-Axis Travel</description>
+<specvalues>42 &quot;</specvalues>
+</specifications>
+<specifications>
+<id>408</id>
+<invid>31071</invid>
+<specid>93340</specid>
+<description>Y-Axis Travel</description>
+<specvalues>24 &quot;</specvalues>
+</specifications>
+<specifications>
+<id>409</id>
+<invid>31071</invid>
+<specid>93341</specid>
+<description>Z-Axis Travel</description>
+<specvalues>24 &quot;</specvalues>
+</specifications>
+<specifications>
+<id>410</id>
+<invid>31071</invid>
+<specid>93342</specid>
+<description>Spindle Nose to Table Top Minimum</description>
+<specvalues>6 &quot;</specvalues>
+</specifications>
+<specifications>
+<id>411</id>
+<invid>31071</invid>
+<specid>93343</specid>
+<description>                                           Maximum</description>
+<specvalues>30 &quot;</specvalues>
+</specifications>
+<specifications>
+<id>412</id>
+<invid>31071</invid>
+<specid>93344</specid>
+<groupnames>Spindle:</groupnames>
+<description>Spindle Speed: Minimum (RPM)</description>
+<specvalues>0 rpm</specvalues>
+</specifications>
+<specifications>
+<id>413</id>
+<invid>31071</invid>
+<specid>93345</specid>
+<description>                       Maximum</description>
+<specvalues>10000 rpm</specvalues>
+</specifications>
+<specifications>
+<id>414</id>
+<invid>31071</invid>
+<specid>93346</specid>
+<description>Spindle Taper</description>
+<specvalues>40 </specvalues>
+</specifications>
+<specifications>
+<id>415</id>
+<invid>31071</invid>
+<specid>93347</specid>
+<description>Main Motor (HP)</description>
+<specvalues>24 hp</specvalues>
+</specifications>
+<specifications>
+<id>416</id>
+<invid>31071</invid>
+<specid>93348</specid>
+<groupnames>Tool Changer:</groupnames>
+<description>Tool Changer Positions</description>
+<specvalues>24 atc</specvalues>
+</specifications>
+<specifications>
+<id>417</id>
+<invid>31072</invid>
+<specid>93349</specid>
+<groupnames>Capacity:</groupnames>
+<description>Swing</description>
+<specvalues>30 &quot;</specvalues>
+</specifications>
+<specifications>
+<id>418</id>
+<invid>31072</invid>
+<specid>93350</specid>
+<description>Swing Over Cross Slide</description>
+<specvalues>20.5 &quot;</specvalues>
+</specifications>
+<specifications>
+<id>419</id>
+<invid>31072</invid>
+<specid>93352</specid>
+<description>Distance Between Centers</description>
+<specvalues>120 &quot;</specvalues>
+</specifications>
+<specifications>
+<id>420</id>
+<invid>31072</invid>
+<specid>93353</specid>
+<groupnames>Spindle:</groupnames>
+<description>Spindle Speed: Minimum (RPM)</description>
+<specvalues>5 rpm</specvalues>
+</specifications>
+<specifications>
+<id>421</id>
+<invid>31072</invid>
+<specid>93354</specid>
+<description>                       Maximum</description>
+<specvalues>300 rpm</specvalues>
+</specifications>
+<specifications>
+<id>422</id>
+<invid>31072</invid>
+<specid>93355</specid>
+<description>Spindle Bore</description>
+<specvalues>12.5 &quot;</specvalues>
+</specifications>
+<specifications>
+<id>423</id>
+<invid>31072</invid>
+<specid>93356</specid>
+<description>Main Motor</description>
+<specvalues>20 hp</specvalues>
+</specifications>
+<specifications>
+<id>424</id>
+<invid>31072</invid>
+<specid>93358</specid>
+<groupnames>Turret:</groupnames>
+<description>Number Of Positions</description>
+<specvalues>8 </specvalues>
+</specifications>
+<specifications>
+<id>425</id>
+<invid>31072</invid>
+<specid>93361</specid>
+<groupnames>Tailstock:</groupnames>
+<description>Quill Diameter</description>
+<specvalues>5.125 &quot;</specvalues>
+</specifications>
+<specifications>
+<id>426</id>
+<invid>31072</invid>
+<specid>93362</specid>
+<description>Quill Travel</description>
+<specvalues>11.75 &quot;</specvalues>
+</specifications>
+<specifications>
+<id>427</id>
+<invid>31072</invid>
+<specid>93363</specid>
+<description>Taper</description>
+<specvalues>6 MT</specvalues>
+</specifications>
+<specifications>
+<id>428</id>
+<invid>31073</invid>
+<specid>93368</specid>
+<groupnames>Capacity:</groupnames>
+<description>Swing</description>
+<specvalues>33.86 &quot;</specvalues>
+</specifications>
+<specifications>
+<id>429</id>
+<invid>31073</invid>
+<specid>93369</specid>
+<description>Swing Over Cross Slide</description>
+<specvalues>27.5 &quot;</specvalues>
+</specifications>
+<specifications>
+<id>430</id>
+<invid>31073</invid>
+<specid>93370</specid>
+<description>Maximum Machining Diameter</description>
+<specvalues>31.89 &quot;</specvalues>
+</specifications>
+<specifications>
+<id>431</id>
+<invid>31073</invid>
+<specid>93371</specid>
+<description>Distance Between Centers</description>
+<specvalues>120 &quot;</specvalues>
+</specifications>
+<specifications>
+<id>432</id>
+<invid>31073</invid>
+<specid>93372</specid>
+<groupnames>Spindle:</groupnames>
+<description>Spindle Speed: Minimum (RPM)</description>
+<specvalues>0 rpm</specvalues>
+</specifications>
+<specifications>
+<id>433</id>
+<invid>31073</invid>
+<specid>93373</specid>
+<description>                       Maximum</description>
+<specvalues>1000 </specvalues>
+</specifications>
+<specifications>
+<id>434</id>
+<invid>31073</invid>
+<specid>93374</specid>
+<description>Spindle Bore</description>
+<specvalues>10.8 &quot;</specvalues>
+</specifications>
+<specifications>
+<id>435</id>
+<invid>31073</invid>
+<specid>93375</specid>
+<description>Main Motor</description>
+<specvalues>50 hp</specvalues>
+</specifications>
+<specifications>
+<id>436</id>
+<invid>31073</invid>
+<specid>93376</specid>
+<description>Spindle Nose</description>
+<specvalues>A2-20 </specvalues>
+</specifications>
+<specifications>
+<id>437</id>
+<invid>31073</invid>
+<specid>93377</specid>
+<groupnames>Turret:</groupnames>
+<description>Number Of positions (Upper + Lower)</description>
+<specvalues>12 / 8 </specvalues>
+</specifications>
+<specifications>
+<id>438</id>
+<invid>31073</invid>
+<specid>93378</specid>
+<description>X-Axis Travel (Upper/Lower)</description>
+<specvalues>21.26&quot; / 9.06 </specvalues>
+</specifications>
+<specifications>
+<id>439</id>
+<invid>31073</invid>
+<specid>93379</specid>
+<description>Z-Axis Travel (Upper/Lower)</description>
+<specvalues>123.2&quot; / 100.4&quot; </specvalues>
+</specifications>
+<specifications>
+<id>440</id>
+<invid>31073</invid>
+<specid>93386</specid>
+<groupnames>C-Axis:</groupnames>
+<description>Spindle Indexing</description>
+<specvalues>0.001 Degrees</specvalues>
+</specifications>
+<specifications>
+<id>441</id>
+<invid>30621</invid>
+<specid>83645</specid>
+<groupnames>Additional Specs:</groupnames>
+<description>Distance Between Columns</description>
+<specvalues>62.5&quot;</specvalues>
+</specifications>
+<specifications>
+<id>442</id>
+<invid>30621</invid>
+<specid>83646</specid>
+<description>Bridge to Table Clearance</description>
+<specvalues>6.25&quot;</specvalues>
+</specifications>
+<specifications>
+<id>443</id>
+<invid>30621</invid>
+<specid>83647</specid>
+<description>Spindle Nose to Table</description>
+<specvalues>3&quot; to 11&quot;</specvalues>
+</specifications>
+<specifications>
+<id>444</id>
+<invid>30621</invid>
+<specid>83648</specid>
+<groupnames>Rapids:</groupnames>
+<description>X and Y-Axes</description>
+<specvalues>2000 IPM</specvalues>
+</specifications>
+<specifications>
+<id>445</id>
+<invid>30621</invid>
+<specid>83649</specid>
+<description>Z-Axis</description>
+<specvalues>590 IPM</specvalues>
+</specifications>
+<specifications>
+<id>446</id>
+<invid>30621</invid>
+<specid>83650</specid>
+<description>Maximum Cutting Rate</description>
+<specvalues>1000 IPM</specvalues>
+</specifications>
+<specifications>
+<id>447</id>
+<invid>31051</invid>
+<specid>83837</specid>
+<groupnames>B-Axis - Tilt:</groupnames>
+<description>Travel</description>
+<specvalues>120° to 120°</specvalues>
+</specifications>
+<specifications>
+<id>448</id>
+<invid>31051</invid>
+<specid>83838</specid>
+<description>Maximum Speed</description>
+<specvalues>112°/Sec</specvalues>
+</specifications>
+<specifications>
+<id>449</id>
+<invid>31051</invid>
+<specid>83840</specid>
+<groupnames>C-Axis - Rotation:</groupnames>
+<description>Travel</description>
+<specvalues>245° to 245°</specvalues>
+</specifications>
+<specifications>
+<id>450</id>
+<invid>31051</invid>
+<specid>83841</specid>
+<description>Maximum Speed</description>
+<specvalues>208°/sec</specvalues>
+</specifications>
+<specifications>
+<id>451</id>
+<invid>31051</invid>
+<specid>83842</specid>
+<groupnames>Sipping Dims:</groupnames>
+<description>Length x width</description>
+<specvalues>288&quot; x 121&quot;</specvalues>
+</specifications>
+<specifications>
+<id>452</id>
+<invid>31051</invid>
+<specid>83843</specid>
+<description>Height</description>
+<specvalues>142&quot;</specvalues>
+</specifications>
+<specifications>
+<id>453</id>
+<invid>31051</invid>
+<specid>83844</specid>
+<description>Weight</description>
+<specvalues>33,400 lbs</specvalues>
+</specifications>
+<specifications>
+<id>454</id>
+<invid>31060</invid>
+<specid>83849</specid>
+<description>Maximum Tool Diameter</description>
+<specvalues>5.91&quot;</specvalues>
+</specifications>
+<specifications>
+<id>455</id>
+<invid>31060</invid>
+<specid>83850</specid>
+<description>                        Length</description>
+<specvalues>14.17&quot;</specvalues>
+</specifications>
+<specifications>
+<id>456</id>
+<invid>31060</invid>
+<specid>83851</specid>
+<description>                        Weight</description>
+<specvalues>26.5 lbs</specvalues>
+</specifications>
+<specifications>
+<id>457</id>
+<invid>31060</invid>
+<specid>83852</specid>
+<groupnames>Rapids:</groupnames>
+<description>Maximum Traverse Rate</description>
+<specvalues>1968 IPM</specvalues>
+</specifications>
+<specifications>
+<id>458</id>
+<invid>31060</invid>
+<specid>83853</specid>
+<groupnames>Dimensions:</groupnames>
+<description>Length x Width</description>
+<specvalues>164&quot; x 106&quot;</specvalues>
+</specifications>
+<specifications>
+<id>459</id>
+<invid>31060</invid>
+<specid>83854</specid>
+<description>Height</description>
+<specvalues>104&quot;</specvalues>
+</specifications>
+<specifications>
+<id>460</id>
+<invid>31060</invid>
+<specid>83855</specid>
+<description>Weight</description>
+<specvalues>21,000 lbs</specvalues>
+</specifications>
+<specifications>
+<id>461</id>
+<invid>30621</invid>
+<ewid>45373</ewid>
+<equippedwith>Haas CNC Control with 15&quot; Color LCD Monitor</equippedwith>
+<groupnameew>Equipped With:</groupnameew>
+</specifications>
+<specifications>
+<id>462</id>
+<invid>30621</invid>
+<ewid>45374</ewid>
+<equippedwith>USB Port</equippedwith>
+</specifications>
+<specifications>
+<id>463</id>
+<invid>30621</invid>
+<ewid>45375</ewid>
+<equippedwith>Remote Jog Handle</equippedwith>
+</specifications>
+<specifications>
+<id>464</id>
+<invid>30621</invid>
+<ewid>45380</ewid>
+<equippedwith>10 Position Automatic Tool Changer</equippedwith>
+</specifications>
+<specifications>
+<id>465</id>
+<invid>30877</invid>
+<ewid>47739</ewid>
+<equippedwith>Fanuc 21i-TB CNC Control</equippedwith>
+<groupnameew>Equipped With:</groupnameew>
+</specifications>
+<specifications>
+<id>466</id>
+<invid>30877</invid>
+<ewid>47740</ewid>
+<equippedwith>56&quot; 4-Jaw Chuck</equippedwith>
+</specifications>
+<specifications>
+<id>467</id>
+<invid>30877</invid>
+<ewid>47741</ewid>
+<equippedwith>16 Position Automatic Tool Changer</equippedwith>
+</specifications>
+<specifications>
+<id>468</id>
+<invid>30877</invid>
+<ewid>47742</ewid>
+<equippedwith>Chuck Guarding</equippedwith>
+</specifications>
+<specifications>
+<id>469</id>
+<invid>30877</invid>
+<ewid>47743</ewid>
+<equippedwith>Way Covers on Cross Rail</equippedwith>
+</specifications>
+<specifications>
+<id>470</id>
+<invid>30877</invid>
+<ewid>47744</ewid>
+<equippedwith>Fanuc Servo Drives and Motors</equippedwith>
+</specifications>
+<specifications>
+<id>471</id>
+<invid>30877</invid>
+<ewid>47745</ewid>
+<equippedwith>75 hp Fanuc AC Table Drive Motor</equippedwith>
+</specifications>
+<specifications>
+<id>472</id>
+<invid>30877</invid>
+<ewid>47746</ewid>
+<equippedwith>Large Quanity of Tool Holders</equippedwith>
+</specifications>
+<specifications>
+<id>473</id>
+<invid>30621</invid>
+<ewid>48371</ewid>
+<equippedwith>Vacuum Table</equippedwith>
+</specifications>
+<specifications>
+<id>474</id>
+<invid>30964</invid>
+<ewid>48652</ewid>
+<equippedwith>Fanuc 18T CNC Control</equippedwith>
+<groupnameew>Equipped With:</groupnameew>
+</specifications>
+<specifications>
+<id>475</id>
+<invid>30964</invid>
+<ewid>48653</ewid>
+<equippedwith>(16) Position Automatic Tool Changer</equippedwith>
+</specifications>
+<specifications>
+<id>476</id>
+<invid>30964</invid>
+<ewid>48654</ewid>
+<equippedwith>63&quot; Diameter 4-Jaw Table</equippedwith>
+</specifications>
+<specifications>
+<id>477</id>
+<invid>30964</invid>
+<ewid>48655</ewid>
+<equippedwith>48&quot; 3-Jaw Chuck mounted on top of 63&quot; main table.</equippedwith>
+</specifications>
+<specifications>
+<id>478</id>
+<invid>30964</invid>
+<ewid>48656</ewid>
+<equippedwith>Chip Conveyor, Side Discharge</equippedwith>
+</specifications>
+<specifications>
+<id>479</id>
+<invid>30964</invid>
+<ewid>48657</ewid>
+<equippedwith>Multi-Tap Transformer</equippedwith>
+</specifications>
+<specifications>
+<id>480</id>
+<invid>30964</invid>
+<ewid>48658</ewid>
+<equippedwith>Flood Coolant System</equippedwith>
+</specifications>
+<specifications>
+<id>481</id>
+<invid>30964</invid>
+<ewid>48659</ewid>
+<equippedwith>Mist Collector</equippedwith>
+</specifications>
+<specifications>
+<id>482</id>
+<invid>30964</invid>
+<ewid>48660</ewid>
+<equippedwith>RS-232 Port</equippedwith>
+</specifications>
+<specifications>
+<id>483</id>
+<invid>30964</invid>
+<ewid>48661</ewid>
+<equippedwith>All Available Tool Holders, Hard &amp; Soft Jaws and Manuals</equippedwith>
+</specifications>
+<specifications>
+<id>484</id>
+<invid>30964</invid>
+<ewid>48662</ewid>
+<equippedwith>This is a Tight Tolerance Cutting Machine from an Aerospace machine shop.</equippedwith>
+<groupnameew>Note:</groupnameew>
+</specifications>
+<specifications>
+<id>485</id>
+<invid>30964</invid>
+<ewid>48663</ewid>
+<equippedwith> O-M is a Full Box Way Desgn Machine made in Japan.</equippedwith>
+</specifications>
+<specifications>
+<id>486</id>
+<invid>30965</invid>
+<ewid>48666</ewid>
+<equippedwith>Fanuc 0i-MC 4-Axis CNC Control</equippedwith>
+<groupnameew>Equipped With:</groupnameew>
+</specifications>
+<specifications>
+<id>487</id>
+<invid>30965</invid>
+<ewid>48667</ewid>
+<equippedwith>30 Position sidemount Tool Changer</equippedwith>
+</specifications>
+<specifications>
+<id>488</id>
+<invid>30965</invid>
+<ewid>48668</ewid>
+<equippedwith>CAT 50 Taper Spindle</equippedwith>
+</specifications>
+<specifications>
+<id>489</id>
+<invid>30965</invid>
+<ewid>48669</ewid>
+<equippedwith>Flood Coolant System</equippedwith>
+</specifications>
+<specifications>
+<id>490</id>
+<invid>30965</invid>
+<ewid>48670</ewid>
+<equippedwith>Remote Jog Handle</equippedwith>
+</specifications>
+<specifications>
+<id>491</id>
+<invid>30965</invid>
+<ewid>48671</ewid>
+<equippedwith>4th-Axis Drive and Wiring</equippedwith>
+</specifications>
+<specifications>
+<id>492</id>
+<invid>30965</invid>
+<ewid>48672</ewid>
+<equippedwith>4th-Axis Rotary Table</equippedwith>
+</specifications>
+<specifications>
+<id>493</id>
+<invid>30968</invid>
+<ewid>48694</ewid>
+<equippedwith>Haas CNC Control with 15&quot; Color LCD Monitor</equippedwith>
+<groupnameew>Equipped With:</groupnameew>
+</specifications>
+<specifications>
+<id>494</id>
+<invid>30968</invid>
+<ewid>48695</ewid>
+<equippedwith>Gearbox, 2400 RPM, 40 HP, A2-8</equippedwith>
+</specifications>
+<specifications>
+<id>495</id>
+<invid>30968</invid>
+<ewid>48696</ewid>
+<equippedwith>Automatic Tool Presetter</equippedwith>
+</specifications>
+<specifications>
+<id>496</id>
+<invid>30968</invid>
+<ewid>48697</ewid>
+<equippedwith>Belt-Type Chip Conveyor</equippedwith>
+</specifications>
+<specifications>
+<id>497</id>
+<invid>30968</invid>
+<ewid>48698</ewid>
+<equippedwith>Auto Coolant Refill</equippedwith>
+</specifications>
+<specifications>
+<id>498</id>
+<invid>30968</invid>
+<ewid>48699</ewid>
+<equippedwith>Parts Catcher</equippedwith>
+</specifications>
+<specifications>
+<id>499</id>
+<invid>30968</invid>
+<ewid>48700</ewid>
+<equippedwith>Programmable Tailstock</equippedwith>
+</specifications>
+<specifications>
+<id>500</id>
+<invid>30968</invid>
+<ewid>48701</ewid>
+<equippedwith>EPFDT</equippedwith>
+</specifications>
+<specifications>
+<id>501</id>
+<invid>30968</invid>
+<ewid>48702</ewid>
+<equippedwith>Ethernet Interface</equippedwith>
+</specifications>
+<specifications>
+<id>502</id>
+<invid>30968</invid>
+<ewid>48703</ewid>
+<equippedwith>High Intensity Lighting</equippedwith>
+</specifications>
+<specifications>
+<id>503</id>
+<invid>30968</invid>
+<ewid>48755</ewid>
+<equippedwith>Never used in production, less than 200 hours.</equippedwith>
+<groupnameew>Note:</groupnameew>
+</specifications>
+<specifications>
+<id>504</id>
+<invid>31000</invid>
+<ewid>49030</ewid>
+<equippedwith>Haas 4-Axis CNC Control With Color LCD Monitor</equippedwith>
+<groupnameew>Equipped With:</groupnameew>
+</specifications>
+<specifications>
+<id>505</id>
+<invid>31000</invid>
+<ewid>49031</ewid>
+<equippedwith>1MB Program Memory</equippedwith>
+</specifications>
+<specifications>
+<id>506</id>
+<invid>31000</invid>
+<ewid>49032</ewid>
+<equippedwith>4th-Axis Drive and Wiring</equippedwith>
+</specifications>
+<specifications>
+<id>507</id>
+<invid>31000</invid>
+<ewid>49033</ewid>
+<equippedwith>Chip Auger</equippedwith>
+</specifications>
+<specifications>
+<id>508</id>
+<invid>31000</invid>
+<ewid>49034</ewid>
+<equippedwith>Programmable Coolant</equippedwith>
+</specifications>
+<specifications>
+<id>509</id>
+<invid>31000</invid>
+<ewid>49035</ewid>
+<equippedwith>Remote Jog Handle</equippedwith>
+</specifications>
+<specifications>
+<id>510</id>
+<invid>31000</invid>
+<ewid>49036</ewid>
+<equippedwith>Macro</equippedwith>
+</specifications>
+<specifications>
+<id>511</id>
+<invid>31000</invid>
+<ewid>49037</ewid>
+<equippedwith>Spindle Orientation</equippedwith>
+</specifications>
+<specifications>
+<id>512</id>
+<invid>31000</invid>
+<ewid>49038</ewid>
+<equippedwith>Visual Quick Code</equippedwith>
+</specifications>
+<specifications>
+<id>513</id>
+<invid>31000</invid>
+<ewid>49039</ewid>
+<equippedwith>Coordinate Rotation and Scaling</equippedwith>
+</specifications>
+<specifications>
+<id>514</id>
+<invid>31000</invid>
+<ewid>49040</ewid>
+<equippedwith>Thru Spindle Coolant (300 psi)</equippedwith>
+</specifications>
+<specifications>
+<id>515</id>
+<invid>31000</invid>
+<ewid>49041</ewid>
+<equippedwith>Auxiliary Coolant Filter System</equippedwith>
+</specifications>
+<specifications>
+<id>516</id>
+<invid>31000</invid>
+<ewid>49043</ewid>
+<equippedwith>USB Port</equippedwith>
+</specifications>
+<specifications>
+<id>517</id>
+<invid>31015</invid>
+<ewid>49200</ewid>
+<equippedwith>Haas 2-Axis CNC Control</equippedwith>
+<groupnameew>Equipped With:</groupnameew>
+</specifications>
+<specifications>
+<id>518</id>
+<invid>31015</invid>
+<ewid>49201</ewid>
+<equippedwith>Flood Coolant System</equippedwith>
+</specifications>
+<specifications>
+<id>519</id>
+<invid>31015</invid>
+<ewid>49202</ewid>
+<equippedwith>Tool Presetter</equippedwith>
+</specifications>
+<specifications>
+<id>520</id>
+<invid>31015</invid>
+<ewid>49203</ewid>
+<equippedwith>Tailstock</equippedwith>
+</specifications>
+<specifications>
+<id>521</id>
+<invid>31015</invid>
+<ewid>49211</ewid>
+<equippedwith>Chip Auger</equippedwith>
+</specifications>
+<specifications>
+<id>522</id>
+<invid>31027</invid>
+<ewid>49267</ewid>
+<equippedwith>Mazatrol Nexus 640M 3-Axis CNC Control</equippedwith>
+<groupnameew>Equipped With:</groupnameew>
+</specifications>
+<specifications>
+<id>523</id>
+<invid>31027</invid>
+<ewid>49268</ewid>
+<equippedwith>Mazak Tapping/Boring Tornado</equippedwith>
+</specifications>
+<specifications>
+<id>524</id>
+<invid>31027</invid>
+<ewid>49269</ewid>
+<equippedwith>EIA/ISO Input Function</equippedwith>
+</specifications>
+<specifications>
+<id>525</id>
+<invid>31027</invid>
+<ewid>49270</ewid>
+<equippedwith>Background Toolpath Check</equippedwith>
+</specifications>
+<specifications>
+<id>526</id>
+<invid>31027</invid>
+<ewid>49271</ewid>
+<equippedwith>Adaptive Feedrate Control</equippedwith>
+</specifications>
+<specifications>
+<id>527</id>
+<invid>31027</invid>
+<ewid>49272</ewid>
+<equippedwith>Tool Life Monitoring</equippedwith>
+</specifications>
+<specifications>
+<id>528</id>
+<invid>31027</invid>
+<ewid>49273</ewid>
+<equippedwith>USB Port</equippedwith>
+</specifications>
+<specifications>
+<id>529</id>
+<invid>31027</invid>
+<ewid>49274</ewid>
+<equippedwith>RS232 Port Interface</equippedwith>
+</specifications>
+<specifications>
+<id>530</id>
+<invid>31027</invid>
+<ewid>49275</ewid>
+<equippedwith>Multi-Tap Transformer</equippedwith>
+</specifications>
+<specifications>
+<id>531</id>
+<invid>31027</invid>
+<ewid>49276</ewid>
+<equippedwith>Remote Jog Handle</equippedwith>
+</specifications>
+<specifications>
+<id>532</id>
+<invid>31027</invid>
+<ewid>49277</ewid>
+<equippedwith>(3) Auger Chip Flow System</equippedwith>
+</specifications>
+<specifications>
+<id>533</id>
+<invid>31027</invid>
+<ewid>49278</ewid>
+<equippedwith>Belt-Type Mayfran Chip Conveyor</equippedwith>
+</specifications>
+<specifications>
+<id>534</id>
+<invid>31027</invid>
+<ewid>49279</ewid>
+<equippedwith>Renishaw MI8 Tool Probe with Renishaw TS27R Probe Unit (Needs new Stylus)</equippedwith>
+</specifications>
+<specifications>
+<id>535</id>
+<invid>31028</invid>
+<ewid>49280</ewid>
+<equippedwith>Mazatrol Matrix Nexus 3-Axis CNC Control</equippedwith>
+<groupnameew>Equipped With:</groupnameew>
+</specifications>
+<specifications>
+<id>536</id>
+<invid>31028</invid>
+<ewid>49281</ewid>
+<equippedwith>Mazak Tapping/Boring Tornado</equippedwith>
+</specifications>
+<specifications>
+<id>537</id>
+<invid>31028</invid>
+<ewid>49282</ewid>
+<equippedwith>EIA/ISO Input Function</equippedwith>
+</specifications>
+<specifications>
+<id>538</id>
+<invid>31028</invid>
+<ewid>49284</ewid>
+<equippedwith>Adaptive Feedrate Control</equippedwith>
+</specifications>
+<specifications>
+<id>539</id>
+<invid>31028</invid>
+<ewid>49285</ewid>
+<equippedwith>Tool Life Monitoring</equippedwith>
+</specifications>
+<specifications>
+<id>540</id>
+<invid>31028</invid>
+<ewid>49286</ewid>
+<equippedwith>USB Port</equippedwith>
+</specifications>
+<specifications>
+<id>541</id>
+<invid>31028</invid>
+<ewid>49287</ewid>
+<equippedwith>RS232 Port Interface</equippedwith>
+</specifications>
+<specifications>
+<id>542</id>
+<invid>31028</invid>
+<ewid>49288</ewid>
+<equippedwith>Multi-Tap Transformer</equippedwith>
+</specifications>
+<specifications>
+<id>543</id>
+<invid>31028</invid>
+<ewid>49291</ewid>
+<equippedwith>Chip Conveyor</equippedwith>
+</specifications>
+<specifications>
+<id>544</id>
+<invid>31030</invid>
+<ewid>49299</ewid>
+<equippedwith>Operator Pendant on Carriage</equippedwith>
+<groupnameew>Equipped With:</groupnameew>
+</specifications>
+<specifications>
+<id>545</id>
+<invid>31030</invid>
+<ewid>49300</ewid>
+<equippedwith>Power Compound for Taper Turning</equippedwith>
+</specifications>
+<specifications>
+<id>546</id>
+<invid>31030</invid>
+<ewid>49301</ewid>
+<equippedwith>6-Way Power Rapid Traverse</equippedwith>
+</specifications>
+<specifications>
+<id>547</id>
+<invid>31030</invid>
+<ewid>49302</ewid>
+<equippedwith>Inch/Metric Threading</equippedwith>
+</specifications>
+<specifications>
+<id>548</id>
+<invid>31030</invid>
+<ewid>49303</ewid>
+<equippedwith>Tailstock Heavy Duty 2-Speed</equippedwith>
+</specifications>
+<specifications>
+<id>549</id>
+<invid>31030</invid>
+<ewid>49304</ewid>
+<equippedwith>Quick Change Tool Post</equippedwith>
+</specifications>
+<specifications>
+<id>550</id>
+<invid>31030</invid>
+<ewid>49305</ewid>
+<equippedwith>(2) Steady Rests (1) 15&quot; Capacity (2) 23&quot; Capacity</equippedwith>
+</specifications>
+<specifications>
+<id>551</id>
+<invid>31030</invid>
+<ewid>49306</ewid>
+<equippedwith>2-Axis Newall Model C80 Digital Readout</equippedwith>
+</specifications>
+<specifications>
+<id>552</id>
+<invid>31030</invid>
+<ewid>49307</ewid>
+<equippedwith>Pendant Control Panel</equippedwith>
+</specifications>
+<specifications>
+<id>553</id>
+<invid>31030</invid>
+<ewid>49308</ewid>
+<equippedwith>Coolant System</equippedwith>
+</specifications>
+<specifications>
+<id>554</id>
+<invid>31030</invid>
+<ewid>49309</ewid>
+<equippedwith>Solid Base Design</equippedwith>
+</specifications>
+<specifications>
+<id>555</id>
+<invid>31030</invid>
+<ewid>49310</ewid>
+<equippedwith>Hardways</equippedwith>
+</specifications>
+<specifications>
+<id>556</id>
+<invid>31030</invid>
+<ewid>49311</ewid>
+<equippedwith>Assorted Tool Holders</equippedwith>
+</specifications>
+<specifications>
+<id>557</id>
+<invid>31031</invid>
+<ewid>49312</ewid>
+<equippedwith>Milltronics CNC 7000 2-Axis Control</equippedwith>
+<groupnameew>Equipped With:</groupnameew>
+</specifications>
+<specifications>
+<id>558</id>
+<invid>31031</invid>
+<ewid>49313</ewid>
+<equippedwith>Conversational Programming</equippedwith>
+</specifications>
+<specifications>
+<id>559</id>
+<invid>31031</invid>
+<ewid>49314</ewid>
+<equippedwith>Variable Speed Spindle</equippedwith>
+</specifications>
+<specifications>
+<id>560</id>
+<invid>31031</invid>
+<ewid>49315</ewid>
+<equippedwith>2-Axis CNC Capability (X &amp; Y-Axes)</equippedwith>
+</specifications>
+<specifications>
+<id>561</id>
+<invid>31031</invid>
+<ewid>49316</ewid>
+<equippedwith>Manual Quill &amp; Knee Movement</equippedwith>
+</specifications>
+<specifications>
+<id>562</id>
+<invid>31031</invid>
+<ewid>49317</ewid>
+<equippedwith>Quill Scale</equippedwith>
+</specifications>
+<specifications>
+<id>563</id>
+<invid>31031</invid>
+<ewid>49318</ewid>
+<equippedwith>RS-232 Port</equippedwith>
+</specifications>
+<specifications>
+<id>564</id>
+<invid>31031</invid>
+<ewid>49319</ewid>
+<equippedwith>3.5&quot; Floppy Drive</equippedwith>
+</specifications>
+<specifications>
+<id>565</id>
+<invid>31031</invid>
+<ewid>49320</ewid>
+<equippedwith>Work Light</equippedwith>
+</specifications>
+<specifications>
+<id>566</id>
+<invid>31031</invid>
+<ewid>49321</ewid>
+<equippedwith>Auto Lube System</equippedwith>
+</specifications>
+<specifications>
+<id>567</id>
+<invid>31031</invid>
+<ewid>49322</ewid>
+<equippedwith>Coolant Collection Pan</equippedwith>
+</specifications>
+<specifications>
+<id>568</id>
+<invid>31031</invid>
+<ewid>49323</ewid>
+<equippedwith>Boxed Ways on X &amp; Y Axes</equippedwith>
+</specifications>
+<specifications>
+<id>569</id>
+<invid>31031</invid>
+<ewid>49324</ewid>
+<equippedwith>AC Spindle Drive</equippedwith>
+</specifications>
+<specifications>
+<id>570</id>
+<invid>31031</invid>
+<ewid>49325</ewid>
+<equippedwith>Parameters Disk</equippedwith>
+</specifications>
+<specifications>
+<id>571</id>
+<invid>31031</invid>
+<ewid>49326</ewid>
+<equippedwith>Set of Manuals</equippedwith>
+</specifications>
+<specifications>
+<id>572</id>
+<invid>31037</invid>
+<ewid>49399</ewid>
+<equippedwith>Haas 4-Axis CNC Control with 15&quot; Color LCD Monitor</equippedwith>
+<groupnameew>Equipped With:</groupnameew>
+</specifications>
+<specifications>
+<id>573</id>
+<invid>31037</invid>
+<ewid>49400</ewid>
+<equippedwith>Visual Programming System, Power Failure Detection Module, 1GB Program</equippedwith>
+</specifications>
+<specifications>
+<id>574</id>
+<invid>31037</invid>
+<ewid>49401</ewid>
+<equippedwith>  Memory, Memory Lock Keyswitch, USB Port, 20 Gallon Flood Coolant</equippedwith>
+</specifications>
+<specifications>
+<id>575</id>
+<invid>31037</invid>
+<ewid>49402</ewid>
+<equippedwith>  System, Full Coolant/Chip Enclosure</equippedwith>
+</specifications>
+<specifications>
+<id>576</id>
+<invid>31037</invid>
+<ewid>49403</ewid>
+<equippedwith>High Flow Coolant Pump Kit</equippedwith>
+<groupnameew>Purchased Opts:</groupnameew>
+</specifications>
+<specifications>
+<id>577</id>
+<invid>31037</invid>
+<ewid>49404</ewid>
+<equippedwith>4th-Axis Drive and Wiring</equippedwith>
+</specifications>
+<specifications>
+<id>578</id>
+<invid>31037</invid>
+<ewid>49405</ewid>
+<equippedwith>HA5C-T Indexer</equippedwith>
+</specifications>
+<specifications>
+<id>579</id>
+<invid>31037</invid>
+<ewid>49406</ewid>
+<equippedwith>Manual Tailstock (4&quot; Center Height) for use with indexer</equippedwith>
+</specifications>
+<specifications>
+<id>580</id>
+<invid>31038</invid>
+<ewid>49407</ewid>
+<equippedwith>Haas 2-Axis CNC Control with 15&quot; Color LCD Monitor</equippedwith>
+<groupnameew>Equipped With:</groupnameew>
+</specifications>
+<specifications>
+<id>581</id>
+<invid>31038</invid>
+<ewid>49408</ewid>
+<equippedwith>Chip Enclosure, Visual Programming System, Coolant Pump, 1GB Program</equippedwith>
+</specifications>
+<specifications>
+<id>582</id>
+<invid>31038</invid>
+<ewid>49409</ewid>
+<equippedwith>  Memory, Memory Lock Keyswitch, Air Blow Gun, USB Port.</equippedwith>
+</specifications>
+<specifications>
+<id>583</id>
+<invid>31038</invid>
+<ewid>49410</ewid>
+<equippedwith>Manual Tailstock</equippedwith>
+<groupnameew>Options:</groupnameew>
+</specifications>
+<specifications>
+<id>584</id>
+<invid>31038</invid>
+<ewid>49411</ewid>
+<equippedwith>8 Station Power Turret</equippedwith>
+</specifications>
+<specifications>
+<id>585</id>
+<invid>31039</invid>
+<ewid>49412</ewid>
+<equippedwith>Haas 4-Axis CNC Control with 15&quot; Color LCD Monitor</equippedwith>
+<groupnameew>Equipped With:</groupnameew>
+</specifications>
+<specifications>
+<id>586</id>
+<invid>31039</invid>
+<ewid>49413</ewid>
+<equippedwith>1GB Program Memory, USB Port, Memory Lock Keyswitch, Rigid Tapping,</equippedwith>
+</specifications>
+<specifications>
+<id>587</id>
+<invid>31039</invid>
+<ewid>49414</ewid>
+<equippedwith>  High Speed 18+1 Position Sidemount atc, Power Failure Detection Module,</equippedwith>
+</specifications>
+<specifications>
+<id>588</id>
+<invid>31039</invid>
+<ewid>49415</ewid>
+<equippedwith>  Flood Coolant System (55 Gallon), 2400 IPM Rapids</equippedwith>
+</specifications>
+<specifications>
+<id>589</id>
+<invid>31039</invid>
+<ewid>49416</ewid>
+<equippedwith>4&quot; Extended Z-axis Clearance</equippedwith>
+<groupnameew>Options:</groupnameew>
+</specifications>
+<specifications>
+<id>590</id>
+<invid>31039</invid>
+<ewid>49417</ewid>
+<equippedwith>4th-Axis Drive and Wiring</equippedwith>
+</specifications>
+<specifications>
+<id>591</id>
+<invid>31039</invid>
+<ewid>49418</ewid>
+<equippedwith>HRTA5 CNC Rotary Table</equippedwith>
+</specifications>
+<specifications>
+<id>592</id>
+<invid>31040</invid>
+<ewid>49419</ewid>
+<equippedwith>Mazatrol Fusion 640T CNC Control</equippedwith>
+<groupnameew>Equipped With:</groupnameew>
+</specifications>
+<specifications>
+<id>593</id>
+<invid>31040</invid>
+<ewid>49420</ewid>
+<equippedwith>Automatic Tool Eye</equippedwith>
+</specifications>
+<specifications>
+<id>594</id>
+<invid>31040</invid>
+<ewid>49421</ewid>
+<equippedwith>12 Position Turret</equippedwith>
+</specifications>
+<specifications>
+<id>595</id>
+<invid>31040</invid>
+<ewid>49422</ewid>
+<equippedwith>Flood Coolant System</equippedwith>
+</specifications>
+<specifications>
+<id>596</id>
+<invid>31040</invid>
+<ewid>49423</ewid>
+<equippedwith>Misc. Tool Holders</equippedwith>
+</specifications>
+<specifications>
+<id>597</id>
+<invid>31000</invid>
+<ewid>49450</ewid>
+<equippedwith>Recent work done to machine includes: New spindle replacement, New X-Axis</equippedwith>
+<groupnameew>Note:</groupnameew>
+</specifications>
+<specifications>
+<id>598</id>
+<invid>31000</invid>
+<ewid>49451</ewid>
+<equippedwith>  linear rails, New Z-Axis ballscrew and thrust bearing, New X-axis ballnut</equippedwith>
+</specifications>
+<specifications>
+<id>599</id>
+<invid>31000</invid>
+<ewid>49452</ewid>
+<equippedwith>  and thrust bearings, new lube lines, all new lexan (glass) in front and sides.</equippedwith>
+</specifications>
+<specifications>
+<id>600</id>
+<invid>31000</invid>
+<ewid>49453</ewid>
+<equippedwith>  Machine is ready for production.</equippedwith>
+</specifications>
+<specifications>
+<id>601</id>
+<invid>31044</invid>
+<ewid>49454</ewid>
+<equippedwith>Mori MSX-500III CNC Control</equippedwith>
+<groupnameew>Equipped With:</groupnameew>
+</specifications>
+<specifications>
+<id>602</id>
+<invid>31044</invid>
+<ewid>49455</ewid>
+<equippedwith>32&quot; 4-Jaw Chuck with 10.8&quot; Bore</equippedwith>
+</specifications>
+<specifications>
+<id>603</id>
+<invid>31044</invid>
+<ewid>49456</ewid>
+<equippedwith>Chip Conveyor</equippedwith>
+</specifications>
+<specifications>
+<id>604</id>
+<invid>31044</invid>
+<ewid>49457</ewid>
+<equippedwith>Tailstock</equippedwith>
+</specifications>
+<specifications>
+<id>605</id>
+<invid>31044</invid>
+<ewid>49458</ewid>
+<equippedwith>Flood Coolant System</equippedwith>
+</specifications>
+<specifications>
+<id>606</id>
+<invid>31044</invid>
+<ewid>49459</ewid>
+<equippedwith>RS-232 Port Interface</equippedwith>
+</specifications>
+<specifications>
+<id>607</id>
+<invid>31044</invid>
+<ewid>49460</ewid>
+<equippedwith>Approx 5500 cutting hours</equippedwith>
+<groupnameew>Note:</groupnameew>
+</specifications>
+<specifications>
+<id>608</id>
+<invid>31044</invid>
+<ewid>49461</ewid>
+<equippedwith>Machine Build Date: Dec. 2006, installed new in 2007.</equippedwith>
+</specifications>
+<specifications>
+<id>609</id>
+<invid>31045</invid>
+<ewid>49462</ewid>
+<equippedwith>Haas 4-Axis CNC Control with 15&quot; Color LCD Monitor</equippedwith>
+<groupnameew>Equipped With:</groupnameew>
+</specifications>
+<specifications>
+<id>610</id>
+<invid>31045</invid>
+<ewid>49463</ewid>
+<equippedwith>16MB Expanded Memory</equippedwith>
+</specifications>
+<specifications>
+<id>611</id>
+<invid>31045</invid>
+<ewid>49464</ewid>
+<equippedwith>4th-Axis drive and Wiring (Brushless)</equippedwith>
+</specifications>
+<specifications>
+<id>612</id>
+<invid>31045</invid>
+<ewid>49465</ewid>
+<equippedwith>Rigid Tapping</equippedwith>
+</specifications>
+<specifications>
+<id>613</id>
+<invid>31045</invid>
+<ewid>49466</ewid>
+<equippedwith>Coordinate Rotation and Scaling</equippedwith>
+</specifications>
+<specifications>
+<id>614</id>
+<invid>31045</invid>
+<ewid>49467</ewid>
+<equippedwith>Macros</equippedwith>
+</specifications>
+<specifications>
+<id>615</id>
+<invid>31045</invid>
+<ewid>49468</ewid>
+<equippedwith>Chip Auger</equippedwith>
+</specifications>
+<specifications>
+<id>616</id>
+<invid>31045</invid>
+<ewid>49469</ewid>
+<equippedwith>Spindle Orientation</equippedwith>
+</specifications>
+<specifications>
+<id>617</id>
+<invid>31045</invid>
+<ewid>49470</ewid>
+<equippedwith>Intuitive Programming System</equippedwith>
+</specifications>
+<specifications>
+<id>618</id>
+<invid>31045</invid>
+<ewid>49471</ewid>
+<equippedwith>Wireless Intuitive Probing System</equippedwith>
+</specifications>
+<specifications>
+<id>619</id>
+<invid>31045</invid>
+<ewid>49472</ewid>
+<equippedwith>Haas HRT-310 CNC 4th-Axis Rotary Table</equippedwith>
+</specifications>
+<specifications>
+<id>620</id>
+<invid>31051</invid>
+<ewid>49496</ewid>
+<equippedwith>Haas 5-Axis CNC Control with 15&quot; Color Touchscreen LCD Monitor</equippedwith>
+<groupnameew>Equipped With:</groupnameew>
+</specifications>
+<specifications>
+<id>621</id>
+<invid>31051</invid>
+<ewid>49497</ewid>
+<equippedwith>20,000 rpm Spindle HSK-A63 Taper</equippedwith>
+</specifications>
+<specifications>
+<id>622</id>
+<invid>31051</invid>
+<ewid>49498</ewid>
+<equippedwith>Wireless Intuitive Probing System</equippedwith>
+</specifications>
+<specifications>
+<id>623</id>
+<invid>31051</invid>
+<ewid>49499</ewid>
+<equippedwith>High-Pressure Flood Coolant (95 Gallon Coolant Tank)</equippedwith>
+</specifications>
+<specifications>
+<id>624</id>
+<invid>31051</invid>
+<ewid>49500</ewid>
+<equippedwith>Chip Auger</equippedwith>
+</specifications>
+<specifications>
+<id>625</id>
+<invid>31051</invid>
+<ewid>49501</ewid>
+<equippedwith>Window Air Blast, Large Remote Jog Handle with Touchscreen Display, CNC</equippedwith>
+</specifications>
+<specifications>
+<id>626</id>
+<invid>31051</invid>
+<ewid>49503</ewid>
+<equippedwith>  Cabinet Cooler, Early Power Failure Detection Module, Ethernet Interface, Wifi,</equippedwith>
+</specifications>
+<specifications>
+<id>627</id>
+<invid>31051</invid>
+<ewid>49507</ewid>
+<equippedwith>  Second Home Position, Power Surge Protection, M-code M130, Haasconnect,</equippedwith>
+</specifications>
+<specifications>
+<id>628</id>
+<invid>31051</invid>
+<ewid>49508</ewid>
+<equippedwith>  Haasdrop, Rigid Tapping, Dynamic Work Offsets and Tool Center Point Control,</equippedwith>
+</specifications>
+<specifications>
+<id>629</id>
+<invid>31051</invid>
+<ewid>49509</ewid>
+<equippedwith>8&quot; Extended Z-Axis Clearance</equippedwith>
+</specifications>
+<specifications>
+<id>630</id>
+<invid>31051</invid>
+<ewid>49510</ewid>
+<equippedwith>32 GB Expanded Memory</equippedwith>
+</specifications>
+<specifications>
+<id>631</id>
+<invid>31051</invid>
+<ewid>49511</ewid>
+<equippedwith>High Intensity Lighting</equippedwith>
+</specifications>
+<specifications>
+<id>632</id>
+<invid>31051</invid>
+<ewid>49512</ewid>
+<equippedwith>Linear Scales on X and Y-Axes</equippedwith>
+</specifications>
+<specifications>
+<id>633</id>
+<invid>31051</invid>
+<ewid>49513</ewid>
+<equippedwith>High Speed Machining</equippedwith>
+</specifications>
+<specifications>
+<id>634</id>
+<invid>31051</invid>
+<ewid>49514</ewid>
+<equippedwith>Probe Riser Block</equippedwith>
+</specifications>
+<specifications>
+<id>635</id>
+<invid>31054</invid>
+<ewid>49541</ewid>
+<equippedwith>Haas 2-Axis CNC Control with 15&quot; Color LCD Monitor</equippedwith>
+<groupnameew>Equipped With:</groupnameew>
+</specifications>
+<specifications>
+<id>636</id>
+<invid>31054</invid>
+<ewid>49542</ewid>
+<equippedwith>Remote Jog Handle with LCD Display, Rigid Tapping, HaasConnect, Early Power</equippedwith>
+</specifications>
+<specifications>
+<id>637</id>
+<invid>31054</invid>
+<ewid>49543</ewid>
+<equippedwith>  Failure Detection Module, Ethernet, WIFI, 1GB Program Memory</equippedwith>
+</specifications>
+<specifications>
+<id>638</id>
+<invid>31054</invid>
+<ewid>49544</ewid>
+<equippedwith>High-Pressure Coolant System (300 psi)</equippedwith>
+<groupnameew>Options:</groupnameew>
+</specifications>
+<specifications>
+<id>639</id>
+<invid>31054</invid>
+<ewid>49545</ewid>
+<equippedwith>Automatic Tool Presetter (manual and auto)</equippedwith>
+</specifications>
+<specifications>
+<id>640</id>
+<invid>31054</invid>
+<ewid>49546</ewid>
+<equippedwith>Belt-type Chip Conveyor</equippedwith>
+</specifications>
+<specifications>
+<id>641</id>
+<invid>31054</invid>
+<ewid>49547</ewid>
+<equippedwith>High-Intensity Lighting</equippedwith>
+</specifications>
+<specifications>
+<id>642</id>
+<invid>31054</invid>
+<ewid>49548</ewid>
+<equippedwith>Programmable Servo Tailstock</equippedwith>
+</specifications>
+<specifications>
+<id>643</id>
+<invid>31054</invid>
+<ewid>49549</ewid>
+<equippedwith>Wireless Intuitive Probing System for Lathes</equippedwith>
+</specifications>
+<specifications>
+<id>644</id>
+<invid>31055</invid>
+<ewid>49550</ewid>
+<equippedwith>Haas 2-Axis CNC Control</equippedwith>
+<groupnameew>Equipped With:</groupnameew>
+</specifications>
+<specifications>
+<id>645</id>
+<invid>31055</invid>
+<ewid>49551</ewid>
+<equippedwith>Big Bore Spindle Option</equippedwith>
+</specifications>
+<specifications>
+<id>646</id>
+<invid>31055</invid>
+<ewid>49552</ewid>
+<equippedwith>Tool Presetter</equippedwith>
+</specifications>
+<specifications>
+<id>647</id>
+<invid>31055</invid>
+<ewid>49553</ewid>
+<equippedwith>Chip Auger</equippedwith>
+</specifications>
+<specifications>
+<id>648</id>
+<invid>31055</invid>
+<ewid>49554</ewid>
+<equippedwith>Flood Coolant System</equippedwith>
+</specifications>
+<specifications>
+<id>649</id>
+<invid>31055</invid>
+<ewid>49555</ewid>
+<equippedwith>All Available Manuals and Tool Holders</equippedwith>
+</specifications>
+<specifications>
+<id>650</id>
+<invid>31056</invid>
+<ewid>49557</ewid>
+<equippedwith>Haas 2-Axis CNC Control with 15&quot; Color LCD Monitor</equippedwith>
+<groupnameew>Equipped With:</groupnameew>
+</specifications>
+<specifications>
+<id>651</id>
+<invid>31056</invid>
+<ewid>49558</ewid>
+<equippedwith>USB Port, Rigid Tapping</equippedwith>
+</specifications>
+<specifications>
+<id>652</id>
+<invid>31056</invid>
+<ewid>49559</ewid>
+<equippedwith>Remote Jog Handle</equippedwith>
+</specifications>
+<specifications>
+<id>653</id>
+<invid>31056</invid>
+<ewid>49560</ewid>
+<equippedwith>Programmable Hydraulic Tailstock</equippedwith>
+</specifications>
+<specifications>
+<id>654</id>
+<invid>31056</invid>
+<ewid>49561</ewid>
+<equippedwith>Chip Conveyor; Belt-type</equippedwith>
+</specifications>
+<specifications>
+<id>655</id>
+<invid>31056</invid>
+<ewid>49562</ewid>
+<equippedwith>Long Bed Option</equippedwith>
+</specifications>
+<specifications>
+<id>656</id>
+<invid>31056</invid>
+<ewid>49563</ewid>
+<equippedwith>Big Bore Option</equippedwith>
+</specifications>
+<specifications>
+<id>657</id>
+<invid>31056</invid>
+<ewid>49564</ewid>
+<equippedwith>Extra Performance Option: 55 HP Main Motor, 12 HP Z-axis Servo Motor</equippedwith>
+</specifications>
+<specifications>
+<id>658</id>
+<invid>31056</invid>
+<ewid>49565</ewid>
+<equippedwith>Rear Mounted A2-11 Spindle Nose with Enclosure</equippedwith>
+</specifications>
+<specifications>
+<id>659</id>
+<invid>31057</invid>
+<ewid>49566</ewid>
+<equippedwith>Haas 2-Axis CNC Control with CRT</equippedwith>
+<groupnameew>Equipped With:</groupnameew>
+</specifications>
+<specifications>
+<id>660</id>
+<invid>31057</invid>
+<ewid>49567</ewid>
+<equippedwith>Floppy Drive, 1MB Memory</equippedwith>
+</specifications>
+<specifications>
+<id>661</id>
+<invid>31057</invid>
+<ewid>49568</ewid>
+<equippedwith>Programmable Tailstock</equippedwith>
+</specifications>
+<specifications>
+<id>662</id>
+<invid>31057</invid>
+<ewid>49569</ewid>
+<equippedwith>Tool Presetter</equippedwith>
+</specifications>
+<specifications>
+<id>663</id>
+<invid>31057</invid>
+<ewid>49570</ewid>
+<equippedwith>3-Jaw Chuck</equippedwith>
+</specifications>
+<specifications>
+<id>664</id>
+<invid>31057</invid>
+<ewid>49571</ewid>
+<equippedwith>Coolant System</equippedwith>
+</specifications>
+<specifications>
+<id>665</id>
+<invid>31058</invid>
+<ewid>49572</ewid>
+<equippedwith>Haas 2-Axis CNC Control with 15&quot; Color Monitor</equippedwith>
+<groupnameew>Equipped With:</groupnameew>
+</specifications>
+<specifications>
+<id>666</id>
+<invid>31058</invid>
+<ewid>49573</ewid>
+<equippedwith>Memory lock Keyswitch, USB Port, Color Remote Jog Handle, Rigid Tapping</equippedwith>
+</specifications>
+<specifications>
+<id>667</id>
+<invid>31058</invid>
+<ewid>49574</ewid>
+<equippedwith>Belt-Type Chip Conveyor</equippedwith>
+</specifications>
+<specifications>
+<id>668</id>
+<invid>31058</invid>
+<ewid>49575</ewid>
+<equippedwith>CABccol Control Cabinet Cooler</equippedwith>
+</specifications>
+<specifications>
+<id>669</id>
+<invid>31058</invid>
+<ewid>49576</ewid>
+<equippedwith>18&quot; 3-Jaw Hydraulic Chuck</equippedwith>
+</specifications>
+<specifications>
+<id>670</id>
+<invid>31059</invid>
+<ewid>49577</ewid>
+<equippedwith>Haas 2-Axis CNC Control with 15&quot; Color Monitor</equippedwith>
+<groupnameew>Equipped With:</groupnameew>
+</specifications>
+<specifications>
+<id>671</id>
+<invid>31059</invid>
+<ewid>49578</ewid>
+<equippedwith>Memory lock Keyswitch, USB Port, Color Remote Jog Handle, Rigid Tapping</equippedwith>
+</specifications>
+<specifications>
+<id>672</id>
+<invid>31059</invid>
+<ewid>49579</ewid>
+<equippedwith>Belt-Type Chip Conveyor</equippedwith>
+</specifications>
+<specifications>
+<id>673</id>
+<invid>31059</invid>
+<ewid>49581</ewid>
+<equippedwith>18&quot; 3-Jaw Hydraulic Chuck</equippedwith>
+</specifications>
+<specifications>
+<id>674</id>
+<invid>31059</invid>
+<ewid>49582</ewid>
+<equippedwith>Big Bore Spindle Option (7&quot; Bore)</equippedwith>
+</specifications>
+<specifications>
+<id>675</id>
+<invid>31059</invid>
+<ewid>49583</ewid>
+<equippedwith>Extra Performance Option (55 hp, 12 hp Z-Axis Servo Motor)</equippedwith>
+</specifications>
+<specifications>
+<id>676</id>
+<invid>31059</invid>
+<ewid>49584</ewid>
+<equippedwith>High-Torque Live Tooling with C-Axis</equippedwith>
+</specifications>
+<specifications>
+<id>677</id>
+<invid>31059</invid>
+<ewid>49585</ewid>
+<equippedwith>Hybrid BOT/VDI 12 Position Turret</equippedwith>
+</specifications>
+<specifications>
+<id>678</id>
+<invid>31059</invid>
+<ewid>49586</ewid>
+<equippedwith>High Pressure Coolant System, 300 PSI</equippedwith>
+</specifications>
+<specifications>
+<id>679</id>
+<invid>31059</invid>
+<ewid>49587</ewid>
+<equippedwith>Automatic Tool Presetter</equippedwith>
+</specifications>
+<specifications>
+<id>680</id>
+<invid>31059</invid>
+<ewid>49588</ewid>
+<equippedwith>High Intensity Lighting</equippedwith>
+</specifications>
+<specifications>
+<id>681</id>
+<invid>31059</invid>
+<ewid>49589</ewid>
+<equippedwith>Early Power Failure Detection Module</equippedwith>
+</specifications>
+<specifications>
+<id>682</id>
+<invid>31059</invid>
+<ewid>49590</ewid>
+<equippedwith>Intuitive Programming System</equippedwith>
+</specifications>
+<specifications>
+<id>683</id>
+<invid>31059</invid>
+<ewid>49591</ewid>
+<equippedwith>Auxiliary Coolant Filter System</equippedwith>
+</specifications>
+<specifications>
+<id>684</id>
+<invid>31059</invid>
+<ewid>49592</ewid>
+<equippedwith>Programmable Servo Tailstock</equippedwith>
+</specifications>
+<specifications>
+<id>685</id>
+<invid>31060</invid>
+<ewid>49593</ewid>
+<equippedwith>Mazatrol Matrix Nexus 4-Axis CNC Control</equippedwith>
+<groupnameew>Equipped With:</groupnameew>
+</specifications>
+<specifications>
+<id>686</id>
+<invid>31060</invid>
+<ewid>49594</ewid>
+<equippedwith>(2) Pallet Factory Changer</equippedwith>
+</specifications>
+<specifications>
+<id>687</id>
+<invid>31060</invid>
+<ewid>49595</ewid>
+<equippedwith>Full 4-Axis</equippedwith>
+</specifications>
+<specifications>
+<id>688</id>
+<invid>31060</invid>
+<ewid>49596</ewid>
+<equippedwith>Super Flow Variable Speed High Pressure Coolant Thru Spindle - 1000 psi</equippedwith>
+</specifications>
+<specifications>
+<id>689</id>
+<invid>31060</invid>
+<ewid>49597</ewid>
+<equippedwith>60 Position Tool Changer</equippedwith>
+</specifications>
+<specifications>
+<id>690</id>
+<invid>31060</invid>
+<ewid>49598</ewid>
+<equippedwith>Chip Conveyor</equippedwith>
+</specifications>
+<specifications>
+<id>691</id>
+<invid>31060</invid>
+<ewid>49599</ewid>
+<equippedwith>Renishaw OMP60 Work Measuring Probe System</equippedwith>
+</specifications>
+<specifications>
+<id>692</id>
+<invid>31060</invid>
+<ewid>49600</ewid>
+<equippedwith>Auto Tool Length Measurement - Tool Probe</equippedwith>
+</specifications>
+<specifications>
+<id>693</id>
+<invid>31060</invid>
+<ewid>49601</ewid>
+<equippedwith>18,000 RPM Spindle</equippedwith>
+</specifications>
+<specifications>
+<id>694</id>
+<invid>31060</invid>
+<ewid>49602</ewid>
+<equippedwith>Manual Pulse Generator</equippedwith>
+</specifications>
+<specifications>
+<id>695</id>
+<invid>31060</invid>
+<ewid>49603</ewid>
+<equippedwith>EIA Input Function</equippedwith>
+</specifications>
+<specifications>
+<id>696</id>
+<invid>31060</invid>
+<ewid>49604</ewid>
+<equippedwith>Synchronous Tapping</equippedwith>
+</specifications>
+<specifications>
+<id>697</id>
+<invid>31060</invid>
+<ewid>49605</ewid>
+<equippedwith>USB Port</equippedwith>
+</specifications>
+<specifications>
+<id>698</id>
+<invid>31060</invid>
+<ewid>49606</ewid>
+<equippedwith>RS232 Port Interface</equippedwith>
+</specifications>
+<specifications>
+<id>699</id>
+<invid>31060</invid>
+<ewid>49607</ewid>
+<equippedwith>Multi-Tap Transformer</equippedwith>
+</specifications>
+<specifications>
+<id>700</id>
+<invid>31060</invid>
+<ewid>49608</ewid>
+<equippedwith>All Available Manuals</equippedwith>
+</specifications>
+<specifications>
+<id>701</id>
+<invid>31061</invid>
+<ewid>49609</ewid>
+<equippedwith>(1) 25&quot; 3-Jaw Bison Steel Chuck with 12.5&quot; hole</equippedwith>
+<groupnameew>Equipped With:</groupnameew>
+</specifications>
+<specifications>
+<id>702</id>
+<invid>31061</invid>
+<ewid>49610</ewid>
+<equippedwith>(1) 25&quot; 4-Jaw Chuck</equippedwith>
+</specifications>
+<specifications>
+<id>703</id>
+<invid>31061</invid>
+<ewid>49611</ewid>
+<equippedwith>Steady Rest</equippedwith>
+</specifications>
+<specifications>
+<id>704</id>
+<invid>31061</invid>
+<ewid>49612</ewid>
+<equippedwith>Follow Rest</equippedwith>
+</specifications>
+<specifications>
+<id>705</id>
+<invid>31061</invid>
+<ewid>49613</ewid>
+<equippedwith>Full Length Splash Guard</equippedwith>
+</specifications>
+<specifications>
+<id>706</id>
+<invid>31061</invid>
+<ewid>49614</ewid>
+<equippedwith>Chuck Guard</equippedwith>
+</specifications>
+<specifications>
+<id>707</id>
+<invid>31061</invid>
+<ewid>49615</ewid>
+<equippedwith>Halogen Work Light</equippedwith>
+</specifications>
+<specifications>
+<id>708</id>
+<invid>31061</invid>
+<ewid>49616</ewid>
+<equippedwith>Coolant System</equippedwith>
+</specifications>
+<specifications>
+<id>709</id>
+<invid>31061</invid>
+<ewid>49617</ewid>
+<equippedwith>Thread Dial</equippedwith>
+</specifications>
+<specifications>
+<id>710</id>
+<invid>31061</invid>
+<ewid>49618</ewid>
+<equippedwith>21.3&quot; Cross Travel</equippedwith>
+</specifications>
+<specifications>
+<id>711</id>
+<invid>31061</invid>
+<ewid>49622</ewid>
+<equippedwith>Tailstock</equippedwith>
+</specifications>
+<specifications>
+<id>712</id>
+<invid>31061</invid>
+<ewid>49626</ewid>
+<equippedwith>Newall Digital Readouts</equippedwith>
+</specifications>
+<specifications>
+<id>713</id>
+<invid>31061</invid>
+<ewid>49627</ewid>
+<equippedwith>Machine was purchased new in late 2012 for a job that didn&apos;t work out.  Machine</equippedwith>
+<groupnameew>Note:</groupnameew>
+</specifications>
+<specifications>
+<id>714</id>
+<invid>31061</invid>
+<ewid>49628</ewid>
+<equippedwith>has very little use since. Estimated to have only couple hundred hours of actual</equippedwith>
+</specifications>
+<specifications>
+<id>715</id>
+<invid>31061</invid>
+<ewid>49629</ewid>
+<equippedwith>cutting time.</equippedwith>
+</specifications>
+<specifications>
+<id>716</id>
+<invid>31062</invid>
+<ewid>49630</ewid>
+<equippedwith>Haas CNC Control with 15&quot; Color LCD Monitor</equippedwith>
+<groupnameew>Equipped With:</groupnameew>
+</specifications>
+<specifications>
+<id>717</id>
+<invid>31062</invid>
+<ewid>49631</ewid>
+<equippedwith>1GB Program Memory</equippedwith>
+</specifications>
+<specifications>
+<id>718</id>
+<invid>31062</invid>
+<ewid>49632</ewid>
+<equippedwith>Ethernet Interface</equippedwith>
+</specifications>
+<specifications>
+<id>719</id>
+<invid>31062</invid>
+<ewid>49633</ewid>
+<equippedwith>Haas Connect Option</equippedwith>
+</specifications>
+<specifications>
+<id>720</id>
+<invid>31062</invid>
+<ewid>49634</ewid>
+<equippedwith>Media Display M-Code</equippedwith>
+</specifications>
+<specifications>
+<id>721</id>
+<invid>31062</invid>
+<ewid>49635</ewid>
+<equippedwith>WIFI Connection for Haas Control</equippedwith>
+</specifications>
+<specifications>
+<id>722</id>
+<invid>31062</invid>
+<ewid>49636</ewid>
+<equippedwith>10 Position Automatic Tool Changer</equippedwith>
+</specifications>
+<specifications>
+<id>723</id>
+<invid>31062</invid>
+<ewid>49637</ewid>
+<equippedwith>Early Power Failure Detection Module</equippedwith>
+</specifications>
+<specifications>
+<id>724</id>
+<invid>31062</invid>
+<ewid>49638</ewid>
+<equippedwith>New Spindle Recently Installed</equippedwith>
+</specifications>
+<specifications>
+<id>725</id>
+<invid>31063</invid>
+<ewid>49639</ewid>
+<equippedwith>Haas CNC Control with 15&quot; Color LCD Monitor</equippedwith>
+<groupnameew>Equipped With:</groupnameew>
+</specifications>
+<specifications>
+<id>726</id>
+<invid>31063</invid>
+<ewid>49640</ewid>
+<equippedwith>1GB Program Memory</equippedwith>
+</specifications>
+<specifications>
+<id>727</id>
+<invid>31063</invid>
+<ewid>49641</ewid>
+<equippedwith>Early Power Failure Detection Module</equippedwith>
+</specifications>
+<specifications>
+<id>728</id>
+<invid>31063</invid>
+<ewid>49642</ewid>
+<equippedwith>Ethernet Interface</equippedwith>
+</specifications>
+<specifications>
+<id>729</id>
+<invid>31063</invid>
+<ewid>49643</ewid>
+<equippedwith>Haas Connect</equippedwith>
+</specifications>
+<specifications>
+<id>730</id>
+<invid>31063</invid>
+<ewid>49644</ewid>
+<equippedwith>Media Display M-Code</equippedwith>
+</specifications>
+<specifications>
+<id>731</id>
+<invid>31063</invid>
+<ewid>49645</ewid>
+<equippedwith>WIFI Connection</equippedwith>
+</specifications>
+<specifications>
+<id>732</id>
+<invid>31063</invid>
+<ewid>49646</ewid>
+<equippedwith>Coolant Pump Kit</equippedwith>
+</specifications>
+<specifications>
+<id>733</id>
+<invid>31063</invid>
+<ewid>49647</ewid>
+<equippedwith>Visual Programming System</equippedwith>
+</specifications>
+<specifications>
+<id>734</id>
+<invid>31063</invid>
+<ewid>49648</ewid>
+<equippedwith>Work Light</equippedwith>
+</specifications>
+<specifications>
+<id>735</id>
+<invid>31063</invid>
+<ewid>49649</ewid>
+<equippedwith>Convenience Package</equippedwith>
+</specifications>
+<specifications>
+<id>736</id>
+<invid>31064</invid>
+<ewid>49650</ewid>
+<equippedwith>Haas 4-Axis CNC Control with 15&quot; Color LCD Monitor</equippedwith>
+<groupnameew>Equipped With:</groupnameew>
+</specifications>
+<specifications>
+<id>737</id>
+<invid>31064</invid>
+<ewid>49651</ewid>
+<equippedwith>1GB Program Memory, Ethernet Interface, WIFI, EPFDM, Media Display M-Code,</equippedwith>
+</specifications>
+<specifications>
+<id>738</id>
+<invid>31064</invid>
+<ewid>49652</ewid>
+<equippedwith>  HaasConnect, HaasDrop, Rigid Tapping</equippedwith>
+</specifications>
+<specifications>
+<id>739</id>
+<invid>31064</invid>
+<ewid>49653</ewid>
+<equippedwith>Window Air Blast</equippedwith>
+</specifications>
+<specifications>
+<id>740</id>
+<invid>31064</invid>
+<ewid>49654</ewid>
+<equippedwith>High-Speed 30+1 Position Side-Mount Tool Changer</equippedwith>
+</specifications>
+<specifications>
+<id>741</id>
+<invid>31064</invid>
+<ewid>49655</ewid>
+<equippedwith>55 Gallon Coolant Tank</equippedwith>
+</specifications>
+<specifications>
+<id>742</id>
+<invid>31064</invid>
+<ewid>49656</ewid>
+<equippedwith>Through Spindle Coolant</equippedwith>
+</specifications>
+<specifications>
+<id>743</id>
+<invid>31064</invid>
+<ewid>49657</ewid>
+<equippedwith>High Speed Machining</equippedwith>
+</specifications>
+<specifications>
+<id>744</id>
+<invid>31064</invid>
+<ewid>49658</ewid>
+<equippedwith>Macros</equippedwith>
+</specifications>
+<specifications>
+<id>745</id>
+<invid>31064</invid>
+<ewid>49659</ewid>
+<equippedwith>Rotation and Scaling</equippedwith>
+</specifications>
+<specifications>
+<id>746</id>
+<invid>31064</invid>
+<ewid>49660</ewid>
+<equippedwith>Spindle Orientation</equippedwith>
+</specifications>
+<specifications>
+<id>747</id>
+<invid>31064</invid>
+<ewid>49661</ewid>
+<equippedwith>VPS Editing</equippedwith>
+</specifications>
+<specifications>
+<id>748</id>
+<invid>31064</invid>
+<ewid>49662</ewid>
+<equippedwith>4th-Axis Drive and Wiring</equippedwith>
+</specifications>
+<specifications>
+<id>749</id>
+<invid>31064</invid>
+<ewid>49663</ewid>
+<equippedwith>Wireless Intuitive Probing System</equippedwith>
+</specifications>
+<specifications>
+<id>750</id>
+<invid>31066</invid>
+<ewid>49673</ewid>
+<equippedwith>Fanuc 0i-MB CNC Control</equippedwith>
+<groupnameew>Equipped With:</groupnameew>
+</specifications>
+<specifications>
+<id>751</id>
+<invid>31066</invid>
+<ewid>49674</ewid>
+<equippedwith>Through Spindle Coolant with 2hp A-Ryung Motor</equippedwith>
+</specifications>
+<specifications>
+<id>752</id>
+<invid>31066</invid>
+<ewid>49675</ewid>
+<equippedwith>Chip Conveyor</equippedwith>
+</specifications>
+<specifications>
+<id>753</id>
+<invid>31066</invid>
+<ewid>49676</ewid>
+<equippedwith>CJS Oil Chiller Unit</equippedwith>
+</specifications>
+<specifications>
+<id>754</id>
+<invid>31066</invid>
+<ewid>49677</ewid>
+<equippedwith>Cooljet Model CJK-MF20-3659 Coolant Filtration System</equippedwith>
+</specifications>
+<specifications>
+<id>755</id>
+<invid>31066</invid>
+<ewid>49678</ewid>
+<equippedwith>24 Position Sidemount Tool Changer</equippedwith>
+</specifications>
+<specifications>
+<id>756</id>
+<invid>31066</invid>
+<ewid>49679</ewid>
+<equippedwith>Bed Coolant Flush</equippedwith>
+</specifications>
+<specifications>
+<id>757</id>
+<invid>31066</invid>
+<ewid>49680</ewid>
+<equippedwith>Remote Jog Handle</equippedwith>
+</specifications>
+<specifications>
+<id>758</id>
+<invid>31066</invid>
+<ewid>49681</ewid>
+<equippedwith>Rigid Tapping</equippedwith>
+</specifications>
+<specifications>
+<id>759</id>
+<invid>31066</invid>
+<ewid>49682</ewid>
+<equippedwith>Flood Coolant System</equippedwith>
+</specifications>
+<specifications>
+<id>760</id>
+<invid>31066</invid>
+<ewid>49683</ewid>
+<equippedwith>One Owner machine, well taken care of. Only 5,369 Total cutting hours of</equippedwith>
+<groupnameew>Note:</groupnameew>
+</specifications>
+<specifications>
+<id>761</id>
+<invid>31066</invid>
+<ewid>49684</ewid>
+<equippedwith>  Small parts, mostly electrical connectors.</equippedwith>
+</specifications>
+<specifications>
+<id>762</id>
+<invid>31066</invid>
+<ewid>49685</ewid>
+<equippedwith>**Subplate and vises in pics DOES NOT go with machine.**</equippedwith>
+</specifications>
+<specifications>
+<id>763</id>
+<invid>31067</invid>
+<ewid>49686</ewid>
+<equippedwith>Haas 3-Axis CNC Control with 15&quot; Color LCD Monitor</equippedwith>
+<groupnameew>Equipped With:</groupnameew>
+</specifications>
+<specifications>
+<id>764</id>
+<invid>31067</invid>
+<ewid>49687</ewid>
+<equippedwith>Haas Tool Probing</equippedwith>
+</specifications>
+<specifications>
+<id>765</id>
+<invid>31067</invid>
+<ewid>49688</ewid>
+<equippedwith>User Definable Macros</equippedwith>
+</specifications>
+<specifications>
+<id>766</id>
+<invid>31067</invid>
+<ewid>49689</ewid>
+<equippedwith>Spindle Orientation</equippedwith>
+</specifications>
+<specifications>
+<id>767</id>
+<invid>31067</invid>
+<ewid>49690</ewid>
+<equippedwith>Coord Rotation and Scaling</equippedwith>
+</specifications>
+<specifications>
+<id>768</id>
+<invid>31067</invid>
+<ewid>49691</ewid>
+<equippedwith>Haas Intuitive Programming System</equippedwith>
+</specifications>
+<specifications>
+<id>769</id>
+<invid>31067</invid>
+<ewid>49692</ewid>
+<equippedwith>10 Position Tool Changer</equippedwith>
+</specifications>
+<specifications>
+<id>770</id>
+<invid>31067</invid>
+<ewid>49693</ewid>
+<equippedwith>Coolant Pump Kit with Tank and Pump</equippedwith>
+</specifications>
+<specifications>
+<id>771</id>
+<invid>31067</invid>
+<ewid>49694</ewid>
+<equippedwith>Flood Coolant System</equippedwith>
+</specifications>
+<specifications>
+<id>772</id>
+<invid>31067</invid>
+<ewid>49695</ewid>
+<equippedwith>Full Chip/Coolant Enclosure</equippedwith>
+</specifications>
+<specifications>
+<id>773</id>
+<invid>31067</invid>
+<ewid>49696</ewid>
+<equippedwith>USB Port</equippedwith>
+</specifications>
+<specifications>
+<id>774</id>
+<invid>31067</invid>
+<ewid>49697</ewid>
+<equippedwith>Memory Lock Keyswitch</equippedwith>
+</specifications>
+<specifications>
+<id>775</id>
+<invid>31067</invid>
+<ewid>49698</ewid>
+<equippedwith>Helical Interpolation</equippedwith>
+</specifications>
+<specifications>
+<id>776</id>
+<invid>31067</invid>
+<ewid>49699</ewid>
+<equippedwith>Single or 3 Phase Switchable</equippedwith>
+</specifications>
+<specifications>
+<id>777</id>
+<invid>31067</invid>
+<ewid>49700</ewid>
+<equippedwith>Servo: 2100  Motion: 413  Spindle 390</equippedwith>
+<groupnameew>Hours:</groupnameew>
+</specifications>
+<specifications>
+<id>778</id>
+<invid>31068</invid>
+<ewid>49701</ewid>
+<equippedwith>Fanuc 18i-TB 9-Axis CNC Control</equippedwith>
+<groupnameew>Equipped With:</groupnameew>
+</specifications>
+<specifications>
+<id>779</id>
+<invid>31068</invid>
+<ewid>49702</ewid>
+<equippedwith>Pendulum Style B-Axis Head</equippedwith>
+</specifications>
+<specifications>
+<id>780</id>
+<invid>31068</invid>
+<ewid>49703</ewid>
+<equippedwith>Live Milling Capability on Upper Head</equippedwith>
+</specifications>
+<specifications>
+<id>781</id>
+<invid>31068</invid>
+<ewid>49704</ewid>
+<equippedwith>Y-Axis Capability on Upper Head</equippedwith>
+</specifications>
+<specifications>
+<id>782</id>
+<invid>31068</invid>
+<ewid>49720</ewid>
+<equippedwith>40 Position Automatic Tool Changer</equippedwith>
+</specifications>
+<specifications>
+<id>783</id>
+<invid>31068</invid>
+<ewid>49721</ewid>
+<equippedwith>Sub Spindle</equippedwith>
+</specifications>
+<specifications>
+<id>784</id>
+<invid>31068</invid>
+<ewid>49722</ewid>
+<equippedwith>10&quot; 3 Jaw Hydraulic Chuck on Main Spindle</equippedwith>
+</specifications>
+<specifications>
+<id>785</id>
+<invid>31068</invid>
+<ewid>49723</ewid>
+<equippedwith>8&quot; 3 Jaw Hydraulic Chuck on Subspindle</equippedwith>
+</specifications>
+<specifications>
+<id>786</id>
+<invid>31068</invid>
+<ewid>49724</ewid>
+<equippedwith>12 Station Lower Turret with All Locations Capable of Live</equippedwith>
+</specifications>
+<specifications>
+<id>787</id>
+<invid>31068</invid>
+<ewid>49725</ewid>
+<equippedwith>Automatic Tool Eye</equippedwith>
+</specifications>
+<specifications>
+<id>788</id>
+<invid>31068</invid>
+<ewid>49726</ewid>
+<equippedwith>Chip Conveyor</equippedwith>
+</specifications>
+<specifications>
+<id>789</id>
+<invid>31068</invid>
+<ewid>49727</ewid>
+<equippedwith>Parts Exit Conveyor System</equippedwith>
+</specifications>
+<specifications>
+<id>790</id>
+<invid>31068</invid>
+<ewid>49728</ewid>
+<equippedwith>Complete Coolant System with Tank &amp; Pump</equippedwith>
+</specifications>
+<specifications>
+<id>791</id>
+<invid>31068</invid>
+<ewid>49729</ewid>
+<equippedwith>3 Color Machine Status Condition Lights</equippedwith>
+</specifications>
+<specifications>
+<id>792</id>
+<invid>31068</invid>
+<ewid>49730</ewid>
+<equippedwith>Card Interface</equippedwith>
+</specifications>
+<specifications>
+<id>793</id>
+<invid>31068</invid>
+<ewid>49731</ewid>
+<equippedwith>RS 232 Port Interface</equippedwith>
+</specifications>
+<specifications>
+<id>794</id>
+<invid>31068</invid>
+<ewid>49732</ewid>
+<equippedwith>All Available Manuals</equippedwith>
+</specifications>
+<specifications>
+<id>795</id>
+<invid>31068</invid>
+<ewid>49733</ewid>
+<equippedwith>All Available Tooling</equippedwith>
+</specifications>
+<specifications>
+<id>796</id>
+<invid>31071</invid>
+<ewid>49750</ewid>
+<equippedwith>Hurco Ultimax 4-Axis CNC Control</equippedwith>
+<groupnameew>Equipped With:</groupnameew>
+</specifications>
+<specifications>
+<id>797</id>
+<invid>31071</invid>
+<ewid>49751</ewid>
+<equippedwith>Flood Coolant System</equippedwith>
+</specifications>
+<specifications>
+<id>798</id>
+<invid>31071</invid>
+<ewid>49752</ewid>
+<equippedwith>Full Chip/Coolant Enclosure</equippedwith>
+</specifications>
+<specifications>
+<id>799</id>
+<invid>31071</invid>
+<ewid>49753</ewid>
+<equippedwith>10&quot; 4th-Axis Rotary Table</equippedwith>
+</specifications>
+<specifications>
+<id>800</id>
+<invid>31071</invid>
+<ewid>49754</ewid>
+<equippedwith>Conversational Programming</equippedwith>
+</specifications>
+<specifications>
+<id>801</id>
+<invid>31071</invid>
+<ewid>49755</ewid>
+<equippedwith>Washdown</equippedwith>
+</specifications>
+<specifications>
+<id>802</id>
+<invid>31071</invid>
+<ewid>49756</ewid>
+<equippedwith>Coolant Thru Tool</equippedwith>
+</specifications>
+<specifications>
+<id>803</id>
+<invid>31071</invid>
+<ewid>49757</ewid>
+<equippedwith>Chip Conveyor</equippedwith>
+</specifications>
+<specifications>
+<id>804</id>
+<invid>31071</invid>
+<ewid>49758</ewid>
+<equippedwith>All Original Manuals</equippedwith>
+</specifications>
+<specifications>
+<id>805</id>
+<invid>31071</invid>
+<ewid>49759</ewid>
+<equippedwith>One Owner Machine</equippedwith>
+<groupnameew>Note:</groupnameew>
+</specifications>
+<specifications>
+<id>806</id>
+<invid>31072</invid>
+<ewid>49760</ewid>
+<equippedwith>Fanuc 0T 2-Axis CNC Control</equippedwith>
+<groupnameew>Equipped With:</groupnameew>
+</specifications>
+<specifications>
+<id>807</id>
+<invid>31072</invid>
+<ewid>49761</ewid>
+<equippedwith>Front &amp; Rear 24&quot; 4-Jaw Chucks</equippedwith>
+</specifications>
+<specifications>
+<id>808</id>
+<invid>31072</invid>
+<ewid>49762</ewid>
+<equippedwith>Steady Rest</equippedwith>
+</specifications>
+<specifications>
+<id>809</id>
+<invid>31072</invid>
+<ewid>49763</ewid>
+<equippedwith>Taper Attachment</equippedwith>
+</specifications>
+<specifications>
+<id>810</id>
+<invid>31072</invid>
+<ewid>49764</ewid>
+<equippedwith>4-Way Rapid Traverse</equippedwith>
+</specifications>
+<specifications>
+<id>811</id>
+<invid>31072</invid>
+<ewid>49765</ewid>
+<equippedwith>Hydraulic Braking System</equippedwith>
+</specifications>
+<specifications>
+<id>812</id>
+<invid>31072</invid>
+<ewid>49766</ewid>
+<equippedwith>2-Speed Drive Tailstock Quill</equippedwith>
+</specifications>
+<specifications>
+<id>813</id>
+<invid>31072</invid>
+<ewid>49767</ewid>
+<equippedwith>(2) Chip Pans</equippedwith>
+</specifications>
+<specifications>
+<id>814</id>
+<invid>31072</invid>
+<ewid>49768</ewid>
+<equippedwith>Digital Readouts</equippedwith>
+</specifications>
+<specifications>
+<id>815</id>
+<invid>31072</invid>
+<ewid>49769</ewid>
+<equippedwith>12.5&quot; Spindle Bore</equippedwith>
+</specifications>
+<specifications>
+<id>816</id>
+<invid>31072</invid>
+<ewid>49771</ewid>
+<equippedwith>Auto Thread Re-Track Option</equippedwith>
+</specifications>
+<specifications>
+<id>817</id>
+<invid>31072</invid>
+<ewid>49772</ewid>
+<equippedwith>Machine may be run in CNC or in Manual Operation Modes</equippedwith>
+<groupnameew>Note:</groupnameew>
+</specifications>
+<specifications>
+<id>818</id>
+<invid>31073</invid>
+<ewid>49773</ewid>
+<equippedwith>Mazatrol Fusion 640MT CNC Control</equippedwith>
+<groupnameew>Equipped With:</groupnameew>
+</specifications>
+<specifications>
+<id>819</id>
+<invid>31073</invid>
+<ewid>49774</ewid>
+<equippedwith>24&quot; SMW Model BB-N-600-275-3 Big Bore 3 Jaw Chuck with 10.8&quot; Hole</equippedwith>
+</specifications>
+<specifications>
+<id>820</id>
+<invid>31073</invid>
+<ewid>49775</ewid>
+<equippedwith>24&quot; Manual Chuck on Rear with 8&quot; Hole</equippedwith>
+</specifications>
+<specifications>
+<id>821</id>
+<invid>31073</invid>
+<ewid>49776</ewid>
+<equippedwith>Chip Conveyor</equippedwith>
+</specifications>
+<specifications>
+<id>822</id>
+<invid>31073</invid>
+<ewid>49777</ewid>
+<equippedwith>Full &quot;C&quot; Axis Spindle Rotation</equippedwith>
+</specifications>
+<specifications>
+<id>823</id>
+<invid>31073</invid>
+<ewid>49778</ewid>
+<equippedwith>Live Milling Capability</equippedwith>
+</specifications>
+<specifications>
+<id>824</id>
+<invid>31073</invid>
+<ewid>49779</ewid>
+<equippedwith>Lower Turret Option</equippedwith>
+</specifications>
+<specifications>
+<id>825</id>
+<invid>31073</invid>
+<ewid>49780</ewid>
+<equippedwith>Tool Presetter</equippedwith>
+</specifications>
+<specifications>
+<id>826</id>
+<invid>31073</invid>
+<ewid>49781</ewid>
+<equippedwith>Fully Programmable Tailstock</equippedwith>
+</specifications>
+<specifications>
+<id>827</id>
+<invid>31073</invid>
+<ewid>49782</ewid>
+<equippedwith>High Power Coolant 213 PSI</equippedwith>
+</specifications>
+<specifications>
+<id>828</id>
+<invid>31073</invid>
+<ewid>49783</ewid>
+<equippedwith>Mill Tool Synchronous Tapping</equippedwith>
+</specifications>
+<specifications>
+<id>829</id>
+<invid>31073</invid>
+<ewid>49784</ewid>
+<equippedwith>Thread Point Start Compensation, Variable Feed Rate Control, Tool Life Monitoring,</equippedwith>
+</specifications>
+<specifications>
+<id>830</id>
+<invid>31073</invid>
+<ewid>49785</ewid>
+<equippedwith> Tool Wear Compensation, Mazak Tapping Tornado, 8 Figure Program Number</equippedwith>
+</specifications>
+<specifications>
+<id>831</id>
+<invid>31073</invid>
+<ewid>49786</ewid>
+<equippedwith> 48 Alphanumeric Characters for Program Name, Backround Toolpath Check</equippedwith>
+</specifications>
+<specifications>
+<id>832</id>
+<invid>31073</invid>
+<ewid>49787</ewid>
+<equippedwith> Built In Premium Threading Function, Re-Threading Function, Deep Hole Boring</equippedwith>
+</specifications>
+<specifications>
+<id>833</id>
+<invid>31073</invid>
+<ewid>49788</ewid>
+<equippedwith> EIA/ISO Input Function, IC Memory Card Interface, Network Interface</equippedwith>
+</specifications>
+</dataroot>

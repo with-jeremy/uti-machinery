@@ -159,5 +159,5 @@ if (!machine) {
   router.push('/machines/index.vue')
 }
 
-const featuredImage = `https://utimachinery.com/wp-content/uploads/2024/09/${invID}_1.jpg`
+const featuredImage = `/images/${invID}_1.jpg`
 </script>
