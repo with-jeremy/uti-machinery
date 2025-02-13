@@ -14,6 +14,10 @@
           :src="featuredImage"
           alt="Machine image"
           class="w-full rounded-lg shadow-lg"
+          @error="
+            $event.target.src = '/images/noImg.png';
+            $event.target.onerror = null;
+          "
         />
       </div>
 

@@ -48,6 +48,10 @@
                     alt="{{ machine.title }}"
                     class="w-full h-full object-cover lazyload"
                     loading="lazy"
+                    @error="
+                      $event.target.src = '/images/noImg.png';
+                      $event.target.onerror = null;
+                    "
                   />
                 </div>
                 
@@ -157,6 +161,10 @@
                 alt="{{ machine.title }}"
                 class="w-full h-64 object-cover lazyload"
                 loading="lazy"
+                @error="
+                  $event.target.src = '/images/noImg.png';
+                  $event.target.onerror = null;
+                "
               />
             </div>
 

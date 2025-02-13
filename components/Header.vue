@@ -2,7 +2,9 @@
   <header class="fixed top-0 left-0 w-full bg-black text-white shadow-md z-50 transition-all duration-300 py-4">
     <div class="container mx-auto flex flex-col md:flex-row items-center justify-between lg:px-48">
       <div class="hidden md:flex space-x-6">
-        <a href="#allMachines" class="hover:text-primary-light">See All Machines</a>
+        <NuxtLink :to="isHomePage ? '#allMachines' : '/'" class="hover:text-primary-light">
+          {{ isHomePage ? 'See All Machines' : 'Back to All Machines' }}
+        </NuxtLink>
       </div>
       <NuxtLink to="/" class="mx-auto">
         <img
@@ -24,7 +26,9 @@
         <a href="tel:8775978300" class="hover:text-primary-light">(877) 597-8300</a>
       </div>
       <div class="flex flex-col md:hidden space-y-4 mt-4 items-center">
-        <a href="#allMachines" class="hover:text-primary-light">See All Machines</a>
+        <NuxtLink :to="isHomePage ? '#allMachines' : '/'" class="hover:text-primary-light">
+          {{ isHomePage ? 'See All Machines' : '<-- Back' }}
+        </NuxtLink>
         <div class="flex space-x-6">
           <a href="https://www.facebook.com/utimachinery/" class="icon">
             <span>
@@ -42,3 +46,10 @@
     </div>
   </header>
 </template>
+
+<script setup>
+import { useRoute } from 'vue-router';
+
+const route = useRoute();
+const isHomePage = route.path === '/';
+</script>
