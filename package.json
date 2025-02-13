@@ -6,7 +6,7 @@
     "prebuild": "node convertXMLToJSON.js",
     "build": "nuxt build",
     "dev": "nuxt dev",
-    "generate": "npm run prebuild && nuxt generate",
+    "generate": "nuxt generate",
     "preview": "nuxt preview",
     "postinstall": "nuxt prepare"
   },
