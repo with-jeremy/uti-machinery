@@ -41,11 +41,11 @@
 
       <!-- Lightbox Overlay -->
       <transition
-        enter-from-class="opacity-0"
-        enter-active-class="transition-opacity duration-300"
-        enter-to-class="opacity-100"
+        enter-from-class="scale-0 opacity-0"
+        enter-active-class="transition-transform transition-opacity duration-1000"
+        enter-to-class="scale-100 opacity-100"
         leave-from-class="opacity-100"
-        leave-active-class="transition-opacity duration-300"
+        leave-active-class="transition-opacity duration-1000"
         leave-to-class="opacity-0"
       >
         <div
@@ -63,12 +63,15 @@
 
           <button @click.stop="prevImage" class="absolute left-4 top-1/2 transform -translate-y-1/2 bg-gray-700 text-white p-2 rounded-full">&lt;</button>
 
-          <img
-            :src="`/images/${openImage}`"
-            :alt="imageSlug"
-            class="max-w-4/5 max-h-4/5 rounded-lg shadow-lg"
-            @click.stop
-          />
+          
+            <img
+              v-if="openImage"
+              :src="`/images/${openImage}`"
+              :alt="imageSlug"
+              class="max-w-4/5 max-h-4/5 rounded-lg shadow-lg"
+              @click.stop
+            />
+          
 
           <button @click.stop="nextImage" class="absolute right-4 top-1/2 transform -translate-y-1/2 bg-gray-700 text-white p-2 rounded-full">&gt;</button>
 
@@ -309,4 +312,7 @@ if (!machine) {
 
 <style scoped>
 /* Add any additional styling here */
+
+
+
 </style>
