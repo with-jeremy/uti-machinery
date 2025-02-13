@@ -40,34 +40,43 @@
       </div>
 
       <!-- Lightbox Overlay -->
-      <div
-        v-if="openImage"
-        class="fixed top-0 left-0 w-full h-full bg-black bg-opacity-80 flex justify-center items-center z-50"
-        @click="closeLightbox"
+      <transition
+        enter-from-class="opacity-0"
+        enter-active-class="transition-opacity duration-300"
+        enter-to-class="opacity-100"
+        leave-from-class="opacity-100"
+        leave-active-class="transition-opacity duration-300"
+        leave-to-class="opacity-0"
       >
-        <button
-          @click.stop="closeLightbox"
-          class="absolute top-4 bg-blue-600 text-white rounded pl-4 pr-1 py-2 flex items-center"
+        <div
+          v-if="openImage"
+          class="fixed top-0 left-0 w-full h-full bg-black bg-opacity-80 flex justify-center items-center z-50"
+          @click="closeLightbox"
         >
-          {{ machine.manufacturer }} - {{ machine.model }}
-          <span class="ml-12 text-white">✗</span>
-        </button>
+          <button
+            @click.stop="closeLightbox"
+            class="absolute top-4 bg-blue-600 text-white rounded pl-4 pr-1 py-2 flex items-center"
+          >
+            {{ machine.manufacturer }} - {{ machine.model }}
+            <span class="ml-12 text-white">✗</span>
+          </button>
 
-        <button @click.stop="prevImage" class="absolute left-4 top-1/2 transform -translate-y-1/2 bg-gray-700 text-white p-2 rounded-full">&lt;</button>
+          <button @click.stop="prevImage" class="absolute left-4 top-1/2 transform -translate-y-1/2 bg-gray-700 text-white p-2 rounded-full">&lt;</button>
 
-        <img
-          :src="`/images/${openImage}`"
-          :alt="imageSlug"
-          class="max-w-4/5 max-h-4/5 rounded-lg shadow-lg transform transition-transform duration-300"
-          @click.stop
-        />
+          <img
+            :src="`/images/${openImage}`"
+            :alt="imageSlug"
+            class="max-w-4/5 max-h-4/5 rounded-lg shadow-lg"
+            @click.stop
+          />
 
-        <button @click.stop="nextImage" class="absolute right-4 top-1/2 transform -translate-y-1/2 bg-gray-700 text-white p-2 rounded-full">&gt;</button>
+          <button @click.stop="nextImage" class="absolute right-4 top-1/2 transform -translate-y-1/2 bg-gray-700 text-white p-2 rounded-full">&gt;</button>
 
-        <div class="absolute bottom-4 bg-blue-600 text-white rounded px-4 py-2">
-          {{ imageSlug }}
+          <div class="absolute bottom-4 bg-blue-600 text-white rounded px-4 py-2">
+            {{ imageSlug }}
+          </div>
         </div>
-      </div>
+      </transition>
 
       <!-- Specs Table -->
       <div v-if="filteredSpecsGroup.length || filteredSpecsEw.length" class="specs-list mb-8">
@@ -294,7 +303,7 @@ const imageSlug = computed(() => {
 
 // Redirect if machine not found
 if (!machine) {
-  router.push('/machines/index.vue')
+  router.push('/index.vue')
 }
 </script>
 
