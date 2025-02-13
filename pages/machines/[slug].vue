@@ -10,13 +10,11 @@
 
       <div class="mb-6">
         <img
-          v-if="featuredImage"
-          :src="featuredImage"
+          :src="`/images/${invID}_1.jpg`"
           alt="Machine image"
           class="w-full rounded-lg shadow-lg"
           @error="
             $event.target.src = '/images/noImg.png';
-            $event.target.onerror = null;
           "
         />
       </div>
@@ -32,6 +30,35 @@
         <p v-if="machine.advSpec" class="text-gray-300">
           {{ machine.advSpec }}
         </p>
+      </div>
+
+      <!-- Additional Images -->
+      <div class="additional-images mb-8">
+        <button @click="openGallery" class="bg-gray-700 hover:bg-gray-600 text-white font-bold py-2 px-4 rounded">
+          Additional Images ({{ existingImages.length }})
+        </button>
+      </div>
+
+      <!-- Lightbox Overlay -->
+      <div
+        v-if="openImage"
+        class="fixed top-0 left-0 w-full h-full bg-black bg-opacity-80 flex justify-center items-center z-50"
+        @click="closeLightbox"
+      >
+        <button @click.stop="prevImage" class="absolute left-4 top-1/2 transform -translate-y-1/2 bg-gray-700 text-white p-2 rounded-full">&lt;</button>
+
+        <img
+          :src="`/images/${openImage}`"
+          :alt="imageSlug"
+          class="max-w-4/5 max-h-4/5 rounded-lg shadow-lg transform transition-transform duration-300"
+          @click.stop
+        />
+
+        <button @click.stop="nextImage" class="absolute right-4 top-1/2 transform -translate-y-1/2 bg-gray-700 text-white p-2 rounded-full">&gt;</button>
+
+        <div class="absolute bottom-4 bg-blue-600 text-white rounded px-4 py-2">
+          {{ imageSlug }}
+        </div>
       </div>
 
       <!-- Specs Table -->
@@ -140,7 +167,7 @@
 <script setup>
 import { useRouter, useRoute } from 'vue-router'
 import { useInventory } from '~/composables/useInventory'
-import { computed } from 'vue'
+import { computed, ref, onMounted, onBeforeUnmount } from 'vue'
 
 const router = useRouter()
 const route = useRoute()
@@ -158,10 +185,111 @@ const filteredSpecsEw = computed(() =>
   machineSpecs.filter(spec => spec.ewid)
 )
 
+const showImages = ref(false)
+const openImage = ref(null)
+const currentIndex = ref(null)
+
+const toggleImages = () => {
+  showImages.value = !showImages.value
+}
+
+const existingImages = ref([]);
+
+onMounted(async () => {
+  for (let i = 2; i <= 15; i++) {
+    const imageName = `${invID}_${i}.jpg`;
+    const exists = await imageUrlExists(imageName);
+    if (exists) {
+      existingImages.value.push(imageName);
+    } else {
+      break;
+    }
+  }
+
+  const hrsImageName = `${invID}_hrs.jpg`;
+  if (await imageUrlExists(hrsImageName)) {
+    existingImages.value.push(hrsImageName);
+  }
+
+  // Check for invID_1.jpg and add it at the end
+  const firstImageName = `${invID}_1.jpg`;
+    if (!(existingImages.value.indexOf(firstImageName) > -1) && await imageUrlExists(firstImageName)) {
+    existingImages.value.push(firstImageName);
+  }
+
+  document.addEventListener('keydown', handleKeyDown);
+});
+
+onBeforeUnmount(() => {
+  document.removeEventListener('keydown', handleKeyDown);
+});
+
+const handleKeyDown = (event) => {
+  if (openImage.value) {
+    if (event.key === 'ArrowLeft') {
+      prevImage();
+    } else if (event.key === 'ArrowRight') {
+      nextImage();
+    } else if (event.key === 'Escape') {
+      closeLightbox();
+    }
+  }
+};
+
+const openLightbox = (image, index) => {
+  openImage.value = image;
+  currentIndex.value = index;
+};
+
+const closeLightbox = () => {
+  openImage.value = null;
+  currentIndex.value = null;
+};
+
+const nextImage = () => {
+  if (currentIndex.value !== null && existingImages.value.length > 0) {
+    currentIndex.value = (currentIndex.value + 1) % existingImages.value.length;
+    openImage.value = existingImages.value[currentIndex.value];
+  }
+};
+
+const prevImage = () => {
+  if (currentIndex.value !== null && existingImages.value.length > 0) {
+    currentIndex.value = (currentIndex.value - 1 + existingImages.value.length) % existingImages.value.length;
+    openImage.value = existingImages.value[currentIndex.value];
+  }
+};
+
+const openGallery = () => {
+  if (existingImages.value.length > 0) {
+    openLightbox(existingImages.value[0], 0);
+  }
+};
+
+const imageUrlExists = async (imageName) => {
+  try {
+    const response = await fetch(`/images/${imageName}`, { method: 'HEAD' });
+    return response.status === 200;
+  } catch (error) {
+    return false;
+  }
+}
+
+const imageSlug = computed(() => {
+  if (openImage.value) {
+    const parts = openImage.value.split('/');
+    const filename = parts[parts.length - 1];
+    return filename.substring(0, filename.lastIndexOf('.'));
+  }
+  return '';
+});
+
 // Redirect if machine not found
 if (!machine) {
   router.push('/machines/index.vue')
 }
-
-const featuredImage = `/images/${invID}_1.jpg`
 </script>
+
+<style scoped>
+/* Add any additional styling here */
+</style>
