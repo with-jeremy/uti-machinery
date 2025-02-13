@@ -3,8 +3,8 @@
   <div class="min-h-screen px-4">
     <div class="max-w-[800px] mx-auto bg-gray-800 rounded-lg shadow-xl p-6 text-gray-100">
       <h1 class="text-3xl font-bold mb-4 text-gray-100">
-        <span v-if="machine.manufacturer">{{ machine.manufacturer }} </span>
-        <span v-if="machine.model"> {{ machine.model }} </span>
+        <span v-if="machine.manufacturer">{{ machine.manufacturer }}&nbsp;</span>
+        <span v-if="machine.model"> {{ machine.model }} - </span>
         <span v-if="machine.year" class="text-gray-300"> ({{ machine.year }})</span>
       </h1>
 
@@ -45,6 +45,14 @@
         class="fixed top-0 left-0 w-full h-full bg-black bg-opacity-80 flex justify-center items-center z-50"
         @click="closeLightbox"
       >
+        <button
+          @click.stop="closeLightbox"
+          class="absolute top-4 bg-blue-600 text-white rounded pl-4 pr-1 py-2 flex items-center"
+        >
+          {{ machine.manufacturer }} - {{ machine.model }}
+          <span class="ml-12 text-white">✗</span>
+        </button>
+
         <button @click.stop="prevImage" class="absolute left-4 top-1/2 transform -translate-y-1/2 bg-gray-700 text-white p-2 rounded-full">&lt;</button>
 
         <img
