@@ -18,21 +18,18 @@
         <a href="tel:8775978300" class="hover:text-primary-light">(877) 597-8300</a>
       </div>
       <div class="flex flex-col md:hidden space-y-4 mt-4 items-center">
-        <NuxtLink :to="isHomePage ? '#allMachines' : '/'" class="hover:text-primary-light">
-          {{ isHomePage ? 'See All Machines' : '<-- Back' }}
-        </NuxtLink>
         <div class="flex space-x-6">
           <a href="https://www.facebook.com/utimachinery/" class="icon">
             <span>
-              <img src="http://www.utimachinery.com/wp-content/uploads/2017/06/facebook-30-e1497978181714.png" alt="fb link icon" height="30">
+              <img src="/images/facebook.png" alt="fb link icon" height="30">
             </span>
           </a>
           <a href="https://www.youtube.com/user/UTImachinery" class="icon">
             <span>
-              <img src="http://www.utimachinery.com/wp-content/uploads/2017/06/YouTube-30.png" alt="youtube link icon" height="30">
+              <img src="/images/youtube.png" alt="youtube link icon" height="30">
             </span>
           </a>
-          <a href="tel:8775978300" class="hover:text-primary-light">(877) 597-8300)</a>
+          <a href="tel:8775978300" class="hover:text-primary-light">(877) 597-8300</a>
         </div>
       </div>
     </div>
