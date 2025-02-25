@@ -2,6 +2,9 @@
 <template>
   <div class="min-h-screen px-4">
     <div class="max-w-[800px] mx-auto bg-gray-800 rounded-lg shadow-xl p-6 text-gray-100">
+      <button @click="router.back()" class="bg-blue-600 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded mb-4">
+        Back to Inventory
+      </button>
       <h1 class="text-3xl font-bold mb-4 text-gray-100">
         <span v-if="machine.manufacturer">{{ machine.manufacturer }}&nbsp;</span>
         <span v-if="machine.model"> {{ machine.model }} - </span>
@@ -34,7 +37,7 @@
 
       <!-- Additional Images -->
       <div class="additional-images mb-8">
-        <button @click="openGallery" class="bg-gray-700 hover:bg-gray-600 text-white font-bold py-2 px-4 rounded">
+        <button @click="openGallery" class="bg-blue-700 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">
           Additional Images ({{ existingImages.length }})
         </button>
       </div>

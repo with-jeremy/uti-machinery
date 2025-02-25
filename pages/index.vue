@@ -132,19 +132,7 @@
               Clear All Filters
             </button>
           </div>
-            <input
-              v-model="searchQuery"
-              type="text"
-              placeholder="Search machines..."
-              class="search-field w-full p-2 border border-gray-300 text-gray-900 rounded-lg text-sm"
-            />
-            <span
-              v-if="searchQuery"
-              @click="clearSearch"
-              class="absolute right-2 top-1/2 transform -translate-y-1/2 cursor-pointer text-gray-500"
-            >
-              &times;
-            </span>
+           
         </div>
 
       </client-only>
