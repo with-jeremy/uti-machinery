@@ -19,7 +19,20 @@
           <swiper-container v-if="slides.length && !loading" 
             :slides-per-view="1"
             :space-between="10"
-            :breakpoints="breakpoints"
+            :breakpoints="{
+      '640': {
+        slidesPerView: 2,
+        spaceBetween: 20,
+      },
+      '768': {
+        slidesPerView: 3,
+        spaceBetween: 20,
+      },
+      '1024': {
+        slidesPerView: 3,
+        spaceBetween: 20,
+      },
+    }"
             :pagination="{
               clickable: true,
             }"
@@ -198,7 +211,6 @@
 
 <script setup>
 import { computed, onMounted, nextTick, ref, watch } from 'vue';
-import { useRoute, useRouter } from 'vue-router';
 import { Autoplay, Keyboard, Pagination, Navigation } from 'swiper/modules';
 import { useInventory } from '~/composables/useInventory';
 
@@ -232,15 +244,6 @@ const types = getMachineTypes();
 
 slides.value = featured;
 const modules = [Autoplay, Keyboard, Pagination, Navigation];
-
-
-const sanitize = (str) => {
-  return encodeURIComponent(str);
-};
-
-const searchQuery = ref('');
-const router = useRouter();
-const route = useRoute()
 
 const selectedBrands = ref([]);
 const selectedTypes = ref([]);
@@ -298,7 +301,4 @@ const filteredMachines = computed(() => {
 </script>
 
 <style scoped>  
-.price {
-  text-align: right;
-}
 </style>
