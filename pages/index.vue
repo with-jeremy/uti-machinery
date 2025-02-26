@@ -68,7 +68,9 @@
                   <p class="text-gray-300">
                     {{ machine.advSpec }}
                   </p>
+                
                 </div>
+              
                 <span 
                   class="inline-block bg-blue-600 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-lg transition-colors duration-200 ease-in-out mb-4"
                   role="button"
@@ -174,10 +176,11 @@
               <p class="text-gray-300">
                 {{ machine.advSpec }}
               </p>
+            
             </div>
-            <p class="mb-2">
-                <span
-                  class="inline-block bg-blue-600 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-lg transition-colors duration-200 ease-in-out mb-4"
+            <p class="mb-2 flex justify-between items-center">
+              <span
+                class="inline-block bg-blue-600 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-lg transition-colors duration-200 ease-in-out mb-4"
                 role="button"
                 tabindex="0"
               >
@@ -290,8 +293,12 @@ const filteredMachines = computed(() => {
     return matchesBrand && matchesType;
   });
 })
+
+
 </script>
 
 <style scoped>  
-
+.price {
+  text-align: right;
+}
 </style>

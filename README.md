@@ -46,3 +46,15 @@ import { useRoute } from 'vue-router';
 const route = useRoute();
 const isHomePage = route.path === '/';
 </script>
+
+
+ <p class="mt-6 text-gray-200 font-bold" v-if="machine.price > 0">
+                  Current Price: {{ formatCurrency(machine.price) }}
+                </p>
+
+
+                const formatCurrency = (value) => {
+  return new Intl.NumberFormat('en-US', { style: 'currency', currency: 'USD' }).format(value);
+};
+
+

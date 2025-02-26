@@ -26,6 +26,7 @@ async function convertXmlToJson() {
       webCode: m.Web_x0020_Code?.[0] || '',
       webDesc: m.Web_x0020_Desc?.[0] || '',
       groups: m.Groups?.[0] || '',
+      price: m.Price?.[0] || '',
       manufacturer: m.Manufacturer?.[0] || '',
       model: m.Model?.[0] || '',
       year: m.Year?.[0] || '',

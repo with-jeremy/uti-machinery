@@ -9,13 +9,13 @@
         />
       </NuxtLink>
      
-      <div class="flex flex-col md:flex-row space-y-4 md:space-y-0 md:space-x-6 mt-4 items-center md:mx-auto">
+      <div class="flex flex-col md:flex-row space-y-4 md:space-y-0 md:space-x-6 mt-2 items-center md:mx-auto">
         <NuxtLink to="#allMachines" class="hover:text-primary-light" @click.prevent="customScrollTo('allMachines')">
           Search Machines
         </NuxtLink>
       </div>
 
-      <div class="flex space-x-6">
+      <div class="flex space-x-6 mt-2">
         <a href="https://www.facebook.com/utimachinery/" class="icon">
           <span>
             <img src="http://www.utimachinery.com/images/facebook.png" alt="fb link icon" height="30">

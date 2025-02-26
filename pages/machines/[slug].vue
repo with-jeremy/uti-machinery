@@ -33,6 +33,7 @@
         <p v-if="machine.advSpec" class="text-gray-300">
           {{ machine.advSpec }}
         </p>
+       
       </div>
 
       <!-- Additional Images -->
@@ -302,7 +303,9 @@ const imageUrlExists = async (imageName) => {
   } catch (error) {
     return false;
   }
-}
+};
+
+
 
 const imageSlug = computed(() => {
   if (openImage.value) {
