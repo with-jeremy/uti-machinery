@@ -114,7 +114,7 @@
           </ul>
         </div>
 
-        <div class="mb-3 relative filter-pills">
+        <div  id="filteredMachines" class="mb-3 relative filter-pills">   
           <div v-if="activeFilters.length" class="flex flex-wrap gap-1 mb-2">
             <span
               v-for="filter in activeFilters"
@@ -196,9 +196,11 @@
 <script setup>
 import { computed, onMounted, nextTick, ref, watch } from 'vue';
 import { useRoute, useRouter } from 'vue-router';
-import { Swiper, SwiperSlide } from 'swiper/vue';
 import { Autoplay, Keyboard, Pagination, Navigation } from 'swiper/modules';
 import { useInventory } from '~/composables/useInventory';
+
+const headerRef = ref(null);
+const headerHeight = ref(0);
 
 const { getAllMachines, getBrandNames, getFeatured, getMachineTypes } = useInventory();
 
@@ -248,46 +250,44 @@ const isActiveFilter = (filter) => {
 const removeFilter = (filter) => {
   selectedBrands.value = selectedBrands.value.filter((brand) => brand !== filter);
   selectedTypes.value = selectedTypes.value.filter((type) => type !== filter);
+ customScrollTo('allMachines');
 };
 
 const clearAllFilters = () => {
   selectedBrands.value = [];
   selectedTypes.value = [];
+ customScrollTo('allMachines');
+};
+
+const customScrollTo = (id) => {
+  const element = document.getElementById(id);
+  if (element) {
+    const offsetPosition = element.offsetTop - headerHeight.value;
+    window.scrollTo({
+      top: offsetPosition,
+      behavior: 'smooth'
+    });
+  }
 };
 
 onMounted(() => {
-  if (route.query.search) {
-    searchQuery.value = decodeURIComponent(route.query.search)
-  }
-})
-// Watch for changes in the route.query.search parameter
-watch(() => route.query.search, (newSearch) => {
-  if (!newSearch) {
-    searchQuery.value = ''
-  }
-})
+  // Use nextTick to ensure the header is fully rendered before getting its height
+  nextTick(() => {
+    headerHeight.value = headerRef.value.$el.offsetHeight;
+  });
+});
 
-const clearSearch = () => {
-  searchQuery.value = ''
-}
+watch(activeFilters, () => {
+  if (activeFilters.value.length > 0) {
+    customScrollTo('filteredMachines');
+  }
+});
 
 const filteredMachines = computed(() => {
   return allMachines.filter(machine => {
-    const searchLower = searchQuery.value.toLowerCase();
-    const matchesSearch = (
-      machine.manufacturer.toLowerCase().includes(searchLower) ||
-      machine.model.toLowerCase().includes(searchLower) ||
-      machine.description.toLowerCase().includes(searchLower) ||
-      machine.webDesc.toLowerCase().includes(searchLower) ||
-      machine.advSpec.toLowerCase().includes(searchLower) ||
-      machine.condition.toLowerCase().includes(searchLower) ||
-      machine.control.toLowerCase().includes(searchLower) ||
-      machine.year.toString().includes(searchLower) ||
-      machine.invID.toString().includes(searchLower)
-    );
     const matchesBrand = selectedBrands.value.length === 0 || selectedBrands.value.includes(machine.manufacturer);
     const matchesType = selectedTypes.value.length === 0 || selectedTypes.value.includes(machine.webDesc);
-    return matchesSearch && matchesBrand && matchesType;
+    return matchesBrand && matchesType;
   });
 })
 </script>

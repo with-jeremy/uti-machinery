@@ -166,12 +166,18 @@
               <input type="text" id="country" name="country" class="w-full p-2 rounded-md bg-gray-800 text-gray-100" />
             </div>
             <div class="mb-4">
-              <input type="checkbox" id="hasMachines" name="hasMachines" class="mr-2" />
-              <label for="hasMachines" class="text-gray-300">I have machines to sell or trade.</label>
+              <label class="block text-gray-300 mb-2">Have machines to sell or trade?</label>
+              <input type="radio" id="hasMachinesYes" name="hasMachines" value="yes" class="mr-2" />
+              <label for="hasMachinesYes" class="text-gray-300">Yes</label>
+              <input type="radio" id="hasMachinesNo" name="hasMachines" value="no" class="ml-4 mr-2" checked />
+              <label for="hasMachinesNo" class="text-gray-300">No</label>
             </div>
             <div class="mb-4">
-              <input type="checkbox" id="emailList" name="emailList" class="mr-2" checked />
-              <label for="emailList" class="text-gray-300">Sign up for email list?</label>
+              <label class="block text-gray-300 mb-2">Sign up for email list?</label>
+              <input type="radio" id="emailListYes" name="emailList" value="yes" class="mr-2" checked />
+              <label for="emailListYes" class="text-gray-300">Yes</label>
+              <input type="radio" id="emailListNo" name="emailList" value="no" class="ml-4 mr-2" />
+              <label for="emailListNo" class="text-gray-300">No</label>
             </div>
             <div class="mb-4">
               <label for="message" class="block text-gray-300 mb-2">Message</label>

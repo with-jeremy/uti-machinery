@@ -8,40 +8,60 @@
           class="h-8 md:h-10 transition-all duration-300"
         />
       </NuxtLink>
-      <div class="hidden md:flex space-x-6 ml-auto">
+     
+      <div class="flex flex-col md:flex-row space-y-4 md:space-y-0 md:space-x-6 mt-4 items-center md:mx-auto">
+        <NuxtLink to="#allMachines" class="hover:text-primary-light" @click.prevent="customScrollTo('allMachines')">
+          Search Machines
+        </NuxtLink>
+      </div>
+
+      <div class="flex space-x-6">
         <a href="https://www.facebook.com/utimachinery/" class="icon">
-          <span><img src="/images/facebook.png" alt="fb link icon" height="30"></span>
+          <span>
+            <img src="http://www.utimachinery.com/images/facebook.png" alt="fb link icon" height="30">
+          </span>
         </a>
         <a href="https://www.youtube.com/user/UTImachinery" class="icon">
-          <span><img src="https://utimachinery.com/images/youtube.png" alt="youtube link icon" height="30"></span>
+          <span>
+            <img src="https://utimachinery.com/images/youtube.png" alt="youtube link icon" height="30">
+          </span>
         </a>
         <a href="tel:8775978300" class="hover:text-primary-light">(877) 597-8300</a>
-      </div>
-      <div class="flex flex-col md:hidden space-y-4 mt-4 items-center">
-        <NuxtLink :to="isHomePage ? '#allMachines' : '/'" class="hover:text-primary-light">
-          {{ isHomePage ? 'See All Machines' : '<-- Back' }}
-        </NuxtLink>
-        <div class="flex space-x-6">
-          <a href="https://www.facebook.com/utimachinery/" class="icon">
-            <span>
-              <img src="http://www.utimachinery.com/images/facebook.png" alt="fb link icon" height="30">
-            </span>
-          </a>
-          <a href="https://www.youtube.com/user/UTImachinery" class="icon">
-            <span>
-              <img src="https://utimachinery.com/images/youtube.png" alt="youtube link icon" height="30">
-            </span>
-          </a>
-          <a href="tel:8775978300" class="hover:text-primary-light">(877) 597-8300)</a>
-        </div>
       </div>
     </div>
   </header>
 </template>
 
 <script setup>
-import { useRoute } from 'vue-router';
-
+import { useRoute, useRouter } from 'vue-router';
+const headerRef = ref(null);
+const headerHeight = ref(0);
 const route = useRoute();
-const isHomePage = route.path === '/';
+const router = useRouter();
+
+const customScrollTo = async (id) => {
+  if (route.path.startsWith('/machines')) {
+    await router.push(`/#${id}`);
+  } else {
+    scrollToElement(id);
+  }
+};
+
+const scrollToElement = (id) => {
+  const element = document.getElementById(id);
+  if (element) {
+    const offsetPosition = element.offsetTop - headerHeight.value;
+    window.scrollTo({
+      top: offsetPosition,
+      behavior: 'smooth'
+    });
+  }
+};
+
+onMounted(() => {
+  // Use nextTick to ensure the header is fully rendered before getting its height
+  nextTick(() => {
+    headerHeight.value = headerRef.value.$el.offsetHeight;
+  });
+});
 </script>
