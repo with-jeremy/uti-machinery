@@ -10,9 +10,11 @@
         />
       </NuxtLink>
      </div>
-      <div class="flex flex-col md:flex-row text-2xl my-3 items-center md:mx-0 mx-auto">
+      <div class="flex flex-col md:flex-row md:text-xl text-lg items-center md:mx-0 mx-auto">
         <NuxtLink to="#allMachines" class="hover:text-primary-light" @click.prevent="customScrollTo('allMachines')">
+          <button class="bg-blue-600 hover:bg-blue-700 text-white font-bold py-1 md:py-2 px-2 md:px-4 rounded-lg transition-colors duration-200 ease-in-out my-2 my-4 md:my-0">
           Search Machines
+          </button>
         </NuxtLink>
       </div>
 
