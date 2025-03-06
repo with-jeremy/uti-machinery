@@ -16,23 +16,23 @@ export function useInventory() {
   }
 
   function getFeatured() {
-    return machinesData.filter(m => m.special === '1')
+    return machinesData.filter(m => m.Special === 1)
   }
 
-  function getMachineById(invID) {
-    return machinesData.find(m => m.invID === invID)
+  function getMachineById(InvID) {
+    return machinesData.find(m => m.InvID === InvID)
   }
 
-  function getSpecsForMachine(invID) {
-    return specsData.filter(s => s.invid === invID)
+  function getSpecsForMachine(InvID) {
+    return specsData.filter(s => s.invid === InvID)
   }
 
   function getBrandNames() {
-    return [...new Set(machinesData.map(m => m.manufacturer))].sort();
+    return [...new Set(machinesData.map(m => m.Manufacturer))].sort();
   }
 
   function getMachineTypes() {
-    return [...new Set(machinesData.map(m => m.webDesc))].sort();
+    return [...new Set(machinesData.map(m => m.WebDesc))].sort();
   }
 
   return {

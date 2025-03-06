@@ -47,18 +47,18 @@
             :modules="modules"
             class="mySwiper py-4"
           >
-          <swiper-slide v-for="machine in slides" :key="machine.invID">
+          <swiper-slide v-for="machine in slides" :key="machine.InvID">
             <NuxtLink
-              :to="`/machines/${machine.invID}`"
+              :to="`/machines/${machine.InvID}`"
               class="group relative inline-block"
-              :aria-label="`View details for ${machine.manufacturer} ${machine.model}`"
+              :aria-label="`View details for ${machine.Manufacturer} ${machine.Model}`"
               >
               <div class="bg-gray-800 shadow-lg rounded-lg overflow-hidden w-full flex-shrink-0 transition-transform duration-200 ease-in-out hover:scale-[1.02] p-6">
-                <h2 class="text-2xl font-semibold mb-4 text-gray-100">{{ machine.manufacturer }} {{ machine.model }} <span class="text-gray-300">({{ machine.year }})</span></h2>
+                <h2 class="text-2xl font-semibold mb-4 text-gray-100">{{ machine.Manufacturer }} {{ machine.Model }} <span class="text-gray-300">({{ machine.Year }})</span></h2>
                 <div class="mb-6">
                   <img
-                    :src="`/images/${machine.invID}_1.jpg`"
-                    alt="{{ machine.title }}"
+                    :src="`/images/${machine.InvID}_1.jpg`"
+                    alt="{{ machine.Description }}"
                     class="w-full h-full object-cover lazyload"
                     loading="lazy"
                     @error="
@@ -69,17 +69,17 @@
                 </div>
                 
                 <h3 class="text-lg font-semibold mb-3 text-gray-100">
-                  {{ machine.description }}
+                  {{ machine.Description }}
                 </h3>
 
 
                 <div class="bg-gray-700 rounded-md p-4 mb-6">
                   <p class="mb-2">
-                    <span v-if="machine.invID" class="text-gray-200">ID#:</span> {{ machine.invID }}<br>
-                    <span v-if="machine.control" class="text-gray-200">Control:</span> {{ machine.control }}
+                    <span v-if="machine.InvID" class="text-gray-200">ID#:</span> {{ machine.InvID }}<br>
+                    <span v-if="machine.Control" class="text-gray-200">Control:</span> {{ machine.Control }}
                   </p>
                   <p class="text-gray-300">
-                    {{ machine.advSpec }}
+                    {{ machine.AdvSpec }}
                   </p>
                 
                 </div>
@@ -157,17 +157,17 @@
       <div class="text-white grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-6">
         <NuxtLink
           v-for="machine in filteredMachines"
-          :key="machine.invID"
-          :to="'/machines/' + machine.invID"
+          :key="machine.InvID"
+          :to="'/machines/' + machine.InvID"
           class="group relative"
-          :aria-label="`View details for ${machine.manufacturer} ${machine.model}`"
+          :aria-label="`View details for ${machine.Manufacturer} ${machine.Model}`"
         >
           <div class="bg-gray-800 shadow-lg rounded-lg overflow-hidden transition-transform duration-200 ease-in-out hover:scale-[1.02] p-6">
-            <h2 class="text-2xl font-semibold text-gray-100 mb-4">{{ machine.manufacturer }} {{ machine.model }} ({{ machine.year }})</h2>
+            <h2 class="text-2xl font-semibold text-gray-100 mb-4">{{ machine.Manufacturer }} {{ machine.Model }} ({{ machine.Year }})</h2>
             <div class="mb-6">              
               <img
-                :src="`/images/${machine.invID}_1.jpg`"
-                alt="{{ machine.title }}"
+                :src="`/images/${machine.InvID}_1.jpg`"
+                alt="{{ machine.Description }}"
                 class="w-full h-64 object-cover lazyload"
                 loading="lazy"
                 @error="
@@ -178,16 +178,16 @@
             </div>
 
             <h3 class="text-lg font-semibold mb-3 text-gray-100">
-              {{ machine.description }}
+              {{ machine.Description }}
             </h3>
               
             <div class="bg-gray-700 rounded-md p-4 mb-6">
               <p class="mb-2">
-                <span v-if="machine.invID" class="text-gray-200">ID#:</span> {{ machine.invID }}<br>
-                <span v-if="machine.control" class="text-gray-200">Control:</span> {{ machine.control }}
+                <span v-if="machine.InvID" class="text-gray-200">ID#:</span> {{ machine.InvID }}<br>
+                <span v-if="machine.Control" class="text-gray-200">Control:</span> {{ machine.Control }}
               </p>
               <p class="text-gray-300">
-                {{ machine.advSpec }}
+                {{ machine.AdvSpec }}
               </p>
             
             </div>
@@ -281,8 +281,8 @@ watch(activeFilters, () => {
 
 const filteredMachines = computed(() => {
   return allMachines.filter(machine => {
-    const matchesBrand = selectedBrands.value.length === 0 || selectedBrands.value.includes(machine.manufacturer);
-    const matchesType = selectedTypes.value.length === 0 || selectedTypes.value.includes(machine.webDesc);
+    const matchesBrand = selectedBrands.value.length === 0 || selectedBrands.value.includes(machine.Manufacturer);
+    const matchesType = selectedTypes.value.length === 0 || selectedTypes.value.includes(machine.WebDesc);
     return matchesBrand && matchesType;
   });
 })

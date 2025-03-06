@@ -6,14 +6,14 @@
         Back to Inventory
       </button>
       <h1 class="text-3xl font-bold mb-4 text-gray-100">
-        <span v-if="machine.manufacturer">{{ machine.manufacturer }}&nbsp;</span>
-        <span v-if="machine.model"> {{ machine.model }} - </span>
-        <span v-if="machine.year" class="text-gray-300"> ({{ machine.year }})</span>
+        <span v-if="machine.Manufacturer">{{ machine.Manufacturer }}&nbsp;</span>
+        <span v-if="machine.Model"> {{ machine.Model }} - </span>
+        <span v-if="machine.Year" class="text-gray-300"> {{ machine.Year }}</span>
       </h1>
 
       <div class="mb-6">
         <img
-          :src="`/images/${invID}_1.jpg`"
+          :src="`/images/${InvID}_1.jpg`"
           alt="Machine image"
           class="w-full rounded-lg shadow-lg"
           @error="
@@ -22,16 +22,16 @@
         />
       </div>
 
-      <h2 v-if="machine.description" class="text-xl font-semibold mb-3 text-gray-100">
-        {{ machine.description }}
+      <h2 v-if="machine.Description" class="text-xl font-semibold mb-3 text-gray-100">
+        {{ machine.Description }}
       </h2>
       <div class="bg-gray-700 rounded-md p-4 mb-6">
         <p class="mb-2">
-          <span v-if="machine.invID" class="text-gray-200">ID#:</span> {{ machine.invID }}<br>
-          <span v-if="machine.control" class="text-gray-200">Control:</span> {{ machine.control }}
+          <span v-if="machine.InvID" class="text-gray-200">ID#:</span> {{ machine.InvID }}<br>
+          <span v-if="machine.Control" class="text-gray-200">Control:</span> {{ machine.Control }}
         </p>
-        <p v-if="machine.advSpec" class="text-gray-300">
-          {{ machine.advSpec }}
+        <p v-if="machine.AdvSpec" class="text-gray-300">
+          {{ machine.AdvSpec }}
         </p>
        
       </div>
@@ -61,7 +61,7 @@
             @click.stop="closeLightbox"
             class="absolute top-4 bg-blue-600 text-white rounded pl-4 pr-1 py-2 flex items-center"
           >
-            {{ machine.manufacturer }} - {{ machine.model }}
+            {{ machine.Manufacturer }} - {{ machine.Model }}
             <span class="ml-12 text-white">✗</span>
           </button>
 
@@ -203,9 +203,9 @@ const router = useRouter()
 const route = useRoute()
 const { getMachineById, getSpecsForMachine } = useInventory()
 
-const invID = route.params.slug
-const machine = getMachineById(invID)
-const machineSpecs = getSpecsForMachine(invID)
+const InvID = route.params.slug
+const machine = getMachineById(InvID)
+const machineSpecs = getSpecsForMachine(InvID)
 
 const filteredSpecsGroup = computed(() => 
   machineSpecs.filter(spec => spec.description)
@@ -227,7 +227,7 @@ const existingImages = ref([]);
 
 onMounted(async () => {
   for (let i = 2; i <= 15; i++) {
-    const imageName = `${invID}_${i}.jpg`;
+    const imageName = `${InvID}_${i}.jpg`;
     const exists = await imageUrlExists(imageName);
     if (exists) {
       existingImages.value.push(imageName);
@@ -236,13 +236,13 @@ onMounted(async () => {
     }
   }
 
-  const hrsImageName = `${invID}_hrs.jpg`;
+  const hrsImageName = `${InvID}_hrs.jpg`;
   if (await imageUrlExists(hrsImageName)) {
     existingImages.value.push(hrsImageName);
   }
 
   // Check for invID_1.jpg and add it at the end
-  const firstImageName = `${invID}_1.jpg`;
+  const firstImageName = `${InvID}_1.jpg`;
     if (!(existingImages.value.indexOf(firstImageName) > -1) && await imageUrlExists(firstImageName)) {
     existingImages.value.push(firstImageName);
   }
