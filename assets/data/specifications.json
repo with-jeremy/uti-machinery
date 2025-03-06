@@ -1,7 +1,7 @@
 [
   {
     "id": 1,
-    "invid": 30877,
+    "invid": "30877",
     "specid": 90283,
     "groupnames": "Capacity:",
     "description": "Table Diameter",
@@ -12,7 +12,7 @@
   },
   {
     "id": 2,
-    "invid": 30877,
+    "invid": "30877",
     "specid": 90284,
     "groupnames": "",
     "description": "Maximum Swing",
@@ -23,7 +23,7 @@
   },
   {
     "id": 3,
-    "invid": 30877,
+    "invid": "30877",
     "specid": 90285,
     "groupnames": "",
     "description": "Maximum Height Under Rail",
@@ -34,7 +34,7 @@
   },
   {
     "id": 4,
-    "invid": 30877,
+    "invid": "30877",
     "specid": 90286,
     "groupnames": "Spindle:",
     "description": "Spindle Speed: Minimum",
@@ -45,7 +45,7 @@
   },
   {
     "id": 5,
-    "invid": 30877,
+    "invid": "30877",
     "specid": 90287,
     "groupnames": "",
     "description": "Maximum",
@@ -56,7 +56,7 @@
   },
   {
     "id": 6,
-    "invid": 30877,
+    "invid": "30877",
     "specid": 90288,
     "groupnames": "",
     "description": "Motor",
@@ -67,7 +67,7 @@
   },
   {
     "id": 7,
-    "invid": 30877,
+    "invid": "30877",
     "specid": 90289,
     "groupnames": "Ram Head",
     "description": "X-Axis (Longitudinal) Travel",
@@ -78,7 +78,7 @@
   },
   {
     "id": 8,
-    "invid": 30877,
+    "invid": "30877",
     "specid": 90290,
     "groupnames": "",
     "description": "Z-Axis (Veritcal) Travel",
@@ -89,7 +89,7 @@
   },
   {
     "id": 9,
-    "invid": 30877,
+    "invid": "30877",
     "specid": 90291,
     "groupnames": "Tool Changer:",
     "description": "Number of Positions",
@@ -100,7 +100,7 @@
   },
   {
     "id": 10,
-    "invid": 30965,
+    "invid": "30965",
     "specid": 91674,
     "groupnames": "Table:",
     "description": "Width",
@@ -111,7 +111,7 @@
   },
   {
     "id": 11,
-    "invid": 30965,
+    "invid": "30965",
     "specid": 91675,
     "groupnames": "",
     "description": "Length",
@@ -122,7 +122,7 @@
   },
   {
     "id": 12,
-    "invid": 30965,
+    "invid": "30965",
     "specid": 91676,
     "groupnames": "",
     "description": "Maximum Table Load",
@@ -133,7 +133,7 @@
   },
   {
     "id": 13,
-    "invid": 30965,
+    "invid": "30965",
     "specid": 91677,
     "groupnames": "Travels:",
     "description": "X-Axis Travel",
@@ -144,7 +144,7 @@
   },
   {
     "id": 14,
-    "invid": 30965,
+    "invid": "30965",
     "specid": 91678,
     "groupnames": "",
     "description": "Y-Axis Travel",
@@ -155,7 +155,7 @@
   },
   {
     "id": 15,
-    "invid": 30965,
+    "invid": "30965",
     "specid": 91679,
     "groupnames": "",
     "description": "Z-Axis Travel",
@@ -166,7 +166,7 @@
   },
   {
     "id": 16,
-    "invid": 30965,
+    "invid": "30965",
     "specid": 91682,
     "groupnames": "Spindle:",
     "description": "Spindle Speed: Minimum (RPM)",
@@ -177,7 +177,7 @@
   },
   {
     "id": 17,
-    "invid": 30965,
+    "invid": "30965",
     "specid": 91683,
     "groupnames": "",
     "description": "Maximum",
@@ -188,7 +188,7 @@
   },
   {
     "id": 18,
-    "invid": 30965,
+    "invid": "30965",
     "specid": 91684,
     "groupnames": "",
     "description": "Spindle Taper",
@@ -199,7 +199,7 @@
   },
   {
     "id": 19,
-    "invid": 30965,
+    "invid": "30965",
     "specid": 91685,
     "groupnames": "",
     "description": "Main Motor (HP)",
@@ -210,7 +210,7 @@
   },
   {
     "id": 20,
-    "invid": 30965,
+    "invid": "30965",
     "specid": 91686,
     "groupnames": "Tool Changer:",
     "description": "Tool Changer Positions",
@@ -221,7 +221,7 @@
   },
   {
     "id": 21,
-    "invid": 30968,
+    "invid": "30968",
     "specid": 91709,
     "groupnames": "Capacity:",
     "description": "Swing",
@@ -232,7 +232,7 @@
   },
   {
     "id": 22,
-    "invid": 30968,
+    "invid": "30968",
     "specid": 91711,
     "groupnames": "",
     "description": "Maximum Machining Diameter",
@@ -243,7 +243,7 @@
   },
   {
     "id": 23,
-    "invid": 30968,
+    "invid": "30968",
     "specid": 91712,
     "groupnames": "",
     "description": "Distance Between Centers",
@@ -254,7 +254,7 @@
   },
   {
     "id": 24,
-    "invid": 30968,
+    "invid": "30968",
     "specid": 91713,
     "groupnames": "Spindle:",
     "description": "Spindle Speed: Minimum (RPM)",
@@ -265,7 +265,7 @@
   },
   {
     "id": 25,
-    "invid": 30968,
+    "invid": "30968",
     "specid": 91714,
     "groupnames": "",
     "description": "Maximum",
@@ -276,7 +276,7 @@
   },
   {
     "id": 26,
-    "invid": 30968,
+    "invid": "30968",
     "specid": 91715,
     "groupnames": "",
     "description": "Spindle Bore",
@@ -287,7 +287,7 @@
   },
   {
     "id": 27,
-    "invid": 30968,
+    "invid": "30968",
     "specid": 91716,
     "groupnames": "",
     "description": "Main Motor",
@@ -298,7 +298,7 @@
   },
   {
     "id": 28,
-    "invid": 30968,
+    "invid": "30968",
     "specid": 91717,
     "groupnames": "",
     "description": "Spindle Nose",
@@ -309,7 +309,7 @@
   },
   {
     "id": 29,
-    "invid": 30968,
+    "invid": "30968",
     "specid": 91718,
     "groupnames": "Turret:",
     "description": "Number Of Positions",
@@ -320,7 +320,7 @@
   },
   {
     "id": 30,
-    "invid": 30968,
+    "invid": "30968",
     "specid": 91719,
     "groupnames": "",
     "description": "X-Axis Travel",
@@ -331,7 +331,7 @@
   },
   {
     "id": 31,
-    "invid": 30968,
+    "invid": "30968",
     "specid": 91720,
     "groupnames": "",
     "description": "Z-Axis Travel",
@@ -342,7 +342,7 @@
   },
   {
     "id": 32,
-    "invid": 30968,
+    "invid": "30968",
     "specid": 91721,
     "groupnames": "Live Tooling:",
     "description": "Number of Live Positions",
@@ -353,7 +353,7 @@
   },
   {
     "id": 33,
-    "invid": 30968,
+    "invid": "30968",
     "specid": 91722,
     "groupnames": "",
     "description": "Maximum Speed",
@@ -364,7 +364,7 @@
   },
   {
     "id": 34,
-    "invid": 30968,
+    "invid": "30968",
     "specid": 91728,
     "groupnames": "Chuck:",
     "description": "Diameter",
@@ -375,7 +375,7 @@
   },
   {
     "id": 35,
-    "invid": 30968,
+    "invid": "30968",
     "specid": 91729,
     "groupnames": "",
     "description": "Hole Thru",
@@ -386,7 +386,7 @@
   },
   {
     "id": 36,
-    "invid": 30968,
+    "invid": "30968",
     "specid": 91730,
     "groupnames": "",
     "description": "Number of Jaws",
@@ -397,7 +397,7 @@
   },
   {
     "id": 37,
-    "invid": 31000,
+    "invid": "31000",
     "specid": 92233,
     "groupnames": "Table:",
     "description": "Width",
@@ -408,7 +408,7 @@
   },
   {
     "id": 38,
-    "invid": 31000,
+    "invid": "31000",
     "specid": 92234,
     "groupnames": "",
     "description": "Length",
@@ -419,7 +419,7 @@
   },
   {
     "id": 39,
-    "invid": 31000,
+    "invid": "31000",
     "specid": 92235,
     "groupnames": "",
     "description": "Maximum Table Load",
@@ -430,7 +430,7 @@
   },
   {
     "id": 40,
-    "invid": 31000,
+    "invid": "31000",
     "specid": 92236,
     "groupnames": "Travels:",
     "description": "X-Axis Travel",
@@ -441,7 +441,7 @@
   },
   {
     "id": 41,
-    "invid": 31000,
+    "invid": "31000",
     "specid": 92237,
     "groupnames": "",
     "description": "Y-Axis Travel",
@@ -452,7 +452,7 @@
   },
   {
     "id": 42,
-    "invid": 31000,
+    "invid": "31000",
     "specid": 92238,
     "groupnames": "",
     "description": "Z-Axis Travel",
@@ -463,7 +463,7 @@
   },
   {
     "id": 43,
-    "invid": 31000,
+    "invid": "31000",
     "specid": 92241,
     "groupnames": "Spindle:",
     "description": "Spindle Speed: Minimum (RPM)",
@@ -474,7 +474,7 @@
   },
   {
     "id": 44,
-    "invid": 31000,
+    "invid": "31000",
     "specid": 92242,
     "groupnames": "",
     "description": "Maximum",
@@ -485,7 +485,7 @@
   },
   {
     "id": 45,
-    "invid": 31000,
+    "invid": "31000",
     "specid": 92243,
     "groupnames": "",
     "description": "Spindle Taper",
@@ -496,7 +496,7 @@
   },
   {
     "id": 46,
-    "invid": 31000,
+    "invid": "31000",
     "specid": 92244,
     "groupnames": "",
     "description": "Main Motor (HP)",
@@ -507,7 +507,7 @@
   },
   {
     "id": 47,
-    "invid": 31000,
+    "invid": "31000",
     "specid": 92245,
     "groupnames": "Tool Changer:",
     "description": "Tool Changer Positions",
@@ -518,7 +518,7 @@
   },
   {
     "id": 48,
-    "invid": 31015,
+    "invid": "31015",
     "specid": 92456,
     "groupnames": "Capacity:",
     "description": "Swing",
@@ -529,7 +529,7 @@
   },
   {
     "id": 49,
-    "invid": 31015,
+    "invid": "31015",
     "specid": 92457,
     "groupnames": "",
     "description": "Swing Over Cross Slide",
@@ -540,7 +540,7 @@
   },
   {
     "id": 50,
-    "invid": 31015,
+    "invid": "31015",
     "specid": 92458,
     "groupnames": "",
     "description": "Maximum Machining Diameter",
@@ -551,7 +551,7 @@
   },
   {
     "id": 51,
-    "invid": 31015,
+    "invid": "31015",
     "specid": 92459,
     "groupnames": "",
     "description": "Distance Between Centers",
@@ -562,7 +562,7 @@
   },
   {
     "id": 52,
-    "invid": 31015,
+    "invid": "31015",
     "specid": 92460,
     "groupnames": "Spindle:",
     "description": "Spindle Speed: Minimum (RPM)",
@@ -573,7 +573,7 @@
   },
   {
     "id": 53,
-    "invid": 31015,
+    "invid": "31015",
     "specid": 92461,
     "groupnames": "",
     "description": "Maximum",
@@ -584,7 +584,7 @@
   },
   {
     "id": 54,
-    "invid": 31015,
+    "invid": "31015",
     "specid": 92462,
     "groupnames": "",
     "description": "Spindle Bore",
@@ -595,7 +595,7 @@
   },
   {
     "id": 55,
-    "invid": 31015,
+    "invid": "31015",
     "specid": 92463,
     "groupnames": "",
     "description": "Main Motor",
@@ -606,7 +606,7 @@
   },
   {
     "id": 56,
-    "invid": 31015,
+    "invid": "31015",
     "specid": 92464,
     "groupnames": "",
     "description": "Spindle Nose",
@@ -617,7 +617,7 @@
   },
   {
     "id": 57,
-    "invid": 31015,
+    "invid": "31015",
     "specid": 92465,
     "groupnames": "Turret:",
     "description": "Number Of Positions",
@@ -628,7 +628,7 @@
   },
   {
     "id": 58,
-    "invid": 31015,
+    "invid": "31015",
     "specid": 92466,
     "groupnames": "",
     "description": "X-Axis Travel",
@@ -639,7 +639,7 @@
   },
   {
     "id": 59,
-    "invid": 31015,
+    "invid": "31015",
     "specid": 92467,
     "groupnames": "",
     "description": "Z-Axis Travel",
@@ -650,7 +650,7 @@
   },
   {
     "id": 60,
-    "invid": 31015,
+    "invid": "31015",
     "specid": 92468,
     "groupnames": "Tailstock:",
     "description": "Quill Diameter",
@@ -661,7 +661,7 @@
   },
   {
     "id": 61,
-    "invid": 31015,
+    "invid": "31015",
     "specid": 92470,
     "groupnames": "",
     "description": "Taper",
@@ -672,7 +672,7 @@
   },
   {
     "id": 62,
-    "invid": 31015,
+    "invid": "31015",
     "specid": 92471,
     "groupnames": "",
     "description": "Body Travel",
@@ -683,7 +683,7 @@
   },
   {
     "id": 63,
-    "invid": 31015,
+    "invid": "31015",
     "specid": 92472,
     "groupnames": "Chuck:",
     "description": "Diameter",
@@ -694,7 +694,7 @@
   },
   {
     "id": 64,
-    "invid": 31015,
+    "invid": "31015",
     "specid": 92473,
     "groupnames": "",
     "description": "Hole Thru",
@@ -705,7 +705,7 @@
   },
   {
     "id": 65,
-    "invid": 31015,
+    "invid": "31015",
     "specid": 92474,
     "groupnames": "",
     "description": "Number of Jaws",
@@ -716,7 +716,7 @@
   },
   {
     "id": 66,
-    "invid": 31031,
+    "invid": "31031",
     "specid": 92703,
     "groupnames": "Table:",
     "description": "Width",
@@ -727,7 +727,7 @@
   },
   {
     "id": 67,
-    "invid": 31031,
+    "invid": "31031",
     "specid": 92704,
     "groupnames": "",
     "description": "Length",
@@ -738,7 +738,7 @@
   },
   {
     "id": 68,
-    "invid": 31031,
+    "invid": "31031",
     "specid": 92705,
     "groupnames": "",
     "description": "Load",
@@ -749,7 +749,7 @@
   },
   {
     "id": 69,
-    "invid": 31031,
+    "invid": "31031",
     "specid": 92706,
     "groupnames": "Travels:",
     "description": "X-Axis (Longitudinal)",
@@ -760,7 +760,7 @@
   },
   {
     "id": 70,
-    "invid": 31031,
+    "invid": "31031",
     "specid": 92707,
     "groupnames": "",
     "description": "Y-Axis (Cross)",
@@ -771,7 +771,7 @@
   },
   {
     "id": 71,
-    "invid": 31031,
+    "invid": "31031",
     "specid": 92708,
     "groupnames": "",
     "description": "Z-Axis (Vertical)",
@@ -782,7 +782,7 @@
   },
   {
     "id": 72,
-    "invid": 31031,
+    "invid": "31031",
     "specid": 92709,
     "groupnames": "",
     "description": "Knee",
@@ -793,7 +793,7 @@
   },
   {
     "id": 73,
-    "invid": 31031,
+    "invid": "31031",
     "specid": 92710,
     "groupnames": "Spindle:",
     "description": "Speeds",
@@ -804,7 +804,7 @@
   },
   {
     "id": 74,
-    "invid": 31031,
+    "invid": "31031",
     "specid": 92711,
     "groupnames": "",
     "description": "Taper",
@@ -815,7 +815,7 @@
   },
   {
     "id": 75,
-    "invid": 31031,
+    "invid": "31031",
     "specid": 92712,
     "groupnames": "",
     "description": "Motor",
@@ -826,7 +826,7 @@
   },
   {
     "id": 76,
-    "invid": 31037,
+    "invid": "31037",
     "specid": 92785,
     "groupnames": "Table:",
     "description": "Width",
@@ -837,7 +837,7 @@
   },
   {
     "id": 77,
-    "invid": 31037,
+    "invid": "31037",
     "specid": 92786,
     "groupnames": "",
     "description": "Length",
@@ -848,7 +848,7 @@
   },
   {
     "id": 78,
-    "invid": 31037,
+    "invid": "31037",
     "specid": 92787,
     "groupnames": "",
     "description": "Maximum Table Load",
@@ -859,7 +859,7 @@
   },
   {
     "id": 79,
-    "invid": 31037,
+    "invid": "31037",
     "specid": 92788,
     "groupnames": "Travels:",
     "description": "X-Axis Travel",
@@ -870,7 +870,7 @@
   },
   {
     "id": 80,
-    "invid": 31037,
+    "invid": "31037",
     "specid": 92789,
     "groupnames": "",
     "description": "Y-Axis Travel",
@@ -881,7 +881,7 @@
   },
   {
     "id": 81,
-    "invid": 31037,
+    "invid": "31037",
     "specid": 92790,
     "groupnames": "",
     "description": "Z-Axis Travel",
@@ -892,7 +892,7 @@
   },
   {
     "id": 82,
-    "invid": 31037,
+    "invid": "31037",
     "specid": 92791,
     "groupnames": "",
     "description": "Spindle Nose to Table Top Minimum",
@@ -903,7 +903,7 @@
   },
   {
     "id": 83,
-    "invid": 31037,
+    "invid": "31037",
     "specid": 92792,
     "groupnames": "",
     "description": "Maximum",
@@ -914,7 +914,7 @@
   },
   {
     "id": 84,
-    "invid": 31037,
+    "invid": "31037",
     "specid": 92793,
     "groupnames": "Spindle:",
     "description": "Spindle Speed: Minimum (RPM)",
@@ -925,7 +925,7 @@
   },
   {
     "id": 85,
-    "invid": 31037,
+    "invid": "31037",
     "specid": 92794,
     "groupnames": "",
     "description": "Maximum",
@@ -936,7 +936,7 @@
   },
   {
     "id": 86,
-    "invid": 31037,
+    "invid": "31037",
     "specid": 92795,
     "groupnames": "",
     "description": "Spindle Taper",
@@ -947,7 +947,7 @@
   },
   {
     "id": 87,
-    "invid": 31037,
+    "invid": "31037",
     "specid": 92796,
     "groupnames": "",
     "description": "Main Motor (HP)",
@@ -958,7 +958,7 @@
   },
   {
     "id": 88,
-    "invid": 31037,
+    "invid": "31037",
     "specid": 92797,
     "groupnames": "Tool Changer:",
     "description": "Tool Changer Positions",
@@ -969,7 +969,7 @@
   },
   {
     "id": 89,
-    "invid": 31038,
+    "invid": "31038",
     "specid": 92798,
     "groupnames": "Capacity:",
     "description": "Swing",
@@ -980,7 +980,7 @@
   },
   {
     "id": 90,
-    "invid": 31038,
+    "invid": "31038",
     "specid": 92799,
     "groupnames": "",
     "description": "Swing Over Cross Slide",
@@ -991,7 +991,7 @@
   },
   {
     "id": 91,
-    "invid": 31038,
+    "invid": "31038",
     "specid": 92800,
     "groupnames": "",
     "description": "Maximum Machining Diameter",
@@ -1002,7 +1002,7 @@
   },
   {
     "id": 92,
-    "invid": 31038,
+    "invid": "31038",
     "specid": 92801,
     "groupnames": "",
     "description": "Distance Between Centers",
@@ -1013,7 +1013,7 @@
   },
   {
     "id": 93,
-    "invid": 31038,
+    "invid": "31038",
     "specid": 92802,
     "groupnames": "Spindle:",
     "description": "Spindle Speed: Minimum (RPM)",
@@ -1024,7 +1024,7 @@
   },
   {
     "id": 94,
-    "invid": 31038,
+    "invid": "31038",
     "specid": 92803,
     "groupnames": "",
     "description": "Maximum",
@@ -1035,7 +1035,7 @@
   },
   {
     "id": 95,
-    "invid": 31038,
+    "invid": "31038",
     "specid": 92804,
     "groupnames": "",
     "description": "Spindle Bore",
@@ -1046,7 +1046,7 @@
   },
   {
     "id": 96,
-    "invid": 31038,
+    "invid": "31038",
     "specid": 92805,
     "groupnames": "",
     "description": "Main Motor",
@@ -1057,7 +1057,7 @@
   },
   {
     "id": 97,
-    "invid": 31038,
+    "invid": "31038",
     "specid": 92806,
     "groupnames": "",
     "description": "Spindle Nose",
@@ -1068,7 +1068,7 @@
   },
   {
     "id": 98,
-    "invid": 31038,
+    "invid": "31038",
     "specid": 92807,
     "groupnames": "Turret:",
     "description": "Number Of Positions",
@@ -1079,7 +1079,7 @@
   },
   {
     "id": 99,
-    "invid": 31038,
+    "invid": "31038",
     "specid": 92808,
     "groupnames": "",
     "description": "X-Axis Travel",
@@ -1090,7 +1090,7 @@
   },
   {
     "id": 100,
-    "invid": 31038,
+    "invid": "31038",
     "specid": 92809,
     "groupnames": "",
     "description": "Z-Axis Travel",
@@ -1101,7 +1101,7 @@
   },
   {
     "id": 101,
-    "invid": 31039,
+    "invid": "31039",
     "specid": 92817,
     "groupnames": "Table:",
     "description": "Width",
@@ -1112,7 +1112,7 @@
   },
   {
     "id": 102,
-    "invid": 31039,
+    "invid": "31039",
     "specid": 92818,
     "groupnames": "",
     "description": "Length",
@@ -1123,7 +1123,7 @@
   },
   {
     "id": 103,
-    "invid": 31039,
+    "invid": "31039",
     "specid": 92819,
     "groupnames": "",
     "description": "Maximum Table Load",
@@ -1134,7 +1134,7 @@
   },
   {
     "id": 104,
-    "invid": 31039,
+    "invid": "31039",
     "specid": 92820,
     "groupnames": "Travels:",
     "description": "X-Axis Travel",
@@ -1145,7 +1145,7 @@
   },
   {
     "id": 105,
-    "invid": 31039,
+    "invid": "31039",
     "specid": 92821,
     "groupnames": "",
     "description": "Y-Axis Travel",
@@ -1156,7 +1156,7 @@
   },
   {
     "id": 106,
-    "invid": 31039,
+    "invid": "31039",
     "specid": 92822,
     "groupnames": "",
     "description": "Z-Axis Travel",
@@ -1167,7 +1167,7 @@
   },
   {
     "id": 107,
-    "invid": 31039,
+    "invid": "31039",
     "specid": 92823,
     "groupnames": "",
     "description": "Spindle Nose to Table Top Minimum",
@@ -1178,7 +1178,7 @@
   },
   {
     "id": 108,
-    "invid": 31039,
+    "invid": "31039",
     "specid": 92824,
     "groupnames": "",
     "description": "Maximum",
@@ -1189,7 +1189,7 @@
   },
   {
     "id": 109,
-    "invid": 31039,
+    "invid": "31039",
     "specid": 92825,
     "groupnames": "Spindle:",
     "description": "Spindle Speed: Minimum (RPM)",
@@ -1200,7 +1200,7 @@
   },
   {
     "id": 110,
-    "invid": 31039,
+    "invid": "31039",
     "specid": 92826,
     "groupnames": "",
     "description": "Maximum",
@@ -1211,7 +1211,7 @@
   },
   {
     "id": 111,
-    "invid": 31039,
+    "invid": "31039",
     "specid": 92827,
     "groupnames": "",
     "description": "Spindle Taper",
@@ -1222,7 +1222,7 @@
   },
   {
     "id": 112,
-    "invid": 31039,
+    "invid": "31039",
     "specid": 92828,
     "groupnames": "",
     "description": "Main Motor (HP)",
@@ -1233,7 +1233,7 @@
   },
   {
     "id": 113,
-    "invid": 31039,
+    "invid": "31039",
     "specid": 92829,
     "groupnames": "Tool Changer:",
     "description": "Tool Changer Positions",
@@ -1244,7 +1244,7 @@
   },
   {
     "id": 114,
-    "invid": 31040,
+    "invid": "31040",
     "specid": 92830,
     "groupnames": "Capacity:",
     "description": "Swing",
@@ -1255,7 +1255,7 @@
   },
   {
     "id": 115,
-    "invid": 31040,
+    "invid": "31040",
     "specid": 92831,
     "groupnames": "",
     "description": "Swing Over Cross Slide",
@@ -1266,7 +1266,7 @@
   },
   {
     "id": 116,
-    "invid": 31040,
+    "invid": "31040",
     "specid": 92832,
     "groupnames": "",
     "description": "Maximum Machining Diameter",
@@ -1277,7 +1277,7 @@
   },
   {
     "id": 117,
-    "invid": 31040,
+    "invid": "31040",
     "specid": 92834,
     "groupnames": "Spindle:",
     "description": "Spindle Speed: Minimum (RPM)",
@@ -1288,7 +1288,7 @@
   },
   {
     "id": 118,
-    "invid": 31040,
+    "invid": "31040",
     "specid": 92835,
     "groupnames": "",
     "description": "Maximum",
@@ -1299,7 +1299,7 @@
   },
   {
     "id": 119,
-    "invid": 31040,
+    "invid": "31040",
     "specid": 92836,
     "groupnames": "",
     "description": "Spindle Bore",
@@ -1310,7 +1310,7 @@
   },
   {
     "id": 120,
-    "invid": 31040,
+    "invid": "31040",
     "specid": 92837,
     "groupnames": "",
     "description": "Spindle Nose",
@@ -1321,7 +1321,7 @@
   },
   {
     "id": 121,
-    "invid": 31040,
+    "invid": "31040",
     "specid": 92838,
     "groupnames": "",
     "description": "Main Motor (HP)",
@@ -1332,7 +1332,7 @@
   },
   {
     "id": 122,
-    "invid": 31040,
+    "invid": "31040",
     "specid": 92839,
     "groupnames": "Turret:",
     "description": "Number Of Positions",
@@ -1343,7 +1343,7 @@
   },
   {
     "id": 123,
-    "invid": 31040,
+    "invid": "31040",
     "specid": 92840,
     "groupnames": "",
     "description": "X-Axis Travel",
@@ -1354,7 +1354,7 @@
   },
   {
     "id": 124,
-    "invid": 31040,
+    "invid": "31040",
     "specid": 92841,
     "groupnames": "",
     "description": "Z-Axis Travel",
@@ -1365,7 +1365,7 @@
   },
   {
     "id": 125,
-    "invid": 31044,
+    "invid": "31044",
     "specid": 92886,
     "groupnames": "Capacity:",
     "description": "Swing",
@@ -1376,7 +1376,7 @@
   },
   {
     "id": 126,
-    "invid": 31044,
+    "invid": "31044",
     "specid": 92888,
     "groupnames": "",
     "description": "Maximum Machining Diameter",
@@ -1387,7 +1387,7 @@
   },
   {
     "id": 127,
-    "invid": 31044,
+    "invid": "31044",
     "specid": 92889,
     "groupnames": "",
     "description": "Distance Between Centers",
@@ -1398,7 +1398,7 @@
   },
   {
     "id": 128,
-    "invid": 31044,
+    "invid": "31044",
     "specid": 92890,
     "groupnames": "Spindle:",
     "description": "Spindle Speed: Minimum (RPM)",
@@ -1409,7 +1409,7 @@
   },
   {
     "id": 129,
-    "invid": 31044,
+    "invid": "31044",
     "specid": 92891,
     "groupnames": "",
     "description": "Maximum",
@@ -1420,7 +1420,7 @@
   },
   {
     "id": 130,
-    "invid": 31044,
+    "invid": "31044",
     "specid": 92892,
     "groupnames": "",
     "description": "Spindle Bore",
@@ -1431,7 +1431,7 @@
   },
   {
     "id": 131,
-    "invid": 31044,
+    "invid": "31044",
     "specid": 92893,
     "groupnames": "",
     "description": "Main Motor",
@@ -1442,7 +1442,7 @@
   },
   {
     "id": 132,
-    "invid": 31044,
+    "invid": "31044",
     "specid": 92894,
     "groupnames": "",
     "description": "Spindle Nose",
@@ -1453,7 +1453,7 @@
   },
   {
     "id": 133,
-    "invid": 31044,
+    "invid": "31044",
     "specid": 92895,
     "groupnames": "Turret:",
     "description": "Number Of Positions",
@@ -1464,7 +1464,7 @@
   },
   {
     "id": 134,
-    "invid": 31044,
+    "invid": "31044",
     "specid": 92896,
     "groupnames": "",
     "description": "X-Axis Travel",
@@ -1475,7 +1475,7 @@
   },
   {
     "id": 135,
-    "invid": 31044,
+    "invid": "31044",
     "specid": 92897,
     "groupnames": "",
     "description": "Z-Axis Travel",
@@ -1486,7 +1486,7 @@
   },
   {
     "id": 136,
-    "invid": 31044,
+    "invid": "31044",
     "specid": 92898,
     "groupnames": "Tailstock:",
     "description": "Quill Diameter",
@@ -1497,7 +1497,7 @@
   },
   {
     "id": 137,
-    "invid": 31044,
+    "invid": "31044",
     "specid": 92901,
     "groupnames": "",
     "description": "Body Travel",
@@ -1508,7 +1508,7 @@
   },
   {
     "id": 138,
-    "invid": 31044,
+    "invid": "31044",
     "specid": 92902,
     "groupnames": "Chuck:",
     "description": "Diameter",
@@ -1519,7 +1519,7 @@
   },
   {
     "id": 139,
-    "invid": 31044,
+    "invid": "31044",
     "specid": 92903,
     "groupnames": "",
     "description": "Hole Thru",
@@ -1530,7 +1530,7 @@
   },
   {
     "id": 140,
-    "invid": 31044,
+    "invid": "31044",
     "specid": 92904,
     "groupnames": "",
     "description": "Number of Jaws",
@@ -1541,7 +1541,7 @@
   },
   {
     "id": 141,
-    "invid": 31045,
+    "invid": "31045",
     "specid": 92905,
     "groupnames": "Table:",
     "description": "Width",
@@ -1552,7 +1552,7 @@
   },
   {
     "id": 142,
-    "invid": 31045,
+    "invid": "31045",
     "specid": 92906,
     "groupnames": "",
     "description": "Length",
@@ -1563,7 +1563,7 @@
   },
   {
     "id": 143,
-    "invid": 31045,
+    "invid": "31045",
     "specid": 92907,
     "groupnames": "",
     "description": "Maximum Table Load",
@@ -1574,7 +1574,7 @@
   },
   {
     "id": 144,
-    "invid": 31045,
+    "invid": "31045",
     "specid": 92908,
     "groupnames": "Travels:",
     "description": "X-Axis Travel",
@@ -1585,7 +1585,7 @@
   },
   {
     "id": 145,
-    "invid": 31045,
+    "invid": "31045",
     "specid": 92909,
     "groupnames": "",
     "description": "Y-Axis Travel",
@@ -1596,7 +1596,7 @@
   },
   {
     "id": 146,
-    "invid": 31045,
+    "invid": "31045",
     "specid": 92910,
     "groupnames": "",
     "description": "Z-Axis Travel",
@@ -1607,7 +1607,7 @@
   },
   {
     "id": 147,
-    "invid": 31045,
+    "invid": "31045",
     "specid": 92911,
     "groupnames": "",
     "description": "Spindle Nose to Table Top Minimum",
@@ -1618,7 +1618,7 @@
   },
   {
     "id": 148,
-    "invid": 31045,
+    "invid": "31045",
     "specid": 92912,
     "groupnames": "",
     "description": "Maximum",
@@ -1629,7 +1629,7 @@
   },
   {
     "id": 149,
-    "invid": 31045,
+    "invid": "31045",
     "specid": 92913,
     "groupnames": "Spindle:",
     "description": "Spindle Speed: Minimum (RPM)",
@@ -1640,7 +1640,7 @@
   },
   {
     "id": 150,
-    "invid": 31045,
+    "invid": "31045",
     "specid": 92914,
     "groupnames": "",
     "description": "Maximum",
@@ -1651,7 +1651,7 @@
   },
   {
     "id": 151,
-    "invid": 31045,
+    "invid": "31045",
     "specid": 92915,
     "groupnames": "",
     "description": "Spindle Taper",
@@ -1662,7 +1662,7 @@
   },
   {
     "id": 152,
-    "invid": 31045,
+    "invid": "31045",
     "specid": 92916,
     "groupnames": "",
     "description": "Main Motor (HP)",
@@ -1673,7 +1673,7 @@
   },
   {
     "id": 153,
-    "invid": 31045,
+    "invid": "31045",
     "specid": 92917,
     "groupnames": "Tool Changer:",
     "description": "Tool Changer Positions",
@@ -1684,7 +1684,7 @@
   },
   {
     "id": 154,
-    "invid": 31051,
+    "invid": "31051",
     "specid": 93015,
     "groupnames": "Table:",
     "description": "Width",
@@ -1695,7 +1695,7 @@
   },
   {
     "id": 155,
-    "invid": 31051,
+    "invid": "31051",
     "specid": 93016,
     "groupnames": "",
     "description": "Length",
@@ -1706,7 +1706,7 @@
   },
   {
     "id": 156,
-    "invid": 31051,
+    "invid": "31051",
     "specid": 93017,
     "groupnames": "",
     "description": "Maximum Table Load",
@@ -1717,7 +1717,7 @@
   },
   {
     "id": 157,
-    "invid": 31051,
+    "invid": "31051",
     "specid": 93018,
     "groupnames": "Travels:",
     "description": "X-Axis Travel",
@@ -1728,7 +1728,7 @@
   },
   {
     "id": 158,
-    "invid": 31051,
+    "invid": "31051",
     "specid": 93019,
     "groupnames": "",
     "description": "Y-Axis Travel",
@@ -1739,7 +1739,7 @@
   },
   {
     "id": 159,
-    "invid": 31051,
+    "invid": "31051",
     "specid": 93020,
     "groupnames": "",
     "description": "Z-Axis Travel",
@@ -1750,7 +1750,7 @@
   },
   {
     "id": 160,
-    "invid": 31051,
+    "invid": "31051",
     "specid": 93023,
     "groupnames": "Spindle:",
     "description": "Spindle Speed: Minimum (RPM)",
@@ -1761,7 +1761,7 @@
   },
   {
     "id": 161,
-    "invid": 31051,
+    "invid": "31051",
     "specid": 93024,
     "groupnames": "",
     "description": "Maximum",
@@ -1772,7 +1772,7 @@
   },
   {
     "id": 162,
-    "invid": 31051,
+    "invid": "31051",
     "specid": 93025,
     "groupnames": "",
     "description": "Spindle Taper",
@@ -1783,7 +1783,7 @@
   },
   {
     "id": 163,
-    "invid": 31051,
+    "invid": "31051",
     "specid": 93026,
     "groupnames": "",
     "description": "Main Motor (HP)",
@@ -1794,7 +1794,7 @@
   },
   {
     "id": 164,
-    "invid": 31051,
+    "invid": "31051",
     "specid": 93027,
     "groupnames": "Tool Changer:",
     "description": "Tool Changer Positions",
@@ -1805,7 +1805,7 @@
   },
   {
     "id": 165,
-    "invid": 31054,
+    "invid": "31054",
     "specid": 93066,
     "groupnames": "Capacity:",
     "description": "Swing",
@@ -1816,7 +1816,7 @@
   },
   {
     "id": 166,
-    "invid": 31054,
+    "invid": "31054",
     "specid": 93067,
     "groupnames": "",
     "description": "Swing Over Cross Slide",
@@ -1827,7 +1827,7 @@
   },
   {
     "id": 167,
-    "invid": 31054,
+    "invid": "31054",
     "specid": 93068,
     "groupnames": "",
     "description": "Maximum Machining Diameter",
@@ -1838,7 +1838,7 @@
   },
   {
     "id": 168,
-    "invid": 31054,
+    "invid": "31054",
     "specid": 93069,
     "groupnames": "",
     "description": "Distance Between Centers",
@@ -1849,7 +1849,7 @@
   },
   {
     "id": 169,
-    "invid": 31054,
+    "invid": "31054",
     "specid": 93070,
     "groupnames": "Spindle:",
     "description": "Spindle Speed: Minimum (RPM)",
@@ -1860,7 +1860,7 @@
   },
   {
     "id": 170,
-    "invid": 31054,
+    "invid": "31054",
     "specid": 93071,
     "groupnames": "",
     "description": "Maximum",
@@ -1871,7 +1871,7 @@
   },
   {
     "id": 171,
-    "invid": 31054,
+    "invid": "31054",
     "specid": 93072,
     "groupnames": "",
     "description": "Spindle Bore",
@@ -1882,7 +1882,7 @@
   },
   {
     "id": 172,
-    "invid": 31054,
+    "invid": "31054",
     "specid": 93073,
     "groupnames": "",
     "description": "Main Motor",
@@ -1893,7 +1893,7 @@
   },
   {
     "id": 173,
-    "invid": 31054,
+    "invid": "31054",
     "specid": 93074,
     "groupnames": "",
     "description": "Spindle Nose",
@@ -1904,7 +1904,7 @@
   },
   {
     "id": 174,
-    "invid": 31054,
+    "invid": "31054",
     "specid": 93075,
     "groupnames": "Turret:",
     "description": "Number Of Positions",
@@ -1915,7 +1915,7 @@
   },
   {
     "id": 175,
-    "invid": 31054,
+    "invid": "31054",
     "specid": 93076,
     "groupnames": "",
     "description": "X-Axis Travel",
@@ -1926,7 +1926,7 @@
   },
   {
     "id": 176,
-    "invid": 31054,
+    "invid": "31054",
     "specid": 93077,
     "groupnames": "",
     "description": "Z-Axis Travel",
@@ -1937,7 +1937,7 @@
   },
   {
     "id": 177,
-    "invid": 31054,
+    "invid": "31054",
     "specid": 93078,
     "groupnames": "Tailstock:",
     "description": "Quill Diameter",
@@ -1948,7 +1948,7 @@
   },
   {
     "id": 178,
-    "invid": 31054,
+    "invid": "31054",
     "specid": 93080,
     "groupnames": "",
     "description": "Taper",
@@ -1959,7 +1959,7 @@
   },
   {
     "id": 179,
-    "invid": 31054,
+    "invid": "31054",
     "specid": 93081,
     "groupnames": "",
     "description": "Body Travel",
@@ -1970,7 +1970,7 @@
   },
   {
     "id": 180,
-    "invid": 31054,
+    "invid": "31054",
     "specid": 93082,
     "groupnames": "Chuck:",
     "description": "Diameter",
@@ -1981,7 +1981,7 @@
   },
   {
     "id": 181,
-    "invid": 31054,
+    "invid": "31054",
     "specid": 93083,
     "groupnames": "",
     "description": "Hole Thru",
@@ -1992,7 +1992,7 @@
   },
   {
     "id": 182,
-    "invid": 31054,
+    "invid": "31054",
     "specid": 93084,
     "groupnames": "",
     "description": "Number of Jaws",
@@ -2003,7 +2003,7 @@
   },
   {
     "id": 183,
-    "invid": 31055,
+    "invid": "31055",
     "specid": 93085,
     "groupnames": "Capacity:",
     "description": "Swing",
@@ -2014,7 +2014,7 @@
   },
   {
     "id": 184,
-    "invid": 31055,
+    "invid": "31055",
     "specid": 93086,
     "groupnames": "",
     "description": "Swing Over Cross Slide",
@@ -2025,7 +2025,7 @@
   },
   {
     "id": 185,
-    "invid": 31055,
+    "invid": "31055",
     "specid": 93087,
     "groupnames": "",
     "description": "Maximum Machining Diameter",
@@ -2036,7 +2036,7 @@
   },
   {
     "id": 186,
-    "invid": 31055,
+    "invid": "31055",
     "specid": 93089,
     "groupnames": "Spindle:",
     "description": "Spindle Speed: Minimum (RPM)",
@@ -2047,7 +2047,7 @@
   },
   {
     "id": 187,
-    "invid": 31055,
+    "invid": "31055",
     "specid": 93090,
     "groupnames": "",
     "description": "Maximum",
@@ -2058,7 +2058,7 @@
   },
   {
     "id": 188,
-    "invid": 31055,
+    "invid": "31055",
     "specid": 93091,
     "groupnames": "",
     "description": "Spindle Bore",
@@ -2069,7 +2069,7 @@
   },
   {
     "id": 189,
-    "invid": 31055,
+    "invid": "31055",
     "specid": 93092,
     "groupnames": "",
     "description": "Spindle Nose",
@@ -2080,7 +2080,7 @@
   },
   {
     "id": 190,
-    "invid": 31055,
+    "invid": "31055",
     "specid": 93093,
     "groupnames": "",
     "description": "Main Motor (HP)",
@@ -2091,7 +2091,7 @@
   },
   {
     "id": 191,
-    "invid": 31055,
+    "invid": "31055",
     "specid": 93094,
     "groupnames": "Turret:",
     "description": "Number Of Positions",
@@ -2102,7 +2102,7 @@
   },
   {
     "id": 192,
-    "invid": 31055,
+    "invid": "31055",
     "specid": 93095,
     "groupnames": "",
     "description": "X-Axis Travel",
@@ -2113,7 +2113,7 @@
   },
   {
     "id": 193,
-    "invid": 31055,
+    "invid": "31055",
     "specid": 93096,
     "groupnames": "",
     "description": "Z-Axis Travel",
@@ -2124,7 +2124,7 @@
   },
   {
     "id": 194,
-    "invid": 31055,
+    "invid": "31055",
     "specid": 93097,
     "groupnames": "Chuck:",
     "description": "Diameter",
@@ -2135,7 +2135,7 @@
   },
   {
     "id": 195,
-    "invid": 31055,
+    "invid": "31055",
     "specid": 93098,
     "groupnames": "",
     "description": "Hole Thru",
@@ -2146,7 +2146,7 @@
   },
   {
     "id": 196,
-    "invid": 31055,
+    "invid": "31055",
     "specid": 93099,
     "groupnames": "",
     "description": "Number of Jaws",
@@ -2157,7 +2157,7 @@
   },
   {
     "id": 197,
-    "invid": 31056,
+    "invid": "31056",
     "specid": 93100,
     "groupnames": "Capacity:",
     "description": "Swing",
@@ -2168,7 +2168,7 @@
   },
   {
     "id": 198,
-    "invid": 31056,
+    "invid": "31056",
     "specid": 93101,
     "groupnames": "",
     "description": "Swing Over Cross Slide",
@@ -2179,7 +2179,7 @@
   },
   {
     "id": 199,
-    "invid": 31056,
+    "invid": "31056",
     "specid": 93102,
     "groupnames": "",
     "description": "Maximum Machining Diameter",
@@ -2190,7 +2190,7 @@
   },
   {
     "id": 200,
-    "invid": 31056,
+    "invid": "31056",
     "specid": 93103,
     "groupnames": "",
     "description": "Distance Between Centers",
@@ -2201,7 +2201,7 @@
   },
   {
     "id": 201,
-    "invid": 31056,
+    "invid": "31056",
     "specid": 93104,
     "groupnames": "Spindle:",
     "description": "Spindle Speed: Minimum (RPM)",
@@ -2212,7 +2212,7 @@
   },
   {
     "id": 202,
-    "invid": 31056,
+    "invid": "31056",
     "specid": 93105,
     "groupnames": "",
     "description": "Maximum",
@@ -2223,7 +2223,7 @@
   },
   {
     "id": 203,
-    "invid": 31056,
+    "invid": "31056",
     "specid": 93106,
     "groupnames": "",
     "description": "Spindle Bore",
@@ -2234,7 +2234,7 @@
   },
   {
     "id": 204,
-    "invid": 31056,
+    "invid": "31056",
     "specid": 93107,
     "groupnames": "",
     "description": "Main Motor",
@@ -2245,7 +2245,7 @@
   },
   {
     "id": 205,
-    "invid": 31056,
+    "invid": "31056",
     "specid": 93108,
     "groupnames": "",
     "description": "Spindle Nose",
@@ -2256,7 +2256,7 @@
   },
   {
     "id": 206,
-    "invid": 31056,
+    "invid": "31056",
     "specid": 93109,
     "groupnames": "Turret:",
     "description": "Number Of Positions",
@@ -2267,7 +2267,7 @@
   },
   {
     "id": 207,
-    "invid": 31056,
+    "invid": "31056",
     "specid": 93110,
     "groupnames": "",
     "description": "X-Axis Travel",
@@ -2278,7 +2278,7 @@
   },
   {
     "id": 208,
-    "invid": 31056,
+    "invid": "31056",
     "specid": 93111,
     "groupnames": "",
     "description": "Z-Axis Travel",
@@ -2289,7 +2289,7 @@
   },
   {
     "id": 209,
-    "invid": 31057,
+    "invid": "31057",
     "specid": 93119,
     "groupnames": "Capacity:",
     "description": "Swing",
@@ -2300,7 +2300,7 @@
   },
   {
     "id": 210,
-    "invid": 31057,
+    "invid": "31057",
     "specid": 93120,
     "groupnames": "",
     "description": "Swing Over Cross Slide",
@@ -2311,7 +2311,7 @@
   },
   {
     "id": 211,
-    "invid": 31057,
+    "invid": "31057",
     "specid": 93121,
     "groupnames": "",
     "description": "Maximum Machining Diameter",
@@ -2322,7 +2322,7 @@
   },
   {
     "id": 212,
-    "invid": 31057,
+    "invid": "31057",
     "specid": 93122,
     "groupnames": "",
     "description": "Distance Between Centers",
@@ -2333,7 +2333,7 @@
   },
   {
     "id": 213,
-    "invid": 31057,
+    "invid": "31057",
     "specid": 93123,
     "groupnames": "Spindle:",
     "description": "Spindle Speed: Minimum (RPM)",
@@ -2344,7 +2344,7 @@
   },
   {
     "id": 214,
-    "invid": 31057,
+    "invid": "31057",
     "specid": 93124,
     "groupnames": "",
     "description": "Maximum",
@@ -2355,7 +2355,7 @@
   },
   {
     "id": 215,
-    "invid": 31057,
+    "invid": "31057",
     "specid": 93125,
     "groupnames": "",
     "description": "Spindle Bore",
@@ -2366,7 +2366,7 @@
   },
   {
     "id": 216,
-    "invid": 31057,
+    "invid": "31057",
     "specid": 93126,
     "groupnames": "",
     "description": "Main Motor",
@@ -2377,7 +2377,7 @@
   },
   {
     "id": 217,
-    "invid": 31057,
+    "invid": "31057",
     "specid": 93127,
     "groupnames": "",
     "description": "Spindle Nose",
@@ -2388,7 +2388,7 @@
   },
   {
     "id": 218,
-    "invid": 31057,
+    "invid": "31057",
     "specid": 93128,
     "groupnames": "Turret:",
     "description": "Number Of Positions",
@@ -2399,7 +2399,7 @@
   },
   {
     "id": 219,
-    "invid": 31057,
+    "invid": "31057",
     "specid": 93129,
     "groupnames": "",
     "description": "X-Axis Travel",
@@ -2410,7 +2410,7 @@
   },
   {
     "id": 220,
-    "invid": 31057,
+    "invid": "31057",
     "specid": 93130,
     "groupnames": "",
     "description": "Z-Axis Travel",
@@ -2421,7 +2421,7 @@
   },
   {
     "id": 221,
-    "invid": 31057,
+    "invid": "31057",
     "specid": 93131,
     "groupnames": "Tailstock:",
     "description": "Quill Diameter",
@@ -2432,7 +2432,7 @@
   },
   {
     "id": 222,
-    "invid": 31057,
+    "invid": "31057",
     "specid": 93133,
     "groupnames": "",
     "description": "Taper",
@@ -2443,7 +2443,7 @@
   },
   {
     "id": 223,
-    "invid": 31058,
+    "invid": "31058",
     "specid": 93138,
     "groupnames": "Capacity:",
     "description": "Swing",
@@ -2454,7 +2454,7 @@
   },
   {
     "id": 224,
-    "invid": 31058,
+    "invid": "31058",
     "specid": 93139,
     "groupnames": "",
     "description": "Swing Over Cross Slide",
@@ -2465,7 +2465,7 @@
   },
   {
     "id": 225,
-    "invid": 31058,
+    "invid": "31058",
     "specid": 93142,
     "groupnames": "Spindle:",
     "description": "Spindle Speed: Minimum (RPM)",
@@ -2476,7 +2476,7 @@
   },
   {
     "id": 226,
-    "invid": 31058,
+    "invid": "31058",
     "specid": 93143,
     "groupnames": "",
     "description": "Maximum",
@@ -2487,7 +2487,7 @@
   },
   {
     "id": 227,
-    "invid": 31058,
+    "invid": "31058",
     "specid": 93144,
     "groupnames": "",
     "description": "Spindle Bore",
@@ -2498,7 +2498,7 @@
   },
   {
     "id": 228,
-    "invid": 31058,
+    "invid": "31058",
     "specid": 93145,
     "groupnames": "",
     "description": "Spindle Nose",
@@ -2509,7 +2509,7 @@
   },
   {
     "id": 229,
-    "invid": 31058,
+    "invid": "31058",
     "specid": 93146,
     "groupnames": "",
     "description": "Main Motor (HP)",
@@ -2520,7 +2520,7 @@
   },
   {
     "id": 230,
-    "invid": 31058,
+    "invid": "31058",
     "specid": 93147,
     "groupnames": "Turret:",
     "description": "Number Of Positions",
@@ -2531,7 +2531,7 @@
   },
   {
     "id": 231,
-    "invid": 31058,
+    "invid": "31058",
     "specid": 93150,
     "groupnames": "Chuck:",
     "description": "Diameter",
@@ -2542,7 +2542,7 @@
   },
   {
     "id": 232,
-    "invid": 31058,
+    "invid": "31058",
     "specid": 93151,
     "groupnames": "",
     "description": "Hole Thru",
@@ -2553,7 +2553,7 @@
   },
   {
     "id": 233,
-    "invid": 31058,
+    "invid": "31058",
     "specid": 93152,
     "groupnames": "",
     "description": "Number of Jaws",
@@ -2564,7 +2564,7 @@
   },
   {
     "id": 234,
-    "invid": 31059,
+    "invid": "31059",
     "specid": 93153,
     "groupnames": "Capacity:",
     "description": "Swing",
@@ -2575,7 +2575,7 @@
   },
   {
     "id": 235,
-    "invid": 31059,
+    "invid": "31059",
     "specid": 93154,
     "groupnames": "",
     "description": "Swing Over Cross Slide",
@@ -2586,7 +2586,7 @@
   },
   {
     "id": 236,
-    "invid": 31059,
+    "invid": "31059",
     "specid": 93156,
     "groupnames": "",
     "description": "Distance Between Centers",
@@ -2597,7 +2597,7 @@
   },
   {
     "id": 237,
-    "invid": 31059,
+    "invid": "31059",
     "specid": 93157,
     "groupnames": "Spindle:",
     "description": "Spindle Speed: Minimum (RPM)",
@@ -2608,7 +2608,7 @@
   },
   {
     "id": 238,
-    "invid": 31059,
+    "invid": "31059",
     "specid": 93158,
     "groupnames": "",
     "description": "Maximum",
@@ -2619,7 +2619,7 @@
   },
   {
     "id": 239,
-    "invid": 31059,
+    "invid": "31059",
     "specid": 93159,
     "groupnames": "",
     "description": "Spindle Bore",
@@ -2630,7 +2630,7 @@
   },
   {
     "id": 240,
-    "invid": 31059,
+    "invid": "31059",
     "specid": 93160,
     "groupnames": "",
     "description": "Main Motor",
@@ -2641,7 +2641,7 @@
   },
   {
     "id": 241,
-    "invid": 31059,
+    "invid": "31059",
     "specid": 93161,
     "groupnames": "",
     "description": "Spindle Nose",
@@ -2652,7 +2652,7 @@
   },
   {
     "id": 242,
-    "invid": 31059,
+    "invid": "31059",
     "specid": 93162,
     "groupnames": "Turret:",
     "description": "Number Of Positions",
@@ -2663,7 +2663,7 @@
   },
   {
     "id": 243,
-    "invid": 31059,
+    "invid": "31059",
     "specid": 93169,
     "groupnames": "Chuck:",
     "description": "Diameter",
@@ -2674,7 +2674,7 @@
   },
   {
     "id": 244,
-    "invid": 31059,
+    "invid": "31059",
     "specid": 93170,
     "groupnames": "",
     "description": "Hole Thru",
@@ -2685,7 +2685,7 @@
   },
   {
     "id": 245,
-    "invid": 31059,
+    "invid": "31059",
     "specid": 93171,
     "groupnames": "",
     "description": "Number of Jaws",
@@ -2696,7 +2696,7 @@
   },
   {
     "id": 246,
-    "invid": 31060,
+    "invid": "31060",
     "specid": 93172,
     "groupnames": "Table/Pallet:",
     "description": "Width",
@@ -2707,7 +2707,7 @@
   },
   {
     "id": 247,
-    "invid": 31060,
+    "invid": "31060",
     "specid": 93173,
     "groupnames": "",
     "description": "Length",
@@ -2718,7 +2718,7 @@
   },
   {
     "id": 248,
-    "invid": 31060,
+    "invid": "31060",
     "specid": 93174,
     "groupnames": "",
     "description": "Number of Table/Pallet(s)",
@@ -2729,7 +2729,7 @@
   },
   {
     "id": 249,
-    "invid": 31060,
+    "invid": "31060",
     "specid": 93175,
     "groupnames": "",
     "description": "Indexing",
@@ -2740,7 +2740,7 @@
   },
   {
     "id": 250,
-    "invid": 31060,
+    "invid": "31060",
     "specid": 93176,
     "groupnames": "",
     "description": "Maximum Load",
@@ -2751,7 +2751,7 @@
   },
   {
     "id": 251,
-    "invid": 31060,
+    "invid": "31060",
     "specid": 93177,
     "groupnames": "Travels:",
     "description": "X-Axis Travel",
@@ -2762,7 +2762,7 @@
   },
   {
     "id": 252,
-    "invid": 31060,
+    "invid": "31060",
     "specid": 93178,
     "groupnames": "",
     "description": "Y-Axis Travel",
@@ -2773,7 +2773,7 @@
   },
   {
     "id": 253,
-    "invid": 31060,
+    "invid": "31060",
     "specid": 93179,
     "groupnames": "",
     "description": "Z-Axis Travel",
@@ -2784,7 +2784,7 @@
   },
   {
     "id": 254,
-    "invid": 31060,
+    "invid": "31060",
     "specid": 93180,
     "groupnames": "Spindle:",
     "description": "Spindle Speed: Minimum (RPM)",
@@ -2795,7 +2795,7 @@
   },
   {
     "id": 255,
-    "invid": 31060,
+    "invid": "31060",
     "specid": 93181,
     "groupnames": "",
     "description": "Maximum",
@@ -2806,7 +2806,7 @@
   },
   {
     "id": 256,
-    "invid": 31060,
+    "invid": "31060",
     "specid": 93182,
     "groupnames": "",
     "description": "Spindle Taper",
@@ -2817,7 +2817,7 @@
   },
   {
     "id": 257,
-    "invid": 31060,
+    "invid": "31060",
     "specid": 93183,
     "groupnames": "",
     "description": "Main Motor (HP)",
@@ -2828,7 +2828,7 @@
   },
   {
     "id": 258,
-    "invid": 31060,
+    "invid": "31060",
     "specid": 93184,
     "groupnames": "Tool Changer:",
     "description": "Tool Changer Positions",
@@ -2839,7 +2839,7 @@
   },
   {
     "id": 259,
-    "invid": 31061,
+    "invid": "31061",
     "specid": 93185,
     "groupnames": "Capacity:",
     "description": "Swing",
@@ -2850,7 +2850,7 @@
   },
   {
     "id": 260,
-    "invid": 31061,
+    "invid": "31061",
     "specid": 93186,
     "groupnames": "",
     "description": "Swing in Gap",
@@ -2861,7 +2861,7 @@
   },
   {
     "id": 261,
-    "invid": 31061,
+    "invid": "31061",
     "specid": 93187,
     "groupnames": "",
     "description": "Length of Gap",
@@ -2872,7 +2872,7 @@
   },
   {
     "id": 262,
-    "invid": 31061,
+    "invid": "31061",
     "specid": 93188,
     "groupnames": "",
     "description": "Swing Over Cross Slide/carriage",
@@ -2883,7 +2883,7 @@
   },
   {
     "id": 263,
-    "invid": 31061,
+    "invid": "31061",
     "specid": 93189,
     "groupnames": "",
     "description": "Distance Between Centers",
@@ -2894,7 +2894,7 @@
   },
   {
     "id": 264,
-    "invid": 31061,
+    "invid": "31061",
     "specid": 93190,
     "groupnames": "Spindle:",
     "description": "Spindle Speed: Minimum (RPM)",
@@ -2905,7 +2905,7 @@
   },
   {
     "id": 265,
-    "invid": 31061,
+    "invid": "31061",
     "specid": 93191,
     "groupnames": "",
     "description": "Maximum",
@@ -2916,7 +2916,7 @@
   },
   {
     "id": 266,
-    "invid": 31061,
+    "invid": "31061",
     "specid": 93192,
     "groupnames": "",
     "description": "Spindle Bore",
@@ -2927,7 +2927,7 @@
   },
   {
     "id": 267,
-    "invid": 31061,
+    "invid": "31061",
     "specid": 93193,
     "groupnames": "",
     "description": "Spindle Nose",
@@ -2938,7 +2938,7 @@
   },
   {
     "id": 268,
-    "invid": 31061,
+    "invid": "31061",
     "specid": 93194,
     "groupnames": "",
     "description": "Main Motor (HP)",
@@ -2949,7 +2949,7 @@
   },
   {
     "id": 269,
-    "invid": 31061,
+    "invid": "31061",
     "specid": 93198,
     "groupnames": "Attachments:",
     "description": "Threading",
@@ -2960,7 +2960,7 @@
   },
   {
     "id": 270,
-    "invid": 31061,
+    "invid": "31061",
     "specid": 93199,
     "groupnames": "",
     "description": "Taper Attachment",
@@ -2971,7 +2971,7 @@
   },
   {
     "id": 271,
-    "invid": 31062,
+    "invid": "31062",
     "specid": 93203,
     "groupnames": "Table:",
     "description": "Width",
@@ -2982,7 +2982,7 @@
   },
   {
     "id": 272,
-    "invid": 31062,
+    "invid": "31062",
     "specid": 93204,
     "groupnames": "",
     "description": "Length",
@@ -2993,7 +2993,7 @@
   },
   {
     "id": 273,
-    "invid": 31062,
+    "invid": "31062",
     "specid": 93205,
     "groupnames": "Travels:",
     "description": "X-Axis",
@@ -3004,7 +3004,7 @@
   },
   {
     "id": 274,
-    "invid": 31062,
+    "invid": "31062",
     "specid": 93206,
     "groupnames": "",
     "description": "Y-Axis",
@@ -3015,7 +3015,7 @@
   },
   {
     "id": 275,
-    "invid": 31062,
+    "invid": "31062",
     "specid": 93207,
     "groupnames": "",
     "description": "Z-Axis",
@@ -3026,7 +3026,7 @@
   },
   {
     "id": 276,
-    "invid": 31062,
+    "invid": "31062",
     "specid": 93208,
     "groupnames": "Spindle:",
     "description": "Speeds Minimum:",
@@ -3037,7 +3037,7 @@
   },
   {
     "id": 277,
-    "invid": 31062,
+    "invid": "31062",
     "specid": 93209,
     "groupnames": "",
     "description": "Maximum:",
@@ -3048,7 +3048,7 @@
   },
   {
     "id": 278,
-    "invid": 31062,
+    "invid": "31062",
     "specid": 93210,
     "groupnames": "",
     "description": "Taper",
@@ -3059,7 +3059,7 @@
   },
   {
     "id": 279,
-    "invid": 31062,
+    "invid": "31062",
     "specid": 93211,
     "groupnames": "",
     "description": "Main Motor",
@@ -3070,7 +3070,7 @@
   },
   {
     "id": 280,
-    "invid": 31062,
+    "invid": "31062",
     "specid": 93212,
     "groupnames": "Tool Changer:",
     "description": "Number of Positions",
@@ -3081,7 +3081,7 @@
   },
   {
     "id": 281,
-    "invid": 31063,
+    "invid": "31063",
     "specid": 93213,
     "groupnames": "Table:",
     "description": "Width",
@@ -3092,7 +3092,7 @@
   },
   {
     "id": 282,
-    "invid": 31063,
+    "invid": "31063",
     "specid": 93214,
     "groupnames": "",
     "description": "Length",
@@ -3103,7 +3103,7 @@
   },
   {
     "id": 283,
-    "invid": 31063,
+    "invid": "31063",
     "specid": 93215,
     "groupnames": "",
     "description": "Maximum Table Load",
@@ -3114,7 +3114,7 @@
   },
   {
     "id": 284,
-    "invid": 31063,
+    "invid": "31063",
     "specid": 93216,
     "groupnames": "Travels:",
     "description": "X-Axis Travel",
@@ -3125,7 +3125,7 @@
   },
   {
     "id": 285,
-    "invid": 31063,
+    "invid": "31063",
     "specid": 93217,
     "groupnames": "",
     "description": "Y-Axis Travel",
@@ -3136,7 +3136,7 @@
   },
   {
     "id": 286,
-    "invid": 31063,
+    "invid": "31063",
     "specid": 93218,
     "groupnames": "",
     "description": "Z-Axis Travel",
@@ -3147,7 +3147,7 @@
   },
   {
     "id": 287,
-    "invid": 31063,
+    "invid": "31063",
     "specid": 93219,
     "groupnames": "",
     "description": "Spindle Nose to Table Top Minimum",
@@ -3158,7 +3158,7 @@
   },
   {
     "id": 288,
-    "invid": 31063,
+    "invid": "31063",
     "specid": 93220,
     "groupnames": "",
     "description": "Maximum",
@@ -3169,7 +3169,7 @@
   },
   {
     "id": 289,
-    "invid": 31063,
+    "invid": "31063",
     "specid": 93221,
     "groupnames": "Spindle:",
     "description": "Spindle Speed: Minimum (RPM)",
@@ -3180,7 +3180,7 @@
   },
   {
     "id": 290,
-    "invid": 31063,
+    "invid": "31063",
     "specid": 93222,
     "groupnames": "",
     "description": "Maximum",
@@ -3191,7 +3191,7 @@
   },
   {
     "id": 291,
-    "invid": 31063,
+    "invid": "31063",
     "specid": 93223,
     "groupnames": "",
     "description": "Spindle Taper",
@@ -3202,7 +3202,7 @@
   },
   {
     "id": 292,
-    "invid": 31063,
+    "invid": "31063",
     "specid": 93224,
     "groupnames": "",
     "description": "Main Motor (HP)",
@@ -3213,7 +3213,7 @@
   },
   {
     "id": 293,
-    "invid": 31063,
+    "invid": "31063",
     "specid": 93225,
     "groupnames": "Tool Changer:",
     "description": "Tool Changer Positions",
@@ -3224,7 +3224,7 @@
   },
   {
     "id": 294,
-    "invid": 31064,
+    "invid": "31064",
     "specid": 93226,
     "groupnames": "Table:",
     "description": "Width",
@@ -3235,7 +3235,7 @@
   },
   {
     "id": 295,
-    "invid": 31064,
+    "invid": "31064",
     "specid": 93227,
     "groupnames": "",
     "description": "Length",
@@ -3246,7 +3246,7 @@
   },
   {
     "id": 296,
-    "invid": 31064,
+    "invid": "31064",
     "specid": 93228,
     "groupnames": "",
     "description": "Maximum Table Load",
@@ -3257,7 +3257,7 @@
   },
   {
     "id": 297,
-    "invid": 31064,
+    "invid": "31064",
     "specid": 93229,
     "groupnames": "Travels:",
     "description": "X-Axis Travel",
@@ -3268,7 +3268,7 @@
   },
   {
     "id": 298,
-    "invid": 31064,
+    "invid": "31064",
     "specid": 93230,
     "groupnames": "",
     "description": "Y-Axis Travel",
@@ -3279,7 +3279,7 @@
   },
   {
     "id": 299,
-    "invid": 31064,
+    "invid": "31064",
     "specid": 93231,
     "groupnames": "",
     "description": "Z-Axis Travel",
@@ -3290,7 +3290,7 @@
   },
   {
     "id": 300,
-    "invid": 31064,
+    "invid": "31064",
     "specid": 93232,
     "groupnames": "",
     "description": "Spindle Nose to Table Top Minimum",
@@ -3301,7 +3301,7 @@
   },
   {
     "id": 301,
-    "invid": 31064,
+    "invid": "31064",
     "specid": 93233,
     "groupnames": "",
     "description": "Maximum",
@@ -3312,7 +3312,7 @@
   },
   {
     "id": 302,
-    "invid": 31064,
+    "invid": "31064",
     "specid": 93234,
     "groupnames": "Spindle:",
     "description": "Spindle Speed: Minimum (RPM)",
@@ -3323,7 +3323,7 @@
   },
   {
     "id": 303,
-    "invid": 31064,
+    "invid": "31064",
     "specid": 93235,
     "groupnames": "",
     "description": "Maximum",
@@ -3334,7 +3334,7 @@
   },
   {
     "id": 304,
-    "invid": 31064,
+    "invid": "31064",
     "specid": 93236,
     "groupnames": "",
     "description": "Spindle Taper",
@@ -3345,7 +3345,7 @@
   },
   {
     "id": 305,
-    "invid": 31064,
+    "invid": "31064",
     "specid": 93237,
     "groupnames": "",
     "description": "Main Motor (HP)",
@@ -3356,7 +3356,7 @@
   },
   {
     "id": 306,
-    "invid": 31064,
+    "invid": "31064",
     "specid": 93238,
     "groupnames": "Tool Changer:",
     "description": "Tool Changer Positions",
@@ -3367,7 +3367,7 @@
   },
   {
     "id": 307,
-    "invid": 31066,
+    "invid": "31066",
     "specid": 93258,
     "groupnames": "Table:",
     "description": "Width",
@@ -3378,7 +3378,7 @@
   },
   {
     "id": 308,
-    "invid": 31066,
+    "invid": "31066",
     "specid": 93259,
     "groupnames": "",
     "description": "Length",
@@ -3389,7 +3389,7 @@
   },
   {
     "id": 309,
-    "invid": 31066,
+    "invid": "31066",
     "specid": 93260,
     "groupnames": "",
     "description": "Maximum Table Load",
@@ -3400,7 +3400,7 @@
   },
   {
     "id": 310,
-    "invid": 31066,
+    "invid": "31066",
     "specid": 93261,
     "groupnames": "Travels:",
     "description": "X-Axis Travel",
@@ -3411,7 +3411,7 @@
   },
   {
     "id": 311,
-    "invid": 31066,
+    "invid": "31066",
     "specid": 93262,
     "groupnames": "",
     "description": "Y-Axis Travel",
@@ -3422,7 +3422,7 @@
   },
   {
     "id": 312,
-    "invid": 31066,
+    "invid": "31066",
     "specid": 93263,
     "groupnames": "",
     "description": "Z-Axis Travel",
@@ -3433,7 +3433,7 @@
   },
   {
     "id": 313,
-    "invid": 31066,
+    "invid": "31066",
     "specid": 93266,
     "groupnames": "Spindle:",
     "description": "Spindle Speed: Minimum (RPM)",
@@ -3444,7 +3444,7 @@
   },
   {
     "id": 314,
-    "invid": 31066,
+    "invid": "31066",
     "specid": 93267,
     "groupnames": "",
     "description": "Maximum",
@@ -3455,7 +3455,7 @@
   },
   {
     "id": 315,
-    "invid": 31066,
+    "invid": "31066",
     "specid": 93268,
     "groupnames": "",
     "description": "Spindle Taper",
@@ -3466,7 +3466,7 @@
   },
   {
     "id": 316,
-    "invid": 31066,
+    "invid": "31066",
     "specid": 93269,
     "groupnames": "",
     "description": "Main Motor (HP)",
@@ -3477,7 +3477,7 @@
   },
   {
     "id": 317,
-    "invid": 31066,
+    "invid": "31066",
     "specid": 93270,
     "groupnames": "Tool Changer:",
     "description": "Tool Changer Positions",
@@ -3488,7 +3488,7 @@
   },
   {
     "id": 318,
-    "invid": 31067,
+    "invid": "31067",
     "specid": 93271,
     "groupnames": "Table:",
     "description": "Width",
@@ -3499,7 +3499,7 @@
   },
   {
     "id": 319,
-    "invid": 31067,
+    "invid": "31067",
     "specid": 93272,
     "groupnames": "",
     "description": "Length",
@@ -3510,7 +3510,7 @@
   },
   {
     "id": 320,
-    "invid": 31067,
+    "invid": "31067",
     "specid": 93273,
     "groupnames": "",
     "description": "Maximum Table Load",
@@ -3521,7 +3521,7 @@
   },
   {
     "id": 321,
-    "invid": 31067,
+    "invid": "31067",
     "specid": 93274,
     "groupnames": "Travels:",
     "description": "X-Axis Travel",
@@ -3532,7 +3532,7 @@
   },
   {
     "id": 322,
-    "invid": 31067,
+    "invid": "31067",
     "specid": 93275,
     "groupnames": "",
     "description": "Y-Axis Travel",
@@ -3543,7 +3543,7 @@
   },
   {
     "id": 323,
-    "invid": 31067,
+    "invid": "31067",
     "specid": 93276,
     "groupnames": "",
     "description": "Z-Axis Travel",
@@ -3554,7 +3554,7 @@
   },
   {
     "id": 324,
-    "invid": 31067,
+    "invid": "31067",
     "specid": 93279,
     "groupnames": "Spindle:",
     "description": "Spindle Speed: Minimum (RPM)",
@@ -3565,7 +3565,7 @@
   },
   {
     "id": 325,
-    "invid": 31067,
+    "invid": "31067",
     "specid": 93280,
     "groupnames": "",
     "description": "Maximum",
@@ -3576,7 +3576,7 @@
   },
   {
     "id": 326,
-    "invid": 31067,
+    "invid": "31067",
     "specid": 93281,
     "groupnames": "",
     "description": "Spindle Taper",
@@ -3587,7 +3587,7 @@
   },
   {
     "id": 327,
-    "invid": 31067,
+    "invid": "31067",
     "specid": 93282,
     "groupnames": "",
     "description": "Main Motor (HP)",
@@ -3598,7 +3598,7 @@
   },
   {
     "id": 328,
-    "invid": 31067,
+    "invid": "31067",
     "specid": 93283,
     "groupnames": "Tool Changer:",
     "description": "Tool Changer Positions",
@@ -3609,7 +3609,7 @@
   },
   {
     "id": 329,
-    "invid": 31068,
+    "invid": "31068",
     "specid": 93284,
     "groupnames": "Capacity:",
     "description": "Swing",
@@ -3620,7 +3620,7 @@
   },
   {
     "id": 330,
-    "invid": 31068,
+    "invid": "31068",
     "specid": 93286,
     "groupnames": "",
     "description": "Maximum Machining Diameter",
@@ -3631,7 +3631,7 @@
   },
   {
     "id": 331,
-    "invid": 31068,
+    "invid": "31068",
     "specid": 93287,
     "groupnames": "",
     "description": "Maximum Machining Length",
@@ -3642,7 +3642,7 @@
   },
   {
     "id": 332,
-    "invid": 31068,
+    "invid": "31068",
     "specid": 93288,
     "groupnames": "Main Spindle:",
     "description": "Spindle Speed: Minimum (RPM)",
@@ -3653,7 +3653,7 @@
   },
   {
     "id": 333,
-    "invid": 31068,
+    "invid": "31068",
     "specid": 93289,
     "groupnames": "",
     "description": "Maximum",
@@ -3664,7 +3664,7 @@
   },
   {
     "id": 334,
-    "invid": 31068,
+    "invid": "31068",
     "specid": 93290,
     "groupnames": "",
     "description": "Spindle Bore",
@@ -3675,7 +3675,7 @@
   },
   {
     "id": 335,
-    "invid": 31068,
+    "invid": "31068",
     "specid": 93291,
     "groupnames": "",
     "description": "Spindle Nose",
@@ -3686,7 +3686,7 @@
   },
   {
     "id": 336,
-    "invid": 31068,
+    "invid": "31068",
     "specid": 93292,
     "groupnames": "",
     "description": "Main Motor (HP)",
@@ -3697,7 +3697,7 @@
   },
   {
     "id": 337,
-    "invid": 31068,
+    "invid": "31068",
     "specid": 93293,
     "groupnames": "Sub-Spindle:",
     "description": "Maximum Spindle Speed",
@@ -3708,7 +3708,7 @@
   },
   {
     "id": 338,
-    "invid": 31068,
+    "invid": "31068",
     "specid": 93296,
     "groupnames": "Tool Changer:",
     "description": "Number Of Positions",
@@ -3719,7 +3719,7 @@
   },
   {
     "id": 339,
-    "invid": 31068,
+    "invid": "31068",
     "specid": 93297,
     "groupnames": "",
     "description": "X-Axis Travel",
@@ -3730,7 +3730,7 @@
   },
   {
     "id": 340,
-    "invid": 31068,
+    "invid": "31068",
     "specid": 93298,
     "groupnames": "",
     "description": "Y-Axis Travel",
@@ -3741,7 +3741,7 @@
   },
   {
     "id": 341,
-    "invid": 31068,
+    "invid": "31068",
     "specid": 93299,
     "groupnames": "",
     "description": "Z-Axis Travel",
@@ -3752,7 +3752,7 @@
   },
   {
     "id": 342,
-    "invid": 31068,
+    "invid": "31068",
     "specid": 93300,
     "groupnames": "Live Tooling:",
     "description": "Maximum Speed",
@@ -3763,7 +3763,7 @@
   },
   {
     "id": 343,
-    "invid": 31068,
+    "invid": "31068",
     "specid": 93302,
     "groupnames": "",
     "description": "C-Axis Indexing: Main Spindle",
@@ -3774,7 +3774,7 @@
   },
   {
     "id": 344,
-    "invid": 31068,
+    "invid": "31068",
     "specid": 93304,
     "groupnames": "Main Chuck:",
     "description": "Diameter",
@@ -3785,7 +3785,7 @@
   },
   {
     "id": 345,
-    "invid": 31068,
+    "invid": "31068",
     "specid": 93305,
     "groupnames": "",
     "description": "Hole Thru",
@@ -3796,7 +3796,7 @@
   },
   {
     "id": 346,
-    "invid": 31068,
+    "invid": "31068",
     "specid": 93306,
     "groupnames": "",
     "description": "Number of Jaws",
@@ -3807,7 +3807,7 @@
   },
   {
     "id": 347,
-    "invid": 31068,
+    "invid": "31068",
     "specid": 93307,
     "groupnames": "Sub Chuck:",
     "description": "Diameter",
@@ -3818,7 +3818,7 @@
   },
   {
     "id": 348,
-    "invid": 31071,
+    "invid": "31071",
     "specid": 93336,
     "groupnames": "Table:",
     "description": "Width",
@@ -3829,7 +3829,7 @@
   },
   {
     "id": 349,
-    "invid": 31071,
+    "invid": "31071",
     "specid": 93337,
     "groupnames": "",
     "description": "Length",
@@ -3840,7 +3840,7 @@
   },
   {
     "id": 350,
-    "invid": 31071,
+    "invid": "31071",
     "specid": 93338,
     "groupnames": "",
     "description": "Maximum Table Load",
@@ -3851,7 +3851,7 @@
   },
   {
     "id": 351,
-    "invid": 31071,
+    "invid": "31071",
     "specid": 93339,
     "groupnames": "Travels:",
     "description": "X-Axis Travel",
@@ -3862,7 +3862,7 @@
   },
   {
     "id": 352,
-    "invid": 31071,
+    "invid": "31071",
     "specid": 93340,
     "groupnames": "",
     "description": "Y-Axis Travel",
@@ -3873,7 +3873,7 @@
   },
   {
     "id": 353,
-    "invid": 31071,
+    "invid": "31071",
     "specid": 93341,
     "groupnames": "",
     "description": "Z-Axis Travel",
@@ -3884,7 +3884,7 @@
   },
   {
     "id": 354,
-    "invid": 31071,
+    "invid": "31071",
     "specid": 93342,
     "groupnames": "",
     "description": "Spindle Nose to Table Top Minimum",
@@ -3895,7 +3895,7 @@
   },
   {
     "id": 355,
-    "invid": 31071,
+    "invid": "31071",
     "specid": 93343,
     "groupnames": "",
     "description": "Maximum",
@@ -3906,7 +3906,7 @@
   },
   {
     "id": 356,
-    "invid": 31071,
+    "invid": "31071",
     "specid": 93344,
     "groupnames": "Spindle:",
     "description": "Spindle Speed: Minimum (RPM)",
@@ -3917,7 +3917,7 @@
   },
   {
     "id": 357,
-    "invid": 31071,
+    "invid": "31071",
     "specid": 93345,
     "groupnames": "",
     "description": "Maximum",
@@ -3928,7 +3928,7 @@
   },
   {
     "id": 358,
-    "invid": 31071,
+    "invid": "31071",
     "specid": 93346,
     "groupnames": "",
     "description": "Spindle Taper",
@@ -3939,7 +3939,7 @@
   },
   {
     "id": 359,
-    "invid": 31071,
+    "invid": "31071",
     "specid": 93347,
     "groupnames": "",
     "description": "Main Motor (HP)",
@@ -3950,7 +3950,7 @@
   },
   {
     "id": 360,
-    "invid": 31071,
+    "invid": "31071",
     "specid": 93348,
     "groupnames": "Tool Changer:",
     "description": "Tool Changer Positions",
@@ -3961,7 +3961,7 @@
   },
   {
     "id": 361,
-    "invid": 31072,
+    "invid": "31072",
     "specid": 93349,
     "groupnames": "Capacity:",
     "description": "Swing",
@@ -3972,7 +3972,7 @@
   },
   {
     "id": 362,
-    "invid": 31072,
+    "invid": "31072",
     "specid": 93350,
     "groupnames": "",
     "description": "Swing Over Cross Slide",
@@ -3983,7 +3983,7 @@
   },
   {
     "id": 363,
-    "invid": 31072,
+    "invid": "31072",
     "specid": 93352,
     "groupnames": "",
     "description": "Distance Between Centers",
@@ -3994,7 +3994,7 @@
   },
   {
     "id": 364,
-    "invid": 31072,
+    "invid": "31072",
     "specid": 93353,
     "groupnames": "Spindle:",
     "description": "Spindle Speed: Minimum (RPM)",
@@ -4005,7 +4005,7 @@
   },
   {
     "id": 365,
-    "invid": 31072,
+    "invid": "31072",
     "specid": 93354,
     "groupnames": "",
     "description": "Maximum",
@@ -4016,7 +4016,7 @@
   },
   {
     "id": 366,
-    "invid": 31072,
+    "invid": "31072",
     "specid": 93355,
     "groupnames": "",
     "description": "Spindle Bore",
@@ -4027,7 +4027,7 @@
   },
   {
     "id": 367,
-    "invid": 31072,
+    "invid": "31072",
     "specid": 93356,
     "groupnames": "",
     "description": "Main Motor",
@@ -4038,7 +4038,7 @@
   },
   {
     "id": 368,
-    "invid": 31072,
+    "invid": "31072",
     "specid": 93358,
     "groupnames": "Turret:",
     "description": "Number Of Positions",
@@ -4049,7 +4049,7 @@
   },
   {
     "id": 369,
-    "invid": 31072,
+    "invid": "31072",
     "specid": 93361,
     "groupnames": "Tailstock:",
     "description": "Quill Diameter",
@@ -4060,7 +4060,7 @@
   },
   {
     "id": 370,
-    "invid": 31072,
+    "invid": "31072",
     "specid": 93362,
     "groupnames": "",
     "description": "Quill Travel",
@@ -4071,7 +4071,7 @@
   },
   {
     "id": 371,
-    "invid": 31072,
+    "invid": "31072",
     "specid": 93363,
     "groupnames": "",
     "description": "Taper",
@@ -4082,7 +4082,7 @@
   },
   {
     "id": 372,
-    "invid": 31073,
+    "invid": "31073",
     "specid": 93368,
     "groupnames": "Capacity:",
     "description": "Swing",
@@ -4093,7 +4093,7 @@
   },
   {
     "id": 373,
-    "invid": 31073,
+    "invid": "31073",
     "specid": 93369,
     "groupnames": "",
     "description": "Swing Over Cross Slide",
@@ -4104,7 +4104,7 @@
   },
   {
     "id": 374,
-    "invid": 31073,
+    "invid": "31073",
     "specid": 93370,
     "groupnames": "",
     "description": "Maximum Machining Diameter",
@@ -4115,7 +4115,7 @@
   },
   {
     "id": 375,
-    "invid": 31073,
+    "invid": "31073",
     "specid": 93371,
     "groupnames": "",
     "description": "Distance Between Centers",
@@ -4126,7 +4126,7 @@
   },
   {
     "id": 376,
-    "invid": 31073,
+    "invid": "31073",
     "specid": 93372,
     "groupnames": "Spindle:",
     "description": "Spindle Speed: Minimum (RPM)",
@@ -4137,7 +4137,7 @@
   },
   {
     "id": 377,
-    "invid": 31073,
+    "invid": "31073",
     "specid": 93373,
     "groupnames": "",
     "description": "Maximum",
@@ -4148,7 +4148,7 @@
   },
   {
     "id": 378,
-    "invid": 31073,
+    "invid": "31073",
     "specid": 93374,
     "groupnames": "",
     "description": "Spindle Bore",
@@ -4159,7 +4159,7 @@
   },
   {
     "id": 379,
-    "invid": 31073,
+    "invid": "31073",
     "specid": 93375,
     "groupnames": "",
     "description": "Main Motor",
@@ -4170,7 +4170,7 @@
   },
   {
     "id": 380,
-    "invid": 31073,
+    "invid": "31073",
     "specid": 93376,
     "groupnames": "",
     "description": "Spindle Nose",
@@ -4181,7 +4181,7 @@
   },
   {
     "id": 381,
-    "invid": 31073,
+    "invid": "31073",
     "specid": 93377,
     "groupnames": "Turret:",
     "description": "Number Of positions (Upper + Lower)",
@@ -4192,7 +4192,7 @@
   },
   {
     "id": 382,
-    "invid": 31073,
+    "invid": "31073",
     "specid": 93378,
     "groupnames": "",
     "description": "X-Axis Travel (Upper/Lower)",
@@ -4203,7 +4203,7 @@
   },
   {
     "id": 383,
-    "invid": 31073,
+    "invid": "31073",
     "specid": 93379,
     "groupnames": "",
     "description": "Z-Axis Travel (Upper/Lower)",
@@ -4214,7 +4214,7 @@
   },
   {
     "id": 384,
-    "invid": 31073,
+    "invid": "31073",
     "specid": 93386,
     "groupnames": "C-Axis:",
     "description": "Spindle Indexing",
@@ -4225,7 +4225,7 @@
   },
   {
     "id": 385,
-    "invid": 31074,
+    "invid": "31074",
     "specid": 93391,
     "groupnames": "Table:",
     "description": "Width",
@@ -4236,7 +4236,7 @@
   },
   {
     "id": 386,
-    "invid": 31074,
+    "invid": "31074",
     "specid": 93392,
     "groupnames": "",
     "description": "Length",
@@ -4247,7 +4247,7 @@
   },
   {
     "id": 387,
-    "invid": 31074,
+    "invid": "31074",
     "specid": 93393,
     "groupnames": "",
     "description": "Maximum Table Load",
@@ -4258,7 +4258,7 @@
   },
   {
     "id": 388,
-    "invid": 31074,
+    "invid": "31074",
     "specid": 93394,
     "groupnames": "Travels:",
     "description": "X-Axis Travel",
@@ -4269,7 +4269,7 @@
   },
   {
     "id": 389,
-    "invid": 31074,
+    "invid": "31074",
     "specid": 93395,
     "groupnames": "",
     "description": "Y-Axis Travel",
@@ -4280,7 +4280,7 @@
   },
   {
     "id": 390,
-    "invid": 31074,
+    "invid": "31074",
     "specid": 93396,
     "groupnames": "",
     "description": "Z-Axis Travel",
@@ -4291,7 +4291,7 @@
   },
   {
     "id": 391,
-    "invid": 31074,
+    "invid": "31074",
     "specid": 93397,
     "groupnames": "",
     "description": "Spindle Nose to Table Top Minimum",
@@ -4302,7 +4302,7 @@
   },
   {
     "id": 392,
-    "invid": 31074,
+    "invid": "31074",
     "specid": 93398,
     "groupnames": "",
     "description": "Maximum",
@@ -4313,7 +4313,7 @@
   },
   {
     "id": 393,
-    "invid": 31074,
+    "invid": "31074",
     "specid": 93399,
     "groupnames": "Spindle:",
     "description": "Spindle Speed: Minimum (RPM)",
@@ -4324,7 +4324,7 @@
   },
   {
     "id": 394,
-    "invid": 31074,
+    "invid": "31074",
     "specid": 93400,
     "groupnames": "",
     "description": "Maximum",
@@ -4335,7 +4335,7 @@
   },
   {
     "id": 395,
-    "invid": 31074,
+    "invid": "31074",
     "specid": 93401,
     "groupnames": "",
     "description": "Spindle Taper",
@@ -4346,7 +4346,7 @@
   },
   {
     "id": 396,
-    "invid": 31074,
+    "invid": "31074",
     "specid": 93402,
     "groupnames": "",
     "description": "Main Motor (HP)",
@@ -4357,7 +4357,7 @@
   },
   {
     "id": 397,
-    "invid": 31074,
+    "invid": "31074",
     "specid": 93403,
     "groupnames": "Tool Changer:",
     "description": "Tool Changer Positions",
@@ -4368,7 +4368,7 @@
   },
   {
     "id": 398,
-    "invid": 31075,
+    "invid": "31075",
     "specid": 93404,
     "groupnames": "Table:",
     "description": "Width",
@@ -4379,7 +4379,7 @@
   },
   {
     "id": 399,
-    "invid": 31075,
+    "invid": "31075",
     "specid": 93405,
     "groupnames": "",
     "description": "Length",
@@ -4390,7 +4390,7 @@
   },
   {
     "id": 400,
-    "invid": 31075,
+    "invid": "31075",
     "specid": 93406,
     "groupnames": "",
     "description": "Maximum Table Load",
@@ -4401,7 +4401,7 @@
   },
   {
     "id": 401,
-    "invid": 31075,
+    "invid": "31075",
     "specid": 93407,
     "groupnames": "Travels:",
     "description": "X-Axis Travel",
@@ -4412,7 +4412,7 @@
   },
   {
     "id": 402,
-    "invid": 31075,
+    "invid": "31075",
     "specid": 93408,
     "groupnames": "",
     "description": "Y-Axis Travel",
@@ -4423,7 +4423,7 @@
   },
   {
     "id": 403,
-    "invid": 31075,
+    "invid": "31075",
     "specid": 93409,
     "groupnames": "",
     "description": "Z-Axis Travel",
@@ -4434,7 +4434,7 @@
   },
   {
     "id": 404,
-    "invid": 31075,
+    "invid": "31075",
     "specid": 93410,
     "groupnames": "",
     "description": "Spindle Nose to Table Top Minimum",
@@ -4445,7 +4445,7 @@
   },
   {
     "id": 405,
-    "invid": 31075,
+    "invid": "31075",
     "specid": 93411,
     "groupnames": "",
     "description": "Maximum",
@@ -4456,7 +4456,7 @@
   },
   {
     "id": 406,
-    "invid": 31075,
+    "invid": "31075",
     "specid": 93412,
     "groupnames": "Spindle:",
     "description": "Spindle Speed: Minimum (RPM)",
@@ -4467,7 +4467,7 @@
   },
   {
     "id": 407,
-    "invid": 31075,
+    "invid": "31075",
     "specid": 93413,
     "groupnames": "",
     "description": "Maximum",
@@ -4478,7 +4478,7 @@
   },
   {
     "id": 408,
-    "invid": 31075,
+    "invid": "31075",
     "specid": 93414,
     "groupnames": "",
     "description": "Spindle Taper",
@@ -4489,7 +4489,7 @@
   },
   {
     "id": 409,
-    "invid": 31075,
+    "invid": "31075",
     "specid": 93415,
     "groupnames": "",
     "description": "Main Motor (HP)",
@@ -4500,7 +4500,7 @@
   },
   {
     "id": 410,
-    "invid": 31075,
+    "invid": "31075",
     "specid": 93416,
     "groupnames": "Tool Changer:",
     "description": "Tool Changer Positions",
@@ -4511,7 +4511,7 @@
   },
   {
     "id": 411,
-    "invid": 31076,
+    "invid": "31076",
     "specid": 93417,
     "groupnames": "Capacity:",
     "description": "Swing",
@@ -4522,7 +4522,7 @@
   },
   {
     "id": 412,
-    "invid": 31076,
+    "invid": "31076",
     "specid": 93418,
     "groupnames": "",
     "description": "Swing Over Cross Slide",
@@ -4533,7 +4533,7 @@
   },
   {
     "id": 413,
-    "invid": 31076,
+    "invid": "31076",
     "specid": 93419,
     "groupnames": "",
     "description": "Maximum Machining Diameter",
@@ -4544,7 +4544,7 @@
   },
   {
     "id": 414,
-    "invid": 31076,
+    "invid": "31076",
     "specid": 93420,
     "groupnames": "",
     "description": "Maximum Machining Length",
@@ -4555,7 +4555,7 @@
   },
   {
     "id": 415,
-    "invid": 31076,
+    "invid": "31076",
     "specid": 93421,
     "groupnames": "Main Spindle:",
     "description": "Spindle Speed: Minimum (RPM)",
@@ -4566,7 +4566,7 @@
   },
   {
     "id": 416,
-    "invid": 31076,
+    "invid": "31076",
     "specid": 93422,
     "groupnames": "",
     "description": "Maximum",
@@ -4577,7 +4577,7 @@
   },
   {
     "id": 417,
-    "invid": 31076,
+    "invid": "31076",
     "specid": 93423,
     "groupnames": "",
     "description": "Spindle Bore",
@@ -4588,7 +4588,7 @@
   },
   {
     "id": 418,
-    "invid": 31076,
+    "invid": "31076",
     "specid": 93424,
     "groupnames": "",
     "description": "Spindle Nose",
@@ -4599,7 +4599,7 @@
   },
   {
     "id": 419,
-    "invid": 31076,
+    "invid": "31076",
     "specid": 93425,
     "groupnames": "",
     "description": "Main Motor (HP)",
@@ -4610,7 +4610,7 @@
   },
   {
     "id": 420,
-    "invid": 31076,
+    "invid": "31076",
     "specid": 93426,
     "groupnames": "Sub-Spindle:",
     "description": "Maximum Spindle Speed",
@@ -4621,7 +4621,7 @@
   },
   {
     "id": 421,
-    "invid": 31076,
+    "invid": "31076",
     "specid": 93428,
     "groupnames": "",
     "description": "Motor",
@@ -4632,7 +4632,7 @@
   },
   {
     "id": 422,
-    "invid": 31076,
+    "invid": "31076",
     "specid": 93429,
     "groupnames": "Turret:",
     "description": "Number Of Positions",
@@ -4643,7 +4643,7 @@
   },
   {
     "id": 423,
-    "invid": 31076,
+    "invid": "31076",
     "specid": 93430,
     "groupnames": "",
     "description": "X-Axis Travel",
@@ -4654,7 +4654,7 @@
   },
   {
     "id": 424,
-    "invid": 31076,
+    "invid": "31076",
     "specid": 93431,
     "groupnames": "",
     "description": "Z-Axis Travel",
@@ -4665,7 +4665,7 @@
   },
   {
     "id": 425,
-    "invid": 31076,
+    "invid": "31076",
     "specid": 93432,
     "groupnames": "Live Tooling:",
     "description": "Number of Live Positions",
@@ -4676,7 +4676,7 @@
   },
   {
     "id": 426,
-    "invid": 31076,
+    "invid": "31076",
     "specid": 93433,
     "groupnames": "",
     "description": "Maximum Speed",
@@ -4687,7 +4687,7 @@
   },
   {
     "id": 427,
-    "invid": 31076,
+    "invid": "31076",
     "specid": 93435,
     "groupnames": "",
     "description": "C-Axis Indexing: Main Spindle",
@@ -4698,7 +4698,7 @@
   },
   {
     "id": 428,
-    "invid": 31076,
+    "invid": "31076",
     "specid": 93437,
     "groupnames": "Main Chuck:",
     "description": "Diameter",
@@ -4709,7 +4709,7 @@
   },
   {
     "id": 429,
-    "invid": 31076,
+    "invid": "31076",
     "specid": 93438,
     "groupnames": "",
     "description": "Hole Thru",
@@ -4720,7 +4720,7 @@
   },
   {
     "id": 430,
-    "invid": 31076,
+    "invid": "31076",
     "specid": 93439,
     "groupnames": "",
     "description": "Number of Jaws",
@@ -4731,7 +4731,7 @@
   },
   {
     "id": 431,
-    "invid": 31076,
+    "invid": "31076",
     "specid": 93440,
     "groupnames": "Sub Chuck:",
     "description": "Diameter",
@@ -4742,7 +4742,7 @@
   },
   {
     "id": 432,
-    "invid": 31076,
+    "invid": "31076",
     "specid": 93442,
     "groupnames": "",
     "description": "Number of Jaws",
@@ -4753,7 +4753,7 @@
   },
   {
     "id": 433,
-    "invid": 31077,
+    "invid": "31077",
     "specid": 93443,
     "groupnames": "Capacity:",
     "description": "Swing",
@@ -4764,7 +4764,7 @@
   },
   {
     "id": 434,
-    "invid": 31077,
+    "invid": "31077",
     "specid": 93444,
     "groupnames": "",
     "description": "Swing Over Cross Slide",
@@ -4775,7 +4775,7 @@
   },
   {
     "id": 435,
-    "invid": 31077,
+    "invid": "31077",
     "specid": 93445,
     "groupnames": "",
     "description": "Maximum Machining Diameter",
@@ -4786,7 +4786,7 @@
   },
   {
     "id": 436,
-    "invid": 31077,
+    "invid": "31077",
     "specid": 93446,
     "groupnames": "",
     "description": "Distance Between Centers",
@@ -4797,7 +4797,7 @@
   },
   {
     "id": 437,
-    "invid": 31077,
+    "invid": "31077",
     "specid": 93447,
     "groupnames": "Spindle:",
     "description": "Spindle Speed: Minimum (RPM)",
@@ -4808,7 +4808,7 @@
   },
   {
     "id": 438,
-    "invid": 31077,
+    "invid": "31077",
     "specid": 93448,
     "groupnames": "",
     "description": "Maximum",
@@ -4819,7 +4819,7 @@
   },
   {
     "id": 439,
-    "invid": 31077,
+    "invid": "31077",
     "specid": 93449,
     "groupnames": "",
     "description": "Spindle Bore",
@@ -4830,7 +4830,7 @@
   },
   {
     "id": 440,
-    "invid": 31077,
+    "invid": "31077",
     "specid": 93450,
     "groupnames": "",
     "description": "Main Motor",
@@ -4841,7 +4841,7 @@
   },
   {
     "id": 441,
-    "invid": 31077,
+    "invid": "31077",
     "specid": 93451,
     "groupnames": "",
     "description": "Spindle Nose",
@@ -4852,7 +4852,7 @@
   },
   {
     "id": 442,
-    "invid": 31077,
+    "invid": "31077",
     "specid": 93452,
     "groupnames": "Turret:",
     "description": "Number Of Positions",
@@ -4863,7 +4863,7 @@
   },
   {
     "id": 443,
-    "invid": 31077,
+    "invid": "31077",
     "specid": 93453,
     "groupnames": "",
     "description": "X-Axis Travel",
@@ -4874,7 +4874,7 @@
   },
   {
     "id": 444,
-    "invid": 31077,
+    "invid": "31077",
     "specid": 93454,
     "groupnames": "",
     "description": "Z-Axis Travel",
@@ -4885,7 +4885,7 @@
   },
   {
     "id": 445,
-    "invid": 31079,
+    "invid": "31079",
     "specid": 93493,
     "groupnames": "Capacity:",
     "description": "Swing",
@@ -4896,7 +4896,7 @@
   },
   {
     "id": 446,
-    "invid": 31079,
+    "invid": "31079",
     "specid": 93495,
     "groupnames": "",
     "description": "Maximum Machining Diameter",
@@ -4907,7 +4907,7 @@
   },
   {
     "id": 447,
-    "invid": 31079,
+    "invid": "31079",
     "specid": 93496,
     "groupnames": "",
     "description": "Maximum Machining Length",
@@ -4918,7 +4918,7 @@
   },
   {
     "id": 448,
-    "invid": 31079,
+    "invid": "31079",
     "specid": 93497,
     "groupnames": "Main Spindle:",
     "description": "Spindle Speed: Minimum (RPM)",
@@ -4929,7 +4929,7 @@
   },
   {
     "id": 449,
-    "invid": 31079,
+    "invid": "31079",
     "specid": 93498,
     "groupnames": "",
     "description": "Maximum",
@@ -4940,7 +4940,7 @@
   },
   {
     "id": 450,
-    "invid": 31079,
+    "invid": "31079",
     "specid": 93499,
     "groupnames": "",
     "description": "Spindle Bore",
@@ -4951,7 +4951,7 @@
   },
   {
     "id": 451,
-    "invid": 31079,
+    "invid": "31079",
     "specid": 93500,
     "groupnames": "",
     "description": "Spindle Nose",
@@ -4962,7 +4962,7 @@
   },
   {
     "id": 452,
-    "invid": 31079,
+    "invid": "31079",
     "specid": 93501,
     "groupnames": "",
     "description": "Main Motor (HP)",
@@ -4973,7 +4973,7 @@
   },
   {
     "id": 453,
-    "invid": 31079,
+    "invid": "31079",
     "specid": 93502,
     "groupnames": "Sub-Spindle:",
     "description": "Maximum Spindle Speed",
@@ -4984,7 +4984,7 @@
   },
   {
     "id": 454,
-    "invid": 31079,
+    "invid": "31079",
     "specid": 93503,
     "groupnames": "",
     "description": "Hole",
@@ -4995,7 +4995,7 @@
   },
   {
     "id": 455,
-    "invid": 31079,
+    "invid": "31079",
     "specid": 93504,
     "groupnames": "",
     "description": "Motor",
@@ -5006,7 +5006,7 @@
   },
   {
     "id": 456,
-    "invid": 31079,
+    "invid": "31079",
     "specid": 93505,
     "groupnames": "Turret:",
     "description": "Number Of Positions",
@@ -5017,7 +5017,7 @@
   },
   {
     "id": 457,
-    "invid": 31079,
+    "invid": "31079",
     "specid": 93506,
     "groupnames": "",
     "description": "X-Axis Travel",
@@ -5028,7 +5028,7 @@
   },
   {
     "id": 458,
-    "invid": 31079,
+    "invid": "31079",
     "specid": 93507,
     "groupnames": "",
     "description": "Z-Axis Travel",
@@ -5039,7 +5039,7 @@
   },
   {
     "id": 459,
-    "invid": 31079,
+    "invid": "31079",
     "specid": 93508,
     "groupnames": "Live Tooling:",
     "description": "Number of Live Positions",
@@ -5050,7 +5050,7 @@
   },
   {
     "id": 460,
-    "invid": 31079,
+    "invid": "31079",
     "specid": 93509,
     "groupnames": "",
     "description": "Maximum Speed",
@@ -5061,7 +5061,7 @@
   },
   {
     "id": 461,
-    "invid": 31079,
+    "invid": "31079",
     "specid": 93510,
     "groupnames": "",
     "description": "Motor",
@@ -5072,7 +5072,7 @@
   },
   {
     "id": 462,
-    "invid": 31079,
+    "invid": "31079",
     "specid": 93511,
     "groupnames": "",
     "description": "C-Axis Indexing: Main Spindle",
@@ -5083,7 +5083,7 @@
   },
   {
     "id": 463,
-    "invid": 31079,
+    "invid": "31079",
     "specid": 93513,
     "groupnames": "Main Chuck:",
     "description": "Diameter",
@@ -5094,7 +5094,7 @@
   },
   {
     "id": 464,
-    "invid": 31079,
+    "invid": "31079",
     "specid": 93514,
     "groupnames": "",
     "description": "Hole Thru",
@@ -5105,7 +5105,7 @@
   },
   {
     "id": 465,
-    "invid": 31079,
+    "invid": "31079",
     "specid": 93515,
     "groupnames": "",
     "description": "Number of Jaws",
@@ -5116,7 +5116,7 @@
   },
   {
     "id": 466,
-    "invid": 31079,
+    "invid": "31079",
     "specid": 93516,
     "groupnames": "Sub Chuck:",
     "description": "Diameter",
@@ -5127,7 +5127,7 @@
   },
   {
     "id": 467,
-    "invid": 31079,
+    "invid": "31079",
     "specid": 93518,
     "groupnames": "",
     "description": "Number of Jaws",
@@ -5138,7 +5138,7 @@
   },
   {
     "id": 468,
-    "invid": 31080,
+    "invid": "31080",
     "specid": 93522,
     "groupnames": "Travels:",
     "description": "X-Axis Travel",
@@ -5149,7 +5149,7 @@
   },
   {
     "id": 469,
-    "invid": 31080,
+    "invid": "31080",
     "specid": 93523,
     "groupnames": "",
     "description": "Y-Axis Travel",
@@ -5160,7 +5160,7 @@
   },
   {
     "id": 470,
-    "invid": 31080,
+    "invid": "31080",
     "specid": 93524,
     "groupnames": "",
     "description": "Z-Axis Travel",
@@ -5171,7 +5171,7 @@
   },
   {
     "id": 471,
-    "invid": 31080,
+    "invid": "31080",
     "specid": 93525,
     "groupnames": "",
     "description": "Spindle Nose to Table Top Minimum",
@@ -5182,7 +5182,7 @@
   },
   {
     "id": 472,
-    "invid": 31080,
+    "invid": "31080",
     "specid": 93526,
     "groupnames": "",
     "description": "Maximum",
@@ -5193,7 +5193,7 @@
   },
   {
     "id": 473,
-    "invid": 31080,
+    "invid": "31080",
     "specid": 93527,
     "groupnames": "Spindle:",
     "description": "Spindle Speed: Minimum (RPM)",
@@ -5204,7 +5204,7 @@
   },
   {
     "id": 474,
-    "invid": 31080,
+    "invid": "31080",
     "specid": 93528,
     "groupnames": "",
     "description": "Maximum",
@@ -5215,7 +5215,7 @@
   },
   {
     "id": 475,
-    "invid": 31080,
+    "invid": "31080",
     "specid": 93529,
     "groupnames": "",
     "description": "Spindle Taper",
@@ -5226,7 +5226,7 @@
   },
   {
     "id": 476,
-    "invid": 31080,
+    "invid": "31080",
     "specid": 93530,
     "groupnames": "",
     "description": "Main Motor (HP)",
@@ -5237,7 +5237,7 @@
   },
   {
     "id": 477,
-    "invid": 31080,
+    "invid": "31080",
     "specid": 93531,
     "groupnames": "Tool Changer:",
     "description": "Tool Changer Positions",
@@ -5248,7 +5248,7 @@
   },
   {
     "id": 478,
-    "invid": 31051,
+    "invid": "31051",
     "specid": 83837,
     "groupnames": "B-Axis - Tilt:",
     "description": "Travel",
@@ -5259,7 +5259,7 @@
   },
   {
     "id": 479,
-    "invid": 31051,
+    "invid": "31051",
     "specid": 83838,
     "groupnames": "",
     "description": "Maximum Speed",
@@ -5270,7 +5270,7 @@
   },
   {
     "id": 480,
-    "invid": 31051,
+    "invid": "31051",
     "specid": 83840,
     "groupnames": "C-Axis - Rotation:",
     "description": "Travel",
@@ -5281,7 +5281,7 @@
   },
   {
     "id": 481,
-    "invid": 31051,
+    "invid": "31051",
     "specid": 83841,
     "groupnames": "",
     "description": "Maximum Speed",
@@ -5292,7 +5292,7 @@
   },
   {
     "id": 482,
-    "invid": 31051,
+    "invid": "31051",
     "specid": 83842,
     "groupnames": "Sipping Dims:",
     "description": "Length x width",
@@ -5303,7 +5303,7 @@
   },
   {
     "id": 483,
-    "invid": 31051,
+    "invid": "31051",
     "specid": 83843,
     "groupnames": "",
     "description": "Height",
@@ -5314,7 +5314,7 @@
   },
   {
     "id": 484,
-    "invid": 31051,
+    "invid": "31051",
     "specid": 83844,
     "groupnames": "",
     "description": "Weight",
@@ -5325,7 +5325,7 @@
   },
   {
     "id": 485,
-    "invid": 31060,
+    "invid": "31060",
     "specid": 83849,
     "groupnames": "",
     "description": "Maximum Tool Diameter",
@@ -5336,7 +5336,7 @@
   },
   {
     "id": 486,
-    "invid": 31060,
+    "invid": "31060",
     "specid": 83850,
     "groupnames": "",
     "description": "Length",
@@ -5347,7 +5347,7 @@
   },
   {
     "id": 487,
-    "invid": 31060,
+    "invid": "31060",
     "specid": 83851,
     "groupnames": "",
     "description": "Weight",
@@ -5358,7 +5358,7 @@
   },
   {
     "id": 488,
-    "invid": 31060,
+    "invid": "31060",
     "specid": 83852,
     "groupnames": "Rapids:",
     "description": "Maximum Traverse Rate",
@@ -5369,7 +5369,7 @@
   },
   {
     "id": 489,
-    "invid": 31060,
+    "invid": "31060",
     "specid": 83853,
     "groupnames": "Dimensions:",
     "description": "Length x Width",
@@ -5380,7 +5380,7 @@
   },
   {
     "id": 490,
-    "invid": 31060,
+    "invid": "31060",
     "specid": 83854,
     "groupnames": "",
     "description": "Height",
@@ -5391,7 +5391,7 @@
   },
   {
     "id": 491,
-    "invid": 31060,
+    "invid": "31060",
     "specid": 83855,
     "groupnames": "",
     "description": "Weight",
@@ -5402,7 +5402,7 @@
   },
   {
     "id": 492,
-    "invid": 31080,
+    "invid": "31080",
     "specid": 83856,
     "groupnames": "Table:",
     "description": "Size",
@@ -5413,7 +5413,7 @@
   },
   {
     "id": 493,
-    "invid": 31080,
+    "invid": "31080",
     "specid": 83857,
     "groupnames": "",
     "description": "Maximum Load",
@@ -5424,7 +5424,7 @@
   },
   {
     "id": 494,
-    "invid": 31080,
+    "invid": "31080",
     "specid": 83858,
     "groupnames": "4th-5th Axes:",
     "description": "Table Rotation (Full Contouring)",
@@ -5435,7 +5435,7 @@
   },
   {
     "id": 495,
-    "invid": 31080,
+    "invid": "31080",
     "specid": 83859,
     "groupnames": "",
     "description": "A-Axis Tilt",
@@ -5446,7 +5446,7 @@
   },
   {
     "id": 496,
-    "invid": 30877,
+    "invid": "30877",
     "specid": "",
     "groupnames": "",
     "description": "",
@@ -5457,7 +5457,7 @@
   },
   {
     "id": 497,
-    "invid": 30877,
+    "invid": "30877",
     "specid": "",
     "groupnames": "",
     "description": "",
@@ -5468,7 +5468,7 @@
   },
   {
     "id": 498,
-    "invid": 30877,
+    "invid": "30877",
     "specid": "",
     "groupnames": "",
     "description": "",
@@ -5479,7 +5479,7 @@
   },
   {
     "id": 499,
-    "invid": 30877,
+    "invid": "30877",
     "specid": "",
     "groupnames": "",
     "description": "",
@@ -5490,7 +5490,7 @@
   },
   {
     "id": 500,
-    "invid": 30877,
+    "invid": "30877",
     "specid": "",
     "groupnames": "",
     "description": "",
@@ -5501,7 +5501,7 @@
   },
   {
     "id": 501,
-    "invid": 30877,
+    "invid": "30877",
     "specid": "",
     "groupnames": "",
     "description": "",
@@ -5512,7 +5512,7 @@
   },
   {
     "id": 502,
-    "invid": 30877,
+    "invid": "30877",
     "specid": "",
     "groupnames": "",
     "description": "",
@@ -5523,7 +5523,7 @@
   },
   {
     "id": 503,
-    "invid": 30877,
+    "invid": "30877",
     "specid": "",
     "groupnames": "",
     "description": "",
@@ -5534,7 +5534,7 @@
   },
   {
     "id": 504,
-    "invid": 30965,
+    "invid": "30965",
     "specid": "",
     "groupnames": "",
     "description": "",
@@ -5545,7 +5545,7 @@
   },
   {
     "id": 505,
-    "invid": 30965,
+    "invid": "30965",
     "specid": "",
     "groupnames": "",
     "description": "",
@@ -5556,7 +5556,7 @@
   },
   {
     "id": 506,
-    "invid": 30965,
+    "invid": "30965",
     "specid": "",
     "groupnames": "",
     "description": "",
@@ -5567,7 +5567,7 @@
   },
   {
     "id": 507,
-    "invid": 30965,
+    "invid": "30965",
     "specid": "",
     "groupnames": "",
     "description": "",
@@ -5578,7 +5578,7 @@
   },
   {
     "id": 508,
-    "invid": 30965,
+    "invid": "30965",
     "specid": "",
     "groupnames": "",
     "description": "",
@@ -5589,7 +5589,7 @@
   },
   {
     "id": 509,
-    "invid": 30965,
+    "invid": "30965",
     "specid": "",
     "groupnames": "",
     "description": "",
@@ -5600,7 +5600,7 @@
   },
   {
     "id": 510,
-    "invid": 30965,
+    "invid": "30965",
     "specid": "",
     "groupnames": "",
     "description": "",
@@ -5611,7 +5611,7 @@
   },
   {
     "id": 511,
-    "invid": 30968,
+    "invid": "30968",
     "specid": "",
     "groupnames": "",
     "description": "",
@@ -5622,7 +5622,7 @@
   },
   {
     "id": 512,
-    "invid": 30968,
+    "invid": "30968",
     "specid": "",
     "groupnames": "",
     "description": "",
@@ -5633,7 +5633,7 @@
   },
   {
     "id": 513,
-    "invid": 30968,
+    "invid": "30968",
     "specid": "",
     "groupnames": "",
     "description": "",
@@ -5644,7 +5644,7 @@
   },
   {
     "id": 514,
-    "invid": 30968,
+    "invid": "30968",
     "specid": "",
     "groupnames": "",
     "description": "",
@@ -5655,7 +5655,7 @@
   },
   {
     "id": 515,
-    "invid": 30968,
+    "invid": "30968",
     "specid": "",
     "groupnames": "",
     "description": "",
@@ -5666,7 +5666,7 @@
   },
   {
     "id": 516,
-    "invid": 30968,
+    "invid": "30968",
     "specid": "",
     "groupnames": "",
     "description": "",
@@ -5677,7 +5677,7 @@
   },
   {
     "id": 517,
-    "invid": 30968,
+    "invid": "30968",
     "specid": "",
     "groupnames": "",
     "description": "",
@@ -5688,7 +5688,7 @@
   },
   {
     "id": 518,
-    "invid": 30968,
+    "invid": "30968",
     "specid": "",
     "groupnames": "",
     "description": "",
@@ -5699,7 +5699,7 @@
   },
   {
     "id": 519,
-    "invid": 30968,
+    "invid": "30968",
     "specid": "",
     "groupnames": "",
     "description": "",
@@ -5710,7 +5710,7 @@
   },
   {
     "id": 520,
-    "invid": 30968,
+    "invid": "30968",
     "specid": "",
     "groupnames": "",
     "description": "",
@@ -5721,7 +5721,7 @@
   },
   {
     "id": 521,
-    "invid": 30968,
+    "invid": "30968",
     "specid": "",
     "groupnames": "",
     "description": "",
@@ -5732,7 +5732,7 @@
   },
   {
     "id": 522,
-    "invid": 31000,
+    "invid": "31000",
     "specid": "",
     "groupnames": "",
     "description": "",
@@ -5743,7 +5743,7 @@
   },
   {
     "id": 523,
-    "invid": 31000,
+    "invid": "31000",
     "specid": "",
     "groupnames": "",
     "description": "",
@@ -5754,7 +5754,7 @@
   },
   {
     "id": 524,
-    "invid": 31000,
+    "invid": "31000",
     "specid": "",
     "groupnames": "",
     "description": "",
@@ -5765,7 +5765,7 @@
   },
   {
     "id": 525,
-    "invid": 31000,
+    "invid": "31000",
     "specid": "",
     "groupnames": "",
     "description": "",
@@ -5776,7 +5776,7 @@
   },
   {
     "id": 526,
-    "invid": 31000,
+    "invid": "31000",
     "specid": "",
     "groupnames": "",
     "description": "",
@@ -5787,7 +5787,7 @@
   },
   {
     "id": 527,
-    "invid": 31000,
+    "invid": "31000",
     "specid": "",
     "groupnames": "",
     "description": "",
@@ -5798,7 +5798,7 @@
   },
   {
     "id": 528,
-    "invid": 31000,
+    "invid": "31000",
     "specid": "",
     "groupnames": "",
     "description": "",
@@ -5809,7 +5809,7 @@
   },
   {
     "id": 529,
-    "invid": 31000,
+    "invid": "31000",
     "specid": "",
     "groupnames": "",
     "description": "",
@@ -5820,7 +5820,7 @@
   },
   {
     "id": 530,
-    "invid": 31000,
+    "invid": "31000",
     "specid": "",
     "groupnames": "",
     "description": "",
@@ -5831,7 +5831,7 @@
   },
   {
     "id": 531,
-    "invid": 31000,
+    "invid": "31000",
     "specid": "",
     "groupnames": "",
     "description": "",
@@ -5842,7 +5842,7 @@
   },
   {
     "id": 532,
-    "invid": 31000,
+    "invid": "31000",
     "specid": "",
     "groupnames": "",
     "description": "",
@@ -5853,7 +5853,7 @@
   },
   {
     "id": 533,
-    "invid": 31000,
+    "invid": "31000",
     "specid": "",
     "groupnames": "",
     "description": "",
@@ -5864,7 +5864,7 @@
   },
   {
     "id": 534,
-    "invid": 31000,
+    "invid": "31000",
     "specid": "",
     "groupnames": "",
     "description": "",
@@ -5875,7 +5875,7 @@
   },
   {
     "id": 535,
-    "invid": 31015,
+    "invid": "31015",
     "specid": "",
     "groupnames": "",
     "description": "",
@@ -5886,7 +5886,7 @@
   },
   {
     "id": 536,
-    "invid": 31015,
+    "invid": "31015",
     "specid": "",
     "groupnames": "",
     "description": "",
@@ -5897,7 +5897,7 @@
   },
   {
     "id": 537,
-    "invid": 31015,
+    "invid": "31015",
     "specid": "",
     "groupnames": "",
     "description": "",
@@ -5908,7 +5908,7 @@
   },
   {
     "id": 538,
-    "invid": 31015,
+    "invid": "31015",
     "specid": "",
     "groupnames": "",
     "description": "",
@@ -5919,7 +5919,7 @@
   },
   {
     "id": 539,
-    "invid": 31015,
+    "invid": "31015",
     "specid": "",
     "groupnames": "",
     "description": "",
@@ -5930,7 +5930,7 @@
   },
   {
     "id": 540,
-    "invid": 31031,
+    "invid": "31031",
     "specid": "",
     "groupnames": "",
     "description": "",
@@ -5941,7 +5941,7 @@
   },
   {
     "id": 541,
-    "invid": 31031,
+    "invid": "31031",
     "specid": "",
     "groupnames": "",
     "description": "",
@@ -5952,7 +5952,7 @@
   },
   {
     "id": 542,
-    "invid": 31031,
+    "invid": "31031",
     "specid": "",
     "groupnames": "",
     "description": "",
@@ -5963,7 +5963,7 @@
   },
   {
     "id": 543,
-    "invid": 31031,
+    "invid": "31031",
     "specid": "",
     "groupnames": "",
     "description": "",
@@ -5974,7 +5974,7 @@
   },
   {
     "id": 544,
-    "invid": 31031,
+    "invid": "31031",
     "specid": "",
     "groupnames": "",
     "description": "",
@@ -5985,7 +5985,7 @@
   },
   {
     "id": 545,
-    "invid": 31031,
+    "invid": "31031",
     "specid": "",
     "groupnames": "",
     "description": "",
@@ -5996,7 +5996,7 @@
   },
   {
     "id": 546,
-    "invid": 31031,
+    "invid": "31031",
     "specid": "",
     "groupnames": "",
     "description": "",
@@ -6007,7 +6007,7 @@
   },
   {
     "id": 547,
-    "invid": 31031,
+    "invid": "31031",
     "specid": "",
     "groupnames": "",
     "description": "",
@@ -6018,7 +6018,7 @@
   },
   {
     "id": 548,
-    "invid": 31031,
+    "invid": "31031",
     "specid": "",
     "groupnames": "",
     "description": "",
@@ -6029,7 +6029,7 @@
   },
   {
     "id": 549,
-    "invid": 31031,
+    "invid": "31031",
     "specid": "",
     "groupnames": "",
     "description": "",
@@ -6040,7 +6040,7 @@
   },
   {
     "id": 550,
-    "invid": 31031,
+    "invid": "31031",
     "specid": "",
     "groupnames": "",
     "description": "",
@@ -6051,7 +6051,7 @@
   },
   {
     "id": 551,
-    "invid": 31031,
+    "invid": "31031",
     "specid": "",
     "groupnames": "",
     "description": "",
@@ -6062,7 +6062,7 @@
   },
   {
     "id": 552,
-    "invid": 31031,
+    "invid": "31031",
     "specid": "",
     "groupnames": "",
     "description": "",
@@ -6073,7 +6073,7 @@
   },
   {
     "id": 553,
-    "invid": 31031,
+    "invid": "31031",
     "specid": "",
     "groupnames": "",
     "description": "",
@@ -6084,7 +6084,7 @@
   },
   {
     "id": 554,
-    "invid": 31031,
+    "invid": "31031",
     "specid": "",
     "groupnames": "",
     "description": "",
@@ -6095,7 +6095,7 @@
   },
   {
     "id": 555,
-    "invid": 31037,
+    "invid": "31037",
     "specid": "",
     "groupnames": "",
     "description": "",
@@ -6106,7 +6106,7 @@
   },
   {
     "id": 556,
-    "invid": 31037,
+    "invid": "31037",
     "specid": "",
     "groupnames": "",
     "description": "",
@@ -6117,7 +6117,7 @@
   },
   {
     "id": 557,
-    "invid": 31037,
+    "invid": "31037",
     "specid": "",
     "groupnames": "",
     "description": "",
@@ -6128,7 +6128,7 @@
   },
   {
     "id": 558,
-    "invid": 31037,
+    "invid": "31037",
     "specid": "",
     "groupnames": "",
     "description": "",
@@ -6139,7 +6139,7 @@
   },
   {
     "id": 559,
-    "invid": 31037,
+    "invid": "31037",
     "specid": "",
     "groupnames": "",
     "description": "",
@@ -6150,7 +6150,7 @@
   },
   {
     "id": 560,
-    "invid": 31037,
+    "invid": "31037",
     "specid": "",
     "groupnames": "",
     "description": "",
@@ -6161,7 +6161,7 @@
   },
   {
     "id": 561,
-    "invid": 31037,
+    "invid": "31037",
     "specid": "",
     "groupnames": "",
     "description": "",
@@ -6172,7 +6172,7 @@
   },
   {
     "id": 562,
-    "invid": 31037,
+    "invid": "31037",
     "specid": "",
     "groupnames": "",
     "description": "",
@@ -6183,7 +6183,7 @@
   },
   {
     "id": 563,
-    "invid": 31038,
+    "invid": "31038",
     "specid": "",
     "groupnames": "",
     "description": "",
@@ -6194,7 +6194,7 @@
   },
   {
     "id": 564,
-    "invid": 31038,
+    "invid": "31038",
     "specid": "",
     "groupnames": "",
     "description": "",
@@ -6205,7 +6205,7 @@
   },
   {
     "id": 565,
-    "invid": 31038,
+    "invid": "31038",
     "specid": "",
     "groupnames": "",
     "description": "",
@@ -6216,7 +6216,7 @@
   },
   {
     "id": 566,
-    "invid": 31038,
+    "invid": "31038",
     "specid": "",
     "groupnames": "",
     "description": "",
@@ -6227,7 +6227,7 @@
   },
   {
     "id": 567,
-    "invid": 31038,
+    "invid": "31038",
     "specid": "",
     "groupnames": "",
     "description": "",
@@ -6238,7 +6238,7 @@
   },
   {
     "id": 568,
-    "invid": 31039,
+    "invid": "31039",
     "specid": "",
     "groupnames": "",
     "description": "",
@@ -6249,7 +6249,7 @@
   },
   {
     "id": 569,
-    "invid": 31039,
+    "invid": "31039",
     "specid": "",
     "groupnames": "",
     "description": "",
@@ -6260,7 +6260,7 @@
   },
   {
     "id": 570,
-    "invid": 31039,
+    "invid": "31039",
     "specid": "",
     "groupnames": "",
     "description": "",
@@ -6271,7 +6271,7 @@
   },
   {
     "id": 571,
-    "invid": 31039,
+    "invid": "31039",
     "specid": "",
     "groupnames": "",
     "description": "",
@@ -6282,7 +6282,7 @@
   },
   {
     "id": 572,
-    "invid": 31039,
+    "invid": "31039",
     "specid": "",
     "groupnames": "",
     "description": "",
@@ -6293,7 +6293,7 @@
   },
   {
     "id": 573,
-    "invid": 31039,
+    "invid": "31039",
     "specid": "",
     "groupnames": "",
     "description": "",
@@ -6304,7 +6304,7 @@
   },
   {
     "id": 574,
-    "invid": 31039,
+    "invid": "31039",
     "specid": "",
     "groupnames": "",
     "description": "",
@@ -6315,7 +6315,7 @@
   },
   {
     "id": 575,
-    "invid": 31040,
+    "invid": "31040",
     "specid": "",
     "groupnames": "",
     "description": "",
@@ -6326,7 +6326,7 @@
   },
   {
     "id": 576,
-    "invid": 31040,
+    "invid": "31040",
     "specid": "",
     "groupnames": "",
     "description": "",
@@ -6337,7 +6337,7 @@
   },
   {
     "id": 577,
-    "invid": 31040,
+    "invid": "31040",
     "specid": "",
     "groupnames": "",
     "description": "",
@@ -6348,7 +6348,7 @@
   },
   {
     "id": 578,
-    "invid": 31040,
+    "invid": "31040",
     "specid": "",
     "groupnames": "",
     "description": "",
@@ -6359,7 +6359,7 @@
   },
   {
     "id": 579,
-    "invid": 31040,
+    "invid": "31040",
     "specid": "",
     "groupnames": "",
     "description": "",
@@ -6370,7 +6370,7 @@
   },
   {
     "id": 580,
-    "invid": 31000,
+    "invid": "31000",
     "specid": "",
     "groupnames": "",
     "description": "",
@@ -6381,7 +6381,7 @@
   },
   {
     "id": 581,
-    "invid": 31000,
+    "invid": "31000",
     "specid": "",
     "groupnames": "",
     "description": "",
@@ -6392,7 +6392,7 @@
   },
   {
     "id": 582,
-    "invid": 31000,
+    "invid": "31000",
     "specid": "",
     "groupnames": "",
     "description": "",
@@ -6403,7 +6403,7 @@
   },
   {
     "id": 583,
-    "invid": 31000,
+    "invid": "31000",
     "specid": "",
     "groupnames": "",
     "description": "",
@@ -6414,7 +6414,7 @@
   },
   {
     "id": 584,
-    "invid": 31044,
+    "invid": "31044",
     "specid": "",
     "groupnames": "",
     "description": "",
@@ -6425,7 +6425,7 @@
   },
   {
     "id": 585,
-    "invid": 31044,
+    "invid": "31044",
     "specid": "",
     "groupnames": "",
     "description": "",
@@ -6436,7 +6436,7 @@
   },
   {
     "id": 586,
-    "invid": 31044,
+    "invid": "31044",
     "specid": "",
     "groupnames": "",
     "description": "",
@@ -6447,7 +6447,7 @@
   },
   {
     "id": 587,
-    "invid": 31044,
+    "invid": "31044",
     "specid": "",
     "groupnames": "",
     "description": "",
@@ -6458,7 +6458,7 @@
   },
   {
     "id": 588,
-    "invid": 31044,
+    "invid": "31044",
     "specid": "",
     "groupnames": "",
     "description": "",
@@ -6469,7 +6469,7 @@
   },
   {
     "id": 589,
-    "invid": 31044,
+    "invid": "31044",
     "specid": "",
     "groupnames": "",
     "description": "",
@@ -6480,7 +6480,7 @@
   },
   {
     "id": 590,
-    "invid": 31044,
+    "invid": "31044",
     "specid": "",
     "groupnames": "",
     "description": "",
@@ -6491,7 +6491,7 @@
   },
   {
     "id": 591,
-    "invid": 31044,
+    "invid": "31044",
     "specid": "",
     "groupnames": "",
     "description": "",
@@ -6502,7 +6502,7 @@
   },
   {
     "id": 592,
-    "invid": 31045,
+    "invid": "31045",
     "specid": "",
     "groupnames": "",
     "description": "",
@@ -6513,7 +6513,7 @@
   },
   {
     "id": 593,
-    "invid": 31045,
+    "invid": "31045",
     "specid": "",
     "groupnames": "",
     "description": "",
@@ -6524,7 +6524,7 @@
   },
   {
     "id": 594,
-    "invid": 31045,
+    "invid": "31045",
     "specid": "",
     "groupnames": "",
     "description": "",
@@ -6535,7 +6535,7 @@
   },
   {
     "id": 595,
-    "invid": 31045,
+    "invid": "31045",
     "specid": "",
     "groupnames": "",
     "description": "",
@@ -6546,7 +6546,7 @@
   },
   {
     "id": 596,
-    "invid": 31045,
+    "invid": "31045",
     "specid": "",
     "groupnames": "",
     "description": "",
@@ -6557,7 +6557,7 @@
   },
   {
     "id": 597,
-    "invid": 31045,
+    "invid": "31045",
     "specid": "",
     "groupnames": "",
     "description": "",
@@ -6568,7 +6568,7 @@
   },
   {
     "id": 598,
-    "invid": 31045,
+    "invid": "31045",
     "specid": "",
     "groupnames": "",
     "description": "",
@@ -6579,7 +6579,7 @@
   },
   {
     "id": 599,
-    "invid": 31045,
+    "invid": "31045",
     "specid": "",
     "groupnames": "",
     "description": "",
@@ -6590,7 +6590,7 @@
   },
   {
     "id": 600,
-    "invid": 31045,
+    "invid": "31045",
     "specid": "",
     "groupnames": "",
     "description": "",
@@ -6601,7 +6601,7 @@
   },
   {
     "id": 601,
-    "invid": 31045,
+    "invid": "31045",
     "specid": "",
     "groupnames": "",
     "description": "",
@@ -6612,7 +6612,7 @@
   },
   {
     "id": 602,
-    "invid": 31045,
+    "invid": "31045",
     "specid": "",
     "groupnames": "",
     "description": "",
@@ -6623,7 +6623,7 @@
   },
   {
     "id": 603,
-    "invid": 31051,
+    "invid": "31051",
     "specid": "",
     "groupnames": "",
     "description": "",
@@ -6634,7 +6634,7 @@
   },
   {
     "id": 604,
-    "invid": 31051,
+    "invid": "31051",
     "specid": "",
     "groupnames": "",
     "description": "",
@@ -6645,7 +6645,7 @@
   },
   {
     "id": 605,
-    "invid": 31051,
+    "invid": "31051",
     "specid": "",
     "groupnames": "",
     "description": "",
@@ -6656,7 +6656,7 @@
   },
   {
     "id": 606,
-    "invid": 31051,
+    "invid": "31051",
     "specid": "",
     "groupnames": "",
     "description": "",
@@ -6667,7 +6667,7 @@
   },
   {
     "id": 607,
-    "invid": 31051,
+    "invid": "31051",
     "specid": "",
     "groupnames": "",
     "description": "",
@@ -6678,7 +6678,7 @@
   },
   {
     "id": 608,
-    "invid": 31051,
+    "invid": "31051",
     "specid": "",
     "groupnames": "",
     "description": "",
@@ -6689,7 +6689,7 @@
   },
   {
     "id": 609,
-    "invid": 31051,
+    "invid": "31051",
     "specid": "",
     "groupnames": "",
     "description": "",
@@ -6700,7 +6700,7 @@
   },
   {
     "id": 610,
-    "invid": 31051,
+    "invid": "31051",
     "specid": "",
     "groupnames": "",
     "description": "",
@@ -6711,7 +6711,7 @@
   },
   {
     "id": 611,
-    "invid": 31051,
+    "invid": "31051",
     "specid": "",
     "groupnames": "",
     "description": "",
@@ -6722,7 +6722,7 @@
   },
   {
     "id": 612,
-    "invid": 31051,
+    "invid": "31051",
     "specid": "",
     "groupnames": "",
     "description": "",
@@ -6733,7 +6733,7 @@
   },
   {
     "id": 613,
-    "invid": 31051,
+    "invid": "31051",
     "specid": "",
     "groupnames": "",
     "description": "",
@@ -6744,7 +6744,7 @@
   },
   {
     "id": 614,
-    "invid": 31051,
+    "invid": "31051",
     "specid": "",
     "groupnames": "",
     "description": "",
@@ -6755,7 +6755,7 @@
   },
   {
     "id": 615,
-    "invid": 31051,
+    "invid": "31051",
     "specid": "",
     "groupnames": "",
     "description": "",
@@ -6766,7 +6766,7 @@
   },
   {
     "id": 616,
-    "invid": 31051,
+    "invid": "31051",
     "specid": "",
     "groupnames": "",
     "description": "",
@@ -6777,7 +6777,7 @@
   },
   {
     "id": 617,
-    "invid": 31051,
+    "invid": "31051",
     "specid": "",
     "groupnames": "",
     "description": "",
@@ -6788,7 +6788,7 @@
   },
   {
     "id": 618,
-    "invid": 31054,
+    "invid": "31054",
     "specid": "",
     "groupnames": "",
     "description": "",
@@ -6799,7 +6799,7 @@
   },
   {
     "id": 619,
-    "invid": 31054,
+    "invid": "31054",
     "specid": "",
     "groupnames": "",
     "description": "",
@@ -6810,7 +6810,7 @@
   },
   {
     "id": 620,
-    "invid": 31054,
+    "invid": "31054",
     "specid": "",
     "groupnames": "",
     "description": "",
@@ -6821,7 +6821,7 @@
   },
   {
     "id": 621,
-    "invid": 31054,
+    "invid": "31054",
     "specid": "",
     "groupnames": "",
     "description": "",
@@ -6832,7 +6832,7 @@
   },
   {
     "id": 622,
-    "invid": 31054,
+    "invid": "31054",
     "specid": "",
     "groupnames": "",
     "description": "",
@@ -6843,7 +6843,7 @@
   },
   {
     "id": 623,
-    "invid": 31054,
+    "invid": "31054",
     "specid": "",
     "groupnames": "",
     "description": "",
@@ -6854,7 +6854,7 @@
   },
   {
     "id": 624,
-    "invid": 31054,
+    "invid": "31054",
     "specid": "",
     "groupnames": "",
     "description": "",
@@ -6865,7 +6865,7 @@
   },
   {
     "id": 625,
-    "invid": 31054,
+    "invid": "31054",
     "specid": "",
     "groupnames": "",
     "description": "",
@@ -6876,7 +6876,7 @@
   },
   {
     "id": 626,
-    "invid": 31054,
+    "invid": "31054",
     "specid": "",
     "groupnames": "",
     "description": "",
@@ -6887,7 +6887,7 @@
   },
   {
     "id": 627,
-    "invid": 31055,
+    "invid": "31055",
     "specid": "",
     "groupnames": "",
     "description": "",
@@ -6898,7 +6898,7 @@
   },
   {
     "id": 628,
-    "invid": 31055,
+    "invid": "31055",
     "specid": "",
     "groupnames": "",
     "description": "",
@@ -6909,7 +6909,7 @@
   },
   {
     "id": 629,
-    "invid": 31055,
+    "invid": "31055",
     "specid": "",
     "groupnames": "",
     "description": "",
@@ -6920,7 +6920,7 @@
   },
   {
     "id": 630,
-    "invid": 31055,
+    "invid": "31055",
     "specid": "",
     "groupnames": "",
     "description": "",
@@ -6931,7 +6931,7 @@
   },
   {
     "id": 631,
-    "invid": 31055,
+    "invid": "31055",
     "specid": "",
     "groupnames": "",
     "description": "",
@@ -6942,7 +6942,7 @@
   },
   {
     "id": 632,
-    "invid": 31055,
+    "invid": "31055",
     "specid": "",
     "groupnames": "",
     "description": "",
@@ -6953,7 +6953,7 @@
   },
   {
     "id": 633,
-    "invid": 31056,
+    "invid": "31056",
     "specid": "",
     "groupnames": "",
     "description": "",
@@ -6964,7 +6964,7 @@
   },
   {
     "id": 634,
-    "invid": 31056,
+    "invid": "31056",
     "specid": "",
     "groupnames": "",
     "description": "",
@@ -6975,7 +6975,7 @@
   },
   {
     "id": 635,
-    "invid": 31056,
+    "invid": "31056",
     "specid": "",
     "groupnames": "",
     "description": "",
@@ -6986,7 +6986,7 @@
   },
   {
     "id": 636,
-    "invid": 31056,
+    "invid": "31056",
     "specid": "",
     "groupnames": "",
     "description": "",
@@ -6997,7 +6997,7 @@
   },
   {
     "id": 637,
-    "invid": 31056,
+    "invid": "31056",
     "specid": "",
     "groupnames": "",
     "description": "",
@@ -7008,7 +7008,7 @@
   },
   {
     "id": 638,
-    "invid": 31056,
+    "invid": "31056",
     "specid": "",
     "groupnames": "",
     "description": "",
@@ -7019,7 +7019,7 @@
   },
   {
     "id": 639,
-    "invid": 31056,
+    "invid": "31056",
     "specid": "",
     "groupnames": "",
     "description": "",
@@ -7030,7 +7030,7 @@
   },
   {
     "id": 640,
-    "invid": 31056,
+    "invid": "31056",
     "specid": "",
     "groupnames": "",
     "description": "",
@@ -7041,7 +7041,7 @@
   },
   {
     "id": 641,
-    "invid": 31056,
+    "invid": "31056",
     "specid": "",
     "groupnames": "",
     "description": "",
@@ -7052,7 +7052,7 @@
   },
   {
     "id": 642,
-    "invid": 31057,
+    "invid": "31057",
     "specid": "",
     "groupnames": "",
     "description": "",
@@ -7063,7 +7063,7 @@
   },
   {
     "id": 643,
-    "invid": 31057,
+    "invid": "31057",
     "specid": "",
     "groupnames": "",
     "description": "",
@@ -7074,7 +7074,7 @@
   },
   {
     "id": 644,
-    "invid": 31057,
+    "invid": "31057",
     "specid": "",
     "groupnames": "",
     "description": "",
@@ -7085,7 +7085,7 @@
   },
   {
     "id": 645,
-    "invid": 31057,
+    "invid": "31057",
     "specid": "",
     "groupnames": "",
     "description": "",
@@ -7096,7 +7096,7 @@
   },
   {
     "id": 646,
-    "invid": 31057,
+    "invid": "31057",
     "specid": "",
     "groupnames": "",
     "description": "",
@@ -7107,7 +7107,7 @@
   },
   {
     "id": 647,
-    "invid": 31057,
+    "invid": "31057",
     "specid": "",
     "groupnames": "",
     "description": "",
@@ -7118,7 +7118,7 @@
   },
   {
     "id": 648,
-    "invid": 31058,
+    "invid": "31058",
     "specid": "",
     "groupnames": "",
     "description": "",
@@ -7129,7 +7129,7 @@
   },
   {
     "id": 649,
-    "invid": 31058,
+    "invid": "31058",
     "specid": "",
     "groupnames": "",
     "description": "",
@@ -7140,7 +7140,7 @@
   },
   {
     "id": 650,
-    "invid": 31058,
+    "invid": "31058",
     "specid": "",
     "groupnames": "",
     "description": "",
@@ -7151,7 +7151,7 @@
   },
   {
     "id": 651,
-    "invid": 31058,
+    "invid": "31058",
     "specid": "",
     "groupnames": "",
     "description": "",
@@ -7162,7 +7162,7 @@
   },
   {
     "id": 652,
-    "invid": 31058,
+    "invid": "31058",
     "specid": "",
     "groupnames": "",
     "description": "",
@@ -7173,7 +7173,7 @@
   },
   {
     "id": 653,
-    "invid": 31059,
+    "invid": "31059",
     "specid": "",
     "groupnames": "",
     "description": "",
@@ -7184,7 +7184,7 @@
   },
   {
     "id": 654,
-    "invid": 31059,
+    "invid": "31059",
     "specid": "",
     "groupnames": "",
     "description": "",
@@ -7195,7 +7195,7 @@
   },
   {
     "id": 655,
-    "invid": 31059,
+    "invid": "31059",
     "specid": "",
     "groupnames": "",
     "description": "",
@@ -7206,7 +7206,7 @@
   },
   {
     "id": 656,
-    "invid": 31059,
+    "invid": "31059",
     "specid": "",
     "groupnames": "",
     "description": "",
@@ -7217,7 +7217,7 @@
   },
   {
     "id": 657,
-    "invid": 31059,
+    "invid": "31059",
     "specid": "",
     "groupnames": "",
     "description": "",
@@ -7228,7 +7228,7 @@
   },
   {
     "id": 658,
-    "invid": 31059,
+    "invid": "31059",
     "specid": "",
     "groupnames": "",
     "description": "",
@@ -7239,7 +7239,7 @@
   },
   {
     "id": 659,
-    "invid": 31059,
+    "invid": "31059",
     "specid": "",
     "groupnames": "",
     "description": "",
@@ -7250,7 +7250,7 @@
   },
   {
     "id": 660,
-    "invid": 31059,
+    "invid": "31059",
     "specid": "",
     "groupnames": "",
     "description": "",
@@ -7261,7 +7261,7 @@
   },
   {
     "id": 661,
-    "invid": 31059,
+    "invid": "31059",
     "specid": "",
     "groupnames": "",
     "description": "",
@@ -7272,7 +7272,7 @@
   },
   {
     "id": 662,
-    "invid": 31059,
+    "invid": "31059",
     "specid": "",
     "groupnames": "",
     "description": "",
@@ -7283,7 +7283,7 @@
   },
   {
     "id": 663,
-    "invid": 31059,
+    "invid": "31059",
     "specid": "",
     "groupnames": "",
     "description": "",
@@ -7294,7 +7294,7 @@
   },
   {
     "id": 664,
-    "invid": 31059,
+    "invid": "31059",
     "specid": "",
     "groupnames": "",
     "description": "",
@@ -7305,7 +7305,7 @@
   },
   {
     "id": 665,
-    "invid": 31059,
+    "invid": "31059",
     "specid": "",
     "groupnames": "",
     "description": "",
@@ -7316,7 +7316,7 @@
   },
   {
     "id": 666,
-    "invid": 31059,
+    "invid": "31059",
     "specid": "",
     "groupnames": "",
     "description": "",
@@ -7327,7 +7327,7 @@
   },
   {
     "id": 667,
-    "invid": 31059,
+    "invid": "31059",
     "specid": "",
     "groupnames": "",
     "description": "",
@@ -7338,7 +7338,7 @@
   },
   {
     "id": 668,
-    "invid": 31060,
+    "invid": "31060",
     "specid": "",
     "groupnames": "",
     "description": "",
@@ -7349,7 +7349,7 @@
   },
   {
     "id": 669,
-    "invid": 31060,
+    "invid": "31060",
     "specid": "",
     "groupnames": "",
     "description": "",
@@ -7360,7 +7360,7 @@
   },
   {
     "id": 670,
-    "invid": 31060,
+    "invid": "31060",
     "specid": "",
     "groupnames": "",
     "description": "",
@@ -7371,7 +7371,7 @@
   },
   {
     "id": 671,
-    "invid": 31060,
+    "invid": "31060",
     "specid": "",
     "groupnames": "",
     "description": "",
@@ -7382,7 +7382,7 @@
   },
   {
     "id": 672,
-    "invid": 31060,
+    "invid": "31060",
     "specid": "",
     "groupnames": "",
     "description": "",
@@ -7393,7 +7393,7 @@
   },
   {
     "id": 673,
-    "invid": 31060,
+    "invid": "31060",
     "specid": "",
     "groupnames": "",
     "description": "",
@@ -7404,7 +7404,7 @@
   },
   {
     "id": 674,
-    "invid": 31060,
+    "invid": "31060",
     "specid": "",
     "groupnames": "",
     "description": "",
@@ -7415,7 +7415,7 @@
   },
   {
     "id": 675,
-    "invid": 31060,
+    "invid": "31060",
     "specid": "",
     "groupnames": "",
     "description": "",
@@ -7426,7 +7426,7 @@
   },
   {
     "id": 676,
-    "invid": 31060,
+    "invid": "31060",
     "specid": "",
     "groupnames": "",
     "description": "",
@@ -7437,7 +7437,7 @@
   },
   {
     "id": 677,
-    "invid": 31060,
+    "invid": "31060",
     "specid": "",
     "groupnames": "",
     "description": "",
@@ -7448,7 +7448,7 @@
   },
   {
     "id": 678,
-    "invid": 31060,
+    "invid": "31060",
     "specid": "",
     "groupnames": "",
     "description": "",
@@ -7459,7 +7459,7 @@
   },
   {
     "id": 679,
-    "invid": 31060,
+    "invid": "31060",
     "specid": "",
     "groupnames": "",
     "description": "",
@@ -7470,7 +7470,7 @@
   },
   {
     "id": 680,
-    "invid": 31060,
+    "invid": "31060",
     "specid": "",
     "groupnames": "",
     "description": "",
@@ -7481,7 +7481,7 @@
   },
   {
     "id": 681,
-    "invid": 31060,
+    "invid": "31060",
     "specid": "",
     "groupnames": "",
     "description": "",
@@ -7492,7 +7492,7 @@
   },
   {
     "id": 682,
-    "invid": 31060,
+    "invid": "31060",
     "specid": "",
     "groupnames": "",
     "description": "",
@@ -7503,7 +7503,7 @@
   },
   {
     "id": 683,
-    "invid": 31060,
+    "invid": "31060",
     "specid": "",
     "groupnames": "",
     "description": "",
@@ -7514,7 +7514,7 @@
   },
   {
     "id": 684,
-    "invid": 31061,
+    "invid": "31061",
     "specid": "",
     "groupnames": "",
     "description": "",
@@ -7525,7 +7525,7 @@
   },
   {
     "id": 685,
-    "invid": 31061,
+    "invid": "31061",
     "specid": "",
     "groupnames": "",
     "description": "",
@@ -7536,7 +7536,7 @@
   },
   {
     "id": 686,
-    "invid": 31061,
+    "invid": "31061",
     "specid": "",
     "groupnames": "",
     "description": "",
@@ -7547,7 +7547,7 @@
   },
   {
     "id": 687,
-    "invid": 31061,
+    "invid": "31061",
     "specid": "",
     "groupnames": "",
     "description": "",
@@ -7558,7 +7558,7 @@
   },
   {
     "id": 688,
-    "invid": 31061,
+    "invid": "31061",
     "specid": "",
     "groupnames": "",
     "description": "",
@@ -7569,7 +7569,7 @@
   },
   {
     "id": 689,
-    "invid": 31061,
+    "invid": "31061",
     "specid": "",
     "groupnames": "",
     "description": "",
@@ -7580,7 +7580,7 @@
   },
   {
     "id": 690,
-    "invid": 31061,
+    "invid": "31061",
     "specid": "",
     "groupnames": "",
     "description": "",
@@ -7591,7 +7591,7 @@
   },
   {
     "id": 691,
-    "invid": 31061,
+    "invid": "31061",
     "specid": "",
     "groupnames": "",
     "description": "",
@@ -7602,7 +7602,7 @@
   },
   {
     "id": 692,
-    "invid": 31061,
+    "invid": "31061",
     "specid": "",
     "groupnames": "",
     "description": "",
@@ -7613,7 +7613,7 @@
   },
   {
     "id": 693,
-    "invid": 31061,
+    "invid": "31061",
     "specid": "",
     "groupnames": "",
     "description": "",
@@ -7624,7 +7624,7 @@
   },
   {
     "id": 694,
-    "invid": 31061,
+    "invid": "31061",
     "specid": "",
     "groupnames": "",
     "description": "",
@@ -7635,7 +7635,7 @@
   },
   {
     "id": 695,
-    "invid": 31061,
+    "invid": "31061",
     "specid": "",
     "groupnames": "",
     "description": "",
@@ -7646,7 +7646,7 @@
   },
   {
     "id": 696,
-    "invid": 31061,
+    "invid": "31061",
     "specid": "",
     "groupnames": "",
     "description": "",
@@ -7657,7 +7657,7 @@
   },
   {
     "id": 697,
-    "invid": 31061,
+    "invid": "31061",
     "specid": "",
     "groupnames": "",
     "description": "",
@@ -7668,7 +7668,7 @@
   },
   {
     "id": 698,
-    "invid": 31061,
+    "invid": "31061",
     "specid": "",
     "groupnames": "",
     "description": "",
@@ -7679,7 +7679,7 @@
   },
   {
     "id": 699,
-    "invid": 31062,
+    "invid": "31062",
     "specid": "",
     "groupnames": "",
     "description": "",
@@ -7690,7 +7690,7 @@
   },
   {
     "id": 700,
-    "invid": 31062,
+    "invid": "31062",
     "specid": "",
     "groupnames": "",
     "description": "",
@@ -7701,7 +7701,7 @@
   },
   {
     "id": 701,
-    "invid": 31062,
+    "invid": "31062",
     "specid": "",
     "groupnames": "",
     "description": "",
@@ -7712,7 +7712,7 @@
   },
   {
     "id": 702,
-    "invid": 31062,
+    "invid": "31062",
     "specid": "",
     "groupnames": "",
     "description": "",
@@ -7723,7 +7723,7 @@
   },
   {
     "id": 703,
-    "invid": 31062,
+    "invid": "31062",
     "specid": "",
     "groupnames": "",
     "description": "",
@@ -7734,7 +7734,7 @@
   },
   {
     "id": 704,
-    "invid": 31062,
+    "invid": "31062",
     "specid": "",
     "groupnames": "",
     "description": "",
@@ -7745,7 +7745,7 @@
   },
   {
     "id": 705,
-    "invid": 31062,
+    "invid": "31062",
     "specid": "",
     "groupnames": "",
     "description": "",
@@ -7756,7 +7756,7 @@
   },
   {
     "id": 706,
-    "invid": 31062,
+    "invid": "31062",
     "specid": "",
     "groupnames": "",
     "description": "",
@@ -7767,7 +7767,7 @@
   },
   {
     "id": 707,
-    "invid": 31062,
+    "invid": "31062",
     "specid": "",
     "groupnames": "",
     "description": "",
@@ -7778,7 +7778,7 @@
   },
   {
     "id": 708,
-    "invid": 31063,
+    "invid": "31063",
     "specid": "",
     "groupnames": "",
     "description": "",
@@ -7789,7 +7789,7 @@
   },
   {
     "id": 709,
-    "invid": 31063,
+    "invid": "31063",
     "specid": "",
     "groupnames": "",
     "description": "",
@@ -7800,7 +7800,7 @@
   },
   {
     "id": 710,
-    "invid": 31063,
+    "invid": "31063",
     "specid": "",
     "groupnames": "",
     "description": "",
@@ -7811,7 +7811,7 @@
   },
   {
     "id": 711,
-    "invid": 31063,
+    "invid": "31063",
     "specid": "",
     "groupnames": "",
     "description": "",
@@ -7822,7 +7822,7 @@
   },
   {
     "id": 712,
-    "invid": 31063,
+    "invid": "31063",
     "specid": "",
     "groupnames": "",
     "description": "",
@@ -7833,7 +7833,7 @@
   },
   {
     "id": 713,
-    "invid": 31063,
+    "invid": "31063",
     "specid": "",
     "groupnames": "",
     "description": "",
@@ -7844,7 +7844,7 @@
   },
   {
     "id": 714,
-    "invid": 31063,
+    "invid": "31063",
     "specid": "",
     "groupnames": "",
     "description": "",
@@ -7855,7 +7855,7 @@
   },
   {
     "id": 715,
-    "invid": 31063,
+    "invid": "31063",
     "specid": "",
     "groupnames": "",
     "description": "",
@@ -7866,7 +7866,7 @@
   },
   {
     "id": 716,
-    "invid": 31063,
+    "invid": "31063",
     "specid": "",
     "groupnames": "",
     "description": "",
@@ -7877,7 +7877,7 @@
   },
   {
     "id": 717,
-    "invid": 31063,
+    "invid": "31063",
     "specid": "",
     "groupnames": "",
     "description": "",
@@ -7888,7 +7888,7 @@
   },
   {
     "id": 718,
-    "invid": 31063,
+    "invid": "31063",
     "specid": "",
     "groupnames": "",
     "description": "",
@@ -7899,7 +7899,7 @@
   },
   {
     "id": 719,
-    "invid": 31064,
+    "invid": "31064",
     "specid": "",
     "groupnames": "",
     "description": "",
@@ -7910,7 +7910,7 @@
   },
   {
     "id": 720,
-    "invid": 31064,
+    "invid": "31064",
     "specid": "",
     "groupnames": "",
     "description": "",
@@ -7921,7 +7921,7 @@
   },
   {
     "id": 721,
-    "invid": 31064,
+    "invid": "31064",
     "specid": "",
     "groupnames": "",
     "description": "",
@@ -7932,7 +7932,7 @@
   },
   {
     "id": 722,
-    "invid": 31064,
+    "invid": "31064",
     "specid": "",
     "groupnames": "",
     "description": "",
@@ -7943,7 +7943,7 @@
   },
   {
     "id": 723,
-    "invid": 31064,
+    "invid": "31064",
     "specid": "",
     "groupnames": "",
     "description": "",
@@ -7954,7 +7954,7 @@
   },
   {
     "id": 724,
-    "invid": 31064,
+    "invid": "31064",
     "specid": "",
     "groupnames": "",
     "description": "",
@@ -7965,7 +7965,7 @@
   },
   {
     "id": 725,
-    "invid": 31064,
+    "invid": "31064",
     "specid": "",
     "groupnames": "",
     "description": "",
@@ -7976,7 +7976,7 @@
   },
   {
     "id": 726,
-    "invid": 31064,
+    "invid": "31064",
     "specid": "",
     "groupnames": "",
     "description": "",
@@ -7987,7 +7987,7 @@
   },
   {
     "id": 727,
-    "invid": 31064,
+    "invid": "31064",
     "specid": "",
     "groupnames": "",
     "description": "",
@@ -7998,7 +7998,7 @@
   },
   {
     "id": 728,
-    "invid": 31064,
+    "invid": "31064",
     "specid": "",
     "groupnames": "",
     "description": "",
@@ -8009,7 +8009,7 @@
   },
   {
     "id": 729,
-    "invid": 31064,
+    "invid": "31064",
     "specid": "",
     "groupnames": "",
     "description": "",
@@ -8020,7 +8020,7 @@
   },
   {
     "id": 730,
-    "invid": 31064,
+    "invid": "31064",
     "specid": "",
     "groupnames": "",
     "description": "",
@@ -8031,7 +8031,7 @@
   },
   {
     "id": 731,
-    "invid": 31064,
+    "invid": "31064",
     "specid": "",
     "groupnames": "",
     "description": "",
@@ -8042,7 +8042,7 @@
   },
   {
     "id": 732,
-    "invid": 31064,
+    "invid": "31064",
     "specid": "",
     "groupnames": "",
     "description": "",
@@ -8053,7 +8053,7 @@
   },
   {
     "id": 733,
-    "invid": 31066,
+    "invid": "31066",
     "specid": "",
     "groupnames": "",
     "description": "",
@@ -8064,7 +8064,7 @@
   },
   {
     "id": 734,
-    "invid": 31066,
+    "invid": "31066",
     "specid": "",
     "groupnames": "",
     "description": "",
@@ -8075,7 +8075,7 @@
   },
   {
     "id": 735,
-    "invid": 31066,
+    "invid": "31066",
     "specid": "",
     "groupnames": "",
     "description": "",
@@ -8086,7 +8086,7 @@
   },
   {
     "id": 736,
-    "invid": 31066,
+    "invid": "31066",
     "specid": "",
     "groupnames": "",
     "description": "",
@@ -8097,7 +8097,7 @@
   },
   {
     "id": 737,
-    "invid": 31066,
+    "invid": "31066",
     "specid": "",
     "groupnames": "",
     "description": "",
@@ -8108,7 +8108,7 @@
   },
   {
     "id": 738,
-    "invid": 31066,
+    "invid": "31066",
     "specid": "",
     "groupnames": "",
     "description": "",
@@ -8119,7 +8119,7 @@
   },
   {
     "id": 739,
-    "invid": 31066,
+    "invid": "31066",
     "specid": "",
     "groupnames": "",
     "description": "",
@@ -8130,7 +8130,7 @@
   },
   {
     "id": 740,
-    "invid": 31066,
+    "invid": "31066",
     "specid": "",
     "groupnames": "",
     "description": "",
@@ -8141,7 +8141,7 @@
   },
   {
     "id": 741,
-    "invid": 31066,
+    "invid": "31066",
     "specid": "",
     "groupnames": "",
     "description": "",
@@ -8152,7 +8152,7 @@
   },
   {
     "id": 742,
-    "invid": 31066,
+    "invid": "31066",
     "specid": "",
     "groupnames": "",
     "description": "",
@@ -8163,7 +8163,7 @@
   },
   {
     "id": 743,
-    "invid": 31066,
+    "invid": "31066",
     "specid": "",
     "groupnames": "",
     "description": "",
@@ -8174,7 +8174,7 @@
   },
   {
     "id": 744,
-    "invid": 31066,
+    "invid": "31066",
     "specid": "",
     "groupnames": "",
     "description": "",
@@ -8185,7 +8185,7 @@
   },
   {
     "id": 745,
-    "invid": 31066,
+    "invid": "31066",
     "specid": "",
     "groupnames": "",
     "description": "",
@@ -8196,7 +8196,7 @@
   },
   {
     "id": 746,
-    "invid": 31067,
+    "invid": "31067",
     "specid": "",
     "groupnames": "",
     "description": "",
@@ -8207,7 +8207,7 @@
   },
   {
     "id": 747,
-    "invid": 31067,
+    "invid": "31067",
     "specid": "",
     "groupnames": "",
     "description": "",
@@ -8218,7 +8218,7 @@
   },
   {
     "id": 748,
-    "invid": 31067,
+    "invid": "31067",
     "specid": "",
     "groupnames": "",
     "description": "",
@@ -8229,7 +8229,7 @@
   },
   {
     "id": 749,
-    "invid": 31067,
+    "invid": "31067",
     "specid": "",
     "groupnames": "",
     "description": "",
@@ -8240,7 +8240,7 @@
   },
   {
     "id": 750,
-    "invid": 31067,
+    "invid": "31067",
     "specid": "",
     "groupnames": "",
     "description": "",
@@ -8251,7 +8251,7 @@
   },
   {
     "id": 751,
-    "invid": 31067,
+    "invid": "31067",
     "specid": "",
     "groupnames": "",
     "description": "",
@@ -8262,7 +8262,7 @@
   },
   {
     "id": 752,
-    "invid": 31067,
+    "invid": "31067",
     "specid": "",
     "groupnames": "",
     "description": "",
@@ -8273,7 +8273,7 @@
   },
   {
     "id": 753,
-    "invid": 31067,
+    "invid": "31067",
     "specid": "",
     "groupnames": "",
     "description": "",
@@ -8284,7 +8284,7 @@
   },
   {
     "id": 754,
-    "invid": 31067,
+    "invid": "31067",
     "specid": "",
     "groupnames": "",
     "description": "",
@@ -8295,7 +8295,7 @@
   },
   {
     "id": 755,
-    "invid": 31067,
+    "invid": "31067",
     "specid": "",
     "groupnames": "",
     "description": "",
@@ -8306,7 +8306,7 @@
   },
   {
     "id": 756,
-    "invid": 31067,
+    "invid": "31067",
     "specid": "",
     "groupnames": "",
     "description": "",
@@ -8317,7 +8317,7 @@
   },
   {
     "id": 757,
-    "invid": 31067,
+    "invid": "31067",
     "specid": "",
     "groupnames": "",
     "description": "",
@@ -8328,7 +8328,7 @@
   },
   {
     "id": 758,
-    "invid": 31067,
+    "invid": "31067",
     "specid": "",
     "groupnames": "",
     "description": "",
@@ -8339,7 +8339,7 @@
   },
   {
     "id": 759,
-    "invid": 31067,
+    "invid": "31067",
     "specid": "",
     "groupnames": "",
     "description": "",
@@ -8350,7 +8350,7 @@
   },
   {
     "id": 760,
-    "invid": 31067,
+    "invid": "31067",
     "specid": "",
     "groupnames": "",
     "description": "",
@@ -8361,7 +8361,7 @@
   },
   {
     "id": 761,
-    "invid": 31068,
+    "invid": "31068",
     "specid": "",
     "groupnames": "",
     "description": "",
@@ -8372,7 +8372,7 @@
   },
   {
     "id": 762,
-    "invid": 31068,
+    "invid": "31068",
     "specid": "",
     "groupnames": "",
     "description": "",
@@ -8383,7 +8383,7 @@
   },
   {
     "id": 763,
-    "invid": 31068,
+    "invid": "31068",
     "specid": "",
     "groupnames": "",
     "description": "",
@@ -8394,7 +8394,7 @@
   },
   {
     "id": 764,
-    "invid": 31068,
+    "invid": "31068",
     "specid": "",
     "groupnames": "",
     "description": "",
@@ -8405,7 +8405,7 @@
   },
   {
     "id": 765,
-    "invid": 31068,
+    "invid": "31068",
     "specid": "",
     "groupnames": "",
     "description": "",
@@ -8416,7 +8416,7 @@
   },
   {
     "id": 766,
-    "invid": 31068,
+    "invid": "31068",
     "specid": "",
     "groupnames": "",
     "description": "",
@@ -8427,7 +8427,7 @@
   },
   {
     "id": 767,
-    "invid": 31068,
+    "invid": "31068",
     "specid": "",
     "groupnames": "",
     "description": "",
@@ -8438,7 +8438,7 @@
   },
   {
     "id": 768,
-    "invid": 31068,
+    "invid": "31068",
     "specid": "",
     "groupnames": "",
     "description": "",
@@ -8449,7 +8449,7 @@
   },
   {
     "id": 769,
-    "invid": 31068,
+    "invid": "31068",
     "specid": "",
     "groupnames": "",
     "description": "",
@@ -8460,7 +8460,7 @@
   },
   {
     "id": 770,
-    "invid": 31068,
+    "invid": "31068",
     "specid": "",
     "groupnames": "",
     "description": "",
@@ -8471,7 +8471,7 @@
   },
   {
     "id": 771,
-    "invid": 31068,
+    "invid": "31068",
     "specid": "",
     "groupnames": "",
     "description": "",
@@ -8482,7 +8482,7 @@
   },
   {
     "id": 772,
-    "invid": 31068,
+    "invid": "31068",
     "specid": "",
     "groupnames": "",
     "description": "",
@@ -8493,7 +8493,7 @@
   },
   {
     "id": 773,
-    "invid": 31068,
+    "invid": "31068",
     "specid": "",
     "groupnames": "",
     "description": "",
@@ -8504,7 +8504,7 @@
   },
   {
     "id": 774,
-    "invid": 31068,
+    "invid": "31068",
     "specid": "",
     "groupnames": "",
     "description": "",
@@ -8515,7 +8515,7 @@
   },
   {
     "id": 775,
-    "invid": 31068,
+    "invid": "31068",
     "specid": "",
     "groupnames": "",
     "description": "",
@@ -8526,7 +8526,7 @@
   },
   {
     "id": 776,
-    "invid": 31068,
+    "invid": "31068",
     "specid": "",
     "groupnames": "",
     "description": "",
@@ -8537,7 +8537,7 @@
   },
   {
     "id": 777,
-    "invid": 31068,
+    "invid": "31068",
     "specid": "",
     "groupnames": "",
     "description": "",
@@ -8548,7 +8548,7 @@
   },
   {
     "id": 778,
-    "invid": 31068,
+    "invid": "31068",
     "specid": "",
     "groupnames": "",
     "description": "",
@@ -8559,7 +8559,7 @@
   },
   {
     "id": 779,
-    "invid": 31071,
+    "invid": "31071",
     "specid": "",
     "groupnames": "",
     "description": "",
@@ -8570,7 +8570,7 @@
   },
   {
     "id": 780,
-    "invid": 31071,
+    "invid": "31071",
     "specid": "",
     "groupnames": "",
     "description": "",
@@ -8581,7 +8581,7 @@
   },
   {
     "id": 781,
-    "invid": 31071,
+    "invid": "31071",
     "specid": "",
     "groupnames": "",
     "description": "",
@@ -8592,7 +8592,7 @@
   },
   {
     "id": 782,
-    "invid": 31071,
+    "invid": "31071",
     "specid": "",
     "groupnames": "",
     "description": "",
@@ -8603,7 +8603,7 @@
   },
   {
     "id": 783,
-    "invid": 31071,
+    "invid": "31071",
     "specid": "",
     "groupnames": "",
     "description": "",
@@ -8614,7 +8614,7 @@
   },
   {
     "id": 784,
-    "invid": 31071,
+    "invid": "31071",
     "specid": "",
     "groupnames": "",
     "description": "",
@@ -8625,7 +8625,7 @@
   },
   {
     "id": 785,
-    "invid": 31071,
+    "invid": "31071",
     "specid": "",
     "groupnames": "",
     "description": "",
@@ -8636,7 +8636,7 @@
   },
   {
     "id": 786,
-    "invid": 31071,
+    "invid": "31071",
     "specid": "",
     "groupnames": "",
     "description": "",
@@ -8647,7 +8647,7 @@
   },
   {
     "id": 787,
-    "invid": 31071,
+    "invid": "31071",
     "specid": "",
     "groupnames": "",
     "description": "",
@@ -8658,7 +8658,7 @@
   },
   {
     "id": 788,
-    "invid": 31071,
+    "invid": "31071",
     "specid": "",
     "groupnames": "",
     "description": "",
@@ -8669,7 +8669,7 @@
   },
   {
     "id": 789,
-    "invid": 31072,
+    "invid": "31072",
     "specid": "",
     "groupnames": "",
     "description": "",
@@ -8680,7 +8680,7 @@
   },
   {
     "id": 790,
-    "invid": 31072,
+    "invid": "31072",
     "specid": "",
     "groupnames": "",
     "description": "",
@@ -8691,7 +8691,7 @@
   },
   {
     "id": 791,
-    "invid": 31072,
+    "invid": "31072",
     "specid": "",
     "groupnames": "",
     "description": "",
@@ -8702,7 +8702,7 @@
   },
   {
     "id": 792,
-    "invid": 31072,
+    "invid": "31072",
     "specid": "",
     "groupnames": "",
     "description": "",
@@ -8713,7 +8713,7 @@
   },
   {
     "id": 793,
-    "invid": 31072,
+    "invid": "31072",
     "specid": "",
     "groupnames": "",
     "description": "",
@@ -8724,7 +8724,7 @@
   },
   {
     "id": 794,
-    "invid": 31072,
+    "invid": "31072",
     "specid": "",
     "groupnames": "",
     "description": "",
@@ -8735,7 +8735,7 @@
   },
   {
     "id": 795,
-    "invid": 31072,
+    "invid": "31072",
     "specid": "",
     "groupnames": "",
     "description": "",
@@ -8746,7 +8746,7 @@
   },
   {
     "id": 796,
-    "invid": 31072,
+    "invid": "31072",
     "specid": "",
     "groupnames": "",
     "description": "",
@@ -8757,7 +8757,7 @@
   },
   {
     "id": 797,
-    "invid": 31072,
+    "invid": "31072",
     "specid": "",
     "groupnames": "",
     "description": "",
@@ -8768,7 +8768,7 @@
   },
   {
     "id": 798,
-    "invid": 31072,
+    "invid": "31072",
     "specid": "",
     "groupnames": "",
     "description": "",
@@ -8779,7 +8779,7 @@
   },
   {
     "id": 799,
-    "invid": 31072,
+    "invid": "31072",
     "specid": "",
     "groupnames": "",
     "description": "",
@@ -8790,7 +8790,7 @@
   },
   {
     "id": 800,
-    "invid": 31072,
+    "invid": "31072",
     "specid": "",
     "groupnames": "",
     "description": "",
@@ -8801,7 +8801,7 @@
   },
   {
     "id": 801,
-    "invid": 31073,
+    "invid": "31073",
     "specid": "",
     "groupnames": "",
     "description": "",
@@ -8812,7 +8812,7 @@
   },
   {
     "id": 802,
-    "invid": 31073,
+    "invid": "31073",
     "specid": "",
     "groupnames": "",
     "description": "",
@@ -8823,7 +8823,7 @@
   },
   {
     "id": 803,
-    "invid": 31073,
+    "invid": "31073",
     "specid": "",
     "groupnames": "",
     "description": "",
@@ -8834,7 +8834,7 @@
   },
   {
     "id": 804,
-    "invid": 31073,
+    "invid": "31073",
     "specid": "",
     "groupnames": "",
     "description": "",
@@ -8845,7 +8845,7 @@
   },
   {
     "id": 805,
-    "invid": 31073,
+    "invid": "31073",
     "specid": "",
     "groupnames": "",
     "description": "",
@@ -8856,7 +8856,7 @@
   },
   {
     "id": 806,
-    "invid": 31073,
+    "invid": "31073",
     "specid": "",
     "groupnames": "",
     "description": "",
@@ -8867,7 +8867,7 @@
   },
   {
     "id": 807,
-    "invid": 31073,
+    "invid": "31073",
     "specid": "",
     "groupnames": "",
     "description": "",
@@ -8878,7 +8878,7 @@
   },
   {
     "id": 808,
-    "invid": 31073,
+    "invid": "31073",
     "specid": "",
     "groupnames": "",
     "description": "",
@@ -8889,7 +8889,7 @@
   },
   {
     "id": 809,
-    "invid": 31073,
+    "invid": "31073",
     "specid": "",
     "groupnames": "",
     "description": "",
@@ -8900,7 +8900,7 @@
   },
   {
     "id": 810,
-    "invid": 31073,
+    "invid": "31073",
     "specid": "",
     "groupnames": "",
     "description": "",
@@ -8911,7 +8911,7 @@
   },
   {
     "id": 811,
-    "invid": 31073,
+    "invid": "31073",
     "specid": "",
     "groupnames": "",
     "description": "",
@@ -8922,7 +8922,7 @@
   },
   {
     "id": 812,
-    "invid": 31073,
+    "invid": "31073",
     "specid": "",
     "groupnames": "",
     "description": "",
@@ -8933,7 +8933,7 @@
   },
   {
     "id": 813,
-    "invid": 31073,
+    "invid": "31073",
     "specid": "",
     "groupnames": "",
     "description": "",
@@ -8944,7 +8944,7 @@
   },
   {
     "id": 814,
-    "invid": 31073,
+    "invid": "31073",
     "specid": "",
     "groupnames": "",
     "description": "",
@@ -8955,7 +8955,7 @@
   },
   {
     "id": 815,
-    "invid": 31073,
+    "invid": "31073",
     "specid": "",
     "groupnames": "",
     "description": "",
@@ -8966,7 +8966,7 @@
   },
   {
     "id": 816,
-    "invid": 31073,
+    "invid": "31073",
     "specid": "",
     "groupnames": "",
     "description": "",
@@ -8977,7 +8977,7 @@
   },
   {
     "id": 817,
-    "invid": 31074,
+    "invid": "31074",
     "specid": "",
     "groupnames": "",
     "description": "",
@@ -8988,7 +8988,7 @@
   },
   {
     "id": 818,
-    "invid": 31074,
+    "invid": "31074",
     "specid": "",
     "groupnames": "",
     "description": "",
@@ -8999,7 +8999,7 @@
   },
   {
     "id": 819,
-    "invid": 31074,
+    "invid": "31074",
     "specid": "",
     "groupnames": "",
     "description": "",
@@ -9010,7 +9010,7 @@
   },
   {
     "id": 820,
-    "invid": 31074,
+    "invid": "31074",
     "specid": "",
     "groupnames": "",
     "description": "",
@@ -9021,7 +9021,7 @@
   },
   {
     "id": 821,
-    "invid": 31074,
+    "invid": "31074",
     "specid": "",
     "groupnames": "",
     "description": "",
@@ -9032,7 +9032,7 @@
   },
   {
     "id": 822,
-    "invid": 31074,
+    "invid": "31074",
     "specid": "",
     "groupnames": "",
     "description": "",
@@ -9043,7 +9043,7 @@
   },
   {
     "id": 823,
-    "invid": 31074,
+    "invid": "31074",
     "specid": "",
     "groupnames": "",
     "description": "",
@@ -9054,7 +9054,7 @@
   },
   {
     "id": 824,
-    "invid": 31075,
+    "invid": "31075",
     "specid": "",
     "groupnames": "",
     "description": "",
@@ -9065,7 +9065,7 @@
   },
   {
     "id": 825,
-    "invid": 31075,
+    "invid": "31075",
     "specid": "",
     "groupnames": "",
     "description": "",
@@ -9076,7 +9076,7 @@
   },
   {
     "id": 826,
-    "invid": 31075,
+    "invid": "31075",
     "specid": "",
     "groupnames": "",
     "description": "",
@@ -9087,7 +9087,7 @@
   },
   {
     "id": 827,
-    "invid": 31075,
+    "invid": "31075",
     "specid": "",
     "groupnames": "",
     "description": "",
@@ -9098,7 +9098,7 @@
   },
   {
     "id": 828,
-    "invid": 31075,
+    "invid": "31075",
     "specid": "",
     "groupnames": "",
     "description": "",
@@ -9109,7 +9109,7 @@
   },
   {
     "id": 829,
-    "invid": 31075,
+    "invid": "31075",
     "specid": "",
     "groupnames": "",
     "description": "",
@@ -9120,7 +9120,7 @@
   },
   {
     "id": 830,
-    "invid": 31075,
+    "invid": "31075",
     "specid": "",
     "groupnames": "",
     "description": "",
@@ -9131,7 +9131,7 @@
   },
   {
     "id": 831,
-    "invid": 31075,
+    "invid": "31075",
     "specid": "",
     "groupnames": "",
     "description": "",
@@ -9142,7 +9142,7 @@
   },
   {
     "id": 832,
-    "invid": 31075,
+    "invid": "31075",
     "specid": "",
     "groupnames": "",
     "description": "",
@@ -9153,7 +9153,7 @@
   },
   {
     "id": 833,
-    "invid": 31075,
+    "invid": "31075",
     "specid": "",
     "groupnames": "",
     "description": "",
@@ -9164,7 +9164,7 @@
   },
   {
     "id": 834,
-    "invid": 31075,
+    "invid": "31075",
     "specid": "",
     "groupnames": "",
     "description": "",
@@ -9175,7 +9175,7 @@
   },
   {
     "id": 835,
-    "invid": 31076,
+    "invid": "31076",
     "specid": "",
     "groupnames": "",
     "description": "",
@@ -9186,7 +9186,7 @@
   },
   {
     "id": 836,
-    "invid": 31076,
+    "invid": "31076",
     "specid": "",
     "groupnames": "",
     "description": "",
@@ -9197,7 +9197,7 @@
   },
   {
     "id": 837,
-    "invid": 31076,
+    "invid": "31076",
     "specid": "",
     "groupnames": "",
     "description": "",
@@ -9208,7 +9208,7 @@
   },
   {
     "id": 838,
-    "invid": 31076,
+    "invid": "31076",
     "specid": "",
     "groupnames": "",
     "description": "",
@@ -9219,7 +9219,7 @@
   },
   {
     "id": 839,
-    "invid": 31076,
+    "invid": "31076",
     "specid": "",
     "groupnames": "",
     "description": "",
@@ -9230,7 +9230,7 @@
   },
   {
     "id": 840,
-    "invid": 31076,
+    "invid": "31076",
     "specid": "",
     "groupnames": "",
     "description": "",
@@ -9241,7 +9241,7 @@
   },
   {
     "id": 841,
-    "invid": 31076,
+    "invid": "31076",
     "specid": "",
     "groupnames": "",
     "description": "",
@@ -9252,7 +9252,7 @@
   },
   {
     "id": 842,
-    "invid": 31076,
+    "invid": "31076",
     "specid": "",
     "groupnames": "",
     "description": "",
@@ -9263,7 +9263,7 @@
   },
   {
     "id": 843,
-    "invid": 31077,
+    "invid": "31077",
     "specid": "",
     "groupnames": "",
     "description": "",
@@ -9274,7 +9274,7 @@
   },
   {
     "id": 844,
-    "invid": 31077,
+    "invid": "31077",
     "specid": "",
     "groupnames": "",
     "description": "",
@@ -9285,7 +9285,7 @@
   },
   {
     "id": 845,
-    "invid": 31077,
+    "invid": "31077",
     "specid": "",
     "groupnames": "",
     "description": "",
@@ -9296,7 +9296,7 @@
   },
   {
     "id": 846,
-    "invid": 31077,
+    "invid": "31077",
     "specid": "",
     "groupnames": "",
     "description": "",
@@ -9307,7 +9307,7 @@
   },
   {
     "id": 847,
-    "invid": 31077,
+    "invid": "31077",
     "specid": "",
     "groupnames": "",
     "description": "",
@@ -9318,7 +9318,7 @@
   },
   {
     "id": 848,
-    "invid": 31077,
+    "invid": "31077",
     "specid": "",
     "groupnames": "",
     "description": "",
@@ -9329,7 +9329,7 @@
   },
   {
     "id": 849,
-    "invid": 31077,
+    "invid": "31077",
     "specid": "",
     "groupnames": "",
     "description": "",
@@ -9340,7 +9340,7 @@
   },
   {
     "id": 850,
-    "invid": 31077,
+    "invid": "31077",
     "specid": "",
     "groupnames": "",
     "description": "",
@@ -9351,7 +9351,7 @@
   },
   {
     "id": 851,
-    "invid": 31077,
+    "invid": "31077",
     "specid": "",
     "groupnames": "",
     "description": "",
@@ -9362,7 +9362,7 @@
   },
   {
     "id": 852,
-    "invid": 31077,
+    "invid": "31077",
     "specid": "",
     "groupnames": "",
     "description": "",
@@ -9373,7 +9373,7 @@
   },
   {
     "id": 853,
-    "invid": 31077,
+    "invid": "31077",
     "specid": "",
     "groupnames": "",
     "description": "",
@@ -9384,7 +9384,7 @@
   },
   {
     "id": 854,
-    "invid": 31077,
+    "invid": "31077",
     "specid": "",
     "groupnames": "",
     "description": "",
@@ -9395,7 +9395,7 @@
   },
   {
     "id": 855,
-    "invid": 31077,
+    "invid": "31077",
     "specid": "",
     "groupnames": "",
     "description": "",
@@ -9406,7 +9406,7 @@
   },
   {
     "id": 856,
-    "invid": 31077,
+    "invid": "31077",
     "specid": "",
     "groupnames": "",
     "description": "",
@@ -9417,7 +9417,7 @@
   },
   {
     "id": 857,
-    "invid": 31077,
+    "invid": "31077",
     "specid": "",
     "groupnames": "",
     "description": "",
@@ -9428,7 +9428,7 @@
   },
   {
     "id": 858,
-    "invid": 31077,
+    "invid": "31077",
     "specid": "",
     "groupnames": "",
     "description": "",
@@ -9439,7 +9439,7 @@
   },
   {
     "id": 859,
-    "invid": 31077,
+    "invid": "31077",
     "specid": "",
     "groupnames": "",
     "description": "",
@@ -9450,7 +9450,7 @@
   },
   {
     "id": 860,
-    "invid": 31077,
+    "invid": "31077",
     "specid": "",
     "groupnames": "",
     "description": "",
@@ -9461,7 +9461,7 @@
   },
   {
     "id": 861,
-    "invid": 31079,
+    "invid": "31079",
     "specid": "",
     "groupnames": "",
     "description": "",
@@ -9472,7 +9472,7 @@
   },
   {
     "id": 862,
-    "invid": 31079,
+    "invid": "31079",
     "specid": "",
     "groupnames": "",
     "description": "",
@@ -9483,7 +9483,7 @@
   },
   {
     "id": 863,
-    "invid": 31079,
+    "invid": "31079",
     "specid": "",
     "groupnames": "",
     "description": "",
@@ -9494,7 +9494,7 @@
   },
   {
     "id": 864,
-    "invid": 31079,
+    "invid": "31079",
     "specid": "",
     "groupnames": "",
     "description": "",
@@ -9505,7 +9505,7 @@
   },
   {
     "id": 865,
-    "invid": 31079,
+    "invid": "31079",
     "specid": "",
     "groupnames": "",
     "description": "",
@@ -9516,7 +9516,7 @@
   },
   {
     "id": 866,
-    "invid": 31079,
+    "invid": "31079",
     "specid": "",
     "groupnames": "",
     "description": "",
@@ -9527,7 +9527,7 @@
   },
   {
     "id": 867,
-    "invid": 31079,
+    "invid": "31079",
     "specid": "",
     "groupnames": "",
     "description": "",
@@ -9538,7 +9538,7 @@
   },
   {
     "id": 868,
-    "invid": 31079,
+    "invid": "31079",
     "specid": "",
     "groupnames": "",
     "description": "",
@@ -9549,7 +9549,7 @@
   },
   {
     "id": 869,
-    "invid": 31079,
+    "invid": "31079",
     "specid": "",
     "groupnames": "",
     "description": "",
@@ -9560,7 +9560,7 @@
   },
   {
     "id": 870,
-    "invid": 31079,
+    "invid": "31079",
     "specid": "",
     "groupnames": "",
     "description": "",
@@ -9571,7 +9571,7 @@
   },
   {
     "id": 871,
-    "invid": 31079,
+    "invid": "31079",
     "specid": "",
     "groupnames": "",
     "description": "",
@@ -9582,7 +9582,7 @@
   },
   {
     "id": 872,
-    "invid": 31079,
+    "invid": "31079",
     "specid": "",
     "groupnames": "",
     "description": "",
@@ -9593,7 +9593,7 @@
   },
   {
     "id": 873,
-    "invid": 31079,
+    "invid": "31079",
     "specid": "",
     "groupnames": "",
     "description": "",
@@ -9604,7 +9604,7 @@
   },
   {
     "id": 874,
-    "invid": 31080,
+    "invid": "31080",
     "specid": "",
     "groupnames": "",
     "description": "",
@@ -9615,7 +9615,7 @@
   },
   {
     "id": 875,
-    "invid": 31080,
+    "invid": "31080",
     "specid": "",
     "groupnames": "",
     "description": "",
@@ -9626,7 +9626,7 @@
   },
   {
     "id": 876,
-    "invid": 31080,
+    "invid": "31080",
     "specid": "",
     "groupnames": "",
     "description": "",
@@ -9637,7 +9637,7 @@
   },
   {
     "id": 877,
-    "invid": 31080,
+    "invid": "31080",
     "specid": "",
     "groupnames": "",
     "description": "",
@@ -9648,7 +9648,7 @@
   },
   {
     "id": 878,
-    "invid": 31080,
+    "invid": "31080",
     "specid": "",
     "groupnames": "",
     "description": "",
@@ -9659,7 +9659,7 @@
   },
   {
     "id": 879,
-    "invid": 31080,
+    "invid": "31080",
     "specid": "",
     "groupnames": "",
     "description": "",
@@ -9670,7 +9670,7 @@
   },
   {
     "id": 880,
-    "invid": 31080,
+    "invid": "31080",
     "specid": "",
     "groupnames": "",
     "description": "",
@@ -9681,7 +9681,7 @@
   },
   {
     "id": 881,
-    "invid": 31080,
+    "invid": "31080",
     "specid": "",
     "groupnames": "",
     "description": "",
@@ -9692,7 +9692,7 @@
   },
   {
     "id": 882,
-    "invid": 31080,
+    "invid": "31080",
     "specid": "",
     "groupnames": "",
     "description": "",
@@ -9703,7 +9703,7 @@
   },
   {
     "id": 883,
-    "invid": 31080,
+    "invid": "31080",
     "specid": "",
     "groupnames": "",
     "description": "",
@@ -9714,7 +9714,7 @@
   },
   {
     "id": 884,
-    "invid": 31080,
+    "invid": "31080",
     "specid": "",
     "groupnames": "",
     "description": "",
@@ -9725,7 +9725,7 @@
   },
   {
     "id": 885,
-    "invid": 31080,
+    "invid": "31080",
     "specid": "",
     "groupnames": "",
     "description": "",
@@ -9736,7 +9736,7 @@
   },
   {
     "id": 886,
-    "invid": 31080,
+    "invid": "31080",
     "specid": "",
     "groupnames": "",
     "description": "",
@@ -9747,7 +9747,7 @@
   },
   {
     "id": 887,
-    "invid": 31080,
+    "invid": "31080",
     "specid": "",
     "groupnames": "",
     "description": "",
@@ -9758,7 +9758,7 @@
   },
   {
     "id": 888,
-    "invid": 31080,
+    "invid": "31080",
     "specid": "",
     "groupnames": "",
     "description": "",
@@ -9769,7 +9769,7 @@
   },
   {
     "id": 889,
-    "invid": 31080,
+    "invid": "31080",
     "specid": "",
     "groupnames": "",
     "description": "",
